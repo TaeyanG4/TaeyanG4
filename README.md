@@ -3,9 +3,5 @@
 </p>
 
 <p align="center">
-  solved.ac와 함께한 기록들.
-</p>
-
-<p align="center">
   <b>Thanks, BOJ. Good bye, BOJ.</b>
 </p>
