@@ -1,16 +1,13 @@
-## Hi there 👋
+<h1 align="center">BOJ Memory</h1>
 
-<!--
-**TaeyanG4/TaeyanG4** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+<p align="center">
+  <img src="./BOJ memory - taeyang95.png" alt="BOJ memory - taeyang95" width="100%" />
+</p>
 
-Here are some ideas to get you started:
+<p align="center">
+  solved.ac와 함께한 기록들.
+</p>
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+<p align="center">
+  <b>Thanks, BOJ. Good bye, BOJ.</b>
+</p>
