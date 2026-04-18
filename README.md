@@ -1,5 +1,3 @@
-<h1 align="center">BOJ Memory</h1>
-
 <p align="center">
   <img src="./BOJ memory - taeyang95.png" alt="BOJ memory - taeyang95" width="100%" />
 </p>
