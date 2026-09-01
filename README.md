@@ -1,12 +1,8 @@
 <div align="center">
 
-<img src="assets/banner.png" width="100%" alt="fornaxworks — 아이디어를 출하 가능한 제품으로 벼립니다" />
+<img src="assets/banner.gif" width="100%" alt="fornaxworks 아이디어를 출하 가능한 제품으로 벼립니다" />
 
-# Taeyang
-
-**AI · 풀스택 개발자 — 기획부터 배포까지 혼자 끝냅니다**
-
-*Full-stack developer focused on AI. Spec to deployment, end to end.*
+**AI와 풀스택 개발.** 기획부터 배포까지 한 사람이 이어서 합니다.
 
 <a href="https://fornaxworks.com"><img src="https://img.shields.io/badge/fornaxworks.com-FF6B35?style=for-the-badge&logo=googlechrome&logoColor=white" alt="fornaxworks" /></a>
 <a href="https://owogg.com"><img src="https://img.shields.io/badge/owogg.com-A855F7?style=for-the-badge&logo=gamejolt&logoColor=white" alt="owogg" /></a>
@@ -18,22 +14,20 @@
 
 ## About
 
-- 🎓 **소프트웨어공학 학사**(중국, 6년) · **인공지능 석사** — 논문 두 편 모두 이론이 아니라 돌아가는 시스템을 만들었습니다
-- 🔨 **[fornaxworks](https://fornaxworks.com)** 운영 — 웹 · 모바일 · AI 제품을 기획부터 인수인계까지 한 흐름으로
-- 🎮 **[owogg.com](https://owogg.com)** 개발 · 운영 중 — 브라우저 미니게임 플랫폼
-- 🏢 2023년부터 **유학 컨설팅 사업체 대표** — 고객 응대 · 계약 · 행정을 실무로
-- 🌏 **한국어 · 중국어** — 중국에서 6년간 수학, 학사 논문을 중국어로 집필
+건국대학교 정보통신대학원 인공지능전공 석사. 그 전에는 중국에서 6년간 소프트웨어공학 학사를 했고, 졸업논문을 중국어로 썼습니다.
+석사 논문은 RAG의 비용 문제를, 학사 논문은 전력 데이터의 규모 문제를 다뤘습니다. 둘 다 구현까지 갔습니다.
+
+지금은 [fornaxworks](https://fornaxworks.com)라는 이름으로 웹, 모바일, AI 제품을 만듭니다.
+2023년부터 유학 컨설팅 사업체를 대표로 운영해와서 고객 응대와 계약, 행정은 이미 하던 일입니다.
 
 <details>
 <summary><b>English</b></summary>
 
 <br>
 
-Full-stack developer focused on AI. BSc in Software Engineering (6 years in China), MSc in Artificial Intelligence — both theses shipped working systems rather than theory alone.
+MSc in Artificial Intelligence (Konkuk University), BSc in Software Engineering after six years in China, where I wrote my undergraduate thesis in Chinese. My master's thesis tackled the cost problem in RAG pipelines, my bachelor's the scale problem in power grid data. Both went all the way to a working implementation.
 
-Currently running **[fornaxworks](https://fornaxworks.com)**, a studio taking web/mobile/AI products from spec through handover, and building **[owogg.com](https://owogg.com)**, a browser mini-game platform in production.
-
-Also a business owner since 2023, running a study-abroad consulting agency — client relations, contracts, and operations handled first-hand.
+I now build web, mobile, and AI products under the name [fornaxworks](https://fornaxworks.com). Running a study abroad consulting agency since 2023 means client work, contracts, and operations are already familiar ground.
 
 Working languages: Korean, Chinese.
 
@@ -41,37 +35,89 @@ Working languages: Korean, Chinese.
 
 ---
 
-## Selected Projects
+## 직접 만든 것
 
-| 프로젝트 | 무엇 | 스택 |
+| 프로젝트 | 설명 | 스택 |
 |---|---|---|
-| **[project-owogg](https://github.com/TaeyanG4/project-owogg)**<br>→ [owogg.com](https://owogg.com) | 브라우저 미니게임 플랫폼. 자체 게임과 사용자 업로드 게임을 하나의 런타임에서 실행. Ports/Adapters로 도메인 분리, e2e 테스트, staging 환경 운영. | `React 19` `Hono` `Cloudflare Workers` `D1` `B2` |
-| **[dexon-smart-ops-chatbot](https://github.com/TaeyanG4/dexon-smart-ops-chatbot)** | HDD SMART 데이터로 7일 고장 위험을 예측하고 점검 우선순위 · 근거 문서 · 운영 Runbook을 제시. 공개 전 추적 파일 252개 전수 개인정보 감사를 거쳐 릴리스. | `FastAPI` `LlamaIndex` `LiteLLM` `Langfuse` `Docker` |
-| **[story_maker_with_photos](https://github.com/TaeyanG4/story_maker_with_photos)** | 사진 한 장으로 동화를 만드는 인터랙티브 스토리 플랫폼. 시스템 설계 · UX · 비즈니스 전략까지 정식 문서화. | `GPT-4o` `DALL·E 3` `Gradio` |
-| **[project-forge](https://github.com/TaeyanG4/project-forge)**<br>→ [fornaxworks.com](https://fornaxworks.com) | 스튜디오 사이트 그 자체. 프레임워크 없이 Python 스크립트로 직접 굽는 정적 사이트 + Worker. | `Python` `Cloudflare Workers` |
-| **[kapt_predict](https://github.com/TaeyanG4/kapt_predict)** <sub>공개 예정</sub> | 공동주택 공사비 예측 모델. 직접 만든 크롤러 **[kapt_crawler](https://github.com/TaeyanG4/kapt_crawler)** 로 수집한 K-APT 공개 데이터 기반. | `CatBoost` `pandas` |
+| **[project-owogg](https://github.com/TaeyanG4/project-owogg)**<br>[owogg.com](https://owogg.com) | 브라우저 미니게임 플랫폼. 자체 게임과 사용자 업로드 게임을 하나의 런타임에서 돌립니다. Ports/Adapters로 도메인을 분리했고 e2e 테스트와 staging 환경을 운영합니다. | `React 19` `Hono` `Cloudflare Workers` `D1` `B2` |
+| **[dexon-smart-ops-chatbot](https://github.com/TaeyanG4/dexon-smart-ops-chatbot)** | HDD SMART 데이터로 7일 안에 고장날 디스크를 예측하고, 점검 순서와 근거 문서, 운영 Runbook을 같이 냅니다. 공개 전 추적 파일 252개를 전수 검사해 개인정보를 걷어냈습니다. | `FastAPI` `LlamaIndex` `LiteLLM` `Langfuse` `Docker` |
+| **[story_maker_with_photos](https://github.com/TaeyanG4/story_maker_with_photos)** | 사진 한 장을 동화로 바꾸는 인터랙티브 스토리 플랫폼. 대학원 과제로 시스템 설계와 UX, 비즈니스 전략까지 32p 문서로 정리했습니다. | `GPT-4o` `DALL·E 3` `Gradio` |
+| **[project-forge](https://github.com/TaeyanG4/project-forge)**<br>[fornaxworks.com](https://fornaxworks.com) | 스튜디오 사이트. 프레임워크 없이 Python 스크립트로 HTML을 굽고 Cloudflare Worker에 올립니다. 로고와 OG 이미지도 코드로 그립니다. | `Python` `Cloudflare Workers` |
+| **[kapt_predict](https://github.com/TaeyanG4/kapt_predict)** <sub>공개 예정</sub> | 공동주택 공사비 예측 모델. 직접 만든 크롤러 [kapt_crawler](https://github.com/TaeyanG4/kapt_crawler)로 모은 K-APT 공개 데이터를 씁니다. | `CatBoost` `pandas` |
 
 ---
 
-## Research
+## 만들 수 있는 것
 
-**석사 논문 · 2026** — 건국대학교 정보통신대학원
-[**경량 파이프라인 컨트롤러를 통한 질의 인식 기반 비용 효율적 RAG**](https://www.riss.kr/link?id=T17380351)
-<sub>*Query-Aware Cost-Efficient RAG via a Lightweight Pipeline Controller*</sub>
+fornaxworks 견본실에 올려둔 데모입니다. 실제 납품물이 아니라 어디까지 만드는지 보여주려고 직접 만든 견본입니다.
+이미지를 누르면 브라우저에서 바로 열립니다.
 
-> 모든 질의에 같은 고비용 파이프라인을 적용할 때 생기는 비용 · 지연 낭비를, 질의 난이도를 먼저 판단해 하이브리드 검색 · 재랭킹 · HyDE를 선택적으로 켜는 경량 컨트롤러로 해결.
+<table>
+<tr>
+<td width="33%" align="center">
+<a href="https://fornaxworks.com/pallet.html"><img src="assets/gallery/pallet.png" width="100%" alt="PALLET" /></a><br>
+<b>PALLET</b><br><sub>웹 서비스<br>가입, 권한, 결제까지 한 벌<br><code>TypeScript</code> <code>Next.js</code> <code>PostgreSQL</code></sub>
+</td>
+<td width="33%" align="center">
+<a href="https://fornaxworks.com/shop.html"><img src="assets/gallery/shop.png" width="100%" alt="TAG" /></a><br>
+<b>TAG</b><br><sub>커머스<br>취소, 반품, 정산을 상태로 설계<br><code>Next.js</code> <code>PostgreSQL</code> <code>Payments</code></sub>
+</td>
+<td width="33%" align="center">
+<a href="https://fornaxworks.com/mat.html"><img src="assets/gallery/mat.png" width="100%" alt="MAT" /></a><br>
+<b>MAT</b><br><sub>모바일 앱<br>iOS와 Android를 한 코드로, 스토어 심사까지<br><code>React Native</code> <code>Expo</code></sub>
+</td>
+</tr>
+<tr>
+<td align="center">
+<a href="https://fornaxworks.com/guide.html"><img src="assets/gallery/index.png" width="100%" alt="INDEX" /></a><br>
+<b>INDEX</b><br><sub>문서 검색 어시스턴트<br>하이브리드 검색과 재순위, 근거 문단 표기<br><code>Claude API</code> <code>pgvector</code> <code>FastAPI</code></sub>
+</td>
+<td align="center">
+<a href="https://fornaxworks.com/clerk.html"><img src="assets/gallery/clerk.png" width="100%" alt="CLERK" /></a><br>
+<b>CLERK</b><br><sub>반복 업무 에이전트<br>도구 호출 파이프라인, 최종 승인은 사람이<br><code>Claude API</code> <code>Next.js</code></sub>
+</td>
+<td align="center">
+<a href="https://fornaxworks.com/board.html"><img src="assets/gallery/tally.png" width="100%" alt="TALLY" /></a><br>
+<b>TALLY</b><br><sub>데이터 대시보드<br>차트보다 매일 최신이 되는 파이프라인<br><code>React</code> <code>Python</code> <code>Airflow</code></sub>
+</td>
+</tr>
+<tr>
+<td align="center">
+<a href="https://fornaxworks.com/stamp.html"><img src="assets/gallery/stamp.png" width="100%" alt="STAMP" /></a><br>
+<b>STAMP</b><br><sub>사내 업무 시스템<br>역할별 권한과 지울 수 없는 감사 로그<br><code>Remix</code> <code>Prisma</code> <code>MySQL</code></sub>
+</td>
+<td align="center">
+<a href="https://fornaxworks.com/bridge.html"><img src="assets/gallery/bridge.png" width="100%" alt="BRIDGE" /></a><br>
+<b>BRIDGE</b><br><sub>레거시 이관<br>무중단 단계 이관, 되돌릴 수 있는 배포<br><code>Docker</code> <code>Terraform</code> <code>AWS</code></sub>
+</td>
+<td align="center">
+<a href="https://fornaxworks.com/landing.html"><img src="assets/gallery/beacon.png" width="100%" alt="BEACON" /></a><br>
+<b>BEACON</b><br><sub>브랜드와 랜딩 사이트<br>성능과 검색, 직접 고칠 수 있는 상태로<br><code>Next.js</code> <code>Vercel</code></sub>
+</td>
+</tr>
+</table>
 
-**학사 논문 · 2020** — 동북전력대학교 (Northeast Electric Power University)
-**Parallelization of Data Mining in Power Industry Based on MapReduce**
+---
+
+## 연구
+
+**석사 논문** (2026, 건국대학교 정보통신대학원)
+[경량 파이프라인 컨트롤러를 통한 질의 인식 기반 비용 효율적 RAG](https://www.riss.kr/link?id=T17380351)
+<sub>Query-Aware Cost-Efficient RAG via a Lightweight Pipeline Controller</sub>
+
+모든 질의에 같은 고비용 파이프라인을 물리면 쉬운 질문에도 비용과 지연이 그대로 붙습니다.
+질의 난이도를 먼저 재고, 하이브리드 검색과 재랭킹, HyDE를 필요할 때만 켜는 경량 컨트롤러를 붙였습니다.
+
+**학사 논문** (2020, 동북전력대학교 Northeast Electric Power University)
+Parallelization of Data Mining in Power Industry Based on MapReduce
 <sub>基于MapReduce的电力行业数据挖掘并行化实现</sub>
 
-> 3노드 Hadoop 클러스터를 직접 구축하고, MapReduce 기반 K-means로 스마트미터 전력 사용 패턴을 병렬 클러스터링.
+스마트미터가 쏟아내는 사용량 데이터는 단일 장비로 감당이 안 됩니다.
+가상머신에 3노드 Hadoop 클러스터를 올리고 MapReduce K-means로 사용 패턴을 나눴습니다.
 
 ---
 
-## Tech Stack
-
-<sub>**주력은 Python · TypeScript 기반의 AI/풀스택**이며, 아래는 실제로 다뤄본 범위 전체입니다.</sub>
+## 기술
 
 **Language**
 
@@ -101,7 +147,7 @@ Working languages: Korean, Chinese.
 ![NumPy](https://img.shields.io/badge/NumPy-013243?style=flat-square&logo=numpy&logoColor=white)
 ![Hadoop](https://img.shields.io/badge/Hadoop-66CCFF?style=flat-square&logo=apachehadoop&logoColor=black)
 
-**Backend**
+**Backend / Frontend**
 
 ![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
 ![Hono](https://img.shields.io/badge/Hono-E36002?style=flat-square&logo=hono&logoColor=white)
@@ -109,9 +155,6 @@ Working languages: Korean, Chinese.
 ![Spring Boot](https://img.shields.io/badge/Spring%20Boot-6DB33F?style=flat-square&logo=springboot&logoColor=white)
 ![.NET](https://img.shields.io/badge/.NET-512BD4?style=flat-square&logo=dotnet&logoColor=white)
 ![SQLAlchemy](https://img.shields.io/badge/SQLAlchemy-D71F00?style=flat-square&logo=sqlalchemy&logoColor=white)
-
-**Frontend**
-
 ![React](https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black)
 ![Vue](https://img.shields.io/badge/Vue-4FC08D?style=flat-square&logo=vuedotjs&logoColor=white)
 ![Phaser](https://img.shields.io/badge/Phaser-8B5CF6?style=flat-square)
@@ -134,42 +177,50 @@ Working languages: Korean, Chinese.
 
 ---
 
-## Certifications
+## 자격증과 교육
 
-| 데이터 · AI | 개발 · 인프라 |
-|---|---|
-| 빅데이터분석기사 <sub>Big Data Analytics Engineer</sub> | 프로그래밍기능사 <sub>Craftsman Programming</sub> |
-| 데이터아키텍처준전문가 <sub>DAsP</sub> | 리눅스마스터 2급 <sub>Linux Master Lv.2</sub> |
-| SQL 개발자 <sub>SQLD</sub> | |
-| 데이터분석준전문가 <sub>ADsP</sub> | |
-| AICE Associate <sub>KT · 한국경제신문</sub> | |
-| AI-POT 1급 <sub>AI Prompt Utilization, KPC</sub> | |
+<table>
+<tr><td width="50%" valign="top">
 
----
+**데이터와 AI**
 
-## Education
+- 빅데이터분석기사
+- 데이터아키텍처준전문가 (DAsP)
+- SQL 개발자 (SQLD)
+- 데이터분석준전문가 (ADsP)
+- AICE Associate
+- AI-POT 1급
+
+</td><td width="50%" valign="top">
+
+**개발과 인프라**
+
+- 정보처리기사
+- 프로그래밍기능사
+- 리눅스마스터 2급
+- 네트워크관리사 2급
+
+</td></tr>
+</table>
 
 | 기간 | 과정 |
 |---|---|
-| ~ 2026.02 | **건국대학교 정보통신대학원** 융합정보기술학과 인공지능전공 — 석사 |
-| 2026 | **이어드림스쿨 6기** <sub>중소벤처기업부 AI 기술인력 양성 · 심화과정</sub><br><sub>LLM Fine-tuning · RAG/Vector DB · LangChain/LangGraph · AI Agent/MCP · 산업 연계 팀 프로젝트</sub> |
-| 2022.10 ~ 2023.04 | **AI Bootcamp 16기** — 인공지능모델링<br><sub>6개월 학습 + 1개월 기업 협업 프로젝트</sub> |
-| 2014.09 ~ 2020.06 | **동북전력대학교**<sub>(China)</sub> 소프트웨어공학과 — 학사 |
+| ~ 2026.02 | **건국대학교 정보통신대학원** 융합정보기술학과 인공지능전공 석사 |
+| 2026 | **이어드림스쿨 6기** 심화과정 <sub>(중소벤처기업부 AI 기술인력 양성)</sub><br><sub>LLM Fine-tuning, RAG와 Vector DB, LangChain과 LangGraph, AI Agent와 MCP, 산업 연계 팀 프로젝트</sub> |
+| 2022.10 ~ 2023.04 | **AI Bootcamp 16기** 인공지능모델링 <sub>(6개월 학습 + 1개월 기업 협업)</sub> |
+| 2014.09 ~ 2020.06 | **동북전력대학교**<sub>(China)</sub> 소프트웨어공학과 학사 |
 
 ---
 
-## Problem Solving
+## 알고리즘
 
 <div align="center">
 
-<img src="assets/BOJ memory - taeyang95.png" width="440" alt="BOJ memory — taeyang95" />
+<img src="assets/BOJ memory - taeyang95.png" width="420" alt="BOJ memory taeyang95" />
+
+*Thanks, BOJ. Good bye, BOJ.*
 
 </div>
-
-생성형 AI가 코드를 대신 써주기 한참 전, 백준에서 **1,936문제**를 손으로 풀었습니다. <sub>solved.ac #3,324</sub>
-이 카드를 만들어주던 사이트는 이제 없지만, 그 시절 기록은 남겨둡니다.
-
-<sub>*Before AI could write code for you — 1,936 problems solved by hand. The site that generated this card is gone now; this stays in its memory.*</sub>
 
 ---
 
