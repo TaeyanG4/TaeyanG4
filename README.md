@@ -223,12 +223,12 @@ iOS와 Android를 한 코드로,<br>스토어 심사까지<br>
 
 <table align="center" width="100%">
 <tr>
-<th width="38%">Data &amp; AI</th>
+<th width="42%">Data &amp; AI</th>
 <th width="34%">Dev &amp; Infra</th>
-<th width="28%">Language</th>
+<th width="24%">Language</th>
 </tr>
 <tr>
-<td valign="top">
+<td valign="top" nowrap>
 
 - 빅데이터분석기사
 - 데이터아키텍처준전문가 (DAsP)
@@ -238,7 +238,7 @@ iOS와 Android를 한 코드로,<br>스토어 심사까지<br>
 - AI-POT 1급
 
 </td>
-<td valign="top">
+<td valign="top" nowrap>
 
 - 정보처리기사
 - 프로그래밍기능사
@@ -247,7 +247,7 @@ iOS와 Android를 한 코드로,<br>스토어 심사까지<br>
 - 컴퓨터활용능력 1급
 
 </td>
-<td valign="top">
+<td valign="top" nowrap>
 
 - HSK 5급
 
@@ -264,7 +264,7 @@ iOS와 Android를 한 코드로,<br>스토어 심사까지<br>
 <td nowrap valign="top">2026.05 ~ 2026.08</td>
 <td>
 
-<b>이어드림스쿨 6기</b> 심화과정 (중소벤처기업부 AI 기술인력 양성)
+<b>이어드림스쿨 6기</b> 심화과정<br>중소벤처기업부 AI 기술인력 양성
 
 - LLM Fine-tuning, RAG와 Vector DB
 - LangChain과 LangGraph, AI Agent와 MCP
@@ -284,7 +284,7 @@ iOS와 Android를 한 코드로,<br>스토어 심사까지<br>
 <td nowrap valign="top">2022.10 ~ 2023.04</td>
 <td>
 
-<b>AI Bootcamp 16기</b> 인공지능모델링 (6개월 학습 + 1개월 기업 협업)
+<b>AI Bootcamp 16기</b> 인공지능모델링<br>6개월 학습 + 1개월 기업 협업
 
 </td>
 </tr>
@@ -292,7 +292,7 @@ iOS와 Android를 한 코드로,<br>스토어 심사까지<br>
 <td nowrap valign="top">2014.09 ~ 2020.06</td>
 <td>
 
-<b>동북전력대학교</b> (China) 소프트웨어공학과 학사 (4년 과정, 재학 중 군복무 2년)
+<b>동북전력대학교</b> (China) 소프트웨어공학과 학사<br>4년 과정, 재학 중 군복무 2년
 
 </td>
 </tr>

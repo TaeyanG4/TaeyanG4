@@ -100,18 +100,18 @@ T = {
 
 "<b>건국대학교 정보통신대학원</b> 융합정보기술학과 인공지능전공 석사":
 "<b>Konkuk University</b> Graduate School of Information and Telecommunications, MSc in Artificial Intelligence",
-"<b>이어드림스쿨 6기</b> 심화과정 (중소벤처기업부 AI 기술인력 양성)":
-"<b>Yeardream School 6th cohort</b>, advanced track (Ministry of SMEs and Startups AI talent programme)",
+"<b>이어드림스쿨 6기</b> 심화과정<br>중소벤처기업부 AI 기술인력 양성":
+"<b>Yeardream School 6th cohort</b>, advanced track<br>Ministry of SMEs and Startups AI talent programme",
 "LLM Fine-tuning, RAG와 Vector DB":
 "LLM fine-tuning, RAG and vector databases",
 "LangChain과 LangGraph, AI Agent와 MCP":
 "LangChain and LangGraph, AI agents and MCP",
 "산업 연계 팀 프로젝트":
 "Industry-linked team project",
-"<b>AI Bootcamp 16기</b> 인공지능모델링 (6개월 학습 + 1개월 기업 협업)":
-"<b>AI Bootcamp 16th cohort</b>, AI modelling (6 months of study + 1 month industry collaboration)",
-"<b>동북전력대학교</b> (China) 소프트웨어공학과 학사 (4년 과정, 재학 중 군복무 2년)":
-"<b>Northeast Electric Power University</b> (China), BSc in Software Engineering (4-year programme, with 2 years of military service during enrolment)",
+"<b>AI Bootcamp 16기</b> 인공지능모델링<br>6개월 학습 + 1개월 기업 협업":
+"<b>AI Bootcamp 16th cohort</b>, AI modelling<br>6 months of study + 1 month industry collaboration",
+"<b>동북전력대학교</b> (China) 소프트웨어공학과 학사<br>4년 과정, 재학 중 군복무 2년":
+"<b>Northeast Electric Power University</b> (China), BSc in Software Engineering<br>4-year programme, with 2 years of military service during enrolment",
 
 "### 신규 프로젝트 문의는 [fornaxworks.com](https://fornaxworks.com) 에서 받고 있습니다.":
 "### New project enquiries are welcome at [fornaxworks.com](https://fornaxworks.com).",
@@ -195,18 +195,18 @@ T = {
 
 "<b>건국대학교 정보통신대학원</b> 융합정보기술학과 인공지능전공 석사":
 "<b>建国大学信息通信研究生院</b> 融合信息技术学科 人工智能专业 硕士",
-"<b>이어드림스쿨 6기</b> 심화과정 (중소벤처기업부 AI 기술인력 양성)":
-"<b>Yeardream School 第6期</b> 进阶课程（韩国中小风险企业部 AI 技术人才培养）",
+"<b>이어드림스쿨 6기</b> 심화과정<br>중소벤처기업부 AI 기술인력 양성":
+"<b>Yeardream School 第6期</b> 进阶课程<br>韩国中小风险企业部 AI 技术人才培养",
 "LLM Fine-tuning, RAG와 Vector DB":
 "LLM 微调、RAG 与向量数据库",
 "LangChain과 LangGraph, AI Agent와 MCP":
 "LangChain 与 LangGraph、AI Agent 与 MCP",
 "산업 연계 팀 프로젝트":
 "产业联动团队项目",
-"<b>AI Bootcamp 16기</b> 인공지능모델링 (6개월 학습 + 1개월 기업 협업)":
-"<b>AI Bootcamp 第16期</b> 人工智能建模（6个月学习 + 1个月企业协作）",
-"<b>동북전력대학교</b> (China) 소프트웨어공학과 학사 (4년 과정, 재학 중 군복무 2년)":
-"<b>东北电力大学</b>（中国）软件工程 本科（四年制，在学期间服兵役两年）",
+"<b>AI Bootcamp 16기</b> 인공지능모델링<br>6개월 학습 + 1개월 기업 협업":
+"<b>AI Bootcamp 第16期</b> 人工智能建模<br>6个月学习 + 1个月企业协作",
+"<b>동북전력대학교</b> (China) 소프트웨어공학과 학사<br>4년 과정, 재학 중 군복무 2년":
+"<b>东北电力大学</b>（中国）软件工程 本科<br>四年制，在学期间服兵役两年",
 
 "### 신규 프로젝트 문의는 [fornaxworks.com](https://fornaxworks.com) 에서 받고 있습니다.":
 "### 新项目咨询请访问 [fornaxworks.com](https://fornaxworks.com)。",
@@ -290,18 +290,18 @@ T = {
 
 "<b>건국대학교 정보통신대학원</b> 융합정보기술학과 인공지능전공 석사":
 "<b>建国大学 情報通信大学院</b> 融合情報技術学科 人工知能専攻 修士",
-"<b>이어드림스쿨 6기</b> 심화과정 (중소벤처기업부 AI 기술인력 양성)":
-"<b>Yeardream School 第6期</b> 応用コース（韓国中小ベンチャー企業部 AI 技術人材育成）",
+"<b>이어드림스쿨 6기</b> 심화과정<br>중소벤처기업부 AI 기술인력 양성":
+"<b>Yeardream School 第6期</b> 応用コース<br>韓国中小ベンチャー企業部 AI 技術人材育成",
 "LLM Fine-tuning, RAG와 Vector DB":
 "LLM ファインチューニング、RAG とベクトル DB",
 "LangChain과 LangGraph, AI Agent와 MCP":
 "LangChain と LangGraph、AI エージェントと MCP",
 "산업 연계 팀 프로젝트":
 "産業連携チームプロジェクト",
-"<b>AI Bootcamp 16기</b> 인공지능모델링 (6개월 학습 + 1개월 기업 협업)":
-"<b>AI Bootcamp 第16期</b> 人工知能モデリング（6か月の学習 + 1か月の企業協業）",
-"<b>동북전력대학교</b> (China) 소프트웨어공학과 학사 (4년 과정, 재학 중 군복무 2년)":
-"<b>東北電力大学</b>（中国）ソフトウェア工学 学士（4年課程、在学中に兵役2年）",
+"<b>AI Bootcamp 16기</b> 인공지능모델링<br>6개월 학습 + 1개월 기업 협업":
+"<b>AI Bootcamp 第16期</b> 人工知能モデリング<br>6か月の学習 + 1か月の企業協業",
+"<b>동북전력대학교</b> (China) 소프트웨어공학과 학사<br>4년 과정, 재학 중 군복무 2년":
+"<b>東北電力大学</b>（中国）ソフトウェア工学 学士<br>4年課程、在学中に兵役2年",
 
 "### 신규 프로젝트 문의는 [fornaxworks.com](https://fornaxworks.com) 에서 받고 있습니다.":
 "### 新規プロジェクトのご相談は [fornaxworks.com](https://fornaxworks.com) で受け付けています。",

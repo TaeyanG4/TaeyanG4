@@ -223,12 +223,12 @@
 
 <table align="center" width="100%">
 <tr>
-<th width="38%">Data &amp; AI</th>
+<th width="42%">Data &amp; AI</th>
 <th width="34%">Dev &amp; Infra</th>
-<th width="28%">Language</th>
+<th width="24%">Language</th>
 </tr>
 <tr>
-<td valign="top">
+<td valign="top" nowrap>
 
 - 大数据分析工程师
 - 数据架构准专家 (DAsP)
@@ -238,7 +238,7 @@
 - AI-POT 一级
 
 </td>
-<td valign="top">
+<td valign="top" nowrap>
 
 - 信息处理工程师
 - 编程技能士
@@ -247,7 +247,7 @@
 - 计算机应用能力 一级
 
 </td>
-<td valign="top">
+<td valign="top" nowrap>
 
 - HSK 五级
 
@@ -264,7 +264,7 @@
 <td nowrap valign="top">2026.05 ~ 2026.08</td>
 <td>
 
-<b>Yeardream School 第6期</b> 进阶课程（韩国中小风险企业部 AI 技术人才培养）
+<b>Yeardream School 第6期</b> 进阶课程<br>韩国中小风险企业部 AI 技术人才培养
 
 - LLM 微调、RAG 与向量数据库
 - LangChain 与 LangGraph、AI Agent 与 MCP
@@ -284,7 +284,7 @@
 <td nowrap valign="top">2022.10 ~ 2023.04</td>
 <td>
 
-<b>AI Bootcamp 第16期</b> 人工智能建模（6个月学习 + 1个月企业协作）
+<b>AI Bootcamp 第16期</b> 人工智能建模<br>6个月学习 + 1个月企业协作
 
 </td>
 </tr>
@@ -292,7 +292,7 @@
 <td nowrap valign="top">2014.09 ~ 2020.06</td>
 <td>
 
-<b>东北电力大学</b>（中国）软件工程 本科（四年制，在学期间服兵役两年）
+<b>东北电力大学</b>（中国）软件工程 本科<br>四年制，在学期间服兵役两年
 
 </td>
 </tr>

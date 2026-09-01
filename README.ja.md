@@ -223,12 +223,12 @@ iOS と Android を1つのコードで、<br>ストア審査まで<br>
 
 <table align="center" width="100%">
 <tr>
-<th width="38%">Data &amp; AI</th>
+<th width="42%">Data &amp; AI</th>
 <th width="34%">Dev &amp; Infra</th>
-<th width="28%">Language</th>
+<th width="24%">Language</th>
 </tr>
 <tr>
-<td valign="top">
+<td valign="top" nowrap>
 
 - ビッグデータ分析技士
 - データアーキテクチャ準専門家 (DAsP)
@@ -238,7 +238,7 @@ iOS と Android を1つのコードで、<br>ストア審査まで<br>
 - AI-POT 1級
 
 </td>
-<td valign="top">
+<td valign="top" nowrap>
 
 - 情報処理技士
 - プログラミング技能士
@@ -247,7 +247,7 @@ iOS と Android を1つのコードで、<br>ストア審査まで<br>
 - コンピュータ活用能力 1級
 
 </td>
-<td valign="top">
+<td valign="top" nowrap>
 
 - HSK 5級
 
@@ -264,7 +264,7 @@ iOS と Android を1つのコードで、<br>ストア審査まで<br>
 <td nowrap valign="top">2026.05 ~ 2026.08</td>
 <td>
 
-<b>Yeardream School 第6期</b> 応用コース（韓国中小ベンチャー企業部 AI 技術人材育成）
+<b>Yeardream School 第6期</b> 応用コース<br>韓国中小ベンチャー企業部 AI 技術人材育成
 
 - LLM ファインチューニング、RAG とベクトル DB
 - LangChain と LangGraph、AI エージェントと MCP
@@ -284,7 +284,7 @@ iOS と Android を1つのコードで、<br>ストア審査まで<br>
 <td nowrap valign="top">2022.10 ~ 2023.04</td>
 <td>
 
-<b>AI Bootcamp 第16期</b> 人工知能モデリング（6か月の学習 + 1か月の企業協業）
+<b>AI Bootcamp 第16期</b> 人工知能モデリング<br>6か月の学習 + 1か月の企業協業
 
 </td>
 </tr>
@@ -292,7 +292,7 @@ iOS と Android を1つのコードで、<br>ストア審査まで<br>
 <td nowrap valign="top">2014.09 ~ 2020.06</td>
 <td>
 
-<b>東北電力大学</b>（中国）ソフトウェア工学 学士（4年課程、在学中に兵役2年）
+<b>東北電力大学</b>（中国）ソフトウェア工学 学士<br>4年課程、在学中に兵役2年
 
 </td>
 </tr>

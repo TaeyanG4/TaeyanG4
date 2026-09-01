@@ -223,12 +223,12 @@ Fast, findable, and editable by the people who own it<br>
 
 <table align="center" width="100%">
 <tr>
-<th width="38%">Data &amp; AI</th>
+<th width="42%">Data &amp; AI</th>
 <th width="34%">Dev &amp; Infra</th>
-<th width="28%">Language</th>
+<th width="24%">Language</th>
 </tr>
 <tr>
-<td valign="top">
+<td valign="top" nowrap>
 
 - Engineer Big Data Analysis
 - Data Architecture Semi-Professional (DAsP)
@@ -238,7 +238,7 @@ Fast, findable, and editable by the people who own it<br>
 - AI-POT Level 1
 
 </td>
-<td valign="top">
+<td valign="top" nowrap>
 
 - Engineer Information Processing
 - Craftsman Programming
@@ -247,7 +247,7 @@ Fast, findable, and editable by the people who own it<br>
 - Computer Specialist in Spreadsheet and Database Level 1
 
 </td>
-<td valign="top">
+<td valign="top" nowrap>
 
 - HSK Level 5
 
@@ -264,7 +264,7 @@ Fast, findable, and editable by the people who own it<br>
 <td nowrap valign="top">2026.05 ~ 2026.08</td>
 <td>
 
-<b>Yeardream School 6th cohort</b>, advanced track (Ministry of SMEs and Startups AI talent programme)
+<b>Yeardream School 6th cohort</b>, advanced track<br>Ministry of SMEs and Startups AI talent programme
 
 - LLM fine-tuning, RAG and vector databases
 - LangChain and LangGraph, AI agents and MCP
@@ -284,7 +284,7 @@ Fast, findable, and editable by the people who own it<br>
 <td nowrap valign="top">2022.10 ~ 2023.04</td>
 <td>
 
-<b>AI Bootcamp 16th cohort</b>, AI modelling (6 months of study + 1 month industry collaboration)
+<b>AI Bootcamp 16th cohort</b>, AI modelling<br>6 months of study + 1 month industry collaboration
 
 </td>
 </tr>
@@ -292,7 +292,7 @@ Fast, findable, and editable by the people who own it<br>
 <td nowrap valign="top">2014.09 ~ 2020.06</td>
 <td>
 
-<b>Northeast Electric Power University</b> (China), BSc in Software Engineering (4-year programme, with 2 years of military service during enrolment)
+<b>Northeast Electric Power University</b> (China), BSc in Software Engineering<br>4-year programme, with 2 years of military service during enrolment
 
 </td>
 </tr>
