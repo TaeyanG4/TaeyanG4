@@ -110,8 +110,8 @@ T = {
 "Industry-linked team project",
 "<b>AI Bootcamp 16기</b> 인공지능모델링<br>6개월 학습 + 1개월 기업 협업":
 "<b>AI Bootcamp 16th cohort</b>, AI modelling<br>6 months of study + 1 month industry collaboration",
-"<b>동북전력대학교</b> (China) 소프트웨어공학과 학사<br>4년 과정, 재학 중 군복무 2년":
-"<b>Northeast Electric Power University</b> (China), BSc in Software Engineering<br>4-year programme, with 2 years of military service during enrolment",
+"<b>동북전력대학교</b> (China) 소프트웨어공학과 학사<br>4년 과정, 재학 중 군복무 1년 9개월":
+"<b>Northeast Electric Power University</b> (China), BSc in Software Engineering<br>4-year programme, with 1 year 9 months of military service during enrolment",
 
 "### 신규 프로젝트 문의는 [fornaxworks.com](https://fornaxworks.com) 에서 받고 있습니다.":
 "### New project enquiries are welcome at [fornaxworks.com](https://fornaxworks.com).",
@@ -205,8 +205,8 @@ T = {
 "产业联动团队项目",
 "<b>AI Bootcamp 16기</b> 인공지능모델링<br>6개월 학습 + 1개월 기업 협업":
 "<b>AI Bootcamp 第16期</b> 人工智能建模<br>6个月学习 + 1个月企业协作",
-"<b>동북전력대학교</b> (China) 소프트웨어공학과 학사<br>4년 과정, 재학 중 군복무 2년":
-"<b>东北电力大学</b>（中国）软件工程 本科<br>四年制，在学期间服兵役两年",
+"<b>동북전력대학교</b> (China) 소프트웨어공학과 학사<br>4년 과정, 재학 중 군복무 1년 9개월":
+"<b>东北电力大学</b>（中国）软件工程 本科<br>四年制，在学期间服兵役1年9个月",
 
 "### 신규 프로젝트 문의는 [fornaxworks.com](https://fornaxworks.com) 에서 받고 있습니다.":
 "### 新项目咨询请访问 [fornaxworks.com](https://fornaxworks.com)。",
@@ -300,8 +300,8 @@ T = {
 "産業連携チームプロジェクト",
 "<b>AI Bootcamp 16기</b> 인공지능모델링<br>6개월 학습 + 1개월 기업 협업":
 "<b>AI Bootcamp 第16期</b> 人工知能モデリング<br>6か月の学習 + 1か月の企業協業",
-"<b>동북전력대학교</b> (China) 소프트웨어공학과 학사<br>4년 과정, 재학 중 군복무 2년":
-"<b>東北電力大学</b>（中国）ソフトウェア工学 学士<br>4年課程、在学中に兵役2年",
+"<b>동북전력대학교</b> (China) 소프트웨어공학과 학사<br>4년 과정, 재학 중 군복무 1년 9개월":
+"<b>東北電力大学</b>（中国）ソフトウェア工学 学士<br>4年課程、在学中に兵役1年9か月",
 
 "### 신규 프로젝트 문의는 [fornaxworks.com](https://fornaxworks.com) 에서 받고 있습니다.":
 "### 新規プロジェクトのご相談は [fornaxworks.com](https://fornaxworks.com) で受け付けています。",

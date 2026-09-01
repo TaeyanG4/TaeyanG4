@@ -292,7 +292,7 @@ Fast, findable, and editable by the people who own it<br>
 <td nowrap valign="top">2014.09 ~ 2020.06</td>
 <td>
 
-<b>Northeast Electric Power University</b> (China), BSc in Software Engineering<br>4-year programme, with 2 years of military service during enrolment
+<b>Northeast Electric Power University</b> (China), BSc in Software Engineering<br>4-year programme, with 1 year 9 months of military service during enrolment
 
 </td>
 </tr>
