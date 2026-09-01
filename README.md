@@ -14,22 +14,23 @@
 
 ## About
 
-건국대학교 정보통신대학원 인공지능전공 석사. 그 전에는 중국에서 6년간 소프트웨어공학 학사를 했고, 졸업논문을 중국어로 썼습니다.
+건국대학교 정보통신대학원 인공지능전공 석사. 그 전에는 중국에서 4년간 소프트웨어공학을 공부했고 졸업논문을 중국어로 썼습니다.
 석사 논문은 RAG의 비용 문제를, 학사 논문은 전력 데이터의 규모 문제를 다뤘습니다. 둘 다 구현까지 갔습니다.
 
 지금은 [fornaxworks](https://fornaxworks.com)라는 이름으로 웹, 모바일, AI 제품을 만듭니다.
 2023년부터 유학 컨설팅 사업체를 대표로 운영해와서 고객 응대와 계약, 행정은 이미 하던 일입니다.
+한국어 외에 영어, 중국어, 일본어로 소통할 수 있습니다.
 
 <details>
 <summary><b>English</b></summary>
 
 <br>
 
-MSc in Artificial Intelligence (Konkuk University), BSc in Software Engineering after six years in China, where I wrote my undergraduate thesis in Chinese. My master's thesis tackled the cost problem in RAG pipelines, my bachelor's the scale problem in power grid data. Both went all the way to a working implementation.
+MSc in Artificial Intelligence (Konkuk University), BSc in Software Engineering from four years of study in China, where I wrote my undergraduate thesis in Chinese. My master's thesis tackled the cost problem in RAG pipelines, my bachelor's the scale problem in power grid data. Both went all the way to a working implementation.
 
 I now build web, mobile, and AI products under the name [fornaxworks](https://fornaxworks.com). Running a study abroad consulting agency since 2023 means client work, contracts, and operations are already familiar ground.
 
-Working languages: Korean, Chinese.
+Languages: Korean, English, Chinese, Japanese.
 
 </details>
 
@@ -208,7 +209,7 @@ Parallelization of Data Mining in Power Industry Based on MapReduce
 | ~ 2026.02 | **건국대학교 정보통신대학원** 융합정보기술학과 인공지능전공 석사 |
 | 2026 | **이어드림스쿨 6기** 심화과정 <sub>(중소벤처기업부 AI 기술인력 양성)</sub><br><sub>LLM Fine-tuning, RAG와 Vector DB, LangChain과 LangGraph, AI Agent와 MCP, 산업 연계 팀 프로젝트</sub> |
 | 2022.10 ~ 2023.04 | **AI Bootcamp 16기** 인공지능모델링 <sub>(6개월 학습 + 1개월 기업 협업)</sub> |
-| 2014.09 ~ 2020.06 | **동북전력대학교**<sub>(China)</sub> 소프트웨어공학과 학사 |
+| 2014.09 ~ 2020.06 | **동북전력대학교**<sub>(China)</sub> 소프트웨어공학과 학사 <sub>(4년 과정, 재학 중 군복무 2년)</sub> |
 
 ---
 
