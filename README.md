@@ -14,9 +14,13 @@
 
 </div>
 
+<br>
+
 ---
 
 ## About
+
+<br>
 
 건국대학교 정보통신대학원 인공지능전공 석사. 그 전에는 중국에서 4년간 소프트웨어공학을 공부했고 졸업논문을 중국어로 썼습니다.
 석사 논문은 RAG의 비용 문제를, 학사 논문은 전력 데이터의 규모 문제를 다뤘습니다.
@@ -25,9 +29,13 @@
 2023년부터 유학 컨설팅 사업체를 대표로 운영해와서 고객 응대와 계약, 행정은 이미 하던 일입니다.
 한국어 외에 영어, 중국어, 일본어로 소통할 수 있습니다.
 
+<br>
+
 ---
 
 ## Projects
+
+<br>
 
 | Project | Description | Stack |
 |---|---|---|
@@ -37,28 +45,32 @@
 | **[project-forge](https://github.com/TaeyanG4/project-forge)**<br>[fornaxworks.com](https://fornaxworks.com) | 스튜디오 사이트. 프레임워크 없이 Python 스크립트로 HTML을 굽고 Cloudflare Worker에 올립니다. 로고와 OG 이미지도 코드로 그립니다. | `Python` `Cloudflare Workers` |
 | **[kapt_predict](https://github.com/TaeyanG4/kapt_predict)** (공개 예정) | 공동주택 공사비 예측 모델. 직접 만든 크롤러 [kapt_crawler](https://github.com/TaeyanG4/kapt_crawler)로 모은 K-APT 공개 데이터를 씁니다. | `CatBoost` `pandas` |
 
+<br>
+
 ---
 
 ## Showroom
+
+<br>
 
 fornaxworks 견본실에 올려둔 데모입니다. 실제 납품물이 아니라 어디까지 만드는지 보여주려고 직접 만든 견본입니다.
 이미지를 누르면 브라우저에서 바로 열립니다.
 
 <table align="center">
 <tr>
-<td width="33%" align="center">
+<td width="33.33%" align="center" valign="top">
 <a href="https://fornaxworks.com/pallet.html"><img src="assets/gallery/pallet.png" width="100%" alt="PALLET" /></a><br>
 <b>PALLET</b> 웹 서비스<br>
 가입, 권한, 결제까지 한 벌<br>
 <code>TypeScript</code> <code>Next.js</code> <code>PostgreSQL</code>
 </td>
-<td width="33%" align="center">
+<td width="33.33%" align="center" valign="top">
 <a href="https://fornaxworks.com/shop.html"><img src="assets/gallery/shop.png" width="100%" alt="TAG" /></a><br>
 <b>TAG</b> 커머스<br>
 취소, 반품, 정산을 상태로 설계<br>
 <code>Next.js</code> <code>PostgreSQL</code> <code>Payments</code>
 </td>
-<td width="33%" align="center">
+<td width="33.33%" align="center" valign="top">
 <a href="https://fornaxworks.com/mat.html"><img src="assets/gallery/mat.png" width="100%" alt="MAT" /></a><br>
 <b>MAT</b> 모바일 앱<br>
 iOS와 Android를 한 코드로,<br>스토어 심사까지<br>
@@ -66,19 +78,19 @@ iOS와 Android를 한 코드로,<br>스토어 심사까지<br>
 </td>
 </tr>
 <tr>
-<td align="center">
+<td width="33.33%" align="center" valign="top">
 <a href="https://fornaxworks.com/guide.html"><img src="assets/gallery/index.png" width="100%" alt="INDEX" /></a><br>
 <b>INDEX</b> 문서 검색 어시스턴트<br>
 하이브리드 검색과 재순위, 근거 문단 표기<br>
 <code>Claude API</code> <code>pgvector</code> <code>FastAPI</code>
 </td>
-<td align="center">
+<td width="33.33%" align="center" valign="top">
 <a href="https://fornaxworks.com/clerk.html"><img src="assets/gallery/clerk.png" width="100%" alt="CLERK" /></a><br>
 <b>CLERK</b> 반복 업무 에이전트<br>
 도구 호출 파이프라인, 최종 승인은 사람이<br>
 <code>Claude API</code> <code>Next.js</code>
 </td>
-<td align="center">
+<td width="33.33%" align="center" valign="top">
 <a href="https://fornaxworks.com/board.html"><img src="assets/gallery/tally.png" width="100%" alt="TALLY" /></a><br>
 <b>TALLY</b> 데이터 대시보드<br>
 차트보다 매일 최신이 되는 파이프라인<br>
@@ -86,19 +98,19 @@ iOS와 Android를 한 코드로,<br>스토어 심사까지<br>
 </td>
 </tr>
 <tr>
-<td align="center">
+<td width="33.33%" align="center" valign="top">
 <a href="https://fornaxworks.com/stamp.html"><img src="assets/gallery/stamp.png" width="100%" alt="STAMP" /></a><br>
 <b>STAMP</b> 사내 업무 시스템<br>
 역할별 권한과 지울 수 없는 감사 로그<br>
 <code>Remix</code> <code>Prisma</code> <code>MySQL</code>
 </td>
-<td align="center">
+<td width="33.33%" align="center" valign="top">
 <a href="https://fornaxworks.com/bridge.html"><img src="assets/gallery/bridge.png" width="100%" alt="BRIDGE" /></a><br>
 <b>BRIDGE</b> 레거시 이관<br>
 무중단 단계 이관, 되돌릴 수 있는 배포<br>
 <code>Docker</code> <code>Terraform</code> <code>AWS</code>
 </td>
-<td align="center">
+<td width="33.33%" align="center" valign="top">
 <a href="https://fornaxworks.com/landing.html"><img src="assets/gallery/beacon.png" width="100%" alt="BEACON" /></a><br>
 <b>BEACON</b> 브랜드와 랜딩 사이트<br>
 성능과 검색, 직접 고칠 수 있는 상태로<br>
@@ -107,9 +119,13 @@ iOS와 Android를 한 코드로,<br>스토어 심사까지<br>
 </tr>
 </table>
 
+<br>
+
 ---
 
 ## Research
+
+<br>
 
 ### Master's Thesis
 
@@ -129,9 +145,13 @@ iOS와 Android를 한 코드로,<br>스토어 심사까지<br>
 > 스마트미터가 쏟아내는 사용량 데이터는 단일 장비로 감당이 안 됩니다.
 > 가상머신에 3노드 Hadoop 클러스터를 올리고 MapReduce K-means로 사용 패턴을 나눴습니다.
 
+<br>
+
 ---
 
 ## Tech Stack
+
+<br>
 
 <div align="center">
 
@@ -193,9 +213,13 @@ iOS와 Android를 한 코드로,<br>스토어 심사까지<br>
 
 </div>
 
+<br>
+
 ---
 
 ## Certifications & Education
+
+<br>
 
 <table align="center" width="100%">
 <tr>
@@ -274,9 +298,13 @@ iOS와 Android를 한 코드로,<br>스토어 심사까지<br>
 </tr>
 </table>
 
+<br>
+
 ---
 
 ## Algorithms
+
+<br>
 
 <div align="center">
 

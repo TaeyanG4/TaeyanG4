@@ -14,9 +14,13 @@
 
 </div>
 
+<br>
+
 ---
 
 ## About
+
+<br>
 
 MSc in Artificial Intelligence, Konkuk University Graduate School of Information and Telecommunications. Before that, four years of Software Engineering in China, where I wrote my undergraduate thesis in Chinese.
 My master's thesis took on the cost problem in RAG pipelines, my bachelor's the scale problem in power grid data.
@@ -25,9 +29,13 @@ I now build web, mobile, and AI products under the name [fornaxworks](https://fo
 Running a study abroad consulting agency as its owner since 2023 means client work, contracts, and administration are already familiar ground.
 I work in Korean, English, Chinese, and Japanese.
 
+<br>
+
 ---
 
 ## Projects
+
+<br>
 
 | Project | Description | Stack |
 |---|---|---|
@@ -37,28 +45,32 @@ I work in Korean, English, Chinese, and Japanese.
 | **[project-forge](https://github.com/TaeyanG4/project-forge)**<br>[fornaxworks.com](https://fornaxworks.com) | The studio site itself. No framework: a Python script bakes the HTML and ships it to a Cloudflare Worker. The logo and OG image are drawn in code too. | `Python` `Cloudflare Workers` |
 | **[kapt_predict](https://github.com/TaeyanG4/kapt_predict)** (coming soon) | Construction cost prediction model for apartment complexes, trained on public K-APT data collected by my own crawler, [kapt_crawler](https://github.com/TaeyanG4/kapt_crawler). | `CatBoost` `pandas` |
 
+<br>
+
 ---
 
 ## Showroom
+
+<br>
 
 Demos from the fornaxworks showroom. These are not client deliverables. I built them to show how far the work goes.
 Click an image to open it in your browser.
 
 <table align="center">
 <tr>
-<td width="33%" align="center">
+<td width="33.33%" align="center" valign="top">
 <a href="https://fornaxworks.com/pallet.html"><img src="assets/gallery/pallet.png" width="100%" alt="PALLET" /></a><br>
 <b>PALLET</b> Web service<br>
 Sign-up, permissions, and billing in one set<br>
 <code>TypeScript</code> <code>Next.js</code> <code>PostgreSQL</code>
 </td>
-<td width="33%" align="center">
+<td width="33.33%" align="center" valign="top">
 <a href="https://fornaxworks.com/shop.html"><img src="assets/gallery/shop.png" width="100%" alt="TAG" /></a><br>
 <b>TAG</b> Commerce<br>
 Cancellation, returns, and settlement modelled as state<br>
 <code>Next.js</code> <code>PostgreSQL</code> <code>Payments</code>
 </td>
-<td width="33%" align="center">
+<td width="33.33%" align="center" valign="top">
 <a href="https://fornaxworks.com/mat.html"><img src="assets/gallery/mat.png" width="100%" alt="MAT" /></a><br>
 <b>MAT</b> Mobile app<br>
 iOS and Android from one codebase,<br>store review included<br>
@@ -66,19 +78,19 @@ iOS and Android from one codebase,<br>store review included<br>
 </td>
 </tr>
 <tr>
-<td align="center">
+<td width="33.33%" align="center" valign="top">
 <a href="https://fornaxworks.com/guide.html"><img src="assets/gallery/index.png" width="100%" alt="INDEX" /></a><br>
 <b>INDEX</b> Document search assistant<br>
 Hybrid retrieval, reranking, cited source passages<br>
 <code>Claude API</code> <code>pgvector</code> <code>FastAPI</code>
 </td>
-<td align="center">
+<td width="33.33%" align="center" valign="top">
 <a href="https://fornaxworks.com/clerk.html"><img src="assets/gallery/clerk.png" width="100%" alt="CLERK" /></a><br>
 <b>CLERK</b> Routine work agent<br>
 Tool-calling pipeline, final approval stays with a human<br>
 <code>Claude API</code> <code>Next.js</code>
 </td>
-<td align="center">
+<td width="33.33%" align="center" valign="top">
 <a href="https://fornaxworks.com/board.html"><img src="assets/gallery/tally.png" width="100%" alt="TALLY" /></a><br>
 <b>TALLY</b> Data dashboard<br>
 The pipeline that stays current matters more than the chart<br>
@@ -86,19 +98,19 @@ The pipeline that stays current matters more than the chart<br>
 </td>
 </tr>
 <tr>
-<td align="center">
+<td width="33.33%" align="center" valign="top">
 <a href="https://fornaxworks.com/stamp.html"><img src="assets/gallery/stamp.png" width="100%" alt="STAMP" /></a><br>
 <b>STAMP</b> Internal business system<br>
 Role-based permissions and an append-only audit log<br>
 <code>Remix</code> <code>Prisma</code> <code>MySQL</code>
 </td>
-<td align="center">
+<td width="33.33%" align="center" valign="top">
 <a href="https://fornaxworks.com/bridge.html"><img src="assets/gallery/bridge.png" width="100%" alt="BRIDGE" /></a><br>
 <b>BRIDGE</b> Legacy migration<br>
 Phased cutover with no downtime and a reversible deploy<br>
 <code>Docker</code> <code>Terraform</code> <code>AWS</code>
 </td>
-<td align="center">
+<td width="33.33%" align="center" valign="top">
 <a href="https://fornaxworks.com/landing.html"><img src="assets/gallery/beacon.png" width="100%" alt="BEACON" /></a><br>
 <b>BEACON</b> Brand and landing site<br>
 Fast, findable, and editable by the people who own it<br>
@@ -107,9 +119,13 @@ Fast, findable, and editable by the people who own it<br>
 </tr>
 </table>
 
+<br>
+
 ---
 
 ## Research
+
+<br>
 
 ### Master's Thesis
 
@@ -129,9 +145,13 @@ Fast, findable, and editable by the people who own it<br>
 > Smart meters produce more consumption data than a single machine can process.
 > I stood up a three-node Hadoop cluster on virtual machines and partitioned usage patterns with MapReduce K-means.
 
+<br>
+
 ---
 
 ## Tech Stack
+
+<br>
 
 <div align="center">
 
@@ -193,9 +213,13 @@ Fast, findable, and editable by the people who own it<br>
 
 </div>
 
+<br>
+
 ---
 
 ## Certifications & Education
+
+<br>
 
 <table align="center" width="100%">
 <tr>
@@ -274,9 +298,13 @@ Fast, findable, and editable by the people who own it<br>
 </tr>
 </table>
 
+<br>
+
 ---
 
 ## Algorithms
+
+<br>
 
 <div align="center">
 

@@ -14,9 +14,13 @@
 
 </div>
 
+<br>
+
 ---
 
 ## About
+
+<br>
 
 建国大学信息通信研究生院人工智能专业硕士。此前在中国攻读软件工程本科四年，毕业论文以中文撰写。
 硕士论文处理 RAG 的成本问题，本科论文处理电力数据的规模问题。
@@ -25,9 +29,13 @@
 自 2023 年起以负责人身份经营留学咨询公司，客户沟通、合同与行政事务是本来就在做的工作。
 除韩语外，可使用英语、中文、日语沟通。
 
+<br>
+
 ---
 
 ## Projects
+
+<br>
 
 | Project | Description | Stack |
 |---|---|---|
@@ -37,28 +45,32 @@
 | **[project-forge](https://github.com/TaeyanG4/project-forge)**<br>[fornaxworks.com](https://fornaxworks.com) | 工作室官网本身。不用框架，由 Python 脚本生成 HTML 并部署到 Cloudflare Worker。Logo 与 OG 图像也由代码绘制。 | `Python` `Cloudflare Workers` |
 | **[kapt_predict](https://github.com/TaeyanG4/kapt_predict)** （即将公开） | 住宅小区工程造价预测模型。使用自研爬虫 [kapt_crawler](https://github.com/TaeyanG4/kapt_crawler) 采集的 K-APT 公开数据。 | `CatBoost` `pandas` |
 
+<br>
+
 ---
 
 ## Showroom
+
+<br>
 
 这些是放在 fornaxworks 样品间的演示。并非实际交付物，而是为了展示能做到什么程度而自行制作的样品。
 点击图片即可在浏览器中打开。
 
 <table align="center">
 <tr>
-<td width="33%" align="center">
+<td width="33.33%" align="center" valign="top">
 <a href="https://fornaxworks.com/pallet.html"><img src="assets/gallery/pallet.png" width="100%" alt="PALLET" /></a><br>
 <b>PALLET</b> Web 服务<br>
 注册、权限、支付一整套<br>
 <code>TypeScript</code> <code>Next.js</code> <code>PostgreSQL</code>
 </td>
-<td width="33%" align="center">
+<td width="33.33%" align="center" valign="top">
 <a href="https://fornaxworks.com/shop.html"><img src="assets/gallery/shop.png" width="100%" alt="TAG" /></a><br>
 <b>TAG</b> 电商<br>
 把取消、退货、结算设计成状态流转<br>
 <code>Next.js</code> <code>PostgreSQL</code> <code>Payments</code>
 </td>
-<td width="33%" align="center">
+<td width="33.33%" align="center" valign="top">
 <a href="https://fornaxworks.com/mat.html"><img src="assets/gallery/mat.png" width="100%" alt="MAT" /></a><br>
 <b>MAT</b> 移动应用<br>
 一套代码覆盖 iOS 与 Android，<br>含应用商店审核<br>
@@ -66,19 +78,19 @@
 </td>
 </tr>
 <tr>
-<td align="center">
+<td width="33.33%" align="center" valign="top">
 <a href="https://fornaxworks.com/guide.html"><img src="assets/gallery/index.png" width="100%" alt="INDEX" /></a><br>
 <b>INDEX</b> 文档检索助手<br>
 混合检索与重排序，标注依据段落<br>
 <code>Claude API</code> <code>pgvector</code> <code>FastAPI</code>
 </td>
-<td align="center">
+<td width="33.33%" align="center" valign="top">
 <a href="https://fornaxworks.com/clerk.html"><img src="assets/gallery/clerk.png" width="100%" alt="CLERK" /></a><br>
 <b>CLERK</b> 重复性业务智能体<br>
 工具调用流水线，最终审批仍由人来做<br>
 <code>Claude API</code> <code>Next.js</code>
 </td>
-<td align="center">
+<td width="33.33%" align="center" valign="top">
 <a href="https://fornaxworks.com/board.html"><img src="assets/gallery/tally.png" width="100%" alt="TALLY" /></a><br>
 <b>TALLY</b> 数据看板<br>
 比图表更重要的是每天自动保持最新的数据管道<br>
@@ -86,19 +98,19 @@
 </td>
 </tr>
 <tr>
-<td align="center">
+<td width="33.33%" align="center" valign="top">
 <a href="https://fornaxworks.com/stamp.html"><img src="assets/gallery/stamp.png" width="100%" alt="STAMP" /></a><br>
 <b>STAMP</b> 企业内部业务系统<br>
 按角色划分权限与不可删除的审计日志<br>
 <code>Remix</code> <code>Prisma</code> <code>MySQL</code>
 </td>
-<td align="center">
+<td width="33.33%" align="center" valign="top">
 <a href="https://fornaxworks.com/bridge.html"><img src="assets/gallery/bridge.png" width="100%" alt="BRIDGE" /></a><br>
 <b>BRIDGE</b> 遗留系统迁移<br>
 不停机分阶段迁移，可回滚的发布<br>
 <code>Docker</code> <code>Terraform</code> <code>AWS</code>
 </td>
-<td align="center">
+<td width="33.33%" align="center" valign="top">
 <a href="https://fornaxworks.com/landing.html"><img src="assets/gallery/beacon.png" width="100%" alt="BEACON" /></a><br>
 <b>BEACON</b> 品牌与落地页<br>
 兼顾性能与检索，并交付为可自行修改的状态<br>
@@ -107,9 +119,13 @@
 </tr>
 </table>
 
+<br>
+
 ---
 
 ## Research
+
+<br>
 
 ### Master's Thesis
 
@@ -129,9 +145,13 @@
 > 智能电表产生的用电数据量，单机已经无法处理。
 > 在虚拟机上搭建三节点 Hadoop 集群，用 MapReduce K-means 对用电模式进行了聚类划分。
 
+<br>
+
 ---
 
 ## Tech Stack
+
+<br>
 
 <div align="center">
 
@@ -193,9 +213,13 @@
 
 </div>
 
+<br>
+
 ---
 
 ## Certifications & Education
+
+<br>
 
 <table align="center" width="100%">
 <tr>
@@ -274,9 +298,13 @@
 </tr>
 </table>
 
+<br>
+
 ---
 
 ## Algorithms
+
+<br>
 
 <div align="center">
 
