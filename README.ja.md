@@ -2,7 +2,9 @@
 
 <img src="assets/banner.gif" width="100%" alt="fornaxworks アイデアを出荷できるプロダクトへ鍛える" />
 
-**AI とフルスタック開発。** 企画から本番リリースまで、一人が通しで担当します。
+### AI とフルスタック開発。企画から本番リリースまで、一人が通しで担当します。
+
+**[https://fornaxworks.com](https://fornaxworks.com)**
 
 [한국어](README.md) | [English](README.en.md) | [中文](README.zh.md) | **日本語**
 
@@ -17,7 +19,7 @@
 ## About
 
 建国大学 情報通信大学院 人工知能専攻 修士。その前は中国でソフトウェア工学を4年間学び、卒業論文を中国語で書きました。
-修士論文では RAG のコスト問題を、学士論文では電力データの規模の問題を扱いました。どちらも動く実装まで作りました。
+修士論文では RAG のコスト問題を、学士論文では電力データの規模の問題を扱いました。
 
 現在は [fornaxworks](https://fornaxworks.com) という名前で Web・モバイル・AI プロダクトを作っています。
 2023年から留学コンサルティング事業を代表として運営しており、顧客対応や契約、事務手続きはすでに日常業務です。
@@ -59,7 +61,7 @@ fornaxworks のショールームに置いているデモです。実際の納�
 <td width="33%" align="center">
 <a href="https://fornaxworks.com/mat.html"><img src="assets/gallery/mat.png" width="100%" alt="MAT" /></a><br>
 <b>MAT</b> モバイルアプリ<br>
-iOS と Android を1つのコードで、ストア審査まで<br>
+iOS と Android を1つのコードで、<br>ストア審査まで<br>
 <code>React Native</code> <code>Expo</code>
 </td>
 </tr>
@@ -111,23 +113,21 @@ iOS と Android を1つのコードで、ストア審査まで<br>
 
 ### Master's Thesis
 
-**[경량 파이프라인 컨트롤러를 통한 질의 인식 기반 비용 효율적 RAG](https://www.riss.kr/link?id=T17380351)**
-
-Query-Aware Cost-Efficient RAG via a Lightweight Pipeline Controller
-2026年、建国大学 情報通信大学院
-
-すべてのクエリを同じ高コストのパイプラインに通すと、簡単な質問にもコストとレイテンシがそのままかかります。
-そこでクエリの難易度を先に見積もり、ハイブリッド検索・リランキング・HyDE を必要なときだけ有効にする軽量コントローラーを組み込みました。
+> **[경량 파이프라인 컨트롤러를 통한 질의 인식 기반 비용 효율적 RAG](https://www.riss.kr/link?id=T17380351)**
+>
+> Query-Aware Cost-Efficient RAG via a Lightweight Pipeline Controller<br>2026年、建国大学 情報通信大学院
+>
+> すべてのクエリを同じ高コストのパイプラインに通すと、簡単な質問にもコストとレイテンシがそのままかかります。
+> そこでクエリの難易度を先に見積もり、ハイブリッド検索・リランキング・HyDE を必要なときだけ有効にする軽量コントローラーを組み込みました。
 
 ### Bachelor's Thesis
 
-**Parallelization of Data Mining in Power Industry Based on MapReduce**
-
-基于MapReduce的电力行业数据挖掘并行化实现
-2020年、東北電力大学 Northeast Electric Power University
-
-スマートメーターが吐き出す使用量データは、単一のマシンでは処理しきれません。
-仮想マシン上に3ノードの Hadoop クラスタを構築し、MapReduce K-means で使用パターンを分類しました。
+> **Parallelization of Data Mining in Power Industry Based on MapReduce**
+>
+> 基于MapReduce的电力行业数据挖掘并行化实现<br>2020年、東北電力大学 Northeast Electric Power University
+>
+> スマートメーターが吐き出す使用量データは、単一のマシンでは処理しきれません。
+> 仮想マシン上に3ノードの Hadoop クラスタを構築し、MapReduce K-means で使用パターンを分類しました。
 
 ---
 
@@ -197,54 +197,80 @@ Query-Aware Cost-Efficient RAG via a Lightweight Pipeline Controller
 
 ## Certifications & Education
 
-<table align="center">
+<table align="center" width="100%">
 <tr>
-<th width="50%">Data &amp; AI</th>
-<th width="50%">Dev &amp; Infra</th>
+<th width="38%">Data &amp; AI</th>
+<th width="34%">Dev &amp; Infra</th>
+<th width="28%">Language</th>
 </tr>
 <tr>
-<td valign="top" nowrap>
+<td valign="top">
 
-ビッグデータ分析技士<br>
-データアーキテクチャ準専門家 (DAsP)<br>
-SQL 開発者 (SQLD)<br>
-データ分析準専門家 (ADsP)<br>
-AICE Associate<br>
-AI-POT 1級
+- ビッグデータ分析技士
+- データアーキテクチャ準専門家 (DAsP)
+- SQL 開発者 (SQLD)
+- データ分析準専門家 (ADsP)
+- AICE Associate
+- AI-POT 1級
 
 </td>
-<td valign="top" nowrap>
+<td valign="top">
 
-情報処理技士<br>
-プログラミング技能士<br>
-Linux Master 2級<br>
-ネットワーク管理士 2級
+- 情報処理技士
+- プログラミング技能士
+- Linux Master 2級
+- ネットワーク管理士 2級
+- コンピュータ活用能力 1級
+
+</td>
+<td valign="top">
+
+- HSK 5級
 
 </td>
 </tr>
 </table>
 
-<table align="center">
+<table align="center" width="100%">
 <tr>
-<th>Period</th>
+<th width="24%">Period</th>
 <th>Program</th>
 </tr>
 <tr>
-<td nowrap valign="top">~ 2026.02</td>
-<td><b>建国大学 情報通信大学院</b> 融合情報技術学科 人工知能専攻 修士</td>
+<td nowrap valign="top">2026.05 ~ 2026.08</td>
+<td>
+
+<b>Yeardream School 第6期</b> 応用コース（韓国中小ベンチャー企業部 AI 技術人材育成）
+
+- LLM ファインチューニング、RAG とベクトル DB
+- LangChain と LangGraph、AI エージェントと MCP
+- 産業連携チームプロジェクト
+
+</td>
 </tr>
 <tr>
-<td nowrap valign="top">2026</td>
-<td><b>Yeardream School 第6期</b> 応用コース（韓国中小ベンチャー企業部 AI 技術人材育成）<br>
-LLM ファインチューニング、RAG とベクトル DB、LangChain と LangGraph、AI エージェントと MCP、産業連携チームプロジェクト</td>
+<td nowrap valign="top">2023.09 ~ 2026.02</td>
+<td>
+
+<b>建国大学 情報通信大学院</b> 融合情報技術学科 人工知能専攻 修士
+
+</td>
 </tr>
 <tr>
 <td nowrap valign="top">2022.10 ~ 2023.04</td>
-<td><b>AI Bootcamp 第16期</b> 人工知能モデリング（6か月の学習 + 1か月の企業協業）</td>
+<td>
+
+<b>AI Bootcamp 第16期</b> 人工知能モデリング（6か月の学習 + 1か月の企業協業）
+
+</td>
 </tr>
 <tr>
 <td nowrap valign="top">2014.09 ~ 2020.06</td>
-<td><b>東北電力大学</b>（中国）ソフトウェア工学 学士（4年課程、在学中に兵役2年）</td>
+<td>
+
+<b>東北電力大学</b>（中国）ソフトウェア工学 学士（4年課程、在学中に兵役2年）
+
+</td>
 </tr>
 </table>
 

@@ -19,6 +19,7 @@ W, H = 1000, 416
 FRAMES = 36
 MS = 110
 COLORS = 128
+RADIUS = 22                     # 모서리 둥글기
 OUT = os.path.join(os.path.dirname(os.path.abspath(__file__)), "banner.gif")
 
 BG = (8, 9, 13)
@@ -154,12 +155,21 @@ def main():
              ImageFont.truetype(FONT_B, 45), ImageFont.truetype(FONT_B, 20))
     frames = [frame(i / FRAMES, fonts) for i in range(FRAMES)]
 
-    # 팔레트를 첫 장으로 한 번만 뽑아 프레임끼리 색이 튀지 않게 한다
-    pal = frames[0].quantize(colors=COLORS, method=Image.MEDIANCUT)
+    # 팔레트를 첫 장으로 한 번만 뽑아 프레임끼리 색이 튀지 않게 한다.
+    # 마지막 한 칸은 투명색으로 비워 둔다 — GIF 는 투명이 1비트뿐이라
+    # 팔레트 안에서 자리를 따로 잡아 줘야 모서리를 뚫을 수 있다.
+    trans = COLORS - 1
+    pal = frames[0].quantize(colors=trans, method=Image.MEDIANCUT)
     frames = [f.quantize(palette=pal, dither=Image.FLOYDSTEINBERG) for f in frames]
 
+    corner = Image.new("L", (W, H), 255)        # 둥근 사각형 바깥만 255
+    ImageDraw.Draw(corner).rounded_rectangle([0, 0, W - 1, H - 1], radius=RADIUS, fill=0)
+    for f in frames:
+        f.paste(trans, (0, 0), corner)
+
     frames[0].save(OUT, save_all=True, append_images=frames[1:],
-                   duration=MS, loop=0, optimize=True, disposal=1)
+                   duration=MS, loop=0, optimize=True, disposal=1,
+                   transparency=trans)
     print("banner.gif %dx%d · %d frames · %.1fMB"
           % (W, H, FRAMES, os.path.getsize(OUT) / 1048576))
 

@@ -21,13 +21,13 @@ NAV = {
 # 한국어 원문 -> 각 언어. 긴 문장부터 치환해야 부분 일치로 깨지지 않는다.
 T = {
 "en": {
-"**AI와 풀스택 개발.** 기획부터 배포까지 한 사람이 이어서 합니다.":
-"**AI and full-stack development.** One person carrying a product from spec to deployment.",
+"### AI와 풀스택 개발. 기획부터 배포까지 한 사람이 이어서 합니다.":
+"### AI and full-stack development. One person carrying a product from spec to deployment.",
 
 "건국대학교 정보통신대학원 인공지능전공 석사. 그 전에는 중국에서 4년간 소프트웨어공학을 공부했고 졸업논문을 중국어로 썼습니다.":
 "MSc in Artificial Intelligence, Konkuk University Graduate School of Information and Telecommunications. Before that, four years of Software Engineering in China, where I wrote my undergraduate thesis in Chinese.",
-"석사 논문은 RAG의 비용 문제를, 학사 논문은 전력 데이터의 규모 문제를 다뤘습니다. 둘 다 구현까지 갔습니다.":
-"My master's thesis took on the cost problem in RAG pipelines, my bachelor's the scale problem in power grid data. Both went all the way to a working implementation.",
+"석사 논문은 RAG의 비용 문제를, 학사 논문은 전력 데이터의 규모 문제를 다뤘습니다.":
+"My master's thesis took on the cost problem in RAG pipelines, my bachelor's the scale problem in power grid data.",
 "지금은 [fornaxworks](https://fornaxworks.com)라는 이름으로 웹, 모바일, AI 제품을 만듭니다.":
 "I now build web, mobile, and AI products under the name [fornaxworks](https://fornaxworks.com).",
 "2023년부터 유학 컨설팅 사업체를 대표로 운영해와서 고객 응대와 계약, 행정은 이미 하던 일입니다.":
@@ -57,7 +57,7 @@ T = {
 "<b>TAG</b> 커머스": "<b>TAG</b> Commerce",
 "취소, 반품, 정산을 상태로 설계": "Cancellation, returns, and settlement modelled as state",
 "<b>MAT</b> 모바일 앱": "<b>MAT</b> Mobile app",
-"iOS와 Android를 한 코드로, 스토어 심사까지": "iOS and Android from one codebase, store review included",
+"iOS와 Android를 한 코드로,<br>스토어 심사까지": "iOS and Android from one codebase,<br>store review included",
 "<b>INDEX</b> 문서 검색 어시스턴트": "<b>INDEX</b> Document search assistant",
 "하이브리드 검색과 재순위, 근거 문단 표기": "Hybrid retrieval, reranking, cited source passages",
 "<b>CLERK</b> 반복 업무 에이전트": "<b>CLERK</b> Routine work agent",
@@ -73,14 +73,14 @@ T = {
 
 "**[경량 파이프라인 컨트롤러를 통한 질의 인식 기반 비용 효율적 RAG](https://www.riss.kr/link?id=T17380351)**":
 "**[Query-Aware Cost-Efficient RAG via a Lightweight Pipeline Controller](https://www.riss.kr/link?id=T17380351)**",
-"Query-Aware Cost-Efficient RAG via a Lightweight Pipeline Controller\n2026, 건국대학교 정보통신대학원":
-"경량 파이프라인 컨트롤러를 통한 질의 인식 기반 비용 효율적 RAG\n2026, Konkuk University Graduate School of Information and Telecommunications",
+"Query-Aware Cost-Efficient RAG via a Lightweight Pipeline Controller<br>2026, 건국대학교 정보통신대학원":
+"경량 파이프라인 컨트롤러를 통한 질의 인식 기반 비용 효율적 RAG<br>2026, Konkuk University Graduate School of Information and Telecommunications",
 "모든 질의에 같은 고비용 파이프라인을 물리면 쉬운 질문에도 비용과 지연이 그대로 붙습니다.":
 "Running every query through the same expensive pipeline makes easy questions pay full price in cost and latency.",
 "질의 난이도를 먼저 재고, 하이브리드 검색과 재랭킹, HyDE를 필요할 때만 켜는 경량 컨트롤러를 붙였습니다.":
 "I added a lightweight controller that estimates query difficulty first, then switches on hybrid retrieval, reranking, and HyDE only when they are needed.",
-"基于MapReduce的电力行业数据挖掘并行化实现\n2020, 동북전력대학교 Northeast Electric Power University":
-"基于MapReduce的电力行业数据挖掘并行化实现\n2020, Northeast Electric Power University",
+"基于MapReduce的电力行业数据挖掘并行化实现<br>2020, 동북전력대학교 Northeast Electric Power University":
+"基于MapReduce的电力行业数据挖掘并行化实现<br>2020, Northeast Electric Power University",
 "스마트미터가 쏟아내는 사용량 데이터는 단일 장비로 감당이 안 됩니다.":
 "Smart meters produce more consumption data than a single machine can process.",
 "가상머신에 3노드 Hadoop 클러스터를 올리고 MapReduce K-means로 사용 패턴을 나눴습니다.":
@@ -95,13 +95,19 @@ T = {
 "프로그래밍기능사": "Craftsman Programming",
 "리눅스마스터 2급": "Linux Master Level 2",
 "네트워크관리사 2급": "Network Administrator Level 2",
+"컴퓨터활용능력 1급": "Computer Specialist in Spreadsheet and Database Level 1",
+"HSK 5급": "HSK Level 5",
 
 "<b>건국대학교 정보통신대학원</b> 융합정보기술학과 인공지능전공 석사":
 "<b>Konkuk University</b> Graduate School of Information and Telecommunications, MSc in Artificial Intelligence",
 "<b>이어드림스쿨 6기</b> 심화과정 (중소벤처기업부 AI 기술인력 양성)":
 "<b>Yeardream School 6th cohort</b>, advanced track (Ministry of SMEs and Startups AI talent programme)",
-"LLM Fine-tuning, RAG와 Vector DB, LangChain과 LangGraph, AI Agent와 MCP, 산업 연계 팀 프로젝트":
-"LLM fine-tuning, RAG and vector databases, LangChain and LangGraph, AI agents and MCP, industry-linked team project",
+"LLM Fine-tuning, RAG와 Vector DB":
+"LLM fine-tuning, RAG and vector databases",
+"LangChain과 LangGraph, AI Agent와 MCP":
+"LangChain and LangGraph, AI agents and MCP",
+"산업 연계 팀 프로젝트":
+"Industry-linked team project",
 "<b>AI Bootcamp 16기</b> 인공지능모델링 (6개월 학습 + 1개월 기업 협업)":
 "<b>AI Bootcamp 16th cohort</b>, AI modelling (6 months of study + 1 month industry collaboration)",
 "<b>동북전력대학교</b> (China) 소프트웨어공학과 학사 (4년 과정, 재학 중 군복무 2년)":
@@ -112,13 +118,13 @@ T = {
 },
 
 "zh": {
-"**AI와 풀스택 개발.** 기획부터 배포까지 한 사람이 이어서 합니다.":
-"**AI 与全栈开发。** 从策划到部署，由一个人一路负责到底。",
+"### AI와 풀스택 개발. 기획부터 배포까지 한 사람이 이어서 합니다.":
+"### AI 与全栈开发。从策划到部署，由一个人一路负责到底。",
 
 "건국대학교 정보통신대학원 인공지능전공 석사. 그 전에는 중국에서 4년간 소프트웨어공학을 공부했고 졸업논문을 중국어로 썼습니다.":
 "建国大学信息通信研究生院人工智能专业硕士。此前在中国攻读软件工程本科四年，毕业论文以中文撰写。",
-"석사 논문은 RAG의 비용 문제를, 학사 논문은 전력 데이터의 규모 문제를 다뤘습니다. 둘 다 구현까지 갔습니다.":
-"硕士论文处理 RAG 的成本问题，本科论文处理电力数据的规模问题。两篇都做到了可运行的实现。",
+"석사 논문은 RAG의 비용 문제를, 학사 논문은 전력 데이터의 규모 문제를 다뤘습니다.":
+"硕士论文处理 RAG 的成本问题，本科论文处理电力数据的规模问题。",
 "지금은 [fornaxworks](https://fornaxworks.com)라는 이름으로 웹, 모바일, AI 제품을 만듭니다.":
 "目前以 [fornaxworks](https://fornaxworks.com) 的名义承接 Web、移动端与 AI 产品开发。",
 "2023년부터 유학 컨설팅 사업체를 대표로 운영해와서 고객 응대와 계약, 행정은 이미 하던 일입니다.":
@@ -148,7 +154,7 @@ T = {
 "<b>TAG</b> 커머스": "<b>TAG</b> 电商",
 "취소, 반품, 정산을 상태로 설계": "把取消、退货、结算设计成状态流转",
 "<b>MAT</b> 모바일 앱": "<b>MAT</b> 移动应用",
-"iOS와 Android를 한 코드로, 스토어 심사까지": "一套代码覆盖 iOS 与 Android，含应用商店审核",
+"iOS와 Android를 한 코드로,<br>스토어 심사까지": "一套代码覆盖 iOS 与 Android，<br>含应用商店审核",
 "<b>INDEX</b> 문서 검색 어시스턴트": "<b>INDEX</b> 文档检索助手",
 "하이브리드 검색과 재순위, 근거 문단 표기": "混合检索与重排序，标注依据段落",
 "<b>CLERK</b> 반복 업무 에이전트": "<b>CLERK</b> 重复性业务智能体",
@@ -162,14 +168,14 @@ T = {
 "<b>BEACON</b> 브랜드와 랜딩 사이트": "<b>BEACON</b> 品牌与落地页",
 "성능과 검색, 직접 고칠 수 있는 상태로": "兼顾性能与检索，并交付为可自行修改的状态",
 
-"Query-Aware Cost-Efficient RAG via a Lightweight Pipeline Controller\n2026, 건국대학교 정보통신대학원":
-"Query-Aware Cost-Efficient RAG via a Lightweight Pipeline Controller\n2026，建国大学信息通信研究生院",
+"Query-Aware Cost-Efficient RAG via a Lightweight Pipeline Controller<br>2026, 건국대학교 정보통신대학원":
+"Query-Aware Cost-Efficient RAG via a Lightweight Pipeline Controller<br>2026，建国大学信息通信研究生院",
 "모든 질의에 같은 고비용 파이프라인을 물리면 쉬운 질문에도 비용과 지연이 그대로 붙습니다.":
 "如果所有查询都走同一条高成本流水线，简单问题也要付出同样的成本与延迟。",
 "질의 난이도를 먼저 재고, 하이브리드 검색과 재랭킹, HyDE를 필요할 때만 켜는 경량 컨트롤러를 붙였습니다.":
 "因此加入了一个轻量控制器：先估计查询难度，只在需要时才启用混合检索、重排序与 HyDE。",
-"基于MapReduce的电力行业数据挖掘并行化实现\n2020, 동북전력대학교 Northeast Electric Power University":
-"基于MapReduce的电力行业数据挖掘并行化实现\n2020，东北电力大学",
+"基于MapReduce的电力行业数据挖掘并行化实现<br>2020, 동북전력대학교 Northeast Electric Power University":
+"基于MapReduce的电力行业数据挖掘并行化实现<br>2020，东北电力大学",
 "스마트미터가 쏟아내는 사용량 데이터는 단일 장비로 감당이 안 됩니다.":
 "智能电表产生的用电数据量，单机已经无法处理。",
 "가상머신에 3노드 Hadoop 클러스터를 올리고 MapReduce K-means로 사용 패턴을 나눴습니다.":
@@ -184,13 +190,19 @@ T = {
 "프로그래밍기능사": "编程技能士",
 "리눅스마스터 2급": "Linux Master 二级",
 "네트워크관리사 2급": "网络管理师 二级",
+"컴퓨터활용능력 1급": "计算机应用能力 一级",
+"HSK 5급": "HSK 五级",
 
 "<b>건국대학교 정보통신대학원</b> 융합정보기술학과 인공지능전공 석사":
 "<b>建国大学信息通信研究生院</b> 融合信息技术学科 人工智能专业 硕士",
 "<b>이어드림스쿨 6기</b> 심화과정 (중소벤처기업부 AI 기술인력 양성)":
 "<b>Yeardream School 第6期</b> 进阶课程（韩国中小风险企业部 AI 技术人才培养）",
-"LLM Fine-tuning, RAG와 Vector DB, LangChain과 LangGraph, AI Agent와 MCP, 산업 연계 팀 프로젝트":
-"LLM 微调、RAG 与向量数据库、LangChain 与 LangGraph、AI Agent 与 MCP、产业联动团队项目",
+"LLM Fine-tuning, RAG와 Vector DB":
+"LLM 微调、RAG 与向量数据库",
+"LangChain과 LangGraph, AI Agent와 MCP":
+"LangChain 与 LangGraph、AI Agent 与 MCP",
+"산업 연계 팀 프로젝트":
+"产业联动团队项目",
 "<b>AI Bootcamp 16기</b> 인공지능모델링 (6개월 학습 + 1개월 기업 협업)":
 "<b>AI Bootcamp 第16期</b> 人工智能建模（6个月学习 + 1个月企业协作）",
 "<b>동북전력대학교</b> (China) 소프트웨어공학과 학사 (4년 과정, 재학 중 군복무 2년)":
@@ -201,13 +213,13 @@ T = {
 },
 
 "ja": {
-"**AI와 풀스택 개발.** 기획부터 배포까지 한 사람이 이어서 합니다.":
-"**AI とフルスタック開発。** 企画から本番リリースまで、一人が通しで担当します。",
+"### AI와 풀스택 개발. 기획부터 배포까지 한 사람이 이어서 합니다.":
+"### AI とフルスタック開発。企画から本番リリースまで、一人が通しで担当します。",
 
 "건국대학교 정보통신대학원 인공지능전공 석사. 그 전에는 중국에서 4년간 소프트웨어공학을 공부했고 졸업논문을 중국어로 썼습니다.":
 "建国大学 情報通信大学院 人工知能専攻 修士。その前は中国でソフトウェア工学を4年間学び、卒業論文を中国語で書きました。",
-"석사 논문은 RAG의 비용 문제를, 학사 논문은 전력 데이터의 규모 문제를 다뤘습니다. 둘 다 구현까지 갔습니다.":
-"修士論文では RAG のコスト問題を、学士論文では電力データの規模の問題を扱いました。どちらも動く実装まで作りました。",
+"석사 논문은 RAG의 비용 문제를, 학사 논문은 전력 데이터의 규모 문제를 다뤘습니다.":
+"修士論文では RAG のコスト問題を、学士論文では電力データの規模の問題を扱いました。",
 "지금은 [fornaxworks](https://fornaxworks.com)라는 이름으로 웹, 모바일, AI 제품을 만듭니다.":
 "現在は [fornaxworks](https://fornaxworks.com) という名前で Web・モバイル・AI プロダクトを作っています。",
 "2023년부터 유학 컨설팅 사업체를 대표로 운영해와서 고객 응대와 계약, 행정은 이미 하던 일입니다.":
@@ -237,7 +249,7 @@ T = {
 "<b>TAG</b> 커머스": "<b>TAG</b> EC",
 "취소, 반품, 정산을 상태로 설계": "キャンセル・返品・精算を状態として設計",
 "<b>MAT</b> 모바일 앱": "<b>MAT</b> モバイルアプリ",
-"iOS와 Android를 한 코드로, 스토어 심사까지": "iOS と Android を1つのコードで、ストア審査まで",
+"iOS와 Android를 한 코드로,<br>스토어 심사까지": "iOS と Android を1つのコードで、<br>ストア審査まで",
 "<b>INDEX</b> 문서 검색 어시스턴트": "<b>INDEX</b> ドキュメント検索アシスタント",
 "하이브리드 검색과 재순위, 근거 문단 표기": "ハイブリッド検索とリランキング、根拠段落の提示",
 "<b>CLERK</b> 반복 업무 에이전트": "<b>CLERK</b> 定型業務エージェント",
@@ -251,14 +263,14 @@ T = {
 "<b>BEACON</b> 브랜드와 랜딩 사이트": "<b>BEACON</b> ブランド・ランディングサイト",
 "성능과 검색, 직접 고칠 수 있는 상태로": "速度と検索性を保ち、自分で直せる状態で引き渡す",
 
-"Query-Aware Cost-Efficient RAG via a Lightweight Pipeline Controller\n2026, 건국대학교 정보통신대학원":
-"Query-Aware Cost-Efficient RAG via a Lightweight Pipeline Controller\n2026年、建国大学 情報通信大学院",
+"Query-Aware Cost-Efficient RAG via a Lightweight Pipeline Controller<br>2026, 건국대학교 정보통신대학원":
+"Query-Aware Cost-Efficient RAG via a Lightweight Pipeline Controller<br>2026年、建国大学 情報通信大学院",
 "모든 질의에 같은 고비용 파이프라인을 물리면 쉬운 질문에도 비용과 지연이 그대로 붙습니다.":
 "すべてのクエリを同じ高コストのパイプラインに通すと、簡単な質問にもコストとレイテンシがそのままかかります。",
 "질의 난이도를 먼저 재고, 하이브리드 검색과 재랭킹, HyDE를 필요할 때만 켜는 경량 컨트롤러를 붙였습니다.":
 "そこでクエリの難易度を先に見積もり、ハイブリッド検索・リランキング・HyDE を必要なときだけ有効にする軽量コントローラーを組み込みました。",
-"基于MapReduce的电力行业数据挖掘并行化实现\n2020, 동북전력대학교 Northeast Electric Power University":
-"基于MapReduce的电力行业数据挖掘并行化实现\n2020年、東北電力大学 Northeast Electric Power University",
+"基于MapReduce的电力行业数据挖掘并行化实现<br>2020, 동북전력대학교 Northeast Electric Power University":
+"基于MapReduce的电力行业数据挖掘并行化实现<br>2020年、東北電力大学 Northeast Electric Power University",
 "스마트미터가 쏟아내는 사용량 데이터는 단일 장비로 감당이 안 됩니다.":
 "スマートメーターが吐き出す使用量データは、単一のマシンでは処理しきれません。",
 "가상머신에 3노드 Hadoop 클러스터를 올리고 MapReduce K-means로 사용 패턴을 나눴습니다.":
@@ -273,13 +285,19 @@ T = {
 "프로그래밍기능사": "プログラミング技能士",
 "리눅스마스터 2급": "Linux Master 2級",
 "네트워크관리사 2급": "ネットワーク管理士 2級",
+"컴퓨터활용능력 1급": "コンピュータ活用能力 1級",
+"HSK 5급": "HSK 5級",
 
 "<b>건국대학교 정보통신대학원</b> 융합정보기술학과 인공지능전공 석사":
 "<b>建国大学 情報通信大学院</b> 融合情報技術学科 人工知能専攻 修士",
 "<b>이어드림스쿨 6기</b> 심화과정 (중소벤처기업부 AI 기술인력 양성)":
 "<b>Yeardream School 第6期</b> 応用コース（韓国中小ベンチャー企業部 AI 技術人材育成）",
-"LLM Fine-tuning, RAG와 Vector DB, LangChain과 LangGraph, AI Agent와 MCP, 산업 연계 팀 프로젝트":
-"LLM ファインチューニング、RAG とベクトル DB、LangChain と LangGraph、AI エージェントと MCP、産業連携チームプロジェクト",
+"LLM Fine-tuning, RAG와 Vector DB":
+"LLM ファインチューニング、RAG とベクトル DB",
+"LangChain과 LangGraph, AI Agent와 MCP":
+"LangChain と LangGraph、AI エージェントと MCP",
+"산업 연계 팀 프로젝트":
+"産業連携チームプロジェクト",
 "<b>AI Bootcamp 16기</b> 인공지능모델링 (6개월 학습 + 1개월 기업 협업)":
 "<b>AI Bootcamp 第16期</b> 人工知能モデリング（6か月の学習 + 1か月の企業協業）",
 "<b>동북전력대학교</b> (China) 소프트웨어공학과 학사 (4년 과정, 재학 중 군복무 2년)":

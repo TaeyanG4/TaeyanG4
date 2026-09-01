@@ -2,7 +2,9 @@
 
 <img src="assets/banner.gif" width="100%" alt="fornaxworks 아이디어를 출하 가능한 제품으로 벼립니다" />
 
-**AI와 풀스택 개발.** 기획부터 배포까지 한 사람이 이어서 합니다.
+### AI와 풀스택 개발. 기획부터 배포까지 한 사람이 이어서 합니다.
+
+**[https://fornaxworks.com](https://fornaxworks.com)**
 
 **한국어** | [English](README.en.md) | [中文](README.zh.md) | [日本語](README.ja.md)
 
@@ -17,7 +19,7 @@
 ## About
 
 건국대학교 정보통신대학원 인공지능전공 석사. 그 전에는 중국에서 4년간 소프트웨어공학을 공부했고 졸업논문을 중국어로 썼습니다.
-석사 논문은 RAG의 비용 문제를, 학사 논문은 전력 데이터의 규모 문제를 다뤘습니다. 둘 다 구현까지 갔습니다.
+석사 논문은 RAG의 비용 문제를, 학사 논문은 전력 데이터의 규모 문제를 다뤘습니다.
 
 지금은 [fornaxworks](https://fornaxworks.com)라는 이름으로 웹, 모바일, AI 제품을 만듭니다.
 2023년부터 유학 컨설팅 사업체를 대표로 운영해와서 고객 응대와 계약, 행정은 이미 하던 일입니다.
@@ -59,7 +61,7 @@ fornaxworks 견본실에 올려둔 데모입니다. 실제 납품물이 아니�
 <td width="33%" align="center">
 <a href="https://fornaxworks.com/mat.html"><img src="assets/gallery/mat.png" width="100%" alt="MAT" /></a><br>
 <b>MAT</b> 모바일 앱<br>
-iOS와 Android를 한 코드로, 스토어 심사까지<br>
+iOS와 Android를 한 코드로,<br>스토어 심사까지<br>
 <code>React Native</code> <code>Expo</code>
 </td>
 </tr>
@@ -111,23 +113,21 @@ iOS와 Android를 한 코드로, 스토어 심사까지<br>
 
 ### Master's Thesis
 
-**[경량 파이프라인 컨트롤러를 통한 질의 인식 기반 비용 효율적 RAG](https://www.riss.kr/link?id=T17380351)**
-
-Query-Aware Cost-Efficient RAG via a Lightweight Pipeline Controller
-2026, 건국대학교 정보통신대학원
-
-모든 질의에 같은 고비용 파이프라인을 물리면 쉬운 질문에도 비용과 지연이 그대로 붙습니다.
-질의 난이도를 먼저 재고, 하이브리드 검색과 재랭킹, HyDE를 필요할 때만 켜는 경량 컨트롤러를 붙였습니다.
+> **[경량 파이프라인 컨트롤러를 통한 질의 인식 기반 비용 효율적 RAG](https://www.riss.kr/link?id=T17380351)**
+>
+> Query-Aware Cost-Efficient RAG via a Lightweight Pipeline Controller<br>2026, 건국대학교 정보통신대학원
+>
+> 모든 질의에 같은 고비용 파이프라인을 물리면 쉬운 질문에도 비용과 지연이 그대로 붙습니다.
+> 질의 난이도를 먼저 재고, 하이브리드 검색과 재랭킹, HyDE를 필요할 때만 켜는 경량 컨트롤러를 붙였습니다.
 
 ### Bachelor's Thesis
 
-**Parallelization of Data Mining in Power Industry Based on MapReduce**
-
-基于MapReduce的电力行业数据挖掘并行化实现
-2020, 동북전력대학교 Northeast Electric Power University
-
-스마트미터가 쏟아내는 사용량 데이터는 단일 장비로 감당이 안 됩니다.
-가상머신에 3노드 Hadoop 클러스터를 올리고 MapReduce K-means로 사용 패턴을 나눴습니다.
+> **Parallelization of Data Mining in Power Industry Based on MapReduce**
+>
+> 基于MapReduce的电力行业数据挖掘并行化实现<br>2020, 동북전력대학교 Northeast Electric Power University
+>
+> 스마트미터가 쏟아내는 사용량 데이터는 단일 장비로 감당이 안 됩니다.
+> 가상머신에 3노드 Hadoop 클러스터를 올리고 MapReduce K-means로 사용 패턴을 나눴습니다.
 
 ---
 
@@ -197,54 +197,80 @@ Query-Aware Cost-Efficient RAG via a Lightweight Pipeline Controller
 
 ## Certifications & Education
 
-<table align="center">
+<table align="center" width="100%">
 <tr>
-<th width="50%">Data &amp; AI</th>
-<th width="50%">Dev &amp; Infra</th>
+<th width="38%">Data &amp; AI</th>
+<th width="34%">Dev &amp; Infra</th>
+<th width="28%">Language</th>
 </tr>
 <tr>
-<td valign="top" nowrap>
+<td valign="top">
 
-빅데이터분석기사<br>
-데이터아키텍처준전문가 (DAsP)<br>
-SQL 개발자 (SQLD)<br>
-데이터분석준전문가 (ADsP)<br>
-AICE Associate<br>
-AI-POT 1급
+- 빅데이터분석기사
+- 데이터아키텍처준전문가 (DAsP)
+- SQL 개발자 (SQLD)
+- 데이터분석준전문가 (ADsP)
+- AICE Associate
+- AI-POT 1급
 
 </td>
-<td valign="top" nowrap>
+<td valign="top">
 
-정보처리기사<br>
-프로그래밍기능사<br>
-리눅스마스터 2급<br>
-네트워크관리사 2급
+- 정보처리기사
+- 프로그래밍기능사
+- 리눅스마스터 2급
+- 네트워크관리사 2급
+- 컴퓨터활용능력 1급
+
+</td>
+<td valign="top">
+
+- HSK 5급
 
 </td>
 </tr>
 </table>
 
-<table align="center">
+<table align="center" width="100%">
 <tr>
-<th>Period</th>
+<th width="24%">Period</th>
 <th>Program</th>
 </tr>
 <tr>
-<td nowrap valign="top">~ 2026.02</td>
-<td><b>건국대학교 정보통신대학원</b> 융합정보기술학과 인공지능전공 석사</td>
+<td nowrap valign="top">2026.05 ~ 2026.08</td>
+<td>
+
+<b>이어드림스쿨 6기</b> 심화과정 (중소벤처기업부 AI 기술인력 양성)
+
+- LLM Fine-tuning, RAG와 Vector DB
+- LangChain과 LangGraph, AI Agent와 MCP
+- 산업 연계 팀 프로젝트
+
+</td>
 </tr>
 <tr>
-<td nowrap valign="top">2026</td>
-<td><b>이어드림스쿨 6기</b> 심화과정 (중소벤처기업부 AI 기술인력 양성)<br>
-LLM Fine-tuning, RAG와 Vector DB, LangChain과 LangGraph, AI Agent와 MCP, 산업 연계 팀 프로젝트</td>
+<td nowrap valign="top">2023.09 ~ 2026.02</td>
+<td>
+
+<b>건국대학교 정보통신대학원</b> 융합정보기술학과 인공지능전공 석사
+
+</td>
 </tr>
 <tr>
 <td nowrap valign="top">2022.10 ~ 2023.04</td>
-<td><b>AI Bootcamp 16기</b> 인공지능모델링 (6개월 학습 + 1개월 기업 협업)</td>
+<td>
+
+<b>AI Bootcamp 16기</b> 인공지능모델링 (6개월 학습 + 1개월 기업 협업)
+
+</td>
 </tr>
 <tr>
 <td nowrap valign="top">2014.09 ~ 2020.06</td>
-<td><b>동북전력대학교</b> (China) 소프트웨어공학과 학사 (4년 과정, 재학 중 군복무 2년)</td>
+<td>
+
+<b>동북전력대학교</b> (China) 소프트웨어공학과 학사 (4년 과정, 재학 중 군복무 2년)
+
+</td>
 </tr>
 </table>
 

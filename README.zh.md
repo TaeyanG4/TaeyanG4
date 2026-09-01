@@ -2,7 +2,9 @@
 
 <img src="assets/banner.gif" width="100%" alt="fornaxworks 把想法锻造成可交付的产品" />
 
-**AI 与全栈开发。** 从策划到部署，由一个人一路负责到底。
+### AI 与全栈开发。从策划到部署，由一个人一路负责到底。
+
+**[https://fornaxworks.com](https://fornaxworks.com)**
 
 [한국어](README.md) | [English](README.en.md) | **中文** | [日本語](README.ja.md)
 
@@ -17,7 +19,7 @@
 ## About
 
 建国大学信息通信研究生院人工智能专业硕士。此前在中国攻读软件工程本科四年，毕业论文以中文撰写。
-硕士论文处理 RAG 的成本问题，本科论文处理电力数据的规模问题。两篇都做到了可运行的实现。
+硕士论文处理 RAG 的成本问题，本科论文处理电力数据的规模问题。
 
 目前以 [fornaxworks](https://fornaxworks.com) 的名义承接 Web、移动端与 AI 产品开发。
 自 2023 年起以负责人身份经营留学咨询公司，客户沟通、合同与行政事务是本来就在做的工作。
@@ -59,7 +61,7 @@
 <td width="33%" align="center">
 <a href="https://fornaxworks.com/mat.html"><img src="assets/gallery/mat.png" width="100%" alt="MAT" /></a><br>
 <b>MAT</b> 移动应用<br>
-一套代码覆盖 iOS 与 Android，含应用商店审核<br>
+一套代码覆盖 iOS 与 Android，<br>含应用商店审核<br>
 <code>React Native</code> <code>Expo</code>
 </td>
 </tr>
@@ -111,23 +113,21 @@
 
 ### Master's Thesis
 
-**[경량 파이프라인 컨트롤러를 통한 질의 인식 기반 비용 효율적 RAG](https://www.riss.kr/link?id=T17380351)**
-
-Query-Aware Cost-Efficient RAG via a Lightweight Pipeline Controller
-2026，建国大学信息通信研究生院
-
-如果所有查询都走同一条高成本流水线，简单问题也要付出同样的成本与延迟。
-因此加入了一个轻量控制器：先估计查询难度，只在需要时才启用混合检索、重排序与 HyDE。
+> **[경량 파이프라인 컨트롤러를 통한 질의 인식 기반 비용 효율적 RAG](https://www.riss.kr/link?id=T17380351)**
+>
+> Query-Aware Cost-Efficient RAG via a Lightweight Pipeline Controller<br>2026，建国大学信息通信研究生院
+>
+> 如果所有查询都走同一条高成本流水线，简单问题也要付出同样的成本与延迟。
+> 因此加入了一个轻量控制器：先估计查询难度，只在需要时才启用混合检索、重排序与 HyDE。
 
 ### Bachelor's Thesis
 
-**Parallelization of Data Mining in Power Industry Based on MapReduce**
-
-基于MapReduce的电力行业数据挖掘并行化实现
-2020，东北电力大学
-
-智能电表产生的用电数据量，单机已经无法处理。
-在虚拟机上搭建三节点 Hadoop 集群，用 MapReduce K-means 对用电模式进行了聚类划分。
+> **Parallelization of Data Mining in Power Industry Based on MapReduce**
+>
+> 基于MapReduce的电力行业数据挖掘并行化实现<br>2020，东北电力大学
+>
+> 智能电表产生的用电数据量，单机已经无法处理。
+> 在虚拟机上搭建三节点 Hadoop 集群，用 MapReduce K-means 对用电模式进行了聚类划分。
 
 ---
 
@@ -197,54 +197,80 @@ Query-Aware Cost-Efficient RAG via a Lightweight Pipeline Controller
 
 ## Certifications & Education
 
-<table align="center">
+<table align="center" width="100%">
 <tr>
-<th width="50%">Data &amp; AI</th>
-<th width="50%">Dev &amp; Infra</th>
+<th width="38%">Data &amp; AI</th>
+<th width="34%">Dev &amp; Infra</th>
+<th width="28%">Language</th>
 </tr>
 <tr>
-<td valign="top" nowrap>
+<td valign="top">
 
-大数据分析工程师<br>
-数据架构准专家 (DAsP)<br>
-SQL 开发者 (SQLD)<br>
-数据分析准专家 (ADsP)<br>
-AICE Associate<br>
-AI-POT 一级
+- 大数据分析工程师
+- 数据架构准专家 (DAsP)
+- SQL 开发者 (SQLD)
+- 数据分析准专家 (ADsP)
+- AICE Associate
+- AI-POT 一级
 
 </td>
-<td valign="top" nowrap>
+<td valign="top">
 
-信息处理工程师<br>
-编程技能士<br>
-Linux Master 二级<br>
-网络管理师 二级
+- 信息处理工程师
+- 编程技能士
+- Linux Master 二级
+- 网络管理师 二级
+- 计算机应用能力 一级
+
+</td>
+<td valign="top">
+
+- HSK 五级
 
 </td>
 </tr>
 </table>
 
-<table align="center">
+<table align="center" width="100%">
 <tr>
-<th>Period</th>
+<th width="24%">Period</th>
 <th>Program</th>
 </tr>
 <tr>
-<td nowrap valign="top">~ 2026.02</td>
-<td><b>建国大学信息通信研究生院</b> 融合信息技术学科 人工智能专业 硕士</td>
+<td nowrap valign="top">2026.05 ~ 2026.08</td>
+<td>
+
+<b>Yeardream School 第6期</b> 进阶课程（韩国中小风险企业部 AI 技术人才培养）
+
+- LLM 微调、RAG 与向量数据库
+- LangChain 与 LangGraph、AI Agent 与 MCP
+- 产业联动团队项目
+
+</td>
 </tr>
 <tr>
-<td nowrap valign="top">2026</td>
-<td><b>Yeardream School 第6期</b> 进阶课程（韩国中小风险企业部 AI 技术人才培养）<br>
-LLM 微调、RAG 与向量数据库、LangChain 与 LangGraph、AI Agent 与 MCP、产业联动团队项目</td>
+<td nowrap valign="top">2023.09 ~ 2026.02</td>
+<td>
+
+<b>建国大学信息通信研究生院</b> 融合信息技术学科 人工智能专业 硕士
+
+</td>
 </tr>
 <tr>
 <td nowrap valign="top">2022.10 ~ 2023.04</td>
-<td><b>AI Bootcamp 第16期</b> 人工智能建模（6个月学习 + 1个月企业协作）</td>
+<td>
+
+<b>AI Bootcamp 第16期</b> 人工智能建模（6个月学习 + 1个月企业协作）
+
+</td>
 </tr>
 <tr>
 <td nowrap valign="top">2014.09 ~ 2020.06</td>
-<td><b>东北电力大学</b>（中国）软件工程 本科（四年制，在学期间服兵役两年）</td>
+<td>
+
+<b>东北电力大学</b>（中国）软件工程 本科（四年制，在学期间服兵役两年）
+
+</td>
 </tr>
 </table>
 

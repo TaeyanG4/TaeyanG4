@@ -2,7 +2,9 @@
 
 <img src="assets/banner.gif" width="100%" alt="fornaxworks forging ideas into shippable products" />
 
-**AI and full-stack development.** One person carrying a product from spec to deployment.
+### AI and full-stack development. One person carrying a product from spec to deployment.
+
+**[https://fornaxworks.com](https://fornaxworks.com)**
 
 [한국어](README.md) | **English** | [中文](README.zh.md) | [日本語](README.ja.md)
 
@@ -17,7 +19,7 @@
 ## About
 
 MSc in Artificial Intelligence, Konkuk University Graduate School of Information and Telecommunications. Before that, four years of Software Engineering in China, where I wrote my undergraduate thesis in Chinese.
-My master's thesis took on the cost problem in RAG pipelines, my bachelor's the scale problem in power grid data. Both went all the way to a working implementation.
+My master's thesis took on the cost problem in RAG pipelines, my bachelor's the scale problem in power grid data.
 
 I now build web, mobile, and AI products under the name [fornaxworks](https://fornaxworks.com).
 Running a study abroad consulting agency as its owner since 2023 means client work, contracts, and administration are already familiar ground.
@@ -59,7 +61,7 @@ Cancellation, returns, and settlement modelled as state<br>
 <td width="33%" align="center">
 <a href="https://fornaxworks.com/mat.html"><img src="assets/gallery/mat.png" width="100%" alt="MAT" /></a><br>
 <b>MAT</b> Mobile app<br>
-iOS and Android from one codebase, store review included<br>
+iOS and Android from one codebase,<br>store review included<br>
 <code>React Native</code> <code>Expo</code>
 </td>
 </tr>
@@ -111,23 +113,21 @@ Fast, findable, and editable by the people who own it<br>
 
 ### Master's Thesis
 
-**[Query-Aware Cost-Efficient RAG via a Lightweight Pipeline Controller](https://www.riss.kr/link?id=T17380351)**
-
-경량 파이프라인 컨트롤러를 통한 질의 인식 기반 비용 효율적 RAG
-2026, Konkuk University Graduate School of Information and Telecommunications
-
-Running every query through the same expensive pipeline makes easy questions pay full price in cost and latency.
-I added a lightweight controller that estimates query difficulty first, then switches on hybrid retrieval, reranking, and HyDE only when they are needed.
+> **[Query-Aware Cost-Efficient RAG via a Lightweight Pipeline Controller](https://www.riss.kr/link?id=T17380351)**
+>
+> 경량 파이프라인 컨트롤러를 통한 질의 인식 기반 비용 효율적 RAG<br>2026, Konkuk University Graduate School of Information and Telecommunications
+>
+> Running every query through the same expensive pipeline makes easy questions pay full price in cost and latency.
+> I added a lightweight controller that estimates query difficulty first, then switches on hybrid retrieval, reranking, and HyDE only when they are needed.
 
 ### Bachelor's Thesis
 
-**Parallelization of Data Mining in Power Industry Based on MapReduce**
-
-基于MapReduce的电力行业数据挖掘并行化实现
-2020, Northeast Electric Power University
-
-Smart meters produce more consumption data than a single machine can process.
-I stood up a three-node Hadoop cluster on virtual machines and partitioned usage patterns with MapReduce K-means.
+> **Parallelization of Data Mining in Power Industry Based on MapReduce**
+>
+> 基于MapReduce的电力行业数据挖掘并行化实现<br>2020, Northeast Electric Power University
+>
+> Smart meters produce more consumption data than a single machine can process.
+> I stood up a three-node Hadoop cluster on virtual machines and partitioned usage patterns with MapReduce K-means.
 
 ---
 
@@ -197,54 +197,80 @@ I stood up a three-node Hadoop cluster on virtual machines and partitioned usage
 
 ## Certifications & Education
 
-<table align="center">
+<table align="center" width="100%">
 <tr>
-<th width="50%">Data &amp; AI</th>
-<th width="50%">Dev &amp; Infra</th>
+<th width="38%">Data &amp; AI</th>
+<th width="34%">Dev &amp; Infra</th>
+<th width="28%">Language</th>
 </tr>
 <tr>
-<td valign="top" nowrap>
+<td valign="top">
 
-Engineer Big Data Analysis<br>
-Data Architecture Semi-Professional (DAsP)<br>
-SQL Developer (SQLD)<br>
-Advanced Data Analytics Semi-Professional (ADsP)<br>
-AICE Associate<br>
-AI-POT Level 1
+- Engineer Big Data Analysis
+- Data Architecture Semi-Professional (DAsP)
+- SQL Developer (SQLD)
+- Advanced Data Analytics Semi-Professional (ADsP)
+- AICE Associate
+- AI-POT Level 1
 
 </td>
-<td valign="top" nowrap>
+<td valign="top">
 
-Engineer Information Processing<br>
-Craftsman Programming<br>
-Linux Master Level 2<br>
-Network Administrator Level 2
+- Engineer Information Processing
+- Craftsman Programming
+- Linux Master Level 2
+- Network Administrator Level 2
+- Computer Specialist in Spreadsheet and Database Level 1
+
+</td>
+<td valign="top">
+
+- HSK Level 5
 
 </td>
 </tr>
 </table>
 
-<table align="center">
+<table align="center" width="100%">
 <tr>
-<th>Period</th>
+<th width="24%">Period</th>
 <th>Program</th>
 </tr>
 <tr>
-<td nowrap valign="top">~ 2026.02</td>
-<td><b>Konkuk University</b> Graduate School of Information and Telecommunications, MSc in Artificial Intelligence</td>
+<td nowrap valign="top">2026.05 ~ 2026.08</td>
+<td>
+
+<b>Yeardream School 6th cohort</b>, advanced track (Ministry of SMEs and Startups AI talent programme)
+
+- LLM fine-tuning, RAG and vector databases
+- LangChain and LangGraph, AI agents and MCP
+- Industry-linked team project
+
+</td>
 </tr>
 <tr>
-<td nowrap valign="top">2026</td>
-<td><b>Yeardream School 6th cohort</b>, advanced track (Ministry of SMEs and Startups AI talent programme)<br>
-LLM fine-tuning, RAG and vector databases, LangChain and LangGraph, AI agents and MCP, industry-linked team project</td>
+<td nowrap valign="top">2023.09 ~ 2026.02</td>
+<td>
+
+<b>Konkuk University</b> Graduate School of Information and Telecommunications, MSc in Artificial Intelligence
+
+</td>
 </tr>
 <tr>
 <td nowrap valign="top">2022.10 ~ 2023.04</td>
-<td><b>AI Bootcamp 16th cohort</b>, AI modelling (6 months of study + 1 month industry collaboration)</td>
+<td>
+
+<b>AI Bootcamp 16th cohort</b>, AI modelling (6 months of study + 1 month industry collaboration)
+
+</td>
 </tr>
 <tr>
 <td nowrap valign="top">2014.09 ~ 2020.06</td>
-<td><b>Northeast Electric Power University</b> (China), BSc in Software Engineering (4-year programme, with 2 years of military service during enrolment)</td>
+<td>
+
+<b>Northeast Electric Power University</b> (China), BSc in Software Engineering (4-year programme, with 2 years of military service during enrolment)
+
+</td>
 </tr>
 </table>
 
