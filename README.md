@@ -21,10 +21,10 @@
 ## About
 
 <br>
-건국대학교 정보통신대학원에서 인공지능을 전공해 석사학위를 받았습니다. 그 전에는 중국에서 4년간 소프트웨어공학을 공부했으며, 학사 졸업논문 역시 중국어로 작성했습니다.
-석사 논문에서는 RAG(Retrieval-Augmented Generation)의 비용 문제를 다뤘고, 학사 논문에서는 Hadoop을 활용해 전력 데이터의 사용 패턴을 분석하는 연구를 진행했습니다.
-현재는 Fornaxworks라는 이름으로 웹, 모바일, AI 제품을 만들고 있습니다. 또한 2023년부터 유학 컨설팅 사업체를 운영하며 고객 상담부터 계약까지 직접 담당해왔기 때문에, 고객과의 커뮤니케이션과 비즈니스 실무에도 익숙합니다.
-한국어를 비롯해 영어, 중국어, 일본어로 소통할 수 있습니다.
+건국대학교 정보통신대학원에서 인공지능을 전공해 석사학위를 받았습니다. 그 전에는 중국에서 4년간 소프트웨어공학을 공부했으며, 학사 졸업논문 역시 중국어로 작성했습니다.<br>
+석사 논문에서는 RAG(Retrieval-Augmented Generation)의 비용 문제를 다뤘고, 학사 논문에서는 Hadoop을 활용해 전력 데이터의 사용 패턴을 분석하는 연구를 진행했습니다.<br>
+현재는 Fornaxworks라는 이름으로 웹, 모바일, AI 제품을 만들고 있습니다. 또한 2023년부터 유학 컨설팅 사업체를 운영하며 고객 상담부터 계약까지 직접 담당해왔기 때문에, 고객과의 커뮤니케이션과 비즈니스 실무에도 익숙합니다.<br>
+한국어를 비롯해 영어, 중국어, 일본어로 소통할 수 있습니다.<br>
 <br>
 
 ---
@@ -49,7 +49,7 @@
 
 <br>
 
-fornaxworks 견본실에 올려둔 데모입니다. 실제 납품물이 아니라 어디까지 만드는지 보여주려고 직접 만든 견본입니다.
+fornaxworks 견본실에 올려둔 데모입니다. 실제 납품물이 아니라 어디까지 만드는지 보여주기위한 직접 만든 견본입니다.
 이미지를 누르면 브라우저에서 바로 열립니다.
 
 <table align="center">
@@ -134,9 +134,9 @@ iOS와 Android를 한 코드로,<br>스토어 심사까지<br>
 
 ### Bachelor's Thesis
 
-> **Parallelization of Data Mining in Power Industry Based on MapReduce**
+> **基于MapReduce的电力行业数据挖掘并行化实现**
 >
-> 基于MapReduce的电力行业数据挖掘并行化实现<br>2020, 동북전력대학교 Northeast Electric Power University
+> Parallelization of Data Mining in Power Industry Based on MapReduce<br>2020, 동북전력대학교 Northeast Electric Power University
 >
 > 스마트미터가 쏟아내는 사용량 데이터는 단일 장비로 감당이 안 됩니다.
 > 가상머신에 3노드 Hadoop 클러스터를 올리고 MapReduce K-means로 사용 패턴을 나눴습니다.
