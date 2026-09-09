@@ -10,6 +10,7 @@
 
 <a href="https://fornaxworks.com"><img src="https://img.shields.io/badge/fornaxworks.com-FF6B35?style=for-the-badge&logo=googlechrome&logoColor=white" alt="fornaxworks" /></a>
 <a href="https://owogg.com"><img src="https://img.shields.io/badge/owogg.com-A855F7?style=for-the-badge&logo=gamejolt&logoColor=white" alt="owogg" /></a>
+<a href="https://afterformat.com"><img src="https://img.shields.io/badge/afterformat.com-1B4D8F?style=for-the-badge&logo=windows&logoColor=white" alt="afterformat" /></a>
 <a href="https://blog.naver.com/taeyang95"><img src="https://img.shields.io/badge/Blog-03C75A?style=for-the-badge&logo=naver&logoColor=white" alt="Blog" /></a>
 
 </div>
@@ -39,6 +40,7 @@ I work in Korean, English, Chinese, and Japanese.
 
 | Project | Description | Stack |
 |---|---|---|
+| **afterformat**<br>[afterformat.com](https://afterformat.com) | Pick the programs you use and get them all back in one go after reformatting. 110 programs in Korean, English and Japanese, each marked with whether it is licensed for business use — with the evidence and the date it was checked. winget manifests are scanned daily and land as pull requests a person has to review. | `Astro` `React` `Tailwind` `Cloudflare Workers` `D1` |
 | **[project-owogg](https://github.com/TaeyanG4/project-owogg)**<br>[owogg.com](https://owogg.com) | Browser mini-game platform. First-party and user-uploaded games run on a single runtime. Domain logic sits behind ports and adapters, with e2e tests and a staging environment in operation. | `React 19` `Hono` `Cloudflare Workers` `D1` `B2` |
 | **[dexon-smart-ops-chatbot](https://github.com/TaeyanG4/dexon-smart-ops-chatbot)** | Predicts which HDDs will fail within seven days from SMART data, and returns an inspection order, supporting evidence, and an operations runbook. All 252 tracked files were audited and scrubbed of personal data before release. | `FastAPI` `LlamaIndex` `LiteLLM` `Langfuse` `Docker` |
 | **[story_maker_with_photos](https://github.com/TaeyanG4/story_maker_with_photos)** | Turns a single photo into an interactive illustrated story. Documented as graduate coursework across 32 pages covering system design, UX, and business strategy. | `GPT-4o` `DALL·E 3` `Gradio` |

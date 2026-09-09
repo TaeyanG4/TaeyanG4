@@ -10,6 +10,7 @@
 
 <a href="https://fornaxworks.com"><img src="https://img.shields.io/badge/fornaxworks.com-FF6B35?style=for-the-badge&logo=googlechrome&logoColor=white" alt="fornaxworks" /></a>
 <a href="https://owogg.com"><img src="https://img.shields.io/badge/owogg.com-A855F7?style=for-the-badge&logo=gamejolt&logoColor=white" alt="owogg" /></a>
+<a href="https://afterformat.com"><img src="https://img.shields.io/badge/afterformat.com-1B4D8F?style=for-the-badge&logo=windows&logoColor=white" alt="afterformat" /></a>
 <a href="https://blog.naver.com/taeyang95"><img src="https://img.shields.io/badge/Blog-03C75A?style=for-the-badge&logo=naver&logoColor=white" alt="Blog" /></a>
 
 </div>
@@ -39,6 +40,7 @@
 
 | Project | Description | Stack |
 |---|---|---|
+| **afterformat**<br>[afterformat.com](https://afterformat.com) | 重装系统后一次性取回常用软件的站点。以韩语、英语、日语收录 110 款软件，并标注个人免费但企业需付费的软件，附上依据与核对日期。每日扫描 winget 清单，新版本以 Pull Request 形式提交，需人工确认后才会发布。 | `Astro` `React` `Tailwind` `Cloudflare Workers` `D1` |
 | **[project-owogg](https://github.com/TaeyanG4/project-owogg)**<br>[owogg.com](https://owogg.com) | 浏览器小游戏平台。自研游戏与用户上传游戏运行在同一套运行时上。以 Ports/Adapters 分离领域逻辑，并运行 e2e 测试与 staging 环境。 | `React 19` `Hono` `Cloudflare Workers` `D1` `B2` |
 | **[dexon-smart-ops-chatbot](https://github.com/TaeyanG4/dexon-smart-ops-chatbot)** | 基于 HDD SMART 数据预测七天内可能故障的磁盘，并给出巡检顺序、依据文档与运维 Runbook。公开前对 252 个被跟踪文件做了全量审查，清除了个人信息。 | `FastAPI` `LlamaIndex` `LiteLLM` `Langfuse` `Docker` |
 | **[story_maker_with_photos](https://github.com/TaeyanG4/story_maker_with_photos)** | 把一张照片变成童话的互动故事平台。作为研究生课程作业，用 32 页文档整理了系统设计、UX 与商业策略。 | `GPT-4o` `DALL·E 3` `Gradio` |
