@@ -37,11 +37,11 @@
 | Project | Description | Stack |
 |---|---|---|
 | **afterformat**<br>[afterformat.com](https://afterformat.com) | 포맷 직후 다시 깔 프로그램을 골라 한 번에 받는 곳. 프로그램 110개를 한국어·영어·일본어로 다루고, 개인은 무료지만 기업은 유료인 프로그램을 근거와 확인 날짜까지 적어 구분합니다. winget 매니페스트를 매일 훑어 새 버전을 PR 로 올리고, 사람이 확인해야 반영됩니다. | `Astro` `React` `Tailwind` `Cloudflare Workers` `D1` |
-| **[project-owogg](https://github.com/TaeyanG4/project-owogg)**<br>[owogg.com](https://owogg.com) | 브라우저 미니게임 플랫폼. 자체 게임과 사용자 업로드 게임을 하나의 런타임에서 돌립니다. Ports/Adapters로 도메인을 분리했고 e2e 테스트와 staging 환경을 운영합니다. | `React 19` `Hono` `Cloudflare Workers` `D1` `B2` |
+| **project-owogg**<br>[owogg.com](https://owogg.com) | 브라우저 미니게임 플랫폼. 자체 게임과 사용자 업로드 게임을 하나의 런타임에서 돌립니다. Ports/Adapters로 도메인을 분리했고 e2e 테스트와 staging 환경을 운영합니다. | `React 19` `Hono` `Cloudflare Workers` `D1` `B2` |
 | **[dexon-smart-ops-chatbot](https://github.com/TaeyanG4/dexon-smart-ops-chatbot)** | HDD SMART 데이터로 7일 안에 고장날 디스크를 예측하고, 점검 순서와 근거 문서, 운영 Runbook을 같이 냅니다. 공개 전 추적 파일 252개를 전수 검사해 개인정보를 걷어냈습니다. | `FastAPI` `LlamaIndex` `LiteLLM` `Langfuse` `Docker` |
-| **[story_maker_with_photos](https://github.com/TaeyanG4/story_maker_with_photos)** | 사진 한 장을 동화로 바꾸는 인터랙티브 스토리 플랫폼. 대학원 과제로 시스템 설계와 UX, 비즈니스 전략까지 32p 문서로 정리했습니다. | `GPT-4o` `DALL·E 3` `Gradio` |
-| **[project-forge](https://github.com/TaeyanG4/project-forge)**<br>[fornaxworks.com](https://fornaxworks.com) | 스튜디오 사이트. 프레임워크 없이 Python 스크립트로 HTML을 굽고 Cloudflare Worker에 올립니다. 로고와 OG 이미지도 코드로 그립니다. | `Python` `Cloudflare Workers` |
-| **[kapt_predict](https://github.com/TaeyanG4/kapt_predict)** (공개 예정) | 공동주택 공사비 예측 모델. 직접 만든 크롤러 [kapt_crawler](https://github.com/TaeyanG4/kapt_crawler)로 모은 K-APT 공개 데이터를 씁니다. | `CatBoost` `pandas` |
+| **story_maker_with_photos** | 사진 한 장을 동화로 바꾸는 인터랙티브 스토리 플랫폼. 대학원 과제로 시스템 설계와 UX, 비즈니스 전략까지 32p 문서로 정리했습니다. | `GPT-4o` `DALL·E 3` `Gradio` |
+| **project-forge**<br>[fornaxworks.com](https://fornaxworks.com) | 스튜디오 사이트. 프레임워크 없이 Python 스크립트로 HTML을 굽고 Cloudflare Worker에 올립니다. 로고와 OG 이미지도 코드로 그립니다. | `Python` `Cloudflare Workers` |
+| **kapt_predict** (공개 예정) | 공동주택 공사비 예측 모델. 직접 만든 크롤러 [kapt_crawler](https://github.com/TaeyanG4/kapt_crawler)로 모은 K-APT 공개 데이터를 씁니다. | `CatBoost` `pandas` |
 
 <br>
 
