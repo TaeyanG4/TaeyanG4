@@ -10,7 +10,7 @@
 
 <a href="https://fornaxworks.com"><img src="https://img.shields.io/badge/fornaxworks.com-FF6B35?style=for-the-badge&logo=googlechrome&logoColor=white" alt="fornaxworks" /></a>
 <a href="https://owogg.com"><img src="https://img.shields.io/badge/owogg.com-A855F7?style=for-the-badge&logo=gamejolt&logoColor=white" alt="owogg" /></a>
-<a href="https://afterformat.com"><img src="https://img.shields.io/badge/afterformat.com-1B4D8F?style=for-the-badge&logo=windows&logoColor=white" alt="afterformat" /></a>
+<a href="https://afterformat.com"><img src="https://img.shields.io/badge/afterformat.com-1B4D8F?style=for-the-badge&logo=data:image/svg%2Bxml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0ibm9uZSIgc3Ryb2tlLXdpZHRoPSIyLjgiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIgc3Ryb2tlLWxpbmVqb2luPSJyb3VuZCI+PHBhdGggZD0iTTUgNi41IDEwIDEybC01IDUuNSIgc3Ryb2tlPSIjMDBkOWEzIi8+PHBhdGggZD0iTTEzLjUgMTcuNUgxOS41IiBzdHJva2U9IiNmZmZmZmYiLz48L3N2Zz4K" alt="afterformat" /></a>
 <a href="https://blog.naver.com/taeyang95"><img src="https://img.shields.io/badge/Blog-03C75A?style=for-the-badge&logo=naver&logoColor=white" alt="Blog" /></a>
 
 </div>
