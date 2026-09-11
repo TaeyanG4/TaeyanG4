@@ -41,7 +41,7 @@
 | **[dexon-smart-ops-chatbot](https://github.com/TaeyanG4/dexon-smart-ops-chatbot)** | HDD SMART 데이터로 7일 안에 고장날 디스크를 예측하고, 점검 순서와 근거 문서, 운영 Runbook을 같이 냅니다. 공개 전 추적 파일 252개를 전수 검사해 개인정보를 걷어냈습니다. | `FastAPI` `LlamaIndex` `LiteLLM` `Langfuse` `Docker` |
 | **story_maker_with_photos** | 사진 한 장을 동화로 바꾸는 인터랙티브 스토리 플랫폼. 대학원 과제로 시스템 설계와 UX, 비즈니스 전략까지 32p 문서로 정리했습니다. | `GPT-4o` `DALL·E 3` `Gradio` |
 | **project-forge**<br>[fornaxworks.com](https://fornaxworks.com) | 스튜디오 사이트. 프레임워크 없이 Python 스크립트로 HTML을 굽고 Cloudflare Worker에 올립니다. 로고와 OG 이미지도 코드로 그립니다. | `Python` `Cloudflare Workers` |
-| **kapt_predict** (공개 예정) | 공동주택 공사비 예측 모델. 직접 만든 크롤러 [kapt_crawler](https://github.com/TaeyanG4/kapt_crawler)로 모은 K-APT 공개 데이터를 씁니다. | `CatBoost` `pandas` |
+| **kapt_predict** | 공동주택 공사비 예측 모델. 직접 만든 크롤러 [kapt_crawler](https://github.com/TaeyanG4/kapt_crawler)로 모은 K-APT 공개 데이터를 씁니다. | `CatBoost` `pandas` |
 
 <br>
 
