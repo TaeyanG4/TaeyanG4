@@ -1,17 +1,21 @@
 # -*- coding: utf-8 -*-
-"""견본실 데모 9개를 썸네일로 굽는다 (assets/gallery/*.png).
+"""견본실 데모 12개를 썸네일로 굽는다 (assets/gallery/*.png).
 
 fornaxworks.com/gallery.html 에 걸린 데모를 그대로 찍는다.
-데모가 바뀌면 다시 돌리면 된다.
+데모가 바뀌면 다시 돌리면 된다. 이름을 주면 그것만 다시 찍고,
+배포 전 데모는 GALLERY_BASE 로 로컬 미리보기 주소를 가리키면 된다.
 
     python assets/make_gallery.py
+    python assets/make_gallery.py vital sift
+    GALLERY_BASE=http://localhost:8791/ python assets/make_gallery.py solarops
 """
 import os
+import sys
 
 from PIL import Image
 from playwright.sync_api import sync_playwright
 
-BASE = "https://fornaxworks.com/"
+BASE = os.environ.get("GALLERY_BASE", "https://fornaxworks.com/")
 OUT = os.path.join(os.path.dirname(os.path.abspath(__file__)), "gallery")
 
 SHOTS = [
@@ -25,6 +29,9 @@ SHOTS = [
     ("bridge", "bridge.html",  (1440, 900)),
     ("index",  "guide.html",   (1440, 900)),
     ("clerk",  "clerk.html",   (1440, 900)),
+    ("vital",  "drive.html",   (1440, 900)),
+    ("sift",   "crawl.html",   (1440, 900)),
+    ("solarops", "solar.html", (1440, 900)),
 ]
 
 THUMB = (720, 450)      # 2x 로 두고 README 에서 절반으로 줄여 쓴다
@@ -34,7 +41,10 @@ def main():
     os.makedirs(OUT, exist_ok=True)
     with sync_playwright() as p:
         b = p.chromium.launch()
+        only = set(sys.argv[1:])
         for name, path, (w, h) in SHOTS:
+            if only and name not in only:
+                continue
             pg = b.new_page(viewport={"width": w, "height": h}, device_scale_factor=1)
             pg.goto(BASE + path, wait_until="networkidle", timeout=60000)
             pg.wait_for_timeout(1200)            # 진입 애니메이션이 끝나기를 기다린다

@@ -70,6 +70,13 @@ T = {
 "무중단 단계 이관, 되돌릴 수 있는 배포": "Phased cutover with no downtime and a reversible deploy",
 "<b>BEACON</b> 브랜드와 랜딩 사이트": "<b>BEACON</b> Brand and landing site",
 "성능과 검색, 직접 고칠 수 있는 상태로": "Fast, findable, and editable by the people who own it",
+"운영 데이터 품질 감사 파이프라인. 공개 태양광 발전 자료 1,440만 행을 검증한 결과만 게시하고, 실패하면 이전 결과를 지키며, 월간 보고서의 숫자를 원본까지 추적합니다. 빈 머신에서 Compose·Airflow·쿠버네티스까지 그대로 재현되는 것을 자동으로 확인합니다.": "Operational data quality audit pipeline. Validates 14.4 million rows of public solar generation data, publishes only what passes, keeps the previous result when a run fails, and traces every number in the monthly report back to its source. An automated run confirms the whole stack, from Compose and Airflow to Kubernetes, reproduces on an empty machine.",
+"<b>VITAL</b> 설비 예방 점검": "<b>VITAL</b> Predictive equipment maintenance",
+"오늘 먼저 볼 장비를 근거와 함께": "Which machines to check today, with the evidence",
+"<b>SIFT</b> 공공 데이터 수집기": "<b>SIFT</b> Public data collector",
+"무엇을 안 긁을지 먼저 정하는 수집기": "A collector that decides first what not to scrape",
+"<b>SOLAROPS</b> 운영 데이터 품질 감사": "<b>SOLAROPS</b> Operational data quality audit",
+"검증한 결과만 게시, 숫자는 원본까지": "Publishes only validated results, traces numbers to the source",
 
 "**[경량 파이프라인 컨트롤러를 통한 질의 인식 기반 비용 효율적 RAG](https://www.riss.kr/link?id=T17380351)**":
 "**[Query-Aware Cost-Efficient RAG via a Lightweight Pipeline Controller](https://www.riss.kr/link?id=T17380351)**",
@@ -167,6 +174,13 @@ T = {
 "무중단 단계 이관, 되돌릴 수 있는 배포": "不停机分阶段迁移，可回滚的发布",
 "<b>BEACON</b> 브랜드와 랜딩 사이트": "<b>BEACON</b> 品牌与落地页",
 "성능과 검색, 직접 고칠 수 있는 상태로": "兼顾性能与检索，并交付为可自行修改的状态",
+"운영 데이터 품질 감사 파이프라인. 공개 태양광 발전 자료 1,440만 행을 검증한 결과만 게시하고, 실패하면 이전 결과를 지키며, 월간 보고서의 숫자를 원본까지 추적합니다. 빈 머신에서 Compose·Airflow·쿠버네티스까지 그대로 재현되는 것을 자동으로 확인합니다.": "运营数据质量审计流水线。校验 1,440 万行公开光伏发电数据，只发布通过校验的结果，运行失败时保留上一版结果，并把月报中的每个数字追溯到原始数据。自动化运行确认了从 Compose、Airflow 到 Kubernetes 的整套环境能在空白机器上复现。",
+"<b>VITAL</b> 설비 예방 점검": "<b>VITAL</b> 设备预防性巡检",
+"오늘 먼저 볼 장비를 근거와 함께": "今天先查哪些设备，并附上依据",
+"<b>SIFT</b> 공공 데이터 수집기": "<b>SIFT</b> 公共数据采集器",
+"무엇을 안 긁을지 먼저 정하는 수집기": "先决定哪些不抓取的采集器",
+"<b>SOLAROPS</b> 운영 데이터 품질 감사": "<b>SOLAROPS</b> 运营数据质量审计",
+"검증한 결과만 게시, 숫자는 원본까지": "只发布已校验的结果，数字可追溯到原始数据",
 
 "Query-Aware Cost-Efficient RAG via a Lightweight Pipeline Controller<br>2026, 건국대학교 정보통신대학원":
 "Query-Aware Cost-Efficient RAG via a Lightweight Pipeline Controller<br>2026，建国大学信息通信研究生院",
@@ -262,6 +276,13 @@ T = {
 "무중단 단계 이관, 되돌릴 수 있는 배포": "無停止の段階的移行と、切り戻せるデプロイ",
 "<b>BEACON</b> 브랜드와 랜딩 사이트": "<b>BEACON</b> ブランド・ランディングサイト",
 "성능과 검색, 직접 고칠 수 있는 상태로": "速度と検索性を保ち、自分で直せる状態で引き渡す",
+"운영 데이터 품질 감사 파이프라인. 공개 태양광 발전 자료 1,440만 행을 검증한 결과만 게시하고, 실패하면 이전 결과를 지키며, 월간 보고서의 숫자를 원본까지 추적합니다. 빈 머신에서 Compose·Airflow·쿠버네티스까지 그대로 재현되는 것을 자동으로 확인합니다.": "運用データの品質監査パイプライン。公開されている太陽光発電データ 1,440 万行を検証し、通過した結果だけを公開します。失敗したときは前回の結果を守り、月次レポートの数字を元データまでたどれます。Compose・Airflow から Kubernetes まで、空のマシンでそのまま再現できることを自動で確認しています。",
+"<b>VITAL</b> 설비 예방 점검": "<b>VITAL</b> 設備の予防点検",
+"오늘 먼저 볼 장비를 근거와 함께": "今日まず点検する機器を根拠とともに",
+"<b>SIFT</b> 공공 데이터 수집기": "<b>SIFT</b> 公共データ収集ツール",
+"무엇을 안 긁을지 먼저 정하는 수집기": "何を集めないかを先に決める収集ツール",
+"<b>SOLAROPS</b> 운영 데이터 품질 감사": "<b>SOLAROPS</b> 運用データ品質監査",
+"검증한 결과만 게시, 숫자는 원본까지": "検証済みの結果だけを公開し、数字は元データまで",
 
 "Query-Aware Cost-Efficient RAG via a Lightweight Pipeline Controller<br>2026, 건국대학교 정보통신대학원":
 "Query-Aware Cost-Efficient RAG via a Lightweight Pipeline Controller<br>2026年、建国大学 情報通信大学院",

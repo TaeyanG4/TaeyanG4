@@ -43,6 +43,7 @@ I work in Korean, English, Chinese, and Japanese.
 | **afterformat**<br>[afterformat.com](https://afterformat.com) | Pick the programs you use and get them all back in one go after reformatting. 110 programs in Korean, English and Japanese, each marked with whether it is licensed for business use — with the evidence and the date it was checked. winget manifests are scanned daily and land as pull requests a person has to review. | `Astro` `React` `Tailwind` `Cloudflare Workers` `D1` |
 | **[project-owogg](https://github.com/TaeyanG4/project-owogg)**<br>[owogg.com](https://owogg.com) | Browser mini-game platform. First-party and user-uploaded games run on a single runtime. Domain logic sits behind ports and adapters, with e2e tests and a staging environment in operation. | `React 19` `Hono` `Cloudflare Workers` `D1` `B2` |
 | **[dexon-smart-ops-chatbot](https://github.com/TaeyanG4/dexon-smart-ops-chatbot)** | Predicts which HDDs will fail within seven days from SMART data, and returns an inspection order, supporting evidence, and an operations runbook. All 252 tracked files were audited and scrubbed of personal data before release. | `FastAPI` `LlamaIndex` `LiteLLM` `Langfuse` `Docker` |
+| **[solarops-audit](https://github.com/TaeyanG4/solarops-audit)** | Operational data quality audit pipeline. Validates 14.4 million rows of public solar generation data, publishes only what passes, keeps the previous result when a run fails, and traces every number in the monthly report back to its source. An automated run confirms the whole stack, from Compose and Airflow to Kubernetes, reproduces on an empty machine. | `Python` `Airflow` `Kubernetes` `PostgreSQL` `MinIO` |
 | **[story_maker_with_photos](https://github.com/TaeyanG4/story_maker_with_photos)** | Turns a single photo into an interactive illustrated story. Documented as graduate coursework across 32 pages covering system design, UX, and business strategy. | `GPT-4o` `DALL·E 3` `Gradio` |
 | **[project-forge](https://github.com/TaeyanG4/project-forge)**<br>[fornaxworks.com](https://fornaxworks.com) | The studio site itself. No framework: a Python script bakes the HTML and ships it to a Cloudflare Worker. The logo and OG image are drawn in code too. | `Python` `Cloudflare Workers` |
 | **[kapt_predict](https://github.com/TaeyanG4/kapt_predict)** (coming soon) | Construction cost prediction model for apartment complexes, trained on public K-APT data collected by my own crawler, [kapt_crawler](https://github.com/TaeyanG4/kapt_crawler). | `CatBoost` `pandas` |
@@ -117,6 +118,26 @@ Phased cutover with no downtime and a reversible deploy<br>
 <b>BEACON</b> Brand and landing site<br>
 Fast, findable, and editable by the people who own it<br>
 <code>Next.js</code> <code>Vercel</code>
+</td>
+</tr>
+<tr>
+<td width="33.33%" align="center" valign="top">
+<a href="https://fornaxworks.com/drive.html"><img src="assets/gallery/vital.png" width="100%" alt="VITAL" /></a><br>
+<b>VITAL</b> Predictive equipment maintenance<br>
+Which machines to check today, with the evidence<br>
+<code>FastAPI</code> <code>XGBoost</code> <code>pgvector</code>
+</td>
+<td width="33.33%" align="center" valign="top">
+<a href="https://fornaxworks.com/crawl.html"><img src="assets/gallery/sift.png" width="100%" alt="SIFT" /></a><br>
+<b>SIFT</b> Public data collector<br>
+A collector that decides first what not to scrape<br>
+<code>Python</code> <code>pandas</code> <code>PyQt5</code>
+</td>
+<td width="33.33%" align="center" valign="top">
+<a href="https://fornaxworks.com/solar.html"><img src="assets/gallery/solarops.png" width="100%" alt="SOLAROPS" /></a><br>
+<b>SOLAROPS</b> Operational data quality audit<br>
+Publishes only validated results, traces numbers to the source<br>
+<code>Python</code> <code>Airflow</code> <code>Kubernetes</code>
 </td>
 </tr>
 </table>

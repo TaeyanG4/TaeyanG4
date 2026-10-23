@@ -39,6 +39,7 @@
 | **afterformat**<br>[afterformat.com](https://afterformat.com) | 포맷 직후 다시 깔 프로그램을 골라 한 번에 받는 곳. 프로그램 110개를 한국어·영어·일본어로 다루고, 개인은 무료지만 기업은 유료인 프로그램을 근거와 확인 날짜까지 적어 구분합니다. winget 매니페스트를 매일 훑어 새 버전을 PR 로 올리고, 사람이 확인해야 반영됩니다. | `Astro` `React` `Tailwind` `Cloudflare Workers` `D1` |
 | **project-owogg**<br>[owogg.com](https://owogg.com) | 브라우저 미니게임 플랫폼. 자체 게임과 사용자 업로드 게임을 하나의 런타임에서 돌립니다. Ports/Adapters로 도메인을 분리했고 e2e 테스트와 staging 환경을 운영합니다. | `React 19` `Hono` `Cloudflare Workers` `D1` `B2` |
 | **[dexon-smart-ops-chatbot](https://github.com/TaeyanG4/dexon-smart-ops-chatbot)** | HDD SMART 데이터로 7일 안에 고장날 디스크를 예측하고, 점검 순서와 근거 문서, 운영 Runbook을 같이 냅니다. 공개 전 추적 파일 252개를 전수 검사해 개인정보를 걷어냈습니다. | `FastAPI` `LlamaIndex` `LiteLLM` `Langfuse` `Docker` |
+| **[solarops-audit](https://github.com/TaeyanG4/solarops-audit)** | 운영 데이터 품질 감사 파이프라인. 공개 태양광 발전 자료 1,440만 행을 검증한 결과만 게시하고, 실패하면 이전 결과를 지키며, 월간 보고서의 숫자를 원본까지 추적합니다. 빈 머신에서 Compose·Airflow·쿠버네티스까지 그대로 재현되는 것을 자동으로 확인합니다. | `Python` `Airflow` `Kubernetes` `PostgreSQL` `MinIO` |
 | **story_maker_with_photos** | 사진 한 장을 동화로 바꾸는 인터랙티브 스토리 플랫폼. 대학원 과제로 시스템 설계와 UX, 비즈니스 전략까지 32p 문서로 정리했습니다. | `GPT-4o` `DALL·E 3` `Gradio` |
 | **project-forge**<br>[fornaxworks.com](https://fornaxworks.com) | 스튜디오 사이트. 프레임워크 없이 Python 스크립트로 HTML을 굽고 Cloudflare Worker에 올립니다. 로고와 OG 이미지도 코드로 그립니다. | `Python` `Cloudflare Workers` |
 | **kapt_predict** | 공동주택 공사비 예측 모델. 직접 만든 크롤러 [kapt_crawler](https://github.com/TaeyanG4/kapt_crawler)로 모은 K-APT 공개 데이터를 씁니다. | `CatBoost` `pandas` |
@@ -113,6 +114,26 @@ iOS와 Android를 한 코드로,<br>스토어 심사까지<br>
 <b>BEACON</b> 브랜드와 랜딩 사이트<br>
 성능과 검색, 직접 고칠 수 있는 상태로<br>
 <code>Next.js</code> <code>Vercel</code>
+</td>
+</tr>
+<tr>
+<td width="33.33%" align="center" valign="top">
+<a href="https://fornaxworks.com/drive.html"><img src="assets/gallery/vital.png" width="100%" alt="VITAL" /></a><br>
+<b>VITAL</b> 설비 예방 점검<br>
+오늘 먼저 볼 장비를 근거와 함께<br>
+<code>FastAPI</code> <code>XGBoost</code> <code>pgvector</code>
+</td>
+<td width="33.33%" align="center" valign="top">
+<a href="https://fornaxworks.com/crawl.html"><img src="assets/gallery/sift.png" width="100%" alt="SIFT" /></a><br>
+<b>SIFT</b> 공공 데이터 수집기<br>
+무엇을 안 긁을지 먼저 정하는 수집기<br>
+<code>Python</code> <code>pandas</code> <code>PyQt5</code>
+</td>
+<td width="33.33%" align="center" valign="top">
+<a href="https://fornaxworks.com/solar.html"><img src="assets/gallery/solarops.png" width="100%" alt="SOLAROPS" /></a><br>
+<b>SOLAROPS</b> 운영 데이터 품질 감사<br>
+검증한 결과만 게시, 숫자는 원본까지<br>
+<code>Python</code> <code>Airflow</code> <code>Kubernetes</code>
 </td>
 </tr>
 </table>

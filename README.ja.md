@@ -43,6 +43,7 @@
 | **afterformat**<br>[afterformat.com](https://afterformat.com) | 初期化のあとに入れ直すソフトをまとめて取得できる場所。110本を韓国語・英語・日本語で扱い、個人は無料でも法人は有料というソフトを、根拠と確認日を添えて区別して表示します。winget のマニフェストを毎日走査し、新しいバージョンは人が確認するプルリクエストとして上がります。 | `Astro` `React` `Tailwind` `Cloudflare Workers` `D1` |
 | **[project-owogg](https://github.com/TaeyanG4/project-owogg)**<br>[owogg.com](https://owogg.com) | ブラウザ向けミニゲームプラットフォーム。自社ゲームとユーザー投稿ゲームを同一のランタイムで動かします。Ports/Adapters でドメインを分離し、e2e テストと staging 環境を運用しています。 | `React 19` `Hono` `Cloudflare Workers` `D1` `B2` |
 | **[dexon-smart-ops-chatbot](https://github.com/TaeyanG4/dexon-smart-ops-chatbot)** | HDD の SMART データから7日以内に故障するディスクを予測し、点検順序・根拠文書・運用 Runbook をあわせて出します。公開前に追跡ファイル252件を全数検査し、個人情報を除去しました。 | `FastAPI` `LlamaIndex` `LiteLLM` `Langfuse` `Docker` |
+| **[solarops-audit](https://github.com/TaeyanG4/solarops-audit)** | 運用データの品質監査パイプライン。公開されている太陽光発電データ 1,440 万行を検証し、通過した結果だけを公開します。失敗したときは前回の結果を守り、月次レポートの数字を元データまでたどれます。Compose・Airflow から Kubernetes まで、空のマシンでそのまま再現できることを自動で確認しています。 | `Python` `Airflow` `Kubernetes` `PostgreSQL` `MinIO` |
 | **[story_maker_with_photos](https://github.com/TaeyanG4/story_maker_with_photos)** | 写真1枚を童話に変えるインタラクティブなストーリープラットフォーム。大学院の課題として、システム設計・UX・ビジネス戦略まで32ページの文書にまとめました。 | `GPT-4o` `DALL·E 3` `Gradio` |
 | **[project-forge](https://github.com/TaeyanG4/project-forge)**<br>[fornaxworks.com](https://fornaxworks.com) | スタジオのサイトそのもの。フレームワークを使わず Python スクリプトで HTML を生成し、Cloudflare Worker に載せています。ロゴと OG 画像もコードで描いています。 | `Python` `Cloudflare Workers` |
 | **[kapt_predict](https://github.com/TaeyanG4/kapt_predict)** （公開予定） | 集合住宅の工事費予測モデル。自作クローラー [kapt_crawler](https://github.com/TaeyanG4/kapt_crawler) で収集した K-APT の公開データを使っています。 | `CatBoost` `pandas` |
@@ -117,6 +118,26 @@ iOS と Android を1つのコードで、<br>ストア審査まで<br>
 <b>BEACON</b> ブランド・ランディングサイト<br>
 速度と検索性を保ち、自分で直せる状態で引き渡す<br>
 <code>Next.js</code> <code>Vercel</code>
+</td>
+</tr>
+<tr>
+<td width="33.33%" align="center" valign="top">
+<a href="https://fornaxworks.com/drive.html"><img src="assets/gallery/vital.png" width="100%" alt="VITAL" /></a><br>
+<b>VITAL</b> 設備の予防点検<br>
+今日まず点検する機器を根拠とともに<br>
+<code>FastAPI</code> <code>XGBoost</code> <code>pgvector</code>
+</td>
+<td width="33.33%" align="center" valign="top">
+<a href="https://fornaxworks.com/crawl.html"><img src="assets/gallery/sift.png" width="100%" alt="SIFT" /></a><br>
+<b>SIFT</b> 公共データ収集ツール<br>
+何を集めないかを先に決める収集ツール<br>
+<code>Python</code> <code>pandas</code> <code>PyQt5</code>
+</td>
+<td width="33.33%" align="center" valign="top">
+<a href="https://fornaxworks.com/solar.html"><img src="assets/gallery/solarops.png" width="100%" alt="SOLAROPS" /></a><br>
+<b>SOLAROPS</b> 運用データ品質監査<br>
+検証済みの結果だけを公開し、数字は元データまで<br>
+<code>Python</code> <code>Airflow</code> <code>Kubernetes</code>
 </td>
 </tr>
 </table>

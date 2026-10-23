@@ -43,6 +43,7 @@
 | **afterformat**<br>[afterformat.com](https://afterformat.com) | 重装系统后一次性取回常用软件的站点。以韩语、英语、日语收录 110 款软件，并标注个人免费但企业需付费的软件，附上依据与核对日期。每日扫描 winget 清单，新版本以 Pull Request 形式提交，需人工确认后才会发布。 | `Astro` `React` `Tailwind` `Cloudflare Workers` `D1` |
 | **[project-owogg](https://github.com/TaeyanG4/project-owogg)**<br>[owogg.com](https://owogg.com) | 浏览器小游戏平台。自研游戏与用户上传游戏运行在同一套运行时上。以 Ports/Adapters 分离领域逻辑，并运行 e2e 测试与 staging 环境。 | `React 19` `Hono` `Cloudflare Workers` `D1` `B2` |
 | **[dexon-smart-ops-chatbot](https://github.com/TaeyanG4/dexon-smart-ops-chatbot)** | 基于 HDD SMART 数据预测七天内可能故障的磁盘，并给出巡检顺序、依据文档与运维 Runbook。公开前对 252 个被跟踪文件做了全量审查，清除了个人信息。 | `FastAPI` `LlamaIndex` `LiteLLM` `Langfuse` `Docker` |
+| **[solarops-audit](https://github.com/TaeyanG4/solarops-audit)** | 运营数据质量审计流水线。校验 1,440 万行公开光伏发电数据，只发布通过校验的结果，运行失败时保留上一版结果，并把月报中的每个数字追溯到原始数据。自动化运行确认了从 Compose、Airflow 到 Kubernetes 的整套环境能在空白机器上复现。 | `Python` `Airflow` `Kubernetes` `PostgreSQL` `MinIO` |
 | **[story_maker_with_photos](https://github.com/TaeyanG4/story_maker_with_photos)** | 把一张照片变成童话的互动故事平台。作为研究生课程作业，用 32 页文档整理了系统设计、UX 与商业策略。 | `GPT-4o` `DALL·E 3` `Gradio` |
 | **[project-forge](https://github.com/TaeyanG4/project-forge)**<br>[fornaxworks.com](https://fornaxworks.com) | 工作室官网本身。不用框架，由 Python 脚本生成 HTML 并部署到 Cloudflare Worker。Logo 与 OG 图像也由代码绘制。 | `Python` `Cloudflare Workers` |
 | **[kapt_predict](https://github.com/TaeyanG4/kapt_predict)** （即将公开） | 住宅小区工程造价预测模型。使用自研爬虫 [kapt_crawler](https://github.com/TaeyanG4/kapt_crawler) 采集的 K-APT 公开数据。 | `CatBoost` `pandas` |
@@ -117,6 +118,26 @@
 <b>BEACON</b> 品牌与落地页<br>
 兼顾性能与检索，并交付为可自行修改的状态<br>
 <code>Next.js</code> <code>Vercel</code>
+</td>
+</tr>
+<tr>
+<td width="33.33%" align="center" valign="top">
+<a href="https://fornaxworks.com/drive.html"><img src="assets/gallery/vital.png" width="100%" alt="VITAL" /></a><br>
+<b>VITAL</b> 设备预防性巡检<br>
+今天先查哪些设备，并附上依据<br>
+<code>FastAPI</code> <code>XGBoost</code> <code>pgvector</code>
+</td>
+<td width="33.33%" align="center" valign="top">
+<a href="https://fornaxworks.com/crawl.html"><img src="assets/gallery/sift.png" width="100%" alt="SIFT" /></a><br>
+<b>SIFT</b> 公共数据采集器<br>
+先决定哪些不抓取的采集器<br>
+<code>Python</code> <code>pandas</code> <code>PyQt5</code>
+</td>
+<td width="33.33%" align="center" valign="top">
+<a href="https://fornaxworks.com/solar.html"><img src="assets/gallery/solarops.png" width="100%" alt="SOLAROPS" /></a><br>
+<b>SOLAROPS</b> 运营数据质量审计<br>
+只发布已校验的结果，数字可追溯到原始数据<br>
+<code>Python</code> <code>Airflow</code> <code>Kubernetes</code>
 </td>
 </tr>
 </table>
