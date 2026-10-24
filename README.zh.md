@@ -365,7 +365,7 @@ AI Bootcamp 第16期 人工智能建模<br>6个月学习 + 1个月企业协作
 
 <div align="center">
 
-<img src="assets/BOJ memory - taeyang95.png" width="680" alt="BOJ memory taeyang95" />
+<img src="assets/BOJ memory - taeyang95.png" width="760" alt="BOJ memory taeyang95" />
 
 *Thanks BOJ<br>Good bye BOJ*
 
@@ -379,9 +379,9 @@ AI Bootcamp 第16期 人工智能建模<br>6个月学习 + 1个月企业协作
 
 <div align="center">
 
-<img src="assets/etc/1st.png" width="680" alt="Taeyang 1st place leaderboard" />
+<img src="assets/etc/1st.png" width="760" alt="Taeyang 1st place leaderboard" />
 
-<img src="assets/etc/obwc-2025-result-with-standings.png" width="100%" alt="osu! Beatmapping World Championship 2025 results and team standings" />
+<img src="assets/etc/obwc-2025-result-with-standings.png" width="760" alt="osu! Beatmapping World Championship 2025 results and team standings" />
 
 </div>
 

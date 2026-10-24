@@ -365,7 +365,7 @@ Northeast Electric Power University (China) BSc in Software Engineering<br>4-yea
 
 <div align="center">
 
-<img src="assets/BOJ memory - taeyang95.png" width="680" alt="BOJ memory taeyang95" />
+<img src="assets/BOJ memory - taeyang95.png" width="760" alt="BOJ memory taeyang95" />
 
 *Thanks BOJ<br>Good bye BOJ*
 
@@ -379,9 +379,9 @@ Northeast Electric Power University (China) BSc in Software Engineering<br>4-yea
 
 <div align="center">
 
-<img src="assets/etc/1st.png" width="680" alt="Taeyang 1st place leaderboard" />
+<img src="assets/etc/1st.png" width="760" alt="Taeyang 1st place leaderboard" />
 
-<img src="assets/etc/obwc-2025-result-with-standings.png" width="100%" alt="osu! Beatmapping World Championship 2025 results and team standings" />
+<img src="assets/etc/obwc-2025-result-with-standings.png" width="760" alt="osu! Beatmapping World Championship 2025 results and team standings" />
 
 </div>
 
