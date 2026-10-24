@@ -381,7 +381,7 @@ AI Bootcamp 16기 인공지능모델링<br>6개월 학습 + 1개월 기업 협�
 
 <img src="assets/etc/1st.png" width="680" alt="Taeyang 1st place leaderboard" />
 
-<img src="assets/etc/obwc-2025-result.png" width="680" alt="osu! Beatmapping World Championship 2025 results" />
+<img src="assets/etc/obwc-2025-result.png" width="100%" alt="osu! Beatmapping World Championship 2025 results and team standings" />
 
 </div>
 
