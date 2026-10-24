@@ -51,8 +51,6 @@
 
 <br>
 
-Kaggle で公開したデータセットです。全一覧と品質・採用の記録は [kaggle-dataset-portfolio](https://github.com/TaeyanG4/kaggle-dataset-portfolio) にあり、Kaggle のプロフィールは [taeyangg4](https://www.kaggle.com/taeyangg4) です。
-
 | Dataset | Description | Scale | Repo |
 |---|---|---|---|
 | [Kaggle Top Solutions and Strategies](https://www.kaggle.com/datasets/taeyangg4/kaggle-top-solutions-and-strategies) | 終了した Kaggle 大会の公開解法記事を順位にかかわらず集め、各解法で使われた手法に原文リンクと順位の根拠を添えました。要約と手法の判定は、モデルが読み取った著者の主張です。 | `70,576 rows` `4 files` | [repo](https://github.com/TaeyanG4/kaggle-top-solutions-and-strategies) |
@@ -71,7 +69,7 @@ Kaggle で公開したデータセットです。全一覧と品質・採用の�
 
 <br>
 
-fornaxworks のショールームに置いているデモです。実際の納品物ではなく、どこまで作るのかを示すために自分で作った見本です。<br>
+[fornaxworks のショールーム](https://fornaxworks.com/gallery.html)に置いているデモです。実際の納品物ではなく、どこまで作るのかを示すために自分で作った見本です。<br>
 画像をクリックするとブラウザでそのまま開きます。
 
 <table align="center">
@@ -333,7 +331,8 @@ Yeardream School 第6期 応用コース<br>韓国中小ベンチャー企業部
 <td nowrap valign="top">2023.09 ~ 2026.02</td>
 <td>
 
-建国大学 情報通信大学院 融合情報技術学科 人工知能専攻 修士
+建国大学 情報通信大学院 融合情報技術学科 人工知能専攻 修士<br>
+[成績表を見る（個人情報をマスキング済み）](assets/education/konkuk-masters-transcript-redacted.png)
 
 </td>
 </tr>

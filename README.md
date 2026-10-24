@@ -51,8 +51,6 @@
 
 <br>
 
-Kaggle에 공개한 데이터셋입니다<br>전체 목록과 품질·채택 기록은 [kaggle-dataset-portfolio](https://github.com/TaeyanG4/kaggle-dataset-portfolio)에 있고 Kaggle 프로필은 [taeyangg4](https://www.kaggle.com/taeyangg4)입니다
-
 | Dataset | Description | Scale | Repo |
 |---|---|---|---|
 | [Kaggle Top Solutions and Strategies](https://www.kaggle.com/datasets/taeyangg4/kaggle-top-solutions-and-strategies) | 종료된 Kaggle 대회의 공개 풀이 글을 순위와 관계없이 모아 풀이마다 어떤 기법을 썼는지 원문 링크와 순위 근거까지 붙였습니다<br>요약과 기법 판정은 모델이 읽은 저자 주장입니다 | `70,576 rows` `4 files` | [repo](https://github.com/TaeyanG4/kaggle-top-solutions-and-strategies) |
@@ -71,7 +69,7 @@ Kaggle에 공개한 데이터셋입니다<br>전체 목록과 품질·채택 기
 
 <br>
 
-fornaxworks 견본실에 올려둔 데모입니다<br>실제 납품물이 아니라 어디까지 만드는지 보여주기위한 직접 만든 견본입니다<br>
+[fornaxworks 견본실](https://fornaxworks.com/gallery.html)에 올려둔 데모입니다<br>실제 납품물이 아니라 어디까지 만드는지 보여주기위한 직접 만든 견본입니다<br>
 이미지를 누르면 브라우저에서 바로 열립니다
 
 <table align="center">
@@ -333,7 +331,8 @@ SOLAROPS 운영 데이터 품질 감사<br>
 <td nowrap valign="top">2023.09 ~ 2026.02</td>
 <td>
 
-건국대학교 정보통신대학원 융합정보기술학과 인공지능전공 석사
+건국대학교 정보통신대학원 융합정보기술학과 인공지능전공 석사<br>
+[성적표 보기 (개인정보 마스킹)](assets/education/konkuk-masters-transcript-redacted.png)
 
 </td>
 </tr>

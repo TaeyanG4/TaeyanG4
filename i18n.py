@@ -27,9 +27,6 @@ T = {
 "포맷 직후 다시 깔 프로그램을 골라 한 번에 받는 곳. 프로그램 110개를 한국어·영어·일본어로 다루고, 개인은 무료지만 기업은 유료인 프로그램을 근거와 확인 날짜까지 적어 구분합니다. winget 매니페스트를 매일 훑어 새 버전을 PR 로 올리고, 사람이 확인해야 반영됩니다.":
 "Pick the programs you use and get them all back in one go after reformatting. 110 programs in Korean, English and Japanese, each marked with whether it is licensed for business use — with the evidence and the date it was checked. winget manifests are scanned daily and land as pull requests a person has to review.",
 
-"Kaggle에 공개한 데이터셋입니다. 전체 목록과 품질·채택 기록은 [kaggle-dataset-portfolio](https://github.com/TaeyanG4/kaggle-dataset-portfolio)에 있고, Kaggle 프로필은 [taeyangg4](https://www.kaggle.com/taeyangg4)입니다.":
-"Datasets I have published on Kaggle. The full list, along with quality and adoption records, is in [kaggle-dataset-portfolio](https://github.com/TaeyanG4/kaggle-dataset-portfolio), and my Kaggle profile is [taeyangg4](https://www.kaggle.com/taeyangg4).",
-
 "종료된 Kaggle 대회의 공개 풀이 글을 순위와 관계없이 모아, 풀이마다 어떤 기법을 썼는지 원문 링크와 순위 근거까지 붙였습니다. 요약과 기법 판정은 모델이 읽은 저자 주장입니다.":
 "Collected public solution writeups from completed Kaggle competitions regardless of rank, with the techniques used in each solution, links to the original posts, and evidence for the rankings. The summaries and technique labels reflect the model's reading of authors' claims.",
 
@@ -77,8 +74,8 @@ T = {
 "Construction cost prediction model for apartment complexes, trained on public K-APT data collected by my own crawler, [kapt_crawler](https://github.com/TaeyanG4/kapt_crawler).",
 "(공개 예정)": "(coming soon)",
 
-"fornaxworks 견본실에 올려둔 데모입니다. 실제 납품물이 아니라 어디까지 만드는지 보여주기위한 직접 만든 견본입니다.":
-"Demos from the fornaxworks showroom. These are not client deliverables. I built them to show how far the work goes.",
+"[fornaxworks 견본실](https://fornaxworks.com/gallery.html)에 올려둔 데모입니다. 실제 납품물이 아니라 어디까지 만드는지 보여주기위한 직접 만든 견본입니다.":
+"Demos from the [fornaxworks showroom](https://fornaxworks.com/gallery.html). These are not client deliverables. I built them to show how far the work goes.",
 "이미지를 누르면 브라우저에서 바로 열립니다.":
 "Click an image to open it in your browser.",
 
@@ -134,6 +131,7 @@ T = {
 "네트워크관리사 2급": "Network Administrator Level 2",
 "컴퓨터활용능력 1급": "Computer Specialist in Spreadsheet and Database Level 1",
 "HSK 5급": "HSK Level 5",
+"성적표 보기 (개인정보 마스킹)": "View transcript (personal details redacted)",
 
 "<b>건국대학교 정보통신대학원</b> 융합정보기술학과 인공지능전공 석사":
 "<b>Konkuk University</b> Graduate School of Information and Telecommunications, MSc in Artificial Intelligence",
@@ -157,9 +155,6 @@ T = {
 "zh": {
 "포맷 직후 다시 깔 프로그램을 골라 한 번에 받는 곳. 프로그램 110개를 한국어·영어·일본어로 다루고, 개인은 무료지만 기업은 유료인 프로그램을 근거와 확인 날짜까지 적어 구분합니다. winget 매니페스트를 매일 훑어 새 버전을 PR 로 올리고, 사람이 확인해야 반영됩니다.":
 "重装系统后一次性取回常用软件的站点。以韩语、英语、日语收录 110 款软件，并标注个人免费但企业需付费的软件，附上依据与核对日期。每日扫描 winget 清单，新版本以 Pull Request 形式提交，需人工确认后才会发布。",
-
-"Kaggle에 공개한 데이터셋입니다. 전체 목록과 품질·채택 기록은 [kaggle-dataset-portfolio](https://github.com/TaeyanG4/kaggle-dataset-portfolio)에 있고, Kaggle 프로필은 [taeyangg4](https://www.kaggle.com/taeyangg4)입니다.":
-"在 Kaggle 上公开的数据集。完整列表及质量与采用记录见 [kaggle-dataset-portfolio](https://github.com/TaeyanG4/kaggle-dataset-portfolio)，Kaggle 个人主页为 [taeyangg4](https://www.kaggle.com/taeyangg4)。",
 
 "종료된 Kaggle 대회의 공개 풀이 글을 순위와 관계없이 모아, 풀이마다 어떤 기법을 썼는지 원문 링크와 순위 근거까지 붙였습니다. 요약과 기법 판정은 모델이 읽은 저자 주장입니다.":
 "收集已结束的 Kaggle 竞赛的公开解题文章，不限排名，并为每篇解答标注所用技术、原文链接和排名依据。摘要和技术判定反映的是模型对作者主张的解读。",
@@ -208,8 +203,8 @@ T = {
 "住宅小区工程造价预测模型。使用自研爬虫 [kapt_crawler](https://github.com/TaeyanG4/kapt_crawler) 采集的 K-APT 公开数据。",
 "(공개 예정)": "（即将公开）",
 
-"fornaxworks 견본실에 올려둔 데모입니다. 실제 납품물이 아니라 어디까지 만드는지 보여주기위한 직접 만든 견본입니다.":
-"这些是放在 fornaxworks 样品间的演示。并非实际交付物，而是为了展示能做到什么程度而自行制作的样品。",
+"[fornaxworks 견본실](https://fornaxworks.com/gallery.html)에 올려둔 데모입니다. 실제 납품물이 아니라 어디까지 만드는지 보여주기위한 직접 만든 견본입니다.":
+"这些是放在 [fornaxworks 样品间](https://fornaxworks.com/gallery.html)的演示。并非实际交付物，而是为了展示能做到什么程度而自行制作的样品。",
 "이미지를 누르면 브라우저에서 바로 열립니다.":
 "点击图片即可在浏览器中打开。",
 
@@ -263,6 +258,7 @@ T = {
 "네트워크관리사 2급": "网络管理师 二级",
 "컴퓨터활용능력 1급": "计算机应用能力 一级",
 "HSK 5급": "HSK 五级",
+"성적표 보기 (개인정보 마스킹)": "查看成绩单（个人信息已遮盖）",
 
 "<b>건국대학교 정보통신대학원</b> 융합정보기술학과 인공지능전공 석사":
 "<b>建国大学信息通信研究生院</b> 融合信息技术学科 人工智能专业 硕士",
@@ -286,9 +282,6 @@ T = {
 "ja": {
 "포맷 직후 다시 깔 프로그램을 골라 한 번에 받는 곳. 프로그램 110개를 한국어·영어·일본어로 다루고, 개인은 무료지만 기업은 유료인 프로그램을 근거와 확인 날짜까지 적어 구분합니다. winget 매니페스트를 매일 훑어 새 버전을 PR 로 올리고, 사람이 확인해야 반영됩니다.":
 "初期化のあとに入れ直すソフトをまとめて取得できる場所。110本を韓国語・英語・日本語で扱い、個人は無料でも法人は有料というソフトを、根拠と確認日を添えて区別して表示します。winget のマニフェストを毎日走査し、新しいバージョンは人が確認するプルリクエストとして上がります。",
-
-"Kaggle에 공개한 데이터셋입니다. 전체 목록과 품질·채택 기록은 [kaggle-dataset-portfolio](https://github.com/TaeyanG4/kaggle-dataset-portfolio)에 있고, Kaggle 프로필은 [taeyangg4](https://www.kaggle.com/taeyangg4)입니다.":
-"Kaggle で公開したデータセットです。全一覧と品質・採用の記録は [kaggle-dataset-portfolio](https://github.com/TaeyanG4/kaggle-dataset-portfolio) にあり、Kaggle のプロフィールは [taeyangg4](https://www.kaggle.com/taeyangg4) です。",
 
 "종료된 Kaggle 대회의 공개 풀이 글을 순위와 관계없이 모아, 풀이마다 어떤 기법을 썼는지 원문 링크와 순위 근거까지 붙였습니다. 요약과 기법 판정은 모델이 읽은 저자 주장입니다.":
 "終了した Kaggle 大会の公開解法記事を順位にかかわらず集め、各解法で使われた手法に原文リンクと順位の根拠を添えました。要約と手法の判定は、モデルが読み取った著者の主張です。",
@@ -337,8 +330,8 @@ T = {
 "集合住宅の工事費予測モデル。自作クローラー [kapt_crawler](https://github.com/TaeyanG4/kapt_crawler) で収集した K-APT の公開データを使っています。",
 "(공개 예정)": "（公開予定）",
 
-"fornaxworks 견본실에 올려둔 데모입니다. 실제 납품물이 아니라 어디까지 만드는지 보여주기위한 직접 만든 견본입니다.":
-"fornaxworks のショールームに置いているデモです。実際の納品物ではなく、どこまで作るのかを示すために自分で作った見本です。",
+"[fornaxworks 견본실](https://fornaxworks.com/gallery.html)에 올려둔 데모입니다. 실제 납품물이 아니라 어디까지 만드는지 보여주기위한 직접 만든 견본입니다.":
+"[fornaxworks のショールーム](https://fornaxworks.com/gallery.html)に置いているデモです。実際の納品物ではなく、どこまで作るのかを示すために自分で作った見本です。",
 "이미지를 누르면 브라우저에서 바로 열립니다.":
 "画像をクリックするとブラウザでそのまま開きます。",
 
@@ -392,6 +385,7 @@ T = {
 "네트워크관리사 2급": "ネットワーク管理士 2級",
 "컴퓨터활용능력 1급": "コンピュータ活用能力 1級",
 "HSK 5급": "HSK 5級",
+"성적표 보기 (개인정보 마스킹)": "成績表を見る（個人情報をマスキング済み）",
 
 "<b>건국대학교 정보통신대학원</b> 융합정보기술학과 인공지능전공 석사":
 "<b>建国大学 情報通信大学院</b> 融合情報技術学科 人工知能専攻 修士",

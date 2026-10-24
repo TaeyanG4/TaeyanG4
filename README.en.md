@@ -51,8 +51,6 @@ I communicate in Korean English Chinese and Japanese<br><br>
 
 <br>
 
-Datasets I have published on Kaggle<br>The full list along with quality and adoption records is in [kaggle-dataset-portfolio](https://github.com/TaeyanG4/kaggle-dataset-portfolio) and my Kaggle profile is [taeyangg4](https://www.kaggle.com/taeyangg4)
-
 | Dataset | Description | Scale | Repo |
 |---|---|---|---|
 | [Kaggle Top Solutions and Strategies](https://www.kaggle.com/datasets/taeyangg4/kaggle-top-solutions-and-strategies) | Collected public solution writeups from completed Kaggle competitions regardless of rank with the techniques used in each solution links to the original posts and evidence for the rankings<br>The summaries and technique labels reflect the model's reading of authors' claims | `70,576 rows` `4 files` | [repo](https://github.com/TaeyanG4/kaggle-top-solutions-and-strategies) |
@@ -71,7 +69,7 @@ Datasets I have published on Kaggle<br>The full list along with quality and adop
 
 <br>
 
-Demos from the fornaxworks showroom<br>These are not client deliverables<br>I built them to show how far the work goes<br>
+Demos from the [fornaxworks showroom](https://fornaxworks.com/gallery.html)<br>These are not client deliverables<br>I built them to show how far the work goes<br>
 Click an image to open it in your browser
 
 <table align="center">
@@ -333,7 +331,8 @@ Yeardream School 6th cohort advanced track<br>Ministry of SMEs and Startups AI t
 <td nowrap valign="top">2023.09 ~ 2026.02</td>
 <td>
 
-Konkuk University Graduate School of Information and Telecommunications MSc in Artificial Intelligence
+Konkuk University Graduate School of Information and Telecommunications MSc in Artificial Intelligence<br>
+[View transcript (personal details redacted)](assets/education/konkuk-masters-transcript-redacted.png)
 
 </td>
 </tr>

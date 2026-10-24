@@ -51,8 +51,6 @@
 
 <br>
 
-在 Kaggle 上公开的数据集。完整列表及质量与采用记录见 [kaggle-dataset-portfolio](https://github.com/TaeyanG4/kaggle-dataset-portfolio)，Kaggle 个人主页为 [taeyangg4](https://www.kaggle.com/taeyangg4)。
-
 | Dataset | Description | Scale | Repo |
 |---|---|---|---|
 | [Kaggle Top Solutions and Strategies](https://www.kaggle.com/datasets/taeyangg4/kaggle-top-solutions-and-strategies) | 收集已结束的 Kaggle 竞赛的公开解题文章，不限排名，并为每篇解答标注所用技术、原文链接和排名依据。摘要和技术判定反映的是模型对作者主张的解读。 | `70,576 rows` `4 files` | [repo](https://github.com/TaeyanG4/kaggle-top-solutions-and-strategies) |
@@ -71,7 +69,7 @@
 
 <br>
 
-这些是放在 fornaxworks 样品间的演示。并非实际交付物，而是为了展示能做到什么程度而自行制作的样品。<br>
+这些是放在 [fornaxworks 样品间](https://fornaxworks.com/gallery.html)的演示。并非实际交付物，而是为了展示能做到什么程度而自行制作的样品。<br>
 点击图片即可在浏览器中打开。
 
 <table align="center">
@@ -333,7 +331,8 @@ Yeardream School 第6期 进阶课程<br>韩国中小风险企业部 AI 技术�
 <td nowrap valign="top">2023.09 ~ 2026.02</td>
 <td>
 
-建国大学信息通信研究生院 融合信息技术学科 人工智能专业 硕士
+建国大学信息通信研究生院 融合信息技术学科 人工智能专业 硕士<br>
+[查看成绩单（个人信息已遮盖）](assets/education/konkuk-masters-transcript-redacted.png)
 
 </td>
 </tr>
