@@ -176,9 +176,9 @@ SOLAROPS 运营数据质量审计<br>
 
 ### Bachelor's Thesis
 
-> 基于MapReduce的电力行业数据挖掘并行化实现
+> Parallelization of Data Mining in Power Industry Based on MapReduce
 >
-> Parallelization of Data Mining in Power Industry Based on MapReduce<br>2020 동북전력대학교 Northeast Electric Power University
+> 基于MapReduce的电力行业数据挖掘并行化实现<br>2020，东北电力大学
 >
 > 智能电表产生的用电数据量，单机已经无法处理。
 > 在虚拟机上搭建三节点 Hadoop 集群，用 MapReduce K-means 对用电模式进行了聚类划分。

@@ -176,9 +176,9 @@ Publishes only validated results traces numbers to the source<br>
 
 ### Bachelor's Thesis
 
-> 基于MapReduce的电力行业数据挖掘并行化实现
+> Parallelization of Data Mining in Power Industry Based on MapReduce
 >
-> Parallelization of Data Mining in Power Industry Based on MapReduce<br>2020 동북전력대학교 Northeast Electric Power University
+> 基于MapReduce的电力行业数据挖掘并行化实现<br>2020 Northeast Electric Power University
 >
 > Smart meters produce more consumption data than a single machine can process
 > I stood up a three-node Hadoop cluster on virtual machines and partitioned usage patterns with MapReduce K-means

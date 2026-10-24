@@ -2,10 +2,13 @@
 """README.md 를 원본으로 삼아 언어판 3종을 굽는다.
 
     python i18n.py
+    python i18n.py --check
 
 한국어판만 손보면 나머지는 여기 표만 고치면 된다. 뼈대(표, 뱃지, 이미지)는
-그대로 두고 문장만 바꾸므로 레이아웃이 어긋날 일이 없다.
+그대로 두고 문장만 바꾼다. 미번역 문장이 있으면 모든 파일 쓰기를 중단한다.
+--check는 파일을 쓰지 않고 번역 누락과 생성 결과의 차이를 확인한다.
 """
+import argparse
 import pathlib
 import re
 
@@ -113,8 +116,8 @@ T = {
 "Running every query through the same expensive pipeline makes easy questions pay full price in cost and latency.",
 "질의 난이도를 먼저 재고, 하이브리드 검색과 재랭킹, HyDE를 필요할 때만 켜는 경량 컨트롤러를 붙였습니다.":
 "I added a lightweight controller that estimates query difficulty first, then switches on hybrid retrieval, reranking, and HyDE only when they are needed.",
-"基于MapReduce的电力行业数据挖掘并行化实现<br>2020, 동북전력대학교 Northeast Electric Power University":
-"基于MapReduce的电力行业数据挖掘并行化实现<br>2020, Northeast Electric Power University",
+"> **基于MapReduce的电力行业数据挖掘并行化实现**\n>\n> Parallelization of Data Mining in Power Industry Based on MapReduce<br>2020, 동북전력대학교 Northeast Electric Power University":
+"> Parallelization of Data Mining in Power Industry Based on MapReduce\n>\n> 基于MapReduce的电力行业数据挖掘并行化实现<br>2020, Northeast Electric Power University",
 "스마트미터가 쏟아내는 사용량 데이터는 단일 장비로 감당이 안 됩니다.":
 "Smart meters produce more consumption data than a single machine can process.",
 "가상머신에 3노드 Hadoop 클러스터를 올리고 MapReduce K-means로 사용 패턴을 나눴습니다.":
@@ -242,8 +245,8 @@ T = {
 "如果所有查询都走同一条高成本流水线，简单问题也要付出同样的成本与延迟。",
 "질의 난이도를 먼저 재고, 하이브리드 검색과 재랭킹, HyDE를 필요할 때만 켜는 경량 컨트롤러를 붙였습니다.":
 "因此加入了一个轻量控制器：先估计查询难度，只在需要时才启用混合检索、重排序与 HyDE。",
-"基于MapReduce的电力行业数据挖掘并行化实现<br>2020, 동북전력대학교 Northeast Electric Power University":
-"基于MapReduce的电力行业数据挖掘并行化实现<br>2020，东北电力大学",
+"> **基于MapReduce的电力行业数据挖掘并行化实现**\n>\n> Parallelization of Data Mining in Power Industry Based on MapReduce<br>2020, 동북전력대학교 Northeast Electric Power University":
+"> Parallelization of Data Mining in Power Industry Based on MapReduce\n>\n> 基于MapReduce的电力行业数据挖掘并行化实现<br>2020，东北电力大学",
 "스마트미터가 쏟아내는 사용량 데이터는 단일 장비로 감당이 안 됩니다.":
 "智能电表产生的用电数据量，单机已经无法处理。",
 "가상머신에 3노드 Hadoop 클러스터를 올리고 MapReduce K-means로 사용 패턴을 나눴습니다.":
@@ -371,8 +374,8 @@ T = {
 "すべてのクエリを同じ高コストのパイプラインに通すと、簡単な質問にもコストとレイテンシがそのままかかります。",
 "질의 난이도를 먼저 재고, 하이브리드 검색과 재랭킹, HyDE를 필요할 때만 켜는 경량 컨트롤러를 붙였습니다.":
 "そこでクエリの難易度を先に見積もり、ハイブリッド検索・リランキング・HyDE を必要なときだけ有効にする軽量コントローラーを組み込みました。",
-"基于MapReduce的电力行业数据挖掘并行化实现<br>2020, 동북전력대학교 Northeast Electric Power University":
-"基于MapReduce的电力行业数据挖掘并行化实现<br>2020年、東北電力大学 Northeast Electric Power University",
+"> **基于MapReduce的电力行业数据挖掘并行化实现**\n>\n> Parallelization of Data Mining in Power Industry Based on MapReduce<br>2020, 동북전력대학교 Northeast Electric Power University":
+"> Parallelization of Data Mining in Power Industry Based on MapReduce\n>\n> 基于MapReduce的电力行业数据挖掘并行化实现<br>2020年、東北電力大学 Northeast Electric Power University",
 "스마트미터가 쏟아내는 사용량 데이터는 단일 장비로 감당이 안 됩니다.":
 "スマートメーターが吐き出す使用量データは、単一のマシンでは処理しきれません。",
 "가상머신에 3노드 Hadoop 클러스터를 올리고 MapReduce K-means로 사용 패턴을 나눴습니다.":
@@ -443,14 +446,45 @@ def build(lang):
     return clean_format(s)
 
 
-def main():
-    for lang in ("en", "zh", "ja"):
+def validate_translation(lang, text):
+    # The language switcher and original master's thesis title stay in Korean.
+    allowed = (
+        "[한국어](README.md)",
+        "경량 파이프라인 컨트롤러를 통한 질의 인식 기반 비용 효율적 RAG",
+    )
+    for original in allowed:
+        text = text.replace(original, "")
+    missing = [str(i) for i, line in enumerate(text.splitlines(), 1)
+               if re.search(r"[가-힣ㄱ-ㅎㅏ-ㅣ]", line)]
+    if missing:
+        raise ValueError(f"README.{lang}.md: untranslated Korean at lines {', '.join(missing)}")
+
+
+def main(argv=None):
+    parser = argparse.ArgumentParser(description=__doc__)
+    parser.add_argument("--check", action="store_true", help="Validate without writing files")
+    args = parser.parse_args(argv)
+    generated = {lang: build(lang) for lang in ("en", "zh", "ja")}
+    # Validate every language before overwriting any existing translation.
+    try:
+        for lang, text in generated.items():
+            validate_translation(lang, text)
+    except ValueError as error:
+        print(f"ERROR: {error}; no files written")
+        return 1
+    changed = []
+    for lang, text in generated.items():
         out = SRC.parent / f"README.{lang}.md"
-        text = build(lang)
-        out.write_text(text, encoding="utf-8")
-        left = len(re.findall(r"[가-힣]", text))
-        print(f"  README.{lang}.md  남은 한글 {left}자")
+        if not out.exists() or out.read_text(encoding="utf-8") != text:
+            changed.append(out.name)
+            if not args.check:
+                out.write_text(text, encoding="utf-8")
+    if args.check and changed:
+        print(f"Out of date: {', '.join(changed)}; no files written")
+        return 1
+    print("Translations validated" + (": " + ", ".join(changed) if changed else "; files are current"))
+    return 0
 
 
 if __name__ == "__main__":
-    main()
+    raise SystemExit(main())
