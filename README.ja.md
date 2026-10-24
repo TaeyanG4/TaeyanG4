@@ -4,9 +4,9 @@
 
 ### AI とフルスタック開発。企画から本番リリースまで、一人が通しで担当します。
 
-**[https://fornaxworks.com](https://fornaxworks.com)**
+[https://fornaxworks.com](https://fornaxworks.com)
 
-[한국어](README.md) | [English](README.en.md) | [中文](README.zh.md) | **日本語**
+[한국어](README.md) | [English](README.en.md) | [中文](README.zh.md) | 日本語
 
 <a href="https://fornaxworks.com"><img src="assets/badges/fornaxworks-com.svg" alt="fornaxworks" /></a>
 <a href="https://owogg.com"><img src="assets/badges/owogg-com.svg" alt="owogg" /></a>
@@ -22,14 +22,10 @@
 ## About
 
 <br>
-
-建国大学 情報通信大学院 人工知能専攻 修士。その前は中国でソフトウェア工学を4年間学び、卒業論文を中国語で書きました。
-修士論文では RAG のコスト問題を、学士論文では電力データの規模の問題を扱いました。
-
-現在は [fornaxworks](https://fornaxworks.com) という名前で Web・モバイル・AI プロダクトを作っています。
-2023年から留学コンサルティング事業を代表として運営しており、顧客対応や契約、事務手続きはすでに日常業務です。
-韓国語のほか、英語・中国語・日本語でやり取りできます。
-
+建国大学 情報通信大学院で人工知能を専攻し、修士号を取得しました。その前は中国でソフトウェア工学を4年間学び、学士論文も中国語で執筆しました。<br><br>
+修士論文では RAG（検索拡張生成）のコスト問題を扱い、学士論文では Hadoop を使って電力データの使用パターンを分析しました。<br><br>
+現在は <a href="https://fornaxworks.com">Fornax</a> という名前で Web、モバイル、AI プロダクトを作っています。また、2023年から留学コンサルティング事業を運営し、顧客相談から契約まで直接担当してきたため、顧客とのコミュニケーションやビジネス実務にも慣れています。<br><br>
+韓国語、英語、中国語、日本語でやり取りできます。<br><br>
 <br>
 
 ---
@@ -40,12 +36,12 @@
 
 | Project | Description | Stack |
 |---|---|---|
-| **afterformat**<br>[afterformat.com](https://afterformat.com) | 初期化のあとに入れ直すソフトをまとめて取得できる場所。110本を韓国語・英語・日本語で扱い、個人は無料でも法人は有料というソフトを、根拠と確認日を添えて区別して表示します。winget のマニフェストを毎日走査し、新しいバージョンは人が確認するプルリクエストとして上がります。 | `Astro` `React` `Tailwind` `Cloudflare Workers` `D1` |
-| **[project-owogg](https://github.com/TaeyanG4/project-owogg)**<br>[owogg.com](https://owogg.com) | ブラウザ向けミニゲームプラットフォーム。自社ゲームとユーザー投稿ゲームを同一のランタイムで動かします。Ports/Adapters でドメインを分離し、e2e テストと staging 環境を運用しています。 | `React 19` `Hono` `Cloudflare Workers` `D1` `B2` |
-| **[dexon-smart-ops-chatbot](https://github.com/TaeyanG4/dexon-smart-ops-chatbot)** | HDD の SMART データから7日以内に故障するディスクを予測し、点検順序・根拠文書・運用 Runbook をあわせて出します。公開前に追跡ファイル252件を全数検査し、個人情報を除去しました。 | `FastAPI` `LlamaIndex` `LiteLLM` `Langfuse` `Docker` |
-| **[solarops-audit](https://github.com/TaeyanG4/solarops-audit)** | 運用データの品質監査パイプライン。公開されている太陽光発電データ 1,440 万行を検証し、通過した結果だけを公開します。失敗したときは前回の結果を守り、月次レポートの数字を元データまでたどれます。Compose・Airflow から Kubernetes まで、空のマシンでそのまま再現できることを自動で確認しています。 | `Python` `Airflow` `Kubernetes` `PostgreSQL` `MinIO` |
-| **[story_maker_with_photos](https://github.com/TaeyanG4/story_maker_with_photos)** | 写真1枚を童話に変えるインタラクティブなストーリープラットフォーム。大学院の課題として、システム設計・UX・ビジネス戦略まで32ページの文書にまとめました。 | `GPT-4o` `DALL·E 3` `Gradio` |
-| **[kapt_predict](https://github.com/TaeyanG4/kapt_predict)** （公開予定） | 集合住宅の工事費予測モデル。自作クローラー [kapt_crawler](https://github.com/TaeyanG4/kapt_crawler) で収集した K-APT の公開データを使っています。 | `CatBoost` `pandas` |
+| afterformat<br>[afterformat.com](https://afterformat.com) | 初期化のあとに入れ直すソフトをまとめて取得できる場所。110本を韓国語・英語・日本語で扱い、個人は無料でも法人は有料というソフトを、根拠と確認日を添えて区別して表示します。winget のマニフェストを毎日走査し、新しいバージョンは人が確認するプルリクエストとして上がります。 | `Astro` `React` `Tailwind` `Cloudflare Workers` `D1` |
+| project-owogg<br>[owogg.com](https://owogg.com) | ブラウザ向けミニゲームプラットフォーム。自社ゲームとユーザー投稿ゲームを同一のランタイムで動かします。Ports/Adapters でドメインを分離し、e2e テストと staging 環境を運用しています。 | `React 19` `Hono` `Cloudflare Workers` `D1` `B2` |
+| [dexon-smart-ops-chatbot](https://github.com/TaeyanG4/dexon-smart-ops-chatbot) | HDD の SMART データから7日以内に故障するディスクを予測し、点検順序・根拠文書・運用 Runbook をあわせて出します。公開前に追跡ファイル252件を全数検査し、個人情報を除去しました。 | `FastAPI` `LlamaIndex` `LiteLLM` `Langfuse` `Docker` |
+| [solarops-audit](https://github.com/TaeyanG4/solarops-audit) | 運用データの品質監査パイプライン。公開されている太陽光発電データ 1,440 万行を検証し、通過した結果だけを公開します。失敗したときは前回の結果を守り、月次レポートの数字を元データまでたどれます。Compose・Airflow から Kubernetes まで、空のマシンでそのまま再現できることを自動で確認しています。 | `Python` `Airflow` `Kubernetes` `PostgreSQL` `MinIO` |
+| story_maker_with_photos | 写真1枚を童話に変えるインタラクティブなストーリープラットフォーム。大学院の課題として、システム設計・UX・ビジネス戦略まで32ページの文書にまとめました。 | `GPT-4o` `DALL·E 3` `Gradio` |
+| kapt_predict | 集合住宅の工事費予測モデル。自作クローラー [kapt_crawler](https://github.com/TaeyanG4/kapt_crawler) で収集した K-APT の公開データを使っています。 | `CatBoost` `pandas` |
 
 <br>
 
@@ -57,15 +53,15 @@
 
 Kaggle で公開したデータセットです。全一覧と品質・採用の記録は [kaggle-dataset-portfolio](https://github.com/TaeyanG4/kaggle-dataset-portfolio) にあり、Kaggle のプロフィールは [taeyangg4](https://www.kaggle.com/taeyangg4) です。
 
-| Dataset | Description | Scale |
-|---|---|---|
-| **[Kaggle Top Solutions and Strategies](https://www.kaggle.com/datasets/taeyangg4/kaggle-top-solutions-and-strategies)**<br>[repo](https://github.com/TaeyanG4/kaggle-top-solutions-and-strategies) | 終了した Kaggle 大会の公開解法記事を順位にかかわらず集め、各解法で使われた手法に原文リンクと順位の根拠を添えました。要約と手法の判定は、モデルが読み取った著者の主張であり、人が判定した正解データセットではまだ検証していません。 | `70,576 rows` `4 files` |
-| **[KONEPS Public Procurement Intelligence](https://www.kaggle.com/datasets/taeyangg4/koneps-public-procurement-intelligence)**<br>[repo](https://github.com/TaeyanG4/koneps-procurement-intelligence) | 韓国の公共調達における入札・応札・落札・契約と関連主体を共通のキーで結びました。各段階で意味が異なるため、一つにまとめずキーと出典をそのまま保持しています。 | `8 files` `2.77 GB` |
-| **[South Korea Power Grid 5-Minute Data](https://www.kaggle.com/datasets/taeyangg4/south-korea-power-grid-5-minute)**<br>[repo](https://github.com/TaeyanG4/korea-power-grid) | 韓国電力取引所の需要予測、発電機への出力指示量、推定出力を5分間隔で整理しました。全履歴は Parquet、直近1か月は CSV で公開し、どちらもそのまま開けます。 | `1B+ rows` `2.49 GB` |
-| **[South Korea Customs Trade 2012-2026 HSK10](https://www.kaggle.com/datasets/taeyangg4/south-korea-customs-trade-hsk10)**<br>[repo](https://github.com/TaeyanG4/korea-customs-trade) | 韓国関税庁の輸出入実績を相手国 × 月 × 10桁の HSK 品目で整理し、上位の HS 単位は HSK10 から派生させてあわせて収録しました。 | `22.35M rows` `1.17 GB` |
-| **[Smithsonian 25K Museum Image-Text Dataset](https://www.kaggle.com/datasets/taeyangg4/smithsonian-25k-museum-image-text)**<br>[repo](https://github.com/TaeyanG4/smithsonian-image-text) | スミソニアン Open Access の画像と説明文を権利も確認してまとめ、同じ収蔵品が学習用と評価用の両方に含まれないように分割しました。 | `24,972 images` `916 MB` |
-| **[South Korea Food-Service Permits](https://www.kaggle.com/datasets/taeyangg4/korea-food-service-permits)**<br>[repo](https://github.com/TaeyanG4/korea-business-lifecycle) | 全国の一般飲食店・休憩飲食店・製菓店の現在の営業許可状況を一度に収録したスナップショットです。 | `3.01M rows` `403 MB` |
-| **[Autonomous Driving Crash Reports — NHTSA](https://www.kaggle.com/datasets/taeyangg4/nhtsa-autonomous-driving-crashes)**<br>[repo](https://github.com/TaeyanG4/nhtsa-autonomous-driving-crashes) | 米国 NHTSA が受け取った自動運転・ADAS の事故報告を、現行の報告規定に基づいて整理しました。報告主体別の件数は、事故率や安全性の順位を示すものではありません。 | `3,263 rows` `123 cols` |
+| Dataset | Description | Scale | Repo |
+|---|---|---|---|
+| [Kaggle Top Solutions and Strategies](https://www.kaggle.com/datasets/taeyangg4/kaggle-top-solutions-and-strategies) | 終了した Kaggle 大会の公開解法記事を順位にかかわらず集め、各解法で使われた手法に原文リンクと順位の根拠を添えました。要約と手法の判定は、モデルが読み取った著者の主張です。 | `70,576 rows` `4 files` | [repo](https://github.com/TaeyanG4/kaggle-top-solutions-and-strategies) |
+| [KONEPS Public Procurement Intelligence](https://www.kaggle.com/datasets/taeyangg4/koneps-public-procurement-intelligence) | 韓国の公共調達における入札・応札・落札・契約と関連主体を共通のキーで結びました。各段階で意味が異なるため、一つにまとめずキーと出典をそのまま保持しています。 | `8 files` `2.77 GB` | [repo](https://github.com/TaeyanG4/koneps-procurement-intelligence) |
+| [South Korea Power Grid 5-Minute Data](https://www.kaggle.com/datasets/taeyangg4/south-korea-power-grid-5-minute) | 韓国電力取引所の需要予測、発電機への出力指示量、推定出力を5分間隔で整理しました。全履歴は Parquet、直近1か月は CSV で公開し、どちらもそのまま開けます。 | `1B+ rows` `2.49 GB` | [repo](https://github.com/TaeyanG4/korea-power-grid) |
+| [South Korea Customs Trade 2012-2026 HSK10](https://www.kaggle.com/datasets/taeyangg4/south-korea-customs-trade-hsk10) | 韓国関税庁の輸出入実績を相手国 × 月 × 10桁の HSK 品目で整理し、上位の HS 単位は HSK10 から派生させてあわせて収録しました。 | `22.35M rows` `1.17 GB` | [repo](https://github.com/TaeyanG4/korea-customs-trade) |
+| [Smithsonian 25K Museum Image-Text Dataset](https://www.kaggle.com/datasets/taeyangg4/smithsonian-25k-museum-image-text) | スミソニアン Open Access の画像と説明文を権利も確認してまとめ、同じ収蔵品が学習用と評価用の両方に含まれないように分割しました。 | `24,972 images` `916 MB` | [repo](https://github.com/TaeyanG4/smithsonian-image-text) |
+| [South Korea Food-Service Permits](https://www.kaggle.com/datasets/taeyangg4/korea-food-service-permits) | 全国の一般飲食店・休憩飲食店・製菓店の現在の営業許可状況を一度に収録したスナップショットです。 | `3.01M rows` `403 MB` | [repo](https://github.com/TaeyanG4/korea-business-lifecycle) |
+| [Autonomous Driving Crash Reports (NHTSA)](https://www.kaggle.com/datasets/taeyangg4/nhtsa-autonomous-driving-crashes) | 米国 NHTSA が受け取った自動運転・ADAS の事故報告を、現行の報告規定に基づいて整理しました。報告主体別の件数は、事故率や安全性の順位を示すものではありません。 | `3,263 rows` `123 cols` | [repo](https://github.com/TaeyanG4/nhtsa-autonomous-driving-crashes) |
 
 <br>
 
@@ -75,26 +71,26 @@ Kaggle で公開したデータセットです。全一覧と品質・採用の�
 
 <br>
 
-fornaxworks のショールームに置いているデモです。実際の納品物ではなく、どこまで作るのかを示すために自分で作った見本です。
+fornaxworks のショールームに置いているデモです。実際の納品物ではなく、どこまで作るのかを示すために自分で作った見本です。<br>
 画像をクリックするとブラウザでそのまま開きます。
 
 <table align="center">
 <tr>
 <td width="33.33%" align="center" valign="top">
 <a href="https://fornaxworks.com/pallet.html"><img src="assets/gallery/pallet.png" width="100%" alt="PALLET" /></a><br>
-<b>PALLET</b> Web サービス<br>
+PALLET Web サービス<br>
 登録・権限・決済まで一式<br>
 <code>TypeScript</code> <code>Next.js</code> <code>PostgreSQL</code>
 </td>
 <td width="33.33%" align="center" valign="top">
 <a href="https://fornaxworks.com/shop.html"><img src="assets/gallery/shop.png" width="100%" alt="TAG" /></a><br>
-<b>TAG</b> EC<br>
+TAG EC<br>
 キャンセル・返品・精算を状態として設計<br>
 <code>Next.js</code> <code>PostgreSQL</code> <code>Payments</code>
 </td>
 <td width="33.33%" align="center" valign="top">
 <a href="https://fornaxworks.com/mat.html"><img src="assets/gallery/mat.png" width="100%" alt="MAT" /></a><br>
-<b>MAT</b> モバイルアプリ<br>
+MAT モバイルアプリ<br>
 iOS と Android を1つのコードで、<br>ストア審査まで<br>
 <code>React Native</code> <code>Expo</code>
 </td>
@@ -102,19 +98,19 @@ iOS と Android を1つのコードで、<br>ストア審査まで<br>
 <tr>
 <td width="33.33%" align="center" valign="top">
 <a href="https://fornaxworks.com/guide.html"><img src="assets/gallery/index.png" width="100%" alt="INDEX" /></a><br>
-<b>INDEX</b> ドキュメント検索アシスタント<br>
+INDEX ドキュメント検索アシスタント<br>
 ハイブリッド検索とリランキング、根拠段落の提示<br>
 <code>Claude API</code> <code>pgvector</code> <code>FastAPI</code>
 </td>
 <td width="33.33%" align="center" valign="top">
 <a href="https://fornaxworks.com/clerk.html"><img src="assets/gallery/clerk.png" width="100%" alt="CLERK" /></a><br>
-<b>CLERK</b> 定型業務エージェント<br>
+CLERK 定型業務エージェント<br>
 ツール呼び出しパイプライン、最終承認は人が行う<br>
 <code>Claude API</code> <code>Next.js</code>
 </td>
 <td width="33.33%" align="center" valign="top">
 <a href="https://fornaxworks.com/board.html"><img src="assets/gallery/tally.png" width="100%" alt="TALLY" /></a><br>
-<b>TALLY</b> データダッシュボード<br>
+TALLY データダッシュボード<br>
 グラフよりも、毎日自動で最新になるパイプラインが要<br>
 <code>React</code> <code>Python</code> <code>Airflow</code>
 </td>
@@ -122,19 +118,19 @@ iOS と Android を1つのコードで、<br>ストア審査まで<br>
 <tr>
 <td width="33.33%" align="center" valign="top">
 <a href="https://fornaxworks.com/stamp.html"><img src="assets/gallery/stamp.png" width="100%" alt="STAMP" /></a><br>
-<b>STAMP</b> 社内業務システム<br>
+STAMP 社内業務システム<br>
 ロール別権限と、消せない監査ログ<br>
 <code>Remix</code> <code>Prisma</code> <code>MySQL</code>
 </td>
 <td width="33.33%" align="center" valign="top">
 <a href="https://fornaxworks.com/bridge.html"><img src="assets/gallery/bridge.png" width="100%" alt="BRIDGE" /></a><br>
-<b>BRIDGE</b> レガシー移行<br>
+BRIDGE レガシー移行<br>
 無停止の段階的移行と、切り戻せるデプロイ<br>
 <code>Docker</code> <code>Terraform</code> <code>AWS</code>
 </td>
 <td width="33.33%" align="center" valign="top">
 <a href="https://fornaxworks.com/landing.html"><img src="assets/gallery/beacon.png" width="100%" alt="BEACON" /></a><br>
-<b>BEACON</b> ブランド・ランディングサイト<br>
+BEACON ブランド・ランディングサイト<br>
 速度と検索性を保ち、自分で直せる状態で引き渡す<br>
 <code>Next.js</code> <code>Vercel</code>
 </td>
@@ -142,19 +138,19 @@ iOS と Android を1つのコードで、<br>ストア審査まで<br>
 <tr>
 <td width="33.33%" align="center" valign="top">
 <a href="https://fornaxworks.com/drive.html"><img src="assets/gallery/vital.png" width="100%" alt="VITAL" /></a><br>
-<b>VITAL</b> 設備の予防点検<br>
+VITAL 設備の予防点検<br>
 今日まず点検する機器を根拠とともに<br>
 <code>FastAPI</code> <code>XGBoost</code> <code>pgvector</code>
 </td>
 <td width="33.33%" align="center" valign="top">
 <a href="https://fornaxworks.com/crawl.html"><img src="assets/gallery/sift.png" width="100%" alt="SIFT" /></a><br>
-<b>SIFT</b> 公共データ収集ツール<br>
+SIFT 公共データ収集ツール<br>
 何を集めないかを先に決める収集ツール<br>
 <code>Python</code> <code>pandas</code> <code>PyQt5</code>
 </td>
 <td width="33.33%" align="center" valign="top">
 <a href="https://fornaxworks.com/solar.html"><img src="assets/gallery/solarops.png" width="100%" alt="SOLAROPS" /></a><br>
-<b>SOLAROPS</b> 運用データ品質監査<br>
+SOLAROPS 運用データ品質監査<br>
 検証済みの結果だけを公開し、数字は元データまで<br>
 <code>Python</code> <code>Airflow</code> <code>Kubernetes</code>
 </td>
@@ -171,7 +167,7 @@ iOS と Android を1つのコードで、<br>ストア審査まで<br>
 
 ### Master's Thesis
 
-> **[경량 파이프라인 컨트롤러를 통한 질의 인식 기반 비용 효율적 RAG](https://www.riss.kr/link?id=T17380351)**
+> [경량 파이프라인 컨트롤러를 통한 질의 인식 기반 비용 효율적 RAG](https://www.riss.kr/link?id=T17380351)
 >
 > Query-Aware Cost-Efficient RAG via a Lightweight Pipeline Controller<br>2026年、建国大学 情報通信大学院
 >
@@ -180,9 +176,9 @@ iOS と Android を1つのコードで、<br>ストア審査まで<br>
 
 ### Bachelor's Thesis
 
-> **Parallelization of Data Mining in Power Industry Based on MapReduce**
+> 基于MapReduce的电力行业数据挖掘并行化实现
 >
-> 基于MapReduce的电力行业数据挖掘并行化实现<br>2020年、東北電力大学 Northeast Electric Power University
+> Parallelization of Data Mining in Power Industry Based on MapReduce<br>2020 동북전력대학교 Northeast Electric Power University
 >
 > スマートメーターが吐き出す使用量データは、単一のマシンでは処理しきれません。
 > 仮想マシン上に3ノードの Hadoop クラスタを構築し、MapReduce K-means で使用パターンを分類しました。
@@ -284,12 +280,12 @@ iOS と Android を1つのコードで、<br>ストア審査まで<br>
 
 <table align="center" width="100%">
 <tr>
-<th width="42%">Data &amp; AI</th>
-<th width="34%">Dev &amp; Infra</th>
-<th width="24%">Language</th>
+<th width="420">Data &amp; AI</th>
+<th width="340">Dev &amp; Infra</th>
+<th width="240">Language</th>
 </tr>
 <tr>
-<td valign="top" nowrap>
+<td valign="top">
 
 - ビッグデータ分析技士
 - データアーキテクチャ準専門家 (DAsP)
@@ -299,7 +295,7 @@ iOS と Android を1つのコードで、<br>ストア審査まで<br>
 - AI-POT 1級
 
 </td>
-<td valign="top" nowrap>
+<td valign="top">
 
 - 情報処理技士
 - プログラミング技能士
@@ -308,7 +304,7 @@ iOS と Android を1つのコードで、<br>ストア審査まで<br>
 - コンピュータ活用能力 1級
 
 </td>
-<td valign="top" nowrap>
+<td valign="top">
 
 - HSK 5級
 
@@ -318,14 +314,14 @@ iOS と Android を1つのコードで、<br>ストア審査まで<br>
 
 <table align="center" width="100%">
 <tr>
-<th width="24%">Period</th>
-<th>Program</th>
+<th width="240">Period</th>
+<th width="760">Program</th>
 </tr>
 <tr>
 <td nowrap valign="top">2026.05 ~ 2026.08</td>
 <td>
 
-<b>Yeardream School 第6期</b> 応用コース<br>韓国中小ベンチャー企業部 AI 技術人材育成
+Yeardream School 第6期 応用コース<br>韓国中小ベンチャー企業部 AI 技術人材育成
 
 - LLM ファインチューニング、RAG とベクトル DB
 - LangChain と LangGraph、AI エージェントと MCP
@@ -337,7 +333,7 @@ iOS と Android を1つのコードで、<br>ストア審査まで<br>
 <td nowrap valign="top">2023.09 ~ 2026.02</td>
 <td>
 
-<b>建国大学 情報通信大学院</b> 融合情報技術学科 人工知能専攻 修士
+建国大学 情報通信大学院 融合情報技術学科 人工知能専攻 修士
 
 </td>
 </tr>
@@ -345,7 +341,7 @@ iOS と Android を1つのコードで、<br>ストア審査まで<br>
 <td nowrap valign="top">2022.10 ~ 2023.04</td>
 <td>
 
-<b>AI Bootcamp 第16期</b> 人工知能モデリング<br>6か月の学習 + 1か月の企業協業
+AI Bootcamp 第16期 人工知能モデリング<br>6か月の学習 + 1か月の企業協業
 
 </td>
 </tr>
@@ -353,7 +349,7 @@ iOS と Android を1つのコードで、<br>ストア審査まで<br>
 <td nowrap valign="top">2014.09 ~ 2020.06</td>
 <td>
 
-<b>東北電力大学</b>（中国）ソフトウェア工学 学士<br>4年課程、在学中に兵役1年9か月
+東北電力大学（中国）ソフトウェア工学 学士<br>4年課程、在学中に兵役1年9か月
 
 </td>
 </tr>
@@ -371,9 +367,25 @@ iOS と Android を1つのコードで、<br>ストア審査まで<br>
 
 <img src="assets/BOJ memory - taeyang95.png" width="680" alt="BOJ memory taeyang95" />
 
-*Thanks, BOJ. Good bye, BOJ.*
+*Thanks BOJ<br>Good bye BOJ*
 
 </div>
+
+---
+
+## etc
+
+<br>
+
+<div align="center">
+
+<img src="assets/etc/1st.png" width="680" alt="Taeyang 1st place leaderboard" />
+
+<img src="assets/etc/obwc-2025-result.png" width="680" alt="osu! Beatmapping World Championship 2025 results" />
+
+</div>
+
+<br>
 
 ---
 

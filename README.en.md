@@ -2,11 +2,11 @@
 
 <img src="assets/banner.gif" width="100%" alt="fornaxworks forging ideas into shippable products" />
 
-### AI and full-stack development. One person carrying a product from spec to deployment.
+### AI and full-stack development<br>One person carrying a product from spec to deployment
 
-**[https://fornaxworks.com](https://fornaxworks.com)**
+[https://fornaxworks.com](https://fornaxworks.com)
 
-[한국어](README.md) | **English** | [中文](README.zh.md) | [日本語](README.ja.md)
+[한국어](README.md) | English | [中文](README.zh.md) | [日本語](README.ja.md)
 
 <a href="https://fornaxworks.com"><img src="assets/badges/fornaxworks-com.svg" alt="fornaxworks" /></a>
 <a href="https://owogg.com"><img src="assets/badges/owogg-com.svg" alt="owogg" /></a>
@@ -22,14 +22,10 @@
 ## About
 
 <br>
-
-MSc in Artificial Intelligence, Konkuk University Graduate School of Information and Telecommunications. Before that, four years of Software Engineering in China, where I wrote my undergraduate thesis in Chinese.
-My master's thesis took on the cost problem in RAG pipelines, my bachelor's the scale problem in power grid data.
-
-I now build web, mobile, and AI products under the name [fornaxworks](https://fornaxworks.com).
-Running a study abroad consulting agency as its owner since 2023 means client work, contracts, and administration are already familiar ground.
-I work in Korean, English, Chinese, and Japanese.
-
+I earned a master’s degree in Artificial Intelligence at Konkuk University Graduate School of Information and Telecommunications<br>Before that I studied Software Engineering in China for four years and wrote my undergraduate thesis in Chinese<br><br>
+My master’s thesis addressed the cost of RAG (Retrieval-Augmented Generation)<br>My undergraduate research used Hadoop to analyze electricity consumption patterns<br><br>
+I currently build web mobile and AI products under the name <a href="https://fornaxworks.com">Fornax</a><br>I have also run a study abroad consulting business since 2023 handling client consultations and contracts directly so I am familiar with client communication and business operations<br><br>
+I communicate in Korean English Chinese and Japanese<br><br>
 <br>
 
 ---
@@ -40,12 +36,12 @@ I work in Korean, English, Chinese, and Japanese.
 
 | Project | Description | Stack |
 |---|---|---|
-| **afterformat**<br>[afterformat.com](https://afterformat.com) | Pick the programs you use and get them all back in one go after reformatting. 110 programs in Korean, English and Japanese, each marked with whether it is licensed for business use — with the evidence and the date it was checked. winget manifests are scanned daily and land as pull requests a person has to review. | `Astro` `React` `Tailwind` `Cloudflare Workers` `D1` |
-| **[project-owogg](https://github.com/TaeyanG4/project-owogg)**<br>[owogg.com](https://owogg.com) | Browser mini-game platform. First-party and user-uploaded games run on a single runtime. Domain logic sits behind ports and adapters, with e2e tests and a staging environment in operation. | `React 19` `Hono` `Cloudflare Workers` `D1` `B2` |
-| **[dexon-smart-ops-chatbot](https://github.com/TaeyanG4/dexon-smart-ops-chatbot)** | Predicts which HDDs will fail within seven days from SMART data, and returns an inspection order, supporting evidence, and an operations runbook. All 252 tracked files were audited and scrubbed of personal data before release. | `FastAPI` `LlamaIndex` `LiteLLM` `Langfuse` `Docker` |
-| **[solarops-audit](https://github.com/TaeyanG4/solarops-audit)** | Operational data quality audit pipeline. Validates 14.4 million rows of public solar generation data, publishes only what passes, keeps the previous result when a run fails, and traces every number in the monthly report back to its source. An automated run confirms the whole stack, from Compose and Airflow to Kubernetes, reproduces on an empty machine. | `Python` `Airflow` `Kubernetes` `PostgreSQL` `MinIO` |
-| **[story_maker_with_photos](https://github.com/TaeyanG4/story_maker_with_photos)** | Turns a single photo into an interactive illustrated story. Documented as graduate coursework across 32 pages covering system design, UX, and business strategy. | `GPT-4o` `DALL·E 3` `Gradio` |
-| **[kapt_predict](https://github.com/TaeyanG4/kapt_predict)** (coming soon) | Construction cost prediction model for apartment complexes, trained on public K-APT data collected by my own crawler, [kapt_crawler](https://github.com/TaeyanG4/kapt_crawler). | `CatBoost` `pandas` |
+| afterformat<br>[afterformat.com](https://afterformat.com) | Pick the programs you use and get them all back in one go after reformatting<br>110 programs in Korean English and Japanese each marked with whether it is licensed for business use with the evidence and the date it was checked<br>winget manifests are scanned daily and land as pull requests a person has to review | `Astro` `React` `Tailwind` `Cloudflare Workers` `D1` |
+| project-owogg<br>[owogg.com](https://owogg.com) | Browser mini-game platform<br>First-party and user-uploaded games run on a single runtime<br>Domain logic sits behind ports and adapters with e2e tests and a staging environment in operation | `React 19` `Hono` `Cloudflare Workers` `D1` `B2` |
+| [dexon-smart-ops-chatbot](https://github.com/TaeyanG4/dexon-smart-ops-chatbot) | Predicts which HDDs will fail within seven days from SMART data and returns an inspection order supporting evidence and an operations runbook<br>All 252 tracked files were audited and scrubbed of personal data before release | `FastAPI` `LlamaIndex` `LiteLLM` `Langfuse` `Docker` |
+| [solarops-audit](https://github.com/TaeyanG4/solarops-audit) | Operational data quality audit pipeline<br>Validates 14.4 million rows of public solar generation data publishes only what passes keeps the previous result when a run fails and traces every number in the monthly report back to its source<br>An automated run confirms the whole stack from Compose and Airflow to Kubernetes reproduces on an empty machine | `Python` `Airflow` `Kubernetes` `PostgreSQL` `MinIO` |
+| story_maker_with_photos | Turns a single photo into an interactive illustrated story<br>Documented as graduate coursework across 32 pages covering system design UX and business strategy | `GPT-4o` `DALL·E 3` `Gradio` |
+| kapt_predict | Construction cost prediction model for apartment complexes trained on public K-APT data collected by my own crawler [kapt_crawler](https://github.com/TaeyanG4/kapt_crawler) | `CatBoost` `pandas` |
 
 <br>
 
@@ -55,17 +51,17 @@ I work in Korean, English, Chinese, and Japanese.
 
 <br>
 
-Datasets I have published on Kaggle. The full list, along with quality and adoption records, is in [kaggle-dataset-portfolio](https://github.com/TaeyanG4/kaggle-dataset-portfolio), and my Kaggle profile is [taeyangg4](https://www.kaggle.com/taeyangg4).
+Datasets I have published on Kaggle<br>The full list along with quality and adoption records is in [kaggle-dataset-portfolio](https://github.com/TaeyanG4/kaggle-dataset-portfolio) and my Kaggle profile is [taeyangg4](https://www.kaggle.com/taeyangg4)
 
-| Dataset | Description | Scale |
-|---|---|---|
-| **[Kaggle Top Solutions and Strategies](https://www.kaggle.com/datasets/taeyangg4/kaggle-top-solutions-and-strategies)**<br>[repo](https://github.com/TaeyanG4/kaggle-top-solutions-and-strategies) | Collected public solution writeups from completed Kaggle competitions regardless of rank, with the techniques used in each solution, links to the original posts, and evidence for the rankings. The summaries and technique labels reflect the model's reading of authors' claims and have not yet been validated against a human-annotated ground-truth set. | `70,576 rows` `4 files` |
-| **[KONEPS Public Procurement Intelligence](https://www.kaggle.com/datasets/taeyangg4/koneps-public-procurement-intelligence)**<br>[repo](https://github.com/TaeyanG4/koneps-procurement-intelligence) | Links tenders, bid submissions, awards, contracts, and related entities in Korean public procurement through common keys. Each stage has a different meaning, so the stages are kept separate and their keys and sources are preserved. | `8 files` `2.77 GB` |
-| **[South Korea Power Grid 5-Minute Data](https://www.kaggle.com/datasets/taeyangg4/south-korea-power-grid-5-minute)**<br>[repo](https://github.com/TaeyanG4/korea-power-grid) | Organizes the Korea Power Exchange's demand forecasts, generator dispatch quantities, and estimated output at 5-minute intervals. The full history is uploaded as Parquet and the most recent month as CSV, so both can be opened directly. | `1B+ rows` `2.49 GB` |
-| **[South Korea Customs Trade 2012-2026 HSK10](https://www.kaggle.com/datasets/taeyangg4/south-korea-customs-trade-hsk10)**<br>[repo](https://github.com/TaeyanG4/korea-customs-trade) | Organizes Korea Customs Service import and export records by partner country × month × 10-digit HSK item, with higher HS levels derived from HSK10 and included alongside them. | `22.35M rows` `1.17 GB` |
-| **[Smithsonian 25K Museum Image-Text Dataset](https://www.kaggle.com/datasets/taeyangg4/smithsonian-25k-museum-image-text)**<br>[repo](https://github.com/TaeyanG4/smithsonian-image-text) | Pairs Smithsonian Open Access images with descriptions after checking their rights, and splits the data so the same object does not appear in both training and evaluation. | `24,972 images` `916 MB` |
-| **[South Korea Food-Service Permits](https://www.kaggle.com/datasets/taeyangg4/korea-food-service-permits)**<br>[repo](https://github.com/TaeyanG4/korea-business-lifecycle) | A snapshot of the current operating permit status of general restaurants, refreshment restaurants, and bakeries nationwide. | `3.01M rows` `403 MB` |
-| **[Autonomous Driving Crash Reports — NHTSA](https://www.kaggle.com/datasets/taeyangg4/nhtsa-autonomous-driving-crashes)**<br>[repo](https://github.com/TaeyanG4/nhtsa-autonomous-driving-crashes) | Organizes autonomous driving and ADAS crash reports received by the US NHTSA under the current reporting rules. Counts by reporting entity are not crash rates or safety rankings. | `3,263 rows` `123 cols` |
+| Dataset | Description | Scale | Repo |
+|---|---|---|---|
+| [Kaggle Top Solutions and Strategies](https://www.kaggle.com/datasets/taeyangg4/kaggle-top-solutions-and-strategies) | Collected public solution writeups from completed Kaggle competitions regardless of rank with the techniques used in each solution links to the original posts and evidence for the rankings<br>The summaries and technique labels reflect the model's reading of authors' claims | `70,576 rows` `4 files` | [repo](https://github.com/TaeyanG4/kaggle-top-solutions-and-strategies) |
+| [KONEPS Public Procurement Intelligence](https://www.kaggle.com/datasets/taeyangg4/koneps-public-procurement-intelligence) | Links tenders bid submissions awards contracts and related entities in Korean public procurement through common keys<br>Each stage has a different meaning so the stages are kept separate and their keys and sources are preserved | `8 files` `2.77 GB` | [repo](https://github.com/TaeyanG4/koneps-procurement-intelligence) |
+| [South Korea Power Grid 5-Minute Data](https://www.kaggle.com/datasets/taeyangg4/south-korea-power-grid-5-minute) | Organizes the Korea Power Exchange's demand forecasts generator dispatch quantities and estimated output at 5-minute intervals<br>The full history is uploaded as Parquet and the most recent month as CSV so both can be opened directly | `1B+ rows` `2.49 GB` | [repo](https://github.com/TaeyanG4/korea-power-grid) |
+| [South Korea Customs Trade 2012-2026 HSK10](https://www.kaggle.com/datasets/taeyangg4/south-korea-customs-trade-hsk10) | Organizes Korea Customs Service import and export records by partner country × month × 10-digit HSK item with higher HS levels derived from HSK10 and included alongside them | `22.35M rows` `1.17 GB` | [repo](https://github.com/TaeyanG4/korea-customs-trade) |
+| [Smithsonian 25K Museum Image-Text Dataset](https://www.kaggle.com/datasets/taeyangg4/smithsonian-25k-museum-image-text) | Pairs Smithsonian Open Access images with descriptions after checking their rights and splits the data so the same object does not appear in both training and evaluation | `24,972 images` `916 MB` | [repo](https://github.com/TaeyanG4/smithsonian-image-text) |
+| [South Korea Food-Service Permits](https://www.kaggle.com/datasets/taeyangg4/korea-food-service-permits) | A snapshot of the current operating permit status of general restaurants refreshment restaurants and bakeries nationwide | `3.01M rows` `403 MB` | [repo](https://github.com/TaeyanG4/korea-business-lifecycle) |
+| [Autonomous Driving Crash Reports (NHTSA)](https://www.kaggle.com/datasets/taeyangg4/nhtsa-autonomous-driving-crashes) | Organizes autonomous driving and ADAS crash reports received by the US NHTSA under the current reporting rules<br>Counts by reporting entity are not crash rates or safety rankings | `3,263 rows` `123 cols` | [repo](https://github.com/TaeyanG4/nhtsa-autonomous-driving-crashes) |
 
 <br>
 
@@ -75,46 +71,46 @@ Datasets I have published on Kaggle. The full list, along with quality and adopt
 
 <br>
 
-Demos from the fornaxworks showroom. These are not client deliverables. I built them to show how far the work goes.
-Click an image to open it in your browser.
+Demos from the fornaxworks showroom<br>These are not client deliverables<br>I built them to show how far the work goes<br>
+Click an image to open it in your browser
 
 <table align="center">
 <tr>
 <td width="33.33%" align="center" valign="top">
 <a href="https://fornaxworks.com/pallet.html"><img src="assets/gallery/pallet.png" width="100%" alt="PALLET" /></a><br>
-<b>PALLET</b> Web service<br>
-Sign-up, permissions, and billing in one set<br>
+PALLET Web service<br>
+Sign-up permissions and billing in one set<br>
 <code>TypeScript</code> <code>Next.js</code> <code>PostgreSQL</code>
 </td>
 <td width="33.33%" align="center" valign="top">
 <a href="https://fornaxworks.com/shop.html"><img src="assets/gallery/shop.png" width="100%" alt="TAG" /></a><br>
-<b>TAG</b> Commerce<br>
-Cancellation, returns, and settlement modelled as state<br>
+TAG Commerce<br>
+Cancellation returns and settlement modelled as state<br>
 <code>Next.js</code> <code>PostgreSQL</code> <code>Payments</code>
 </td>
 <td width="33.33%" align="center" valign="top">
 <a href="https://fornaxworks.com/mat.html"><img src="assets/gallery/mat.png" width="100%" alt="MAT" /></a><br>
-<b>MAT</b> Mobile app<br>
-iOS and Android from one codebase,<br>store review included<br>
+MAT Mobile app<br>
+iOS and Android from one codebase<br>store review included<br>
 <code>React Native</code> <code>Expo</code>
 </td>
 </tr>
 <tr>
 <td width="33.33%" align="center" valign="top">
 <a href="https://fornaxworks.com/guide.html"><img src="assets/gallery/index.png" width="100%" alt="INDEX" /></a><br>
-<b>INDEX</b> Document search assistant<br>
-Hybrid retrieval, reranking, cited source passages<br>
+INDEX Document search assistant<br>
+Hybrid retrieval reranking cited source passages<br>
 <code>Claude API</code> <code>pgvector</code> <code>FastAPI</code>
 </td>
 <td width="33.33%" align="center" valign="top">
 <a href="https://fornaxworks.com/clerk.html"><img src="assets/gallery/clerk.png" width="100%" alt="CLERK" /></a><br>
-<b>CLERK</b> Routine work agent<br>
-Tool-calling pipeline, final approval stays with a human<br>
+CLERK Routine work agent<br>
+Tool-calling pipeline final approval stays with a human<br>
 <code>Claude API</code> <code>Next.js</code>
 </td>
 <td width="33.33%" align="center" valign="top">
 <a href="https://fornaxworks.com/board.html"><img src="assets/gallery/tally.png" width="100%" alt="TALLY" /></a><br>
-<b>TALLY</b> Data dashboard<br>
+TALLY Data dashboard<br>
 The pipeline that stays current matters more than the chart<br>
 <code>React</code> <code>Python</code> <code>Airflow</code>
 </td>
@@ -122,40 +118,40 @@ The pipeline that stays current matters more than the chart<br>
 <tr>
 <td width="33.33%" align="center" valign="top">
 <a href="https://fornaxworks.com/stamp.html"><img src="assets/gallery/stamp.png" width="100%" alt="STAMP" /></a><br>
-<b>STAMP</b> Internal business system<br>
+STAMP Internal business system<br>
 Role-based permissions and an append-only audit log<br>
 <code>Remix</code> <code>Prisma</code> <code>MySQL</code>
 </td>
 <td width="33.33%" align="center" valign="top">
 <a href="https://fornaxworks.com/bridge.html"><img src="assets/gallery/bridge.png" width="100%" alt="BRIDGE" /></a><br>
-<b>BRIDGE</b> Legacy migration<br>
+BRIDGE Legacy migration<br>
 Phased cutover with no downtime and a reversible deploy<br>
 <code>Docker</code> <code>Terraform</code> <code>AWS</code>
 </td>
 <td width="33.33%" align="center" valign="top">
 <a href="https://fornaxworks.com/landing.html"><img src="assets/gallery/beacon.png" width="100%" alt="BEACON" /></a><br>
-<b>BEACON</b> Brand and landing site<br>
-Fast, findable, and editable by the people who own it<br>
+BEACON Brand and landing site<br>
+Fast findable and editable by the people who own it<br>
 <code>Next.js</code> <code>Vercel</code>
 </td>
 </tr>
 <tr>
 <td width="33.33%" align="center" valign="top">
 <a href="https://fornaxworks.com/drive.html"><img src="assets/gallery/vital.png" width="100%" alt="VITAL" /></a><br>
-<b>VITAL</b> Predictive equipment maintenance<br>
-Which machines to check today, with the evidence<br>
+VITAL Predictive equipment maintenance<br>
+Which machines to check today with the evidence<br>
 <code>FastAPI</code> <code>XGBoost</code> <code>pgvector</code>
 </td>
 <td width="33.33%" align="center" valign="top">
 <a href="https://fornaxworks.com/crawl.html"><img src="assets/gallery/sift.png" width="100%" alt="SIFT" /></a><br>
-<b>SIFT</b> Public data collector<br>
+SIFT Public data collector<br>
 A collector that decides first what not to scrape<br>
 <code>Python</code> <code>pandas</code> <code>PyQt5</code>
 </td>
 <td width="33.33%" align="center" valign="top">
 <a href="https://fornaxworks.com/solar.html"><img src="assets/gallery/solarops.png" width="100%" alt="SOLAROPS" /></a><br>
-<b>SOLAROPS</b> Operational data quality audit<br>
-Publishes only validated results, traces numbers to the source<br>
+SOLAROPS Operational data quality audit<br>
+Publishes only validated results traces numbers to the source<br>
 <code>Python</code> <code>Airflow</code> <code>Kubernetes</code>
 </td>
 </tr>
@@ -171,21 +167,21 @@ Publishes only validated results, traces numbers to the source<br>
 
 ### Master's Thesis
 
-> **[Query-Aware Cost-Efficient RAG via a Lightweight Pipeline Controller](https://www.riss.kr/link?id=T17380351)**
+> [Query-Aware Cost-Efficient RAG via a Lightweight Pipeline Controller](https://www.riss.kr/link?id=T17380351)
 >
-> 경량 파이프라인 컨트롤러를 통한 질의 인식 기반 비용 효율적 RAG<br>2026, Konkuk University Graduate School of Information and Telecommunications
+> 경량 파이프라인 컨트롤러를 통한 질의 인식 기반 비용 효율적 RAG<br>2026 Konkuk University Graduate School of Information and Telecommunications
 >
-> Running every query through the same expensive pipeline makes easy questions pay full price in cost and latency.
-> I added a lightweight controller that estimates query difficulty first, then switches on hybrid retrieval, reranking, and HyDE only when they are needed.
+> Running every query through the same expensive pipeline makes easy questions pay full price in cost and latency
+> I added a lightweight controller that estimates query difficulty first then switches on hybrid retrieval reranking and HyDE only when they are needed
 
 ### Bachelor's Thesis
 
-> **Parallelization of Data Mining in Power Industry Based on MapReduce**
+> 基于MapReduce的电力行业数据挖掘并行化实现
 >
-> 基于MapReduce的电力行业数据挖掘并行化实现<br>2020, Northeast Electric Power University
+> Parallelization of Data Mining in Power Industry Based on MapReduce<br>2020 동북전력대학교 Northeast Electric Power University
 >
-> Smart meters produce more consumption data than a single machine can process.
-> I stood up a three-node Hadoop cluster on virtual machines and partitioned usage patterns with MapReduce K-means.
+> Smart meters produce more consumption data than a single machine can process
+> I stood up a three-node Hadoop cluster on virtual machines and partitioned usage patterns with MapReduce K-means
 
 <br>
 
@@ -284,12 +280,12 @@ Publishes only validated results, traces numbers to the source<br>
 
 <table align="center" width="100%">
 <tr>
-<th width="42%">Data &amp; AI</th>
-<th width="34%">Dev &amp; Infra</th>
-<th width="24%">Language</th>
+<th width="420">Data &amp; AI</th>
+<th width="340">Dev &amp; Infra</th>
+<th width="240">Language</th>
 </tr>
 <tr>
-<td valign="top" nowrap>
+<td valign="top">
 
 - Engineer Big Data Analysis
 - Data Architecture Semi-Professional (DAsP)
@@ -299,7 +295,7 @@ Publishes only validated results, traces numbers to the source<br>
 - AI-POT Level 1
 
 </td>
-<td valign="top" nowrap>
+<td valign="top">
 
 - Engineer Information Processing
 - Craftsman Programming
@@ -308,7 +304,7 @@ Publishes only validated results, traces numbers to the source<br>
 - Computer Specialist in Spreadsheet and Database Level 1
 
 </td>
-<td valign="top" nowrap>
+<td valign="top">
 
 - HSK Level 5
 
@@ -318,17 +314,17 @@ Publishes only validated results, traces numbers to the source<br>
 
 <table align="center" width="100%">
 <tr>
-<th width="24%">Period</th>
-<th>Program</th>
+<th width="240">Period</th>
+<th width="760">Program</th>
 </tr>
 <tr>
 <td nowrap valign="top">2026.05 ~ 2026.08</td>
 <td>
 
-<b>Yeardream School 6th cohort</b>, advanced track<br>Ministry of SMEs and Startups AI talent programme
+Yeardream School 6th cohort advanced track<br>Ministry of SMEs and Startups AI talent programme
 
-- LLM fine-tuning, RAG and vector databases
-- LangChain and LangGraph, AI agents and MCP
+- LLM fine-tuning RAG and vector databases
+- LangChain and LangGraph AI agents and MCP
 - Industry-linked team project
 
 </td>
@@ -337,7 +333,7 @@ Publishes only validated results, traces numbers to the source<br>
 <td nowrap valign="top">2023.09 ~ 2026.02</td>
 <td>
 
-<b>Konkuk University</b> Graduate School of Information and Telecommunications, MSc in Artificial Intelligence
+Konkuk University Graduate School of Information and Telecommunications MSc in Artificial Intelligence
 
 </td>
 </tr>
@@ -345,7 +341,7 @@ Publishes only validated results, traces numbers to the source<br>
 <td nowrap valign="top">2022.10 ~ 2023.04</td>
 <td>
 
-<b>AI Bootcamp 16th cohort</b>, AI modelling<br>6 months of study + 1 month industry collaboration
+AI Bootcamp 16th cohort AI modelling<br>6 months of study + 1 month industry collaboration
 
 </td>
 </tr>
@@ -353,7 +349,7 @@ Publishes only validated results, traces numbers to the source<br>
 <td nowrap valign="top">2014.09 ~ 2020.06</td>
 <td>
 
-<b>Northeast Electric Power University</b> (China), BSc in Software Engineering<br>4-year programme, with 1 year 9 months of military service during enrolment
+Northeast Electric Power University (China) BSc in Software Engineering<br>4-year programme with 1 year 9 months of military service during enrolment
 
 </td>
 </tr>
@@ -371,14 +367,30 @@ Publishes only validated results, traces numbers to the source<br>
 
 <img src="assets/BOJ memory - taeyang95.png" width="680" alt="BOJ memory taeyang95" />
 
-*Thanks, BOJ. Good bye, BOJ.*
+*Thanks BOJ<br>Good bye BOJ*
 
 </div>
 
 ---
 
+## etc
+
+<br>
+
 <div align="center">
 
-### New project enquiries are welcome at [fornaxworks.com](https://fornaxworks.com).
+<img src="assets/etc/1st.png" width="680" alt="Taeyang 1st place leaderboard" />
+
+<img src="assets/etc/obwc-2025-result.png" width="680" alt="osu! Beatmapping World Championship 2025 results" />
+
+</div>
+
+<br>
+
+---
+
+<div align="center">
+
+### New project enquiries are welcome at [fornaxworks.com](https://fornaxworks.com)
 
 </div>

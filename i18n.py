@@ -21,11 +21,14 @@ NAV = {
 # 한국어 원문 -> 각 언어. 긴 문장부터 치환해야 부분 일치로 깨지지 않는다.
 T = {
 "en": {
+"포맷 직후 다시 깔 프로그램을 골라 한 번에 받는 곳. 프로그램 110개를 한국어·영어·일본어로 다루고, 개인은 무료지만 기업은 유료인 프로그램을 근거와 확인 날짜까지 적어 구분합니다. winget 매니페스트를 매일 훑어 새 버전을 PR 로 올리고, 사람이 확인해야 반영됩니다.":
+"Pick the programs you use and get them all back in one go after reformatting. 110 programs in Korean, English and Japanese, each marked with whether it is licensed for business use — with the evidence and the date it was checked. winget manifests are scanned daily and land as pull requests a person has to review.",
+
 "Kaggle에 공개한 데이터셋입니다. 전체 목록과 품질·채택 기록은 [kaggle-dataset-portfolio](https://github.com/TaeyanG4/kaggle-dataset-portfolio)에 있고, Kaggle 프로필은 [taeyangg4](https://www.kaggle.com/taeyangg4)입니다.":
 "Datasets I have published on Kaggle. The full list, along with quality and adoption records, is in [kaggle-dataset-portfolio](https://github.com/TaeyanG4/kaggle-dataset-portfolio), and my Kaggle profile is [taeyangg4](https://www.kaggle.com/taeyangg4).",
 
-"종료된 Kaggle 대회의 공개 풀이 글을 순위와 관계없이 모아, 풀이마다 어떤 기법을 썼는지 원문 링크와 순위 근거까지 붙였습니다. 요약과 기법 판정은 모델이 읽은 저자 주장이고, 사람이 판정한 정답셋으로는 아직 검증하지 않았습니다.":
-"Collected public solution writeups from completed Kaggle competitions regardless of rank, with the techniques used in each solution, links to the original posts, and evidence for the rankings. The summaries and technique labels reflect the model's reading of authors' claims and have not yet been validated against a human-annotated ground-truth set.",
+"종료된 Kaggle 대회의 공개 풀이 글을 순위와 관계없이 모아, 풀이마다 어떤 기법을 썼는지 원문 링크와 순위 근거까지 붙였습니다. 요약과 기법 판정은 모델이 읽은 저자 주장입니다.":
+"Collected public solution writeups from completed Kaggle competitions regardless of rank, with the techniques used in each solution, links to the original posts, and evidence for the rankings. The summaries and technique labels reflect the model's reading of authors' claims.",
 
 "한국 공공조달의 입찰·투찰·낙찰·계약과 관련 주체를 같은 키로 연결했습니다. 단계마다 의미가 달라 하나로 합치지 않고 키와 출처를 그대로 보존합니다.":
 "Links tenders, bid submissions, awards, contracts, and related entities in Korean public procurement through common keys. Each stage has a different meaning, so the stages are kept separate and their keys and sources are preserved.",
@@ -48,16 +51,16 @@ T = {
 "### AI와 풀스택 개발. 기획부터 배포까지 한 사람이 이어서 합니다.":
 "### AI and full-stack development. One person carrying a product from spec to deployment.",
 
-"건국대학교 정보통신대학원 인공지능전공 석사. 그 전에는 중국에서 4년간 소프트웨어공학을 공부했고 졸업논문을 중국어로 썼습니다.":
-"MSc in Artificial Intelligence, Konkuk University Graduate School of Information and Telecommunications. Before that, four years of Software Engineering in China, where I wrote my undergraduate thesis in Chinese.",
-"석사 논문은 RAG의 비용 문제를, 학사 논문은 전력 데이터의 규모 문제를 다뤘습니다.":
-"My master's thesis took on the cost problem in RAG pipelines, my bachelor's the scale problem in power grid data.",
-"지금은 [fornaxworks](https://fornaxworks.com)라는 이름으로 웹, 모바일, AI 제품을 만듭니다.":
-"I now build web, mobile, and AI products under the name [fornaxworks](https://fornaxworks.com).",
+"건국대학교 정보통신대학원에서 인공지능 전공하여 석사학위를 받았습니다. 그 전에는 중국에서 4년간 소프트웨어공학을 공부했으며, 학사 졸업논문 역시 중국어로 작성했습니다.":
+"I earned a master’s degree in Artificial Intelligence at Konkuk University Graduate School of Information and Telecommunications. Before that, I studied Software Engineering in China for four years and wrote my undergraduate thesis in Chinese.",
+"석사 논문에서는 RAG(Retrieval-Augmented Generation)의 비용 문제를 다뤘고, 학사 논문에서는 Hadoop을 활용해 전력 데이터의 사용 패턴을 분석하는 연구를 진행했습니다.":
+"My master’s thesis addressed the cost of RAG (Retrieval-Augmented Generation). My undergraduate research used Hadoop to analyze electricity consumption patterns.",
+"현재는 <a href=\"https://fornaxworks.com\">Fornax</a> 라는 이름으로 웹, 모바일, AI 제품을 만들고 있습니다. 또한 2023년부터 유학 컨설팅 사업체를 운영하며 고객 상담부터 계약까지 직접 담당해왔기 때문에, 고객과의 커뮤니케이션과 비즈니스 실무에도 익숙합니다.":
+"I currently build web, mobile, and AI products under the name <a href=\"https://fornaxworks.com\">Fornax</a>. I have also run a study abroad consulting business since 2023, handling client consultations and contracts directly, so I am familiar with client communication and business operations.",
 "2023년부터 유학 컨설팅 사업체를 대표로 운영해와서 고객 응대와 계약, 행정은 이미 하던 일입니다.":
 "Running a study abroad consulting agency as its owner since 2023 means client work, contracts, and administration are already familiar ground.",
-"한국어 외에 영어, 중국어, 일본어로 소통할 수 있습니다.":
-"I work in Korean, English, Chinese, and Japanese.",
+"한국어를 비롯해 영어, 중국어, 일본어로 소통할 수 있습니다.":
+"I communicate in Korean, English, Chinese, and Japanese.",
 
 "브라우저 미니게임 플랫폼. 자체 게임과 사용자 업로드 게임을 하나의 런타임에서 돌립니다. Ports/Adapters로 도메인을 분리했고 e2e 테스트와 staging 환경을 운영합니다.":
 "Browser mini-game platform. First-party and user-uploaded games run on a single runtime. Domain logic sits behind ports and adapters, with e2e tests and a staging environment in operation.",
@@ -71,7 +74,7 @@ T = {
 "Construction cost prediction model for apartment complexes, trained on public K-APT data collected by my own crawler, [kapt_crawler](https://github.com/TaeyanG4/kapt_crawler).",
 "(공개 예정)": "(coming soon)",
 
-"fornaxworks 견본실에 올려둔 데모입니다. 실제 납품물이 아니라 어디까지 만드는지 보여주려고 직접 만든 견본입니다.":
+"fornaxworks 견본실에 올려둔 데모입니다. 실제 납품물이 아니라 어디까지 만드는지 보여주기위한 직접 만든 견본입니다.":
 "Demos from the fornaxworks showroom. These are not client deliverables. I built them to show how far the work goes.",
 "이미지를 누르면 브라우저에서 바로 열립니다.":
 "Click an image to open it in your browser.",
@@ -149,11 +152,14 @@ T = {
 },
 
 "zh": {
+"포맷 직후 다시 깔 프로그램을 골라 한 번에 받는 곳. 프로그램 110개를 한국어·영어·일본어로 다루고, 개인은 무료지만 기업은 유료인 프로그램을 근거와 확인 날짜까지 적어 구분합니다. winget 매니페스트를 매일 훑어 새 버전을 PR 로 올리고, 사람이 확인해야 반영됩니다.":
+"重装系统后一次性取回常用软件的站点。以韩语、英语、日语收录 110 款软件，并标注个人免费但企业需付费的软件，附上依据与核对日期。每日扫描 winget 清单，新版本以 Pull Request 形式提交，需人工确认后才会发布。",
+
 "Kaggle에 공개한 데이터셋입니다. 전체 목록과 품질·채택 기록은 [kaggle-dataset-portfolio](https://github.com/TaeyanG4/kaggle-dataset-portfolio)에 있고, Kaggle 프로필은 [taeyangg4](https://www.kaggle.com/taeyangg4)입니다.":
 "在 Kaggle 上公开的数据集。完整列表及质量与采用记录见 [kaggle-dataset-portfolio](https://github.com/TaeyanG4/kaggle-dataset-portfolio)，Kaggle 个人主页为 [taeyangg4](https://www.kaggle.com/taeyangg4)。",
 
-"종료된 Kaggle 대회의 공개 풀이 글을 순위와 관계없이 모아, 풀이마다 어떤 기법을 썼는지 원문 링크와 순위 근거까지 붙였습니다. 요약과 기법 판정은 모델이 읽은 저자 주장이고, 사람이 판정한 정답셋으로는 아직 검증하지 않았습니다.":
-"收集已结束的 Kaggle 竞赛的公开解题文章，不限排名，并为每篇解答标注所用技术、原文链接和排名依据。摘要和技术判定反映的是模型对作者主张的解读，尚未用人工判定的标准答案集验证。",
+"종료된 Kaggle 대회의 공개 풀이 글을 순위와 관계없이 모아, 풀이마다 어떤 기법을 썼는지 원문 링크와 순위 근거까지 붙였습니다. 요약과 기법 판정은 모델이 읽은 저자 주장입니다.":
+"收集已结束的 Kaggle 竞赛的公开解题文章，不限排名，并为每篇解答标注所用技术、原文链接和排名依据。摘要和技术判定反映的是模型对作者主张的解读。",
 
 "한국 공공조달의 입찰·투찰·낙찰·계약과 관련 주체를 같은 키로 연결했습니다. 단계마다 의미가 달라 하나로 합치지 않고 키와 출처를 그대로 보존합니다.":
 "用相同的键关联韩国公共采购的招标、投标、中标、合同及相关主体。各阶段含义不同，因此不合并为一体，原样保留键和来源。",
@@ -176,16 +182,16 @@ T = {
 "### AI와 풀스택 개발. 기획부터 배포까지 한 사람이 이어서 합니다.":
 "### AI 与全栈开发。从策划到部署，由一个人一路负责到底。",
 
-"건국대학교 정보통신대학원 인공지능전공 석사. 그 전에는 중국에서 4년간 소프트웨어공학을 공부했고 졸업논문을 중국어로 썼습니다.":
-"建国大学信息通信研究生院人工智能专业硕士。此前在中国攻读软件工程本科四年，毕业论文以中文撰写。",
-"석사 논문은 RAG의 비용 문제를, 학사 논문은 전력 데이터의 규모 문제를 다뤘습니다.":
-"硕士论文处理 RAG 的成本问题，本科论文处理电力数据的规模问题。",
-"지금은 [fornaxworks](https://fornaxworks.com)라는 이름으로 웹, 모바일, AI 제품을 만듭니다.":
-"目前以 [fornaxworks](https://fornaxworks.com) 的名义承接 Web、移动端与 AI 产品开发。",
+"건국대학교 정보통신대학원에서 인공지능 전공하여 석사학위를 받았습니다. 그 전에는 중국에서 4년간 소프트웨어공학을 공부했으며, 학사 졸업논문 역시 중국어로 작성했습니다.":
+"我在建国大学信息通信研究生院获得了人工智能专业硕士学位。此前在中国学习了四年软件工程，本科毕业论文也用中文撰写。",
+"석사 논문에서는 RAG(Retrieval-Augmented Generation)의 비용 문제를 다뤘고, 학사 논문에서는 Hadoop을 활용해 전력 데이터의 사용 패턴을 분석하는 연구를 진행했습니다.":
+"硕士论文研究了 RAG（检索增强生成）的成本问题，本科论文则使用 Hadoop 分析电力数据中的用电模式。",
+"현재는 <a href=\"https://fornaxworks.com\">Fornax</a> 라는 이름으로 웹, 모바일, AI 제품을 만들고 있습니다. 또한 2023년부터 유학 컨설팅 사업체를 운영하며 고객 상담부터 계약까지 직접 담당해왔기 때문에, 고객과의 커뮤니케이션과 비즈니스 실무에도 익숙합니다.":
+"目前以 <a href=\"https://fornaxworks.com\">Fornax</a> 的名义开发 Web、移动端和 AI 产品。自 2023 年起经营留学咨询业务，从客户咨询到签约都亲自负责，因此也熟悉客户沟通和业务实务。",
 "2023년부터 유학 컨설팅 사업체를 대표로 운영해와서 고객 응대와 계약, 행정은 이미 하던 일입니다.":
 "自 2023 年起以负责人身份经营留学咨询公司，客户沟通、合同与行政事务是本来就在做的工作。",
-"한국어 외에 영어, 중국어, 일본어로 소통할 수 있습니다.":
-"除韩语外，可使用英语、中文、日语沟通。",
+"한국어를 비롯해 영어, 중국어, 일본어로 소통할 수 있습니다.":
+"可以使用韩语、英语、中文和日语沟通。",
 
 "브라우저 미니게임 플랫폼. 자체 게임과 사용자 업로드 게임을 하나의 런타임에서 돌립니다. Ports/Adapters로 도메인을 분리했고 e2e 테스트와 staging 환경을 운영합니다.":
 "浏览器小游戏平台。自研游戏与用户上传游戏运行在同一套运行时上。以 Ports/Adapters 分离领域逻辑，并运行 e2e 测试与 staging 环境。",
@@ -199,7 +205,7 @@ T = {
 "住宅小区工程造价预测模型。使用自研爬虫 [kapt_crawler](https://github.com/TaeyanG4/kapt_crawler) 采集的 K-APT 公开数据。",
 "(공개 예정)": "（即将公开）",
 
-"fornaxworks 견본실에 올려둔 데모입니다. 실제 납품물이 아니라 어디까지 만드는지 보여주려고 직접 만든 견본입니다.":
+"fornaxworks 견본실에 올려둔 데모입니다. 실제 납품물이 아니라 어디까지 만드는지 보여주기위한 직접 만든 견본입니다.":
 "这些是放在 fornaxworks 样品间的演示。并非实际交付物，而是为了展示能做到什么程度而自行制作的样品。",
 "이미지를 누르면 브라우저에서 바로 열립니다.":
 "点击图片即可在浏览器中打开。",
@@ -275,11 +281,14 @@ T = {
 },
 
 "ja": {
+"포맷 직후 다시 깔 프로그램을 골라 한 번에 받는 곳. 프로그램 110개를 한국어·영어·일본어로 다루고, 개인은 무료지만 기업은 유료인 프로그램을 근거와 확인 날짜까지 적어 구분합니다. winget 매니페스트를 매일 훑어 새 버전을 PR 로 올리고, 사람이 확인해야 반영됩니다.":
+"初期化のあとに入れ直すソフトをまとめて取得できる場所。110本を韓国語・英語・日本語で扱い、個人は無料でも法人は有料というソフトを、根拠と確認日を添えて区別して表示します。winget のマニフェストを毎日走査し、新しいバージョンは人が確認するプルリクエストとして上がります。",
+
 "Kaggle에 공개한 데이터셋입니다. 전체 목록과 품질·채택 기록은 [kaggle-dataset-portfolio](https://github.com/TaeyanG4/kaggle-dataset-portfolio)에 있고, Kaggle 프로필은 [taeyangg4](https://www.kaggle.com/taeyangg4)입니다.":
 "Kaggle で公開したデータセットです。全一覧と品質・採用の記録は [kaggle-dataset-portfolio](https://github.com/TaeyanG4/kaggle-dataset-portfolio) にあり、Kaggle のプロフィールは [taeyangg4](https://www.kaggle.com/taeyangg4) です。",
 
-"종료된 Kaggle 대회의 공개 풀이 글을 순위와 관계없이 모아, 풀이마다 어떤 기법을 썼는지 원문 링크와 순위 근거까지 붙였습니다. 요약과 기법 판정은 모델이 읽은 저자 주장이고, 사람이 판정한 정답셋으로는 아직 검증하지 않았습니다.":
-"終了した Kaggle 大会の公開解法記事を順位にかかわらず集め、各解法で使われた手法に原文リンクと順位の根拠を添えました。要約と手法の判定は、モデルが読み取った著者の主張であり、人が判定した正解データセットではまだ検証していません。",
+"종료된 Kaggle 대회의 공개 풀이 글을 순위와 관계없이 모아, 풀이마다 어떤 기법을 썼는지 원문 링크와 순위 근거까지 붙였습니다. 요약과 기법 판정은 모델이 읽은 저자 주장입니다.":
+"終了した Kaggle 大会の公開解法記事を順位にかかわらず集め、各解法で使われた手法に原文リンクと順位の根拠を添えました。要約と手法の判定は、モデルが読み取った著者の主張です。",
 
 "한국 공공조달의 입찰·투찰·낙찰·계약과 관련 주체를 같은 키로 연결했습니다. 단계마다 의미가 달라 하나로 합치지 않고 키와 출처를 그대로 보존합니다.":
 "韓国の公共調達における入札・応札・落札・契約と関連主体を共通のキーで結びました。各段階で意味が異なるため、一つにまとめずキーと出典をそのまま保持しています。",
@@ -302,16 +311,16 @@ T = {
 "### AI와 풀스택 개발. 기획부터 배포까지 한 사람이 이어서 합니다.":
 "### AI とフルスタック開発。企画から本番リリースまで、一人が通しで担当します。",
 
-"건국대학교 정보통신대학원 인공지능전공 석사. 그 전에는 중국에서 4년간 소프트웨어공학을 공부했고 졸업논문을 중국어로 썼습니다.":
-"建国大学 情報通信大学院 人工知能専攻 修士。その前は中国でソフトウェア工学を4年間学び、卒業論文を中国語で書きました。",
-"석사 논문은 RAG의 비용 문제를, 학사 논문은 전력 데이터의 규모 문제를 다뤘습니다.":
-"修士論文では RAG のコスト問題を、学士論文では電力データの規模の問題を扱いました。",
-"지금은 [fornaxworks](https://fornaxworks.com)라는 이름으로 웹, 모바일, AI 제품을 만듭니다.":
-"現在は [fornaxworks](https://fornaxworks.com) という名前で Web・モバイル・AI プロダクトを作っています。",
+"건국대학교 정보통신대학원에서 인공지능 전공하여 석사학위를 받았습니다. 그 전에는 중국에서 4년간 소프트웨어공학을 공부했으며, 학사 졸업논문 역시 중국어로 작성했습니다.":
+"建国大学 情報通信大学院で人工知能を専攻し、修士号を取得しました。その前は中国でソフトウェア工学を4年間学び、学士論文も中国語で執筆しました。",
+"석사 논문에서는 RAG(Retrieval-Augmented Generation)의 비용 문제를 다뤘고, 학사 논문에서는 Hadoop을 활용해 전력 데이터의 사용 패턴을 분석하는 연구를 진행했습니다.":
+"修士論文では RAG（検索拡張生成）のコスト問題を扱い、学士論文では Hadoop を使って電力データの使用パターンを分析しました。",
+"현재는 <a href=\"https://fornaxworks.com\">Fornax</a> 라는 이름으로 웹, 모바일, AI 제품을 만들고 있습니다. 또한 2023년부터 유학 컨설팅 사업체를 운영하며 고객 상담부터 계약까지 직접 담당해왔기 때문에, 고객과의 커뮤니케이션과 비즈니스 실무에도 익숙합니다.":
+"現在は <a href=\"https://fornaxworks.com\">Fornax</a> という名前で Web、モバイル、AI プロダクトを作っています。また、2023年から留学コンサルティング事業を運営し、顧客相談から契約まで直接担当してきたため、顧客とのコミュニケーションやビジネス実務にも慣れています。",
 "2023년부터 유학 컨설팅 사업체를 대표로 운영해와서 고객 응대와 계약, 행정은 이미 하던 일입니다.":
 "2023年から留学コンサルティング事業を代表として運営しており、顧客対応や契約、事務手続きはすでに日常業務です。",
-"한국어 외에 영어, 중국어, 일본어로 소통할 수 있습니다.":
-"韓国語のほか、英語・中国語・日本語でやり取りできます。",
+"한국어를 비롯해 영어, 중국어, 일본어로 소통할 수 있습니다.":
+"韓国語、英語、中国語、日本語でやり取りできます。",
 
 "브라우저 미니게임 플랫폼. 자체 게임과 사용자 업로드 게임을 하나의 런타임에서 돌립니다. Ports/Adapters로 도메인을 분리했고 e2e 테스트와 staging 환경을 운영합니다.":
 "ブラウザ向けミニゲームプラットフォーム。自社ゲームとユーザー投稿ゲームを同一のランタイムで動かします。Ports/Adapters でドメインを分離し、e2e テストと staging 環境を運用しています。",
@@ -325,7 +334,7 @@ T = {
 "集合住宅の工事費予測モデル。自作クローラー [kapt_crawler](https://github.com/TaeyanG4/kapt_crawler) で収集した K-APT の公開データを使っています。",
 "(공개 예정)": "（公開予定）",
 
-"fornaxworks 견본실에 올려둔 데모입니다. 실제 납품물이 아니라 어디까지 만드는지 보여주려고 직접 만든 견본입니다.":
+"fornaxworks 견본실에 올려둔 데모입니다. 실제 납품물이 아니라 어디까지 만드는지 보여주기위한 직접 만든 견본입니다.":
 "fornaxworks のショールームに置いているデモです。実際の納品物ではなく、どこまで作るのかを示すために自分で作った見本です。",
 "이미지를 누르면 브라우저에서 바로 열립니다.":
 "画像をクリックするとブラウザでそのまま開きます。",
@@ -406,14 +415,32 @@ ALT = {"en": "fornaxworks forging ideas into shippable products",
        "ja": "fornaxworks アイデアを出荷できるプロダクトへ鍛える"}
 
 
+def clean_format(text):
+    """Remove decorative formatting without changing links, code, or numbers."""
+    text = text.replace("**", "")
+    text = re.sub(r"</?(?:b|strong)>", "", text)
+    text = re.sub(r"&#x0*a0;|&#0*160;|&nbsp;|\u00a0", " ", text, flags=re.I)
+    text = text.replace("Crash Reports — NHTSA", "Crash Reports (NHTSA)")
+    text = text.replace(" — ", " ").replace("—", " ")
+    # Protect HTML attributes, link targets, inline code, dates, and decimals.
+    parts = re.split(r"(<[^>]+>|\]\([^)]*\)|`[^`]*`)", text)
+    for i in range(0, len(parts), 2):
+        part = re.sub(r"(?<!\d),|,(?!\d)", "", parts[i])
+        part = re.sub(r"\. +(?=\||$)", " ", part)
+        part = re.sub(r"\. +(?=\S)", "<br>", part)
+        part = re.sub(r"\.(?=$|[\n<|*])", "", part)
+        parts[i] = part
+    return "".join(parts)
+
+
 def build(lang):
     s = SRC.read_text(encoding="utf-8")
-    s = s.replace(NAV["ko"], NAV[lang])
+    s = s.replace(clean_format(NAV["ko"]), clean_format(NAV[lang]))
     s = s.replace("fornaxworks 아이디어를 출하 가능한 제품으로 벼립니다", ALT[lang])
     # 긴 원문부터 치환해야 짧은 문구가 먼저 먹어버리지 않는다
     for src in sorted(T[lang], key=len, reverse=True):
-        s = s.replace(src, T[lang][src])
-    return s
+        s = s.replace(clean_format(src), clean_format(T[lang][src]))
+    return clean_format(s)
 
 
 def main():
