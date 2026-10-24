@@ -381,7 +381,7 @@ Northeast Electric Power University (China) BSc in Software Engineering<br>4-yea
 
 <img src="assets/etc/1st.png" width="680" alt="Taeyang 1st place leaderboard" />
 
-<img src="assets/etc/obwc-2025-result.png" width="100%" alt="osu! Beatmapping World Championship 2025 results and team standings" />
+<img src="assets/etc/obwc-2025-result-with-standings.png" width="100%" alt="osu! Beatmapping World Championship 2025 results and team standings" />
 
 </div>
 

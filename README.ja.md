@@ -381,7 +381,7 @@ AI Bootcamp 第16期 人工知能モデリング<br>6か月の学習 + 1か月�
 
 <img src="assets/etc/1st.png" width="680" alt="Taeyang 1st place leaderboard" />
 
-<img src="assets/etc/obwc-2025-result.png" width="100%" alt="osu! Beatmapping World Championship 2025 results and team standings" />
+<img src="assets/etc/obwc-2025-result-with-standings.png" width="100%" alt="osu! Beatmapping World Championship 2025 results and team standings" />
 
 </div>
 
