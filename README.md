@@ -51,15 +51,56 @@
 
 <br>
 
-| Dataset | Description | Scale | Repo |
-|---|---|---|---|
-| [Kaggle Top Solutions and Strategies](https://www.kaggle.com/datasets/taeyangg4/kaggle-top-solutions-and-strategies) | 종료된 Kaggle 대회의 공개 풀이 글을 순위와 관계없이 모아 풀이마다 어떤 기법을 썼는지 원문 링크와 순위 근거까지 붙였습니다<br>요약과 기법 판정은 모델이 읽은 저자 주장입니다 | `70,576 rows` `4 files` | [repo](https://github.com/TaeyanG4/kaggle-top-solutions-and-strategies) |
-| [KONEPS Public Procurement Intelligence](https://www.kaggle.com/datasets/taeyangg4/koneps-public-procurement-intelligence) | 한국 공공조달의 입찰·투찰·낙찰·계약과 관련 주체를 같은 키로 연결했습니다<br>단계마다 의미가 달라 하나로 합치지 않고 키와 출처를 그대로 보존합니다 | `8 files` `2.77 GB` | [repo](https://github.com/TaeyanG4/koneps-procurement-intelligence) |
-| [South Korea Power Grid 5-Minute Data](https://www.kaggle.com/datasets/taeyangg4/south-korea-power-grid-5-minute) | 전력거래소의 수요 예측 발전기 지시량 추정 출력을 5분 간격으로 정리했습니다<br>전체 이력은 Parquet 최근 한 달은 CSV로 올려 둘 다 바로 열립니다 | `1B+ rows` `2.49 GB` | [repo](https://github.com/TaeyanG4/korea-power-grid) |
-| [South Korea Customs Trade 2012-2026 HSK10](https://www.kaggle.com/datasets/taeyangg4/south-korea-customs-trade-hsk10) | 관세청 수출입 실적을 상대국 × 월 × 10자리 HSK 품목으로 정리하고 상위 HS 단위는 HSK10에서 파생해 함께 넣었습니다 | `22.35M rows` `1.17 GB` | [repo](https://github.com/TaeyanG4/korea-customs-trade) |
-| [Smithsonian 25K Museum Image-Text Dataset](https://www.kaggle.com/datasets/taeyangg4/smithsonian-25k-museum-image-text) | 스미스소니언 Open Access의 이미지와 설명문을 권리까지 확인해 묶고 같은 유물이 학습과 평가에 나뉘어 섞이지 않도록 분할했습니다 | `24,972 images` `916 MB` | [repo](https://github.com/TaeyanG4/smithsonian-image-text) |
-| [South Korea Food-Service Permits](https://www.kaggle.com/datasets/taeyangg4/korea-food-service-permits) | 전국 일반음식점·휴게음식점·제과점의 현재 영업 허가 상태를 한 번에 담은 스냅샷입니다 | `3.01M rows` `403 MB` | [repo](https://github.com/TaeyanG4/korea-business-lifecycle) |
-| [Autonomous Driving Crash Reports (NHTSA)](https://www.kaggle.com/datasets/taeyangg4/nhtsa-autonomous-driving-crashes) | 미국 NHTSA가 받은 자율주행·ADAS 사고 보고서를 현행 보고 규정 기준으로 정리했습니다<br>보고 주체별 건수는 사고율이나 안전 순위가 아닙니다 | `3,263 rows` `123 cols` | [repo](https://github.com/TaeyanG4/nhtsa-autonomous-driving-crashes) |
+<table align="center" width="100%">
+<tr>
+<th>Dataset</th>
+<th>Description</th>
+<th width="130">Scale</th>
+<th>Repo</th>
+</tr>
+<tr>
+<td><a href="https://www.kaggle.com/datasets/taeyangg4/kaggle-top-solutions-and-strategies">Kaggle Top Solutions and Strategies</a></td>
+<td>종료된 Kaggle 대회의 공개 풀이 글을 순위와 관계없이 모아 풀이마다 어떤 기법을 썼는지 원문 링크와 순위 근거까지 붙였습니다<br>요약과 기법 판정은 모델이 읽은 저자 주장입니다</td>
+<td nowrap><code>70,576 rows</code><br><code>4 files</code></td>
+<td><a href="https://github.com/TaeyanG4/kaggle-top-solutions-and-strategies">repo</a></td>
+</tr>
+<tr>
+<td><a href="https://www.kaggle.com/datasets/taeyangg4/koneps-public-procurement-intelligence">KONEPS Public Procurement Intelligence</a></td>
+<td>한국 공공조달의 입찰·투찰·낙찰·계약과 관련 주체를 같은 키로 연결했습니다<br>단계마다 의미가 달라 하나로 합치지 않고 키와 출처를 그대로 보존합니다</td>
+<td nowrap><code>8 files</code><br><code>2.77 GB</code></td>
+<td><a href="https://github.com/TaeyanG4/koneps-procurement-intelligence">repo</a></td>
+</tr>
+<tr>
+<td><a href="https://www.kaggle.com/datasets/taeyangg4/south-korea-power-grid-5-minute">South Korea Power Grid 5-Minute Data</a></td>
+<td>전력거래소의 수요 예측 발전기 지시량 추정 출력을 5분 간격으로 정리했습니다<br>전체 이력은 Parquet 최근 한 달은 CSV로 올려 둘 다 바로 열립니다</td>
+<td nowrap><code>1B+ rows</code><br><code>2.49 GB</code></td>
+<td><a href="https://github.com/TaeyanG4/korea-power-grid">repo</a></td>
+</tr>
+<tr>
+<td><a href="https://www.kaggle.com/datasets/taeyangg4/south-korea-customs-trade-hsk10">South Korea Customs Trade 2012-2026 HSK10</a></td>
+<td>관세청 수출입 실적을 상대국 × 월 × 10자리 HSK 품목으로 정리하고 상위 HS 단위는 HSK10에서 파생해 함께 넣었습니다</td>
+<td nowrap><code>22.35M rows</code><br><code>1.17 GB</code></td>
+<td><a href="https://github.com/TaeyanG4/korea-customs-trade">repo</a></td>
+</tr>
+<tr>
+<td><a href="https://www.kaggle.com/datasets/taeyangg4/smithsonian-25k-museum-image-text">Smithsonian 25K Museum Image-Text Dataset</a></td>
+<td>스미스소니언 Open Access의 이미지와 설명문을 권리까지 확인해 묶고 같은 유물이 학습과 평가에 나뉘어 섞이지 않도록 분할했습니다</td>
+<td nowrap><code>24,972 images</code><br><code>916 MB</code></td>
+<td><a href="https://github.com/TaeyanG4/smithsonian-image-text">repo</a></td>
+</tr>
+<tr>
+<td><a href="https://www.kaggle.com/datasets/taeyangg4/korea-food-service-permits">South Korea Food-Service Permits</a></td>
+<td>전국 일반음식점·휴게음식점·제과점의 현재 영업 허가 상태를 한 번에 담은 스냅샷입니다</td>
+<td nowrap><code>3.01M rows</code><br><code>403 MB</code></td>
+<td><a href="https://github.com/TaeyanG4/korea-business-lifecycle">repo</a></td>
+</tr>
+<tr>
+<td><a href="https://www.kaggle.com/datasets/taeyangg4/nhtsa-autonomous-driving-crashes">Autonomous Driving Crash Reports (NHTSA)</a></td>
+<td>미국 NHTSA가 받은 자율주행·ADAS 사고 보고서를 현행 보고 규정 기준으로 정리했습니다<br>보고 주체별 건수는 사고율이나 안전 순위가 아닙니다</td>
+<td nowrap><code>3,263 rows</code><br><code>123 cols</code></td>
+<td><a href="https://github.com/TaeyanG4/nhtsa-autonomous-driving-crashes">repo</a></td>
+</tr>
+</table>
 
 <br>
 
@@ -207,13 +248,16 @@ SOLAROPS 운영 데이터 품질 감사<br>
 ### AI / ML
 
 ![LangChain](assets/badges/langchain.svg)
+![LangGraph](assets/badges/langgraph.svg)
 ![LlamaIndex](assets/badges/llamaindex.svg)
 ![Hugging Face](assets/badges/huggingface.svg)
 ![OpenAI](assets/badges/openai.svg)
 ![MCP](assets/badges/mcp.svg)
 ![RAG](assets/badges/rag-vectordb.svg)
+![PyTorch](assets/badges/pytorch.svg)
 ![scikit-learn](assets/badges/scikit-learn.svg)
 ![XGBoost](assets/badges/xgboost.svg)
+![LightGBM](assets/badges/lightgbm.svg)
 ![CatBoost](assets/badges/catboost.svg)
 ![pandas](assets/badges/pandas.svg)
 ![NumPy](assets/badges/numpy.svg)
@@ -239,11 +283,15 @@ SOLAROPS 운영 데이터 품질 감사<br>
 ![Cloudflare](assets/badges/cloudflare.svg)
 ![GCP](assets/badges/gcp.svg)
 ![Docker](assets/badges/docker.svg)
+![Kubernetes](assets/badges/kubernetes.svg)
+![Apache Airflow](assets/badges/airflow.svg)
 ![PostgreSQL](assets/badges/postgresql.svg)
 ![MySQL](assets/badges/mysql.svg)
+![DuckDB](assets/badges/duckdb.svg)
 ![MongoDB](assets/badges/mongodb.svg)
 ![Redis](assets/badges/redis.svg)
 ![Neo4j](assets/badges/neo4j.svg)
+![MinIO](assets/badges/minio.svg)
 ![Linux](assets/badges/linux.svg)
 ![GitHub Actions](assets/badges/github-actions.svg)
 
@@ -264,6 +312,7 @@ SOLAROPS 운영 데이터 품질 감사<br>
 
 ![Git](assets/badges/git.svg)
 ![Postman](assets/badges/postman.svg)
+![Playwright](assets/badges/playwright.svg)
 ![Obsidian](assets/badges/obsidian.svg)
 
 </div>
@@ -319,10 +368,14 @@ SOLAROPS 운영 데이터 품질 감사<br>
 <td nowrap valign="top">2026.05 ~ 2026.08</td>
 <td>
 
-이어드림스쿨 6기 심화과정<br>중소벤처기업부 AI 기술인력 양성
+이어드림스쿨 6기 심화과정
+
+중소벤처기업부 AI 기술인력 양성
 
 - LLM Fine-tuning RAG와 Vector DB
+
 - LangChain과 LangGraph AI Agent와 MCP
+
 - 산업 연계 팀 프로젝트
 
 </td>
@@ -340,11 +393,16 @@ SOLAROPS 운영 데이터 품질 감사<br>
 <td nowrap valign="top">2022.10 ~ 2023.04</td>
 <td>
 
-[코드스테이츠 AI Bootcamp 16기](https://www.codestates.com/blog/content/ai-%EB%B6%80%ED%8A%B8%EC%BA%A0%ED%94%84-%EC%8B%9C%EA%B0%84%ED%91%9C) 인공지능모델링<br>6개월 학습 + 1개월 기업 협업
+[코드스테이츠 AI Bootcamp 16기](https://www.codestates.com/blog/content/ai-%EB%B6%80%ED%8A%B8%EC%BA%A0%ED%94%84-%EC%8B%9C%EA%B0%84%ED%91%9C) 인공지능모델링
+
+6개월 학습 + 1개월 기업 협업
 
 - Python·pandas 데이터 전처리 EDA 시각화와 통계
+
 - 머신러닝 모델링·평가와 딥러닝 기반 컴퓨터 비전·자연어 처리
+
 - SQL 데이터베이스와 Flask·Docker 기반 애플리케이션 개발·배포
+
 - 실무 프로젝트와 기업 협업
 
 </td>

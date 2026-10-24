@@ -51,15 +51,56 @@
 
 <br>
 
-| Dataset | Description | Scale | Repo |
-|---|---|---|---|
-| [Kaggle Top Solutions and Strategies](https://www.kaggle.com/datasets/taeyangg4/kaggle-top-solutions-and-strategies) | 收集已结束的 Kaggle 竞赛的公开解题文章，不限排名，并为每篇解答标注所用技术、原文链接和排名依据。摘要和技术判定反映的是模型对作者主张的解读。 | `70,576 rows` `4 files` | [repo](https://github.com/TaeyanG4/kaggle-top-solutions-and-strategies) |
-| [KONEPS Public Procurement Intelligence](https://www.kaggle.com/datasets/taeyangg4/koneps-public-procurement-intelligence) | 用相同的键关联韩国公共采购的招标、投标、中标、合同及相关主体。各阶段含义不同，因此不合并为一体，原样保留键和来源。 | `8 files` `2.77 GB` | [repo](https://github.com/TaeyanG4/koneps-procurement-intelligence) |
-| [South Korea Power Grid 5-Minute Data](https://www.kaggle.com/datasets/taeyangg4/south-korea-power-grid-5-minute) | 将韩国电力交易所的需求预测、发电机调度指令量和估算出力整理为 5 分钟间隔的数据。完整历史以 Parquet 格式上传，最近一个月以 CSV 格式上传，两者均可直接打开。 | `1B+ rows` `2.49 GB` | [repo](https://github.com/TaeyanG4/korea-power-grid) |
-| [South Korea Customs Trade 2012-2026 HSK10](https://www.kaggle.com/datasets/taeyangg4/south-korea-customs-trade-hsk10) | 将韩国关税厅的进出口实绩按贸易伙伴国 × 月 × 10 位 HSK 商品编码整理，并从 HSK10 派生上级 HS 层级，一并收录。 | `22.35M rows` `1.17 GB` | [repo](https://github.com/TaeyanG4/korea-customs-trade) |
-| [Smithsonian 25K Museum Image-Text Dataset](https://www.kaggle.com/datasets/taeyangg4/smithsonian-25k-museum-image-text) | 核对权利后，将史密森尼 Open Access 的图片与说明文字整理在一起，并划分数据，避免同一件藏品同时出现在训练集和评估集中。 | `24,972 images` `916 MB` | [repo](https://github.com/TaeyanG4/smithsonian-image-text) |
-| [South Korea Food-Service Permits](https://www.kaggle.com/datasets/taeyangg4/korea-food-service-permits) | 一次性收录全国一般餐饮店、休闲餐饮店和糕点店当前营业许可状态的快照。 | `3.01M rows` `403 MB` | [repo](https://github.com/TaeyanG4/korea-business-lifecycle) |
-| [Autonomous Driving Crash Reports (NHTSA)](https://www.kaggle.com/datasets/taeyangg4/nhtsa-autonomous-driving-crashes) | 按现行报告规定整理美国 NHTSA 收到的自动驾驶与 ADAS 事故报告。按报告主体统计的数量不代表事故率或安全排名。 | `3,263 rows` `123 cols` | [repo](https://github.com/TaeyanG4/nhtsa-autonomous-driving-crashes) |
+<table align="center" width="100%">
+<tr>
+<th>Dataset</th>
+<th>Description</th>
+<th width="130">Scale</th>
+<th>Repo</th>
+</tr>
+<tr>
+<td><a href="https://www.kaggle.com/datasets/taeyangg4/kaggle-top-solutions-and-strategies">Kaggle Top Solutions and Strategies</a></td>
+<td>收集已结束的 Kaggle 竞赛的公开解题文章，不限排名，并为每篇解答标注所用技术、原文链接和排名依据。摘要和技术判定反映的是模型对作者主张的解读。</td>
+<td nowrap><code>70,576 rows</code><br><code>4 files</code></td>
+<td><a href="https://github.com/TaeyanG4/kaggle-top-solutions-and-strategies">repo</a></td>
+</tr>
+<tr>
+<td><a href="https://www.kaggle.com/datasets/taeyangg4/koneps-public-procurement-intelligence">KONEPS Public Procurement Intelligence</a></td>
+<td>用相同的键关联韩国公共采购的招标、投标、中标、合同及相关主体。各阶段含义不同，因此不合并为一体，原样保留键和来源。</td>
+<td nowrap><code>8 files</code><br><code>2.77 GB</code></td>
+<td><a href="https://github.com/TaeyanG4/koneps-procurement-intelligence">repo</a></td>
+</tr>
+<tr>
+<td><a href="https://www.kaggle.com/datasets/taeyangg4/south-korea-power-grid-5-minute">South Korea Power Grid 5-Minute Data</a></td>
+<td>将韩国电力交易所的需求预测、发电机调度指令量和估算出力整理为 5 分钟间隔的数据。完整历史以 Parquet 格式上传，最近一个月以 CSV 格式上传，两者均可直接打开。</td>
+<td nowrap><code>1B+ rows</code><br><code>2.49 GB</code></td>
+<td><a href="https://github.com/TaeyanG4/korea-power-grid">repo</a></td>
+</tr>
+<tr>
+<td><a href="https://www.kaggle.com/datasets/taeyangg4/south-korea-customs-trade-hsk10">South Korea Customs Trade 2012-2026 HSK10</a></td>
+<td>将韩国关税厅的进出口实绩按贸易伙伴国 × 月 × 10 位 HSK 商品编码整理，并从 HSK10 派生上级 HS 层级，一并收录。</td>
+<td nowrap><code>22.35M rows</code><br><code>1.17 GB</code></td>
+<td><a href="https://github.com/TaeyanG4/korea-customs-trade">repo</a></td>
+</tr>
+<tr>
+<td><a href="https://www.kaggle.com/datasets/taeyangg4/smithsonian-25k-museum-image-text">Smithsonian 25K Museum Image-Text Dataset</a></td>
+<td>核对权利后，将史密森尼 Open Access 的图片与说明文字整理在一起，并划分数据，避免同一件藏品同时出现在训练集和评估集中。</td>
+<td nowrap><code>24,972 images</code><br><code>916 MB</code></td>
+<td><a href="https://github.com/TaeyanG4/smithsonian-image-text">repo</a></td>
+</tr>
+<tr>
+<td><a href="https://www.kaggle.com/datasets/taeyangg4/korea-food-service-permits">South Korea Food-Service Permits</a></td>
+<td>一次性收录全国一般餐饮店、休闲餐饮店和糕点店当前营业许可状态的快照。</td>
+<td nowrap><code>3.01M rows</code><br><code>403 MB</code></td>
+<td><a href="https://github.com/TaeyanG4/korea-business-lifecycle">repo</a></td>
+</tr>
+<tr>
+<td><a href="https://www.kaggle.com/datasets/taeyangg4/nhtsa-autonomous-driving-crashes">Autonomous Driving Crash Reports (NHTSA)</a></td>
+<td>按现行报告规定整理美国 NHTSA 收到的自动驾驶与 ADAS 事故报告。按报告主体统计的数量不代表事故率或安全排名。</td>
+<td nowrap><code>3,263 rows</code><br><code>123 cols</code></td>
+<td><a href="https://github.com/TaeyanG4/nhtsa-autonomous-driving-crashes">repo</a></td>
+</tr>
+</table>
 
 <br>
 
@@ -207,13 +248,16 @@ SOLAROPS 运营数据质量审计<br>
 ### AI / ML
 
 ![LangChain](assets/badges/langchain.svg)
+![LangGraph](assets/badges/langgraph.svg)
 ![LlamaIndex](assets/badges/llamaindex.svg)
 ![Hugging Face](assets/badges/huggingface.svg)
 ![OpenAI](assets/badges/openai.svg)
 ![MCP](assets/badges/mcp.svg)
 ![RAG](assets/badges/rag-vectordb.svg)
+![PyTorch](assets/badges/pytorch.svg)
 ![scikit-learn](assets/badges/scikit-learn.svg)
 ![XGBoost](assets/badges/xgboost.svg)
+![LightGBM](assets/badges/lightgbm.svg)
 ![CatBoost](assets/badges/catboost.svg)
 ![pandas](assets/badges/pandas.svg)
 ![NumPy](assets/badges/numpy.svg)
@@ -239,11 +283,15 @@ SOLAROPS 运营数据质量审计<br>
 ![Cloudflare](assets/badges/cloudflare.svg)
 ![GCP](assets/badges/gcp.svg)
 ![Docker](assets/badges/docker.svg)
+![Kubernetes](assets/badges/kubernetes.svg)
+![Apache Airflow](assets/badges/airflow.svg)
 ![PostgreSQL](assets/badges/postgresql.svg)
 ![MySQL](assets/badges/mysql.svg)
+![DuckDB](assets/badges/duckdb.svg)
 ![MongoDB](assets/badges/mongodb.svg)
 ![Redis](assets/badges/redis.svg)
 ![Neo4j](assets/badges/neo4j.svg)
+![MinIO](assets/badges/minio.svg)
 ![Linux](assets/badges/linux.svg)
 ![GitHub Actions](assets/badges/github-actions.svg)
 
@@ -264,6 +312,7 @@ SOLAROPS 运营数据质量审计<br>
 
 ![Git](assets/badges/git.svg)
 ![Postman](assets/badges/postman.svg)
+![Playwright](assets/badges/playwright.svg)
 ![Obsidian](assets/badges/obsidian.svg)
 
 </div>
@@ -319,10 +368,14 @@ SOLAROPS 运营数据质量审计<br>
 <td nowrap valign="top">2026.05 ~ 2026.08</td>
 <td>
 
-Yeardream School 第6期 进阶课程<br>韩国中小风险企业部 AI 技术人才培养
+Yeardream School 第6期 进阶课程
+
+韩国中小风险企业部 AI 技术人才培养
 
 - LLM 微调、RAG 与向量数据库
+
 - LangChain 与 LangGraph、AI Agent 与 MCP
+
 - 产业联动团队项目
 
 </td>
@@ -340,11 +393,16 @@ Yeardream School 第6期 进阶课程<br>韩国中小风险企业部 AI 技术�
 <td nowrap valign="top">2022.10 ~ 2023.04</td>
 <td>
 
-[Code States AI Bootcamp 第16期](https://www.codestates.com/blog/content/ai-%EB%B6%80%ED%8A%B8%EC%BA%A0%ED%94%84-%EC%8B%9C%EA%B0%84%ED%91%9C) 人工智能建模<br>6个月学习 + 1个月企业协作
+[Code States AI Bootcamp 第16期](https://www.codestates.com/blog/content/ai-%EB%B6%80%ED%8A%B8%EC%BA%A0%ED%94%84-%EC%8B%9C%EA%B0%84%ED%91%9C) 人工智能建模
+
+6个月学习 + 1个月企业协作
 
 - 使用 Python 和 pandas 进行数据预处理、EDA、可视化与统计分析
+
 - 机器学习建模与评估，以及基于深度学习的计算机视觉与自然语言处理
+
 - SQL 数据库，以及基于 Flask 和 Docker 的应用开发与部署
+
 - 实务项目与企业协作
 
 </td>

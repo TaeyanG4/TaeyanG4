@@ -51,15 +51,56 @@ I communicate in Korean English Chinese and Japanese<br><br>
 
 <br>
 
-| Dataset | Description | Scale | Repo |
-|---|---|---|---|
-| [Kaggle Top Solutions and Strategies](https://www.kaggle.com/datasets/taeyangg4/kaggle-top-solutions-and-strategies) | Collected public solution writeups from completed Kaggle competitions regardless of rank with the techniques used in each solution links to the original posts and evidence for the rankings<br>The summaries and technique labels reflect the model's reading of authors' claims | `70,576 rows` `4 files` | [repo](https://github.com/TaeyanG4/kaggle-top-solutions-and-strategies) |
-| [KONEPS Public Procurement Intelligence](https://www.kaggle.com/datasets/taeyangg4/koneps-public-procurement-intelligence) | Links tenders bid submissions awards contracts and related entities in Korean public procurement through common keys<br>Each stage has a different meaning so the stages are kept separate and their keys and sources are preserved | `8 files` `2.77 GB` | [repo](https://github.com/TaeyanG4/koneps-procurement-intelligence) |
-| [South Korea Power Grid 5-Minute Data](https://www.kaggle.com/datasets/taeyangg4/south-korea-power-grid-5-minute) | Organizes the Korea Power Exchange's demand forecasts generator dispatch quantities and estimated output at 5-minute intervals<br>The full history is uploaded as Parquet and the most recent month as CSV so both can be opened directly | `1B+ rows` `2.49 GB` | [repo](https://github.com/TaeyanG4/korea-power-grid) |
-| [South Korea Customs Trade 2012-2026 HSK10](https://www.kaggle.com/datasets/taeyangg4/south-korea-customs-trade-hsk10) | Organizes Korea Customs Service import and export records by partner country × month × 10-digit HSK item with higher HS levels derived from HSK10 and included alongside them | `22.35M rows` `1.17 GB` | [repo](https://github.com/TaeyanG4/korea-customs-trade) |
-| [Smithsonian 25K Museum Image-Text Dataset](https://www.kaggle.com/datasets/taeyangg4/smithsonian-25k-museum-image-text) | Pairs Smithsonian Open Access images with descriptions after checking their rights and splits the data so the same object does not appear in both training and evaluation | `24,972 images` `916 MB` | [repo](https://github.com/TaeyanG4/smithsonian-image-text) |
-| [South Korea Food-Service Permits](https://www.kaggle.com/datasets/taeyangg4/korea-food-service-permits) | A snapshot of the current operating permit status of general restaurants refreshment restaurants and bakeries nationwide | `3.01M rows` `403 MB` | [repo](https://github.com/TaeyanG4/korea-business-lifecycle) |
-| [Autonomous Driving Crash Reports (NHTSA)](https://www.kaggle.com/datasets/taeyangg4/nhtsa-autonomous-driving-crashes) | Organizes autonomous driving and ADAS crash reports received by the US NHTSA under the current reporting rules<br>Counts by reporting entity are not crash rates or safety rankings | `3,263 rows` `123 cols` | [repo](https://github.com/TaeyanG4/nhtsa-autonomous-driving-crashes) |
+<table align="center" width="100%">
+<tr>
+<th>Dataset</th>
+<th>Description</th>
+<th width="130">Scale</th>
+<th>Repo</th>
+</tr>
+<tr>
+<td><a href="https://www.kaggle.com/datasets/taeyangg4/kaggle-top-solutions-and-strategies">Kaggle Top Solutions and Strategies</a></td>
+<td>Collected public solution writeups from completed Kaggle competitions regardless of rank with the techniques used in each solution links to the original posts and evidence for the rankings<br>The summaries and technique labels reflect the model's reading of authors' claims</td>
+<td nowrap><code>70,576 rows</code><br><code>4 files</code></td>
+<td><a href="https://github.com/TaeyanG4/kaggle-top-solutions-and-strategies">repo</a></td>
+</tr>
+<tr>
+<td><a href="https://www.kaggle.com/datasets/taeyangg4/koneps-public-procurement-intelligence">KONEPS Public Procurement Intelligence</a></td>
+<td>Links tenders bid submissions awards contracts and related entities in Korean public procurement through common keys<br>Each stage has a different meaning so the stages are kept separate and their keys and sources are preserved</td>
+<td nowrap><code>8 files</code><br><code>2.77 GB</code></td>
+<td><a href="https://github.com/TaeyanG4/koneps-procurement-intelligence">repo</a></td>
+</tr>
+<tr>
+<td><a href="https://www.kaggle.com/datasets/taeyangg4/south-korea-power-grid-5-minute">South Korea Power Grid 5-Minute Data</a></td>
+<td>Organizes the Korea Power Exchange's demand forecasts generator dispatch quantities and estimated output at 5-minute intervals<br>The full history is uploaded as Parquet and the most recent month as CSV so both can be opened directly</td>
+<td nowrap><code>1B+ rows</code><br><code>2.49 GB</code></td>
+<td><a href="https://github.com/TaeyanG4/korea-power-grid">repo</a></td>
+</tr>
+<tr>
+<td><a href="https://www.kaggle.com/datasets/taeyangg4/south-korea-customs-trade-hsk10">South Korea Customs Trade 2012-2026 HSK10</a></td>
+<td>Organizes Korea Customs Service import and export records by partner country × month × 10-digit HSK item with higher HS levels derived from HSK10 and included alongside them</td>
+<td nowrap><code>22.35M rows</code><br><code>1.17 GB</code></td>
+<td><a href="https://github.com/TaeyanG4/korea-customs-trade">repo</a></td>
+</tr>
+<tr>
+<td><a href="https://www.kaggle.com/datasets/taeyangg4/smithsonian-25k-museum-image-text">Smithsonian 25K Museum Image-Text Dataset</a></td>
+<td>Pairs Smithsonian Open Access images with descriptions after checking their rights and splits the data so the same object does not appear in both training and evaluation</td>
+<td nowrap><code>24,972 images</code><br><code>916 MB</code></td>
+<td><a href="https://github.com/TaeyanG4/smithsonian-image-text">repo</a></td>
+</tr>
+<tr>
+<td><a href="https://www.kaggle.com/datasets/taeyangg4/korea-food-service-permits">South Korea Food-Service Permits</a></td>
+<td>A snapshot of the current operating permit status of general restaurants refreshment restaurants and bakeries nationwide</td>
+<td nowrap><code>3.01M rows</code><br><code>403 MB</code></td>
+<td><a href="https://github.com/TaeyanG4/korea-business-lifecycle">repo</a></td>
+</tr>
+<tr>
+<td><a href="https://www.kaggle.com/datasets/taeyangg4/nhtsa-autonomous-driving-crashes">Autonomous Driving Crash Reports (NHTSA)</a></td>
+<td>Organizes autonomous driving and ADAS crash reports received by the US NHTSA under the current reporting rules<br>Counts by reporting entity are not crash rates or safety rankings</td>
+<td nowrap><code>3,263 rows</code><br><code>123 cols</code></td>
+<td><a href="https://github.com/TaeyanG4/nhtsa-autonomous-driving-crashes">repo</a></td>
+</tr>
+</table>
 
 <br>
 
@@ -207,13 +248,16 @@ Publishes only validated results traces numbers to the source<br>
 ### AI / ML
 
 ![LangChain](assets/badges/langchain.svg)
+![LangGraph](assets/badges/langgraph.svg)
 ![LlamaIndex](assets/badges/llamaindex.svg)
 ![Hugging Face](assets/badges/huggingface.svg)
 ![OpenAI](assets/badges/openai.svg)
 ![MCP](assets/badges/mcp.svg)
 ![RAG](assets/badges/rag-vectordb.svg)
+![PyTorch](assets/badges/pytorch.svg)
 ![scikit-learn](assets/badges/scikit-learn.svg)
 ![XGBoost](assets/badges/xgboost.svg)
+![LightGBM](assets/badges/lightgbm.svg)
 ![CatBoost](assets/badges/catboost.svg)
 ![pandas](assets/badges/pandas.svg)
 ![NumPy](assets/badges/numpy.svg)
@@ -239,11 +283,15 @@ Publishes only validated results traces numbers to the source<br>
 ![Cloudflare](assets/badges/cloudflare.svg)
 ![GCP](assets/badges/gcp.svg)
 ![Docker](assets/badges/docker.svg)
+![Kubernetes](assets/badges/kubernetes.svg)
+![Apache Airflow](assets/badges/airflow.svg)
 ![PostgreSQL](assets/badges/postgresql.svg)
 ![MySQL](assets/badges/mysql.svg)
+![DuckDB](assets/badges/duckdb.svg)
 ![MongoDB](assets/badges/mongodb.svg)
 ![Redis](assets/badges/redis.svg)
 ![Neo4j](assets/badges/neo4j.svg)
+![MinIO](assets/badges/minio.svg)
 ![Linux](assets/badges/linux.svg)
 ![GitHub Actions](assets/badges/github-actions.svg)
 
@@ -264,6 +312,7 @@ Publishes only validated results traces numbers to the source<br>
 
 ![Git](assets/badges/git.svg)
 ![Postman](assets/badges/postman.svg)
+![Playwright](assets/badges/playwright.svg)
 ![Obsidian](assets/badges/obsidian.svg)
 
 </div>
@@ -319,10 +368,14 @@ Publishes only validated results traces numbers to the source<br>
 <td nowrap valign="top">2026.05 ~ 2026.08</td>
 <td>
 
-Yeardream School 6th cohort advanced track<br>Ministry of SMEs and Startups AI talent programme
+Yeardream School 6th cohort advanced track
+
+Ministry of SMEs and Startups AI talent programme
 
 - LLM fine-tuning RAG and vector databases
+
 - LangChain and LangGraph AI agents and MCP
+
 - Industry-linked team project
 
 </td>
@@ -340,11 +393,16 @@ Konkuk University Graduate School of Information and Telecommunications MSc in A
 <td nowrap valign="top">2022.10 ~ 2023.04</td>
 <td>
 
-[Code States AI Bootcamp 16th cohort](https://www.codestates.com/blog/content/ai-%EB%B6%80%ED%8A%B8%EC%BA%A0%ED%94%84-%EC%8B%9C%EA%B0%84%ED%91%9C) AI modelling<br>6 months of study + 1 month industry collaboration
+[Code States AI Bootcamp 16th cohort](https://www.codestates.com/blog/content/ai-%EB%B6%80%ED%8A%B8%EC%BA%A0%ED%94%84-%EC%8B%9C%EA%B0%84%ED%91%9C) AI modelling
+
+6 months of study + 1 month industry collaboration
 
 - Data preprocessing EDA visualization and statistics with Python and pandas
+
 - Machine learning modelling and evaluation plus deep learning for computer vision and NLP
+
 - SQL databases and application development and deployment with Flask and Docker
+
 - Practical projects and industry collaboration
 
 </td>
