@@ -332,7 +332,7 @@ Yeardream School 第6期 応用コース<br>韓国中小ベンチャー企業部
 <td>
 
 建国大学 情報通信大学院 融合情報技術学科 人工知能専攻 修士<br>
-[成績表を見る（個人情報をマスキング済み）](assets/education/konkuk-masters-transcript-redacted.png)
+[履修科目と成績](assets/education/konkuk-masters-transcript-redacted.png)
 
 </td>
 </tr>

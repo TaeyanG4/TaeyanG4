@@ -131,7 +131,7 @@ T = {
 "네트워크관리사 2급": "Network Administrator Level 2",
 "컴퓨터활용능력 1급": "Computer Specialist in Spreadsheet and Database Level 1",
 "HSK 5급": "HSK Level 5",
-"성적표 보기 (개인정보 마스킹)": "View transcript (personal details redacted)",
+"이수 과목 및 성적": "Completed courses and grades",
 
 "<b>건국대학교 정보통신대학원</b> 융합정보기술학과 인공지능전공 석사":
 "<b>Konkuk University</b> Graduate School of Information and Telecommunications, MSc in Artificial Intelligence",
@@ -258,7 +258,7 @@ T = {
 "네트워크관리사 2급": "网络管理师 二级",
 "컴퓨터활용능력 1급": "计算机应用能力 一级",
 "HSK 5급": "HSK 五级",
-"성적표 보기 (개인정보 마스킹)": "查看成绩单（个人信息已遮盖）",
+"이수 과목 및 성적": "已修课程及成绩",
 
 "<b>건국대학교 정보통신대학원</b> 융합정보기술학과 인공지능전공 석사":
 "<b>建国大学信息通信研究生院</b> 融合信息技术学科 人工智能专业 硕士",
@@ -385,7 +385,7 @@ T = {
 "네트워크관리사 2급": "ネットワーク管理士 2級",
 "컴퓨터활용능력 1급": "コンピュータ活用能力 1級",
 "HSK 5급": "HSK 5級",
-"성적표 보기 (개인정보 마스킹)": "成績表を見る（個人情報をマスキング済み）",
+"이수 과목 및 성적": "履修科目と成績",
 
 "<b>건국대학교 정보통신대학원</b> 융합정보기술학과 인공지능전공 석사":
 "<b>建国大学 情報通信大学院</b> 融合情報技術学科 人工知能専攻 修士",

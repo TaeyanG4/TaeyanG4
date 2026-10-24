@@ -332,7 +332,7 @@ Yeardream School 第6期 进阶课程<br>韩国中小风险企业部 AI 技术�
 <td>
 
 建国大学信息通信研究生院 融合信息技术学科 人工智能专业 硕士<br>
-[查看成绩单（个人信息已遮盖）](assets/education/konkuk-masters-transcript-redacted.png)
+[已修课程及成绩](assets/education/konkuk-masters-transcript-redacted.png)
 
 </td>
 </tr>

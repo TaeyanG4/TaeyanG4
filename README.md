@@ -332,7 +332,7 @@ SOLAROPS 운영 데이터 품질 감사<br>
 <td>
 
 건국대학교 정보통신대학원 융합정보기술학과 인공지능전공 석사<br>
-[성적표 보기 (개인정보 마스킹)](assets/education/konkuk-masters-transcript-redacted.png)
+[이수 과목 및 성적](assets/education/konkuk-masters-transcript-redacted.png)
 
 </td>
 </tr>

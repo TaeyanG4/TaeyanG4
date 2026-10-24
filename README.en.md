@@ -332,7 +332,7 @@ Yeardream School 6th cohort advanced track<br>Ministry of SMEs and Startups AI t
 <td>
 
 Konkuk University Graduate School of Information and Telecommunications MSc in Artificial Intelligence<br>
-[View transcript (personal details redacted)](assets/education/konkuk-masters-transcript-redacted.png)
+[Completed courses and grades](assets/education/konkuk-masters-transcript-redacted.png)
 
 </td>
 </tr>
