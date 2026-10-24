@@ -51,6 +51,26 @@ I work in Korean, English, Chinese, and Japanese.
 
 ---
 
+## Datasets
+
+<br>
+
+Datasets I have published on Kaggle. The full list, along with quality and adoption records, is in [kaggle-dataset-portfolio](https://github.com/TaeyanG4/kaggle-dataset-portfolio), and my Kaggle profile is [taeyangg4](https://www.kaggle.com/taeyangg4).
+
+| Dataset | Description | Scale |
+|---|---|---|
+| **[Kaggle Top Solutions and Strategies](https://www.kaggle.com/datasets/taeyangg4/kaggle-top-solutions-and-strategies)**<br>[repo](https://github.com/TaeyanG4/kaggle-top-solutions-and-strategies) | Collected public solution writeups from completed Kaggle competitions regardless of rank, with the techniques used in each solution, links to the original posts, and evidence for the rankings. The summaries and technique labels reflect the model's reading of authors' claims and have not yet been validated against a human-annotated ground-truth set. | `70,576 rows` `4 files` |
+| **[KONEPS Public Procurement Intelligence](https://www.kaggle.com/datasets/taeyangg4/koneps-public-procurement-intelligence)**<br>[repo](https://github.com/TaeyanG4/koneps-procurement-intelligence) | Links tenders, bid submissions, awards, contracts, and related entities in Korean public procurement through common keys. Each stage has a different meaning, so the stages are kept separate and their keys and sources are preserved. | `8 files` `2.77 GB` |
+| **[South Korea Power Grid 5-Minute Data](https://www.kaggle.com/datasets/taeyangg4/south-korea-power-grid-5-minute)**<br>[repo](https://github.com/TaeyanG4/korea-power-grid) | Organizes the Korea Power Exchange's demand forecasts, generator dispatch quantities, and estimated output at 5-minute intervals. The full history is uploaded as Parquet and the most recent month as CSV, so both can be opened directly. | `1B+ rows` `2.49 GB` |
+| **[South Korea Customs Trade 2012-2026 HSK10](https://www.kaggle.com/datasets/taeyangg4/south-korea-customs-trade-hsk10)**<br>[repo](https://github.com/TaeyanG4/korea-customs-trade) | Organizes Korea Customs Service import and export records by partner country × month × 10-digit HSK item, with higher HS levels derived from HSK10 and included alongside them. | `22.35M rows` `1.17 GB` |
+| **[Smithsonian 25K Museum Image-Text Dataset](https://www.kaggle.com/datasets/taeyangg4/smithsonian-25k-museum-image-text)**<br>[repo](https://github.com/TaeyanG4/smithsonian-image-text) | Pairs Smithsonian Open Access images with descriptions after checking their rights, and splits the data so the same object does not appear in both training and evaluation. | `24,972 images` `916 MB` |
+| **[South Korea Food-Service Permits](https://www.kaggle.com/datasets/taeyangg4/korea-food-service-permits)**<br>[repo](https://github.com/TaeyanG4/korea-business-lifecycle) | A snapshot of the current operating permit status of general restaurants, refreshment restaurants, and bakeries nationwide. | `3.01M rows` `403 MB` |
+| **[Autonomous Driving Crash Reports — NHTSA](https://www.kaggle.com/datasets/taeyangg4/nhtsa-autonomous-driving-crashes)**<br>[repo](https://github.com/TaeyanG4/nhtsa-autonomous-driving-crashes) | Organizes autonomous driving and ADAS crash reports received by the US NHTSA under the current reporting rules. Counts by reporting entity are not crash rates or safety rankings. | `3,263 rows` `123 cols` |
+
+<br>
+
+---
+
 ## Showroom
 
 <br>

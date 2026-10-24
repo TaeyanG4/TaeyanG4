@@ -21,6 +21,30 @@ NAV = {
 # 한국어 원문 -> 각 언어. 긴 문장부터 치환해야 부분 일치로 깨지지 않는다.
 T = {
 "en": {
+"Kaggle에 공개한 데이터셋입니다. 전체 목록과 품질·채택 기록은 [kaggle-dataset-portfolio](https://github.com/TaeyanG4/kaggle-dataset-portfolio)에 있고, Kaggle 프로필은 [taeyangg4](https://www.kaggle.com/taeyangg4)입니다.":
+"Datasets I have published on Kaggle. The full list, along with quality and adoption records, is in [kaggle-dataset-portfolio](https://github.com/TaeyanG4/kaggle-dataset-portfolio), and my Kaggle profile is [taeyangg4](https://www.kaggle.com/taeyangg4).",
+
+"종료된 Kaggle 대회의 공개 풀이 글을 순위와 관계없이 모아, 풀이마다 어떤 기법을 썼는지 원문 링크와 순위 근거까지 붙였습니다. 요약과 기법 판정은 모델이 읽은 저자 주장이고, 사람이 판정한 정답셋으로는 아직 검증하지 않았습니다.":
+"Collected public solution writeups from completed Kaggle competitions regardless of rank, with the techniques used in each solution, links to the original posts, and evidence for the rankings. The summaries and technique labels reflect the model's reading of authors' claims and have not yet been validated against a human-annotated ground-truth set.",
+
+"한국 공공조달의 입찰·투찰·낙찰·계약과 관련 주체를 같은 키로 연결했습니다. 단계마다 의미가 달라 하나로 합치지 않고 키와 출처를 그대로 보존합니다.":
+"Links tenders, bid submissions, awards, contracts, and related entities in Korean public procurement through common keys. Each stage has a different meaning, so the stages are kept separate and their keys and sources are preserved.",
+
+"전력거래소의 수요 예측, 발전기 지시량, 추정 출력을 5분 간격으로 정리했습니다. 전체 이력은 Parquet, 최근 한 달은 CSV로 올려 둘 다 바로 열립니다.":
+"Organizes the Korea Power Exchange's demand forecasts, generator dispatch quantities, and estimated output at 5-minute intervals. The full history is uploaded as Parquet and the most recent month as CSV, so both can be opened directly.",
+
+"관세청 수출입 실적을 상대국 × 월 × 10자리 HSK 품목으로 정리하고, 상위 HS 단위는 HSK10에서 파생해 함께 넣었습니다.":
+"Organizes Korea Customs Service import and export records by partner country × month × 10-digit HSK item, with higher HS levels derived from HSK10 and included alongside them.",
+
+"스미스소니언 Open Access의 이미지와 설명문을 권리까지 확인해 묶고, 같은 유물이 학습과 평가에 나뉘어 섞이지 않도록 분할했습니다.":
+"Pairs Smithsonian Open Access images with descriptions after checking their rights, and splits the data so the same object does not appear in both training and evaluation.",
+
+"전국 일반음식점·휴게음식점·제과점의 현재 영업 허가 상태를 한 번에 담은 스냅샷입니다.":
+"A snapshot of the current operating permit status of general restaurants, refreshment restaurants, and bakeries nationwide.",
+
+"미국 NHTSA가 받은 자율주행·ADAS 사고 보고서를 현행 보고 규정 기준으로 정리했습니다. 보고 주체별 건수는 사고율이나 안전 순위가 아닙니다.":
+"Organizes autonomous driving and ADAS crash reports received by the US NHTSA under the current reporting rules. Counts by reporting entity are not crash rates or safety rankings.",
+
 "### AI와 풀스택 개발. 기획부터 배포까지 한 사람이 이어서 합니다.":
 "### AI and full-stack development. One person carrying a product from spec to deployment.",
 
@@ -125,6 +149,30 @@ T = {
 },
 
 "zh": {
+"Kaggle에 공개한 데이터셋입니다. 전체 목록과 품질·채택 기록은 [kaggle-dataset-portfolio](https://github.com/TaeyanG4/kaggle-dataset-portfolio)에 있고, Kaggle 프로필은 [taeyangg4](https://www.kaggle.com/taeyangg4)입니다.":
+"在 Kaggle 上公开的数据集。完整列表及质量与采用记录见 [kaggle-dataset-portfolio](https://github.com/TaeyanG4/kaggle-dataset-portfolio)，Kaggle 个人主页为 [taeyangg4](https://www.kaggle.com/taeyangg4)。",
+
+"종료된 Kaggle 대회의 공개 풀이 글을 순위와 관계없이 모아, 풀이마다 어떤 기법을 썼는지 원문 링크와 순위 근거까지 붙였습니다. 요약과 기법 판정은 모델이 읽은 저자 주장이고, 사람이 판정한 정답셋으로는 아직 검증하지 않았습니다.":
+"收集已结束的 Kaggle 竞赛的公开解题文章，不限排名，并为每篇解答标注所用技术、原文链接和排名依据。摘要和技术判定反映的是模型对作者主张的解读，尚未用人工判定的标准答案集验证。",
+
+"한국 공공조달의 입찰·투찰·낙찰·계약과 관련 주체를 같은 키로 연결했습니다. 단계마다 의미가 달라 하나로 합치지 않고 키와 출처를 그대로 보존합니다.":
+"用相同的键关联韩国公共采购的招标、投标、中标、合同及相关主体。各阶段含义不同，因此不合并为一体，原样保留键和来源。",
+
+"전력거래소의 수요 예측, 발전기 지시량, 추정 출력을 5분 간격으로 정리했습니다. 전체 이력은 Parquet, 최근 한 달은 CSV로 올려 둘 다 바로 열립니다.":
+"将韩国电力交易所的需求预测、发电机调度指令量和估算出力整理为 5 分钟间隔的数据。完整历史以 Parquet 格式上传，最近一个月以 CSV 格式上传，两者均可直接打开。",
+
+"관세청 수출입 실적을 상대국 × 월 × 10자리 HSK 품목으로 정리하고, 상위 HS 단위는 HSK10에서 파생해 함께 넣었습니다.":
+"将韩国关税厅的进出口实绩按贸易伙伴国 × 月 × 10 位 HSK 商品编码整理，并从 HSK10 派生上级 HS 层级，一并收录。",
+
+"스미스소니언 Open Access의 이미지와 설명문을 권리까지 확인해 묶고, 같은 유물이 학습과 평가에 나뉘어 섞이지 않도록 분할했습니다.":
+"核对权利后，将史密森尼 Open Access 的图片与说明文字整理在一起，并划分数据，避免同一件藏品同时出现在训练集和评估集中。",
+
+"전국 일반음식점·휴게음식점·제과점의 현재 영업 허가 상태를 한 번에 담은 스냅샷입니다.":
+"一次性收录全国一般餐饮店、休闲餐饮店和糕点店当前营业许可状态的快照。",
+
+"미국 NHTSA가 받은 자율주행·ADAS 사고 보고서를 현행 보고 규정 기준으로 정리했습니다. 보고 주체별 건수는 사고율이나 안전 순위가 아닙니다.":
+"按现行报告规定整理美国 NHTSA 收到的自动驾驶与 ADAS 事故报告。按报告主体统计的数量不代表事故率或安全排名。",
+
 "### AI와 풀스택 개발. 기획부터 배포까지 한 사람이 이어서 합니다.":
 "### AI 与全栈开发。从策划到部署，由一个人一路负责到底。",
 
@@ -227,6 +275,30 @@ T = {
 },
 
 "ja": {
+"Kaggle에 공개한 데이터셋입니다. 전체 목록과 품질·채택 기록은 [kaggle-dataset-portfolio](https://github.com/TaeyanG4/kaggle-dataset-portfolio)에 있고, Kaggle 프로필은 [taeyangg4](https://www.kaggle.com/taeyangg4)입니다.":
+"Kaggle で公開したデータセットです。全一覧と品質・採用の記録は [kaggle-dataset-portfolio](https://github.com/TaeyanG4/kaggle-dataset-portfolio) にあり、Kaggle のプロフィールは [taeyangg4](https://www.kaggle.com/taeyangg4) です。",
+
+"종료된 Kaggle 대회의 공개 풀이 글을 순위와 관계없이 모아, 풀이마다 어떤 기법을 썼는지 원문 링크와 순위 근거까지 붙였습니다. 요약과 기법 판정은 모델이 읽은 저자 주장이고, 사람이 판정한 정답셋으로는 아직 검증하지 않았습니다.":
+"終了した Kaggle 大会の公開解法記事を順位にかかわらず集め、各解法で使われた手法に原文リンクと順位の根拠を添えました。要約と手法の判定は、モデルが読み取った著者の主張であり、人が判定した正解データセットではまだ検証していません。",
+
+"한국 공공조달의 입찰·투찰·낙찰·계약과 관련 주체를 같은 키로 연결했습니다. 단계마다 의미가 달라 하나로 합치지 않고 키와 출처를 그대로 보존합니다.":
+"韓国の公共調達における入札・応札・落札・契約と関連主体を共通のキーで結びました。各段階で意味が異なるため、一つにまとめずキーと出典をそのまま保持しています。",
+
+"전력거래소의 수요 예측, 발전기 지시량, 추정 출력을 5분 간격으로 정리했습니다. 전체 이력은 Parquet, 최근 한 달은 CSV로 올려 둘 다 바로 열립니다.":
+"韓国電力取引所の需要予測、発電機への出力指示量、推定出力を5分間隔で整理しました。全履歴は Parquet、直近1か月は CSV で公開し、どちらもそのまま開けます。",
+
+"관세청 수출입 실적을 상대국 × 월 × 10자리 HSK 품목으로 정리하고, 상위 HS 단위는 HSK10에서 파생해 함께 넣었습니다.":
+"韓国関税庁の輸出入実績を相手国 × 月 × 10桁の HSK 品目で整理し、上位の HS 単位は HSK10 から派生させてあわせて収録しました。",
+
+"스미스소니언 Open Access의 이미지와 설명문을 권리까지 확인해 묶고, 같은 유물이 학습과 평가에 나뉘어 섞이지 않도록 분할했습니다.":
+"スミソニアン Open Access の画像と説明文を権利も確認してまとめ、同じ収蔵品が学習用と評価用の両方に含まれないように分割しました。",
+
+"전국 일반음식점·휴게음식점·제과점의 현재 영업 허가 상태를 한 번에 담은 스냅샷입니다.":
+"全国の一般飲食店・休憩飲食店・製菓店の現在の営業許可状況を一度に収録したスナップショットです。",
+
+"미국 NHTSA가 받은 자율주행·ADAS 사고 보고서를 현행 보고 규정 기준으로 정리했습니다. 보고 주체별 건수는 사고율이나 안전 순위가 아닙니다.":
+"米国 NHTSA が受け取った自動運転・ADAS の事故報告を、現行の報告規定に基づいて整理しました。報告主体別の件数は、事故率や安全性の順位を示すものではありません。",
+
 "### AI와 풀스택 개발. 기획부터 배포까지 한 사람이 이어서 합니다.":
 "### AI とフルスタック開発。企画から本番リリースまで、一人が通しで担当します。",
 

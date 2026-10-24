@@ -51,6 +51,26 @@
 
 ---
 
+## Datasets
+
+<br>
+
+Kaggle で公開したデータセットです。全一覧と品質・採用の記録は [kaggle-dataset-portfolio](https://github.com/TaeyanG4/kaggle-dataset-portfolio) にあり、Kaggle のプロフィールは [taeyangg4](https://www.kaggle.com/taeyangg4) です。
+
+| Dataset | Description | Scale |
+|---|---|---|
+| **[Kaggle Top Solutions and Strategies](https://www.kaggle.com/datasets/taeyangg4/kaggle-top-solutions-and-strategies)**<br>[repo](https://github.com/TaeyanG4/kaggle-top-solutions-and-strategies) | 終了した Kaggle 大会の公開解法記事を順位にかかわらず集め、各解法で使われた手法に原文リンクと順位の根拠を添えました。要約と手法の判定は、モデルが読み取った著者の主張であり、人が判定した正解データセットではまだ検証していません。 | `70,576 rows` `4 files` |
+| **[KONEPS Public Procurement Intelligence](https://www.kaggle.com/datasets/taeyangg4/koneps-public-procurement-intelligence)**<br>[repo](https://github.com/TaeyanG4/koneps-procurement-intelligence) | 韓国の公共調達における入札・応札・落札・契約と関連主体を共通のキーで結びました。各段階で意味が異なるため、一つにまとめずキーと出典をそのまま保持しています。 | `8 files` `2.77 GB` |
+| **[South Korea Power Grid 5-Minute Data](https://www.kaggle.com/datasets/taeyangg4/south-korea-power-grid-5-minute)**<br>[repo](https://github.com/TaeyanG4/korea-power-grid) | 韓国電力取引所の需要予測、発電機への出力指示量、推定出力を5分間隔で整理しました。全履歴は Parquet、直近1か月は CSV で公開し、どちらもそのまま開けます。 | `1B+ rows` `2.49 GB` |
+| **[South Korea Customs Trade 2012-2026 HSK10](https://www.kaggle.com/datasets/taeyangg4/south-korea-customs-trade-hsk10)**<br>[repo](https://github.com/TaeyanG4/korea-customs-trade) | 韓国関税庁の輸出入実績を相手国 × 月 × 10桁の HSK 品目で整理し、上位の HS 単位は HSK10 から派生させてあわせて収録しました。 | `22.35M rows` `1.17 GB` |
+| **[Smithsonian 25K Museum Image-Text Dataset](https://www.kaggle.com/datasets/taeyangg4/smithsonian-25k-museum-image-text)**<br>[repo](https://github.com/TaeyanG4/smithsonian-image-text) | スミソニアン Open Access の画像と説明文を権利も確認してまとめ、同じ収蔵品が学習用と評価用の両方に含まれないように分割しました。 | `24,972 images` `916 MB` |
+| **[South Korea Food-Service Permits](https://www.kaggle.com/datasets/taeyangg4/korea-food-service-permits)**<br>[repo](https://github.com/TaeyanG4/korea-business-lifecycle) | 全国の一般飲食店・休憩飲食店・製菓店の現在の営業許可状況を一度に収録したスナップショットです。 | `3.01M rows` `403 MB` |
+| **[Autonomous Driving Crash Reports — NHTSA](https://www.kaggle.com/datasets/taeyangg4/nhtsa-autonomous-driving-crashes)**<br>[repo](https://github.com/TaeyanG4/nhtsa-autonomous-driving-crashes) | 米国 NHTSA が受け取った自動運転・ADAS の事故報告を、現行の報告規定に基づいて整理しました。報告主体別の件数は、事故率や安全性の順位を示すものではありません。 | `3,263 rows` `123 cols` |
+
+<br>
+
+---
+
 ## Showroom
 
 <br>

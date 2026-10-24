@@ -47,6 +47,26 @@
 
 ---
 
+## Datasets
+
+<br>
+
+Kaggle에 공개한 데이터셋입니다. 전체 목록과 품질·채택 기록은 [kaggle-dataset-portfolio](https://github.com/TaeyanG4/kaggle-dataset-portfolio)에 있고, Kaggle 프로필은 [taeyangg4](https://www.kaggle.com/taeyangg4)입니다.
+
+| Dataset | Description | Scale |
+|---|---|---|
+| **[Kaggle Top Solutions and Strategies](https://www.kaggle.com/datasets/taeyangg4/kaggle-top-solutions-and-strategies)**<br>[repo](https://github.com/TaeyanG4/kaggle-top-solutions-and-strategies) | 종료된 Kaggle 대회의 공개 풀이 글을 순위와 관계없이 모아, 풀이마다 어떤 기법을 썼는지 원문 링크와 순위 근거까지 붙였습니다. 요약과 기법 판정은 모델이 읽은 저자 주장이고, 사람이 판정한 정답셋으로는 아직 검증하지 않았습니다. | `70,576 rows` `4 files` |
+| **[KONEPS Public Procurement Intelligence](https://www.kaggle.com/datasets/taeyangg4/koneps-public-procurement-intelligence)**<br>[repo](https://github.com/TaeyanG4/koneps-procurement-intelligence) | 한국 공공조달의 입찰·투찰·낙찰·계약과 관련 주체를 같은 키로 연결했습니다. 단계마다 의미가 달라 하나로 합치지 않고 키와 출처를 그대로 보존합니다. | `8 files` `2.77 GB` |
+| **[South Korea Power Grid 5-Minute Data](https://www.kaggle.com/datasets/taeyangg4/south-korea-power-grid-5-minute)**<br>[repo](https://github.com/TaeyanG4/korea-power-grid) | 전력거래소의 수요 예측, 발전기 지시량, 추정 출력을 5분 간격으로 정리했습니다. 전체 이력은 Parquet, 최근 한 달은 CSV로 올려 둘 다 바로 열립니다. | `1B+ rows` `2.49 GB` |
+| **[South Korea Customs Trade 2012-2026 HSK10](https://www.kaggle.com/datasets/taeyangg4/south-korea-customs-trade-hsk10)**<br>[repo](https://github.com/TaeyanG4/korea-customs-trade) | 관세청 수출입 실적을 상대국 × 월 × 10자리 HSK 품목으로 정리하고, 상위 HS 단위는 HSK10에서 파생해 함께 넣었습니다. | `22.35M rows` `1.17 GB` |
+| **[Smithsonian 25K Museum Image-Text Dataset](https://www.kaggle.com/datasets/taeyangg4/smithsonian-25k-museum-image-text)**<br>[repo](https://github.com/TaeyanG4/smithsonian-image-text) | 스미스소니언 Open Access의 이미지와 설명문을 권리까지 확인해 묶고, 같은 유물이 학습과 평가에 나뉘어 섞이지 않도록 분할했습니다. | `24,972 images` `916 MB` |
+| **[South Korea Food-Service Permits](https://www.kaggle.com/datasets/taeyangg4/korea-food-service-permits)**<br>[repo](https://github.com/TaeyanG4/korea-business-lifecycle) | 전국 일반음식점·휴게음식점·제과점의 현재 영업 허가 상태를 한 번에 담은 스냅샷입니다. | `3.01M rows` `403 MB` |
+| **[Autonomous Driving Crash Reports — NHTSA](https://www.kaggle.com/datasets/taeyangg4/nhtsa-autonomous-driving-crashes)**<br>[repo](https://github.com/TaeyanG4/nhtsa-autonomous-driving-crashes) | 미국 NHTSA가 받은 자율주행·ADAS 사고 보고서를 현행 보고 규정 기준으로 정리했습니다. 보고 주체별 건수는 사고율이나 안전 순위가 아닙니다. | `3,263 rows` `123 cols` |
+
+<br>
+
+---
+
 ## Showroom
 
 <br>
