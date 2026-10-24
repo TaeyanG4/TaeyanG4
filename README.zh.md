@@ -340,7 +340,12 @@ Yeardream School 第6期 进阶课程<br>韩国中小风险企业部 AI 技术�
 <td nowrap valign="top">2022.10 ~ 2023.04</td>
 <td>
 
-AI Bootcamp 第16期 人工智能建模<br>6个月学习 + 1个月企业协作
+[Code States AI Bootcamp 第16期](https://www.codestates.com/blog/content/ai-%EB%B6%80%ED%8A%B8%EC%BA%A0%ED%94%84-%EC%8B%9C%EA%B0%84%ED%91%9C) 人工智能建模<br>6个月学习 + 1个月企业协作
+
+- 使用 Python 和 pandas 进行数据预处理、EDA、可视化与统计分析
+- 机器学习建模与评估，以及基于深度学习的计算机视觉与自然语言处理
+- SQL 数据库，以及基于 Flask 和 Docker 的应用开发与部署
+- 实务项目与企业协作
 
 </td>
 </tr>

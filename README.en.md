@@ -340,7 +340,12 @@ Konkuk University Graduate School of Information and Telecommunications MSc in A
 <td nowrap valign="top">2022.10 ~ 2023.04</td>
 <td>
 
-AI Bootcamp 16th cohort AI modelling<br>6 months of study + 1 month industry collaboration
+[Code States AI Bootcamp 16th cohort](https://www.codestates.com/blog/content/ai-%EB%B6%80%ED%8A%B8%EC%BA%A0%ED%94%84-%EC%8B%9C%EA%B0%84%ED%91%9C) AI modelling<br>6 months of study + 1 month industry collaboration
+
+- Data preprocessing EDA visualization and statistics with Python and pandas
+- Machine learning modelling and evaluation plus deep learning for computer vision and NLP
+- SQL databases and application development and deployment with Flask and Docker
+- Practical projects and industry collaboration
 
 </td>
 </tr>

@@ -143,8 +143,16 @@ T = {
 "LangChain and LangGraph, AI agents and MCP",
 "산업 연계 팀 프로젝트":
 "Industry-linked team project",
-"<b>AI Bootcamp 16기</b> 인공지능모델링<br>6개월 학습 + 1개월 기업 협업":
-"<b>AI Bootcamp 16th cohort</b>, AI modelling<br>6 months of study + 1 month industry collaboration",
+"코드스테이츠 AI Bootcamp 16기": "Code States AI Bootcamp 16th cohort",
+"인공지능모델링<br>6개월 학습 + 1개월 기업 협업":
+"AI modelling<br>6 months of study + 1 month industry collaboration",
+"Python·pandas 데이터 전처리 EDA 시각화와 통계":
+"Data preprocessing EDA visualization and statistics with Python and pandas",
+"머신러닝 모델링·평가와 딥러닝 기반 컴퓨터 비전·자연어 처리":
+"Machine learning modelling and evaluation plus deep learning for computer vision and NLP",
+"SQL 데이터베이스와 Flask·Docker 기반 애플리케이션 개발·배포":
+"SQL databases and application development and deployment with Flask and Docker",
+"실무 프로젝트와 기업 협업": "Practical projects and industry collaboration",
 "<b>동북전력대학교</b> (China) 소프트웨어공학과 학사<br>4년 과정, 재학 중 군복무 1년 9개월":
 "<b>Northeast Electric Power University</b> (China), BSc in Software Engineering<br>4-year programme, with 1 year 9 months of military service during enrolment",
 
@@ -270,8 +278,16 @@ T = {
 "LangChain 与 LangGraph、AI Agent 与 MCP",
 "산업 연계 팀 프로젝트":
 "产业联动团队项目",
-"<b>AI Bootcamp 16기</b> 인공지능모델링<br>6개월 학습 + 1개월 기업 협업":
-"<b>AI Bootcamp 第16期</b> 人工智能建模<br>6个月学习 + 1个月企业协作",
+"코드스테이츠 AI Bootcamp 16기": "Code States AI Bootcamp 第16期",
+"인공지능모델링<br>6개월 학습 + 1개월 기업 협업":
+"人工智能建模<br>6个月学习 + 1个月企业协作",
+"Python·pandas 데이터 전처리 EDA 시각화와 통계":
+"使用 Python 和 pandas 进行数据预处理、EDA、可视化与统计分析",
+"머신러닝 모델링·평가와 딥러닝 기반 컴퓨터 비전·자연어 처리":
+"机器学习建模与评估，以及基于深度学习的计算机视觉与自然语言处理",
+"SQL 데이터베이스와 Flask·Docker 기반 애플리케이션 개발·배포":
+"SQL 数据库，以及基于 Flask 和 Docker 的应用开发与部署",
+"실무 프로젝트와 기업 협업": "实务项目与企业协作",
 "<b>동북전력대학교</b> (China) 소프트웨어공학과 학사<br>4년 과정, 재학 중 군복무 1년 9개월":
 "<b>东北电力大学</b>（中国）软件工程 本科<br>四年制，在学期间服兵役1年9个月",
 
@@ -397,8 +413,16 @@ T = {
 "LangChain と LangGraph、AI エージェントと MCP",
 "산업 연계 팀 프로젝트":
 "産業連携チームプロジェクト",
-"<b>AI Bootcamp 16기</b> 인공지능모델링<br>6개월 학습 + 1개월 기업 협업":
-"<b>AI Bootcamp 第16期</b> 人工知能モデリング<br>6か月の学習 + 1か月の企業協業",
+"코드스테이츠 AI Bootcamp 16기": "Code States AI Bootcamp 第16期",
+"인공지능모델링<br>6개월 학습 + 1개월 기업 협업":
+"人工知能モデリング<br>6か月の学習 + 1か月の企業協業",
+"Python·pandas 데이터 전처리 EDA 시각화와 통계":
+"Python・pandas によるデータ前処理 EDA 可視化と統計",
+"머신러닝 모델링·평가와 딥러닝 기반 컴퓨터 비전·자연어 처리":
+"機械学習のモデリング・評価と深層学習によるコンピュータビジョン・自然言語処理",
+"SQL 데이터베이스와 Flask·Docker 기반 애플리케이션 개발·배포":
+"SQL データベースと Flask・Docker によるアプリケーション開発・デプロイ",
+"실무 프로젝트와 기업 협업": "実務プロジェクトと企業協業",
 "<b>동북전력대학교</b> (China) 소프트웨어공학과 학사<br>4년 과정, 재학 중 군복무 1년 9개월":
 "<b>東北電力大学</b>（中国）ソフトウェア工学 学士<br>4年課程、在学中に兵役1年9か月",
 
