@@ -171,7 +171,7 @@ SOLAROPS 运营数据质量审计<br>
 >
 > Query-Aware Cost-Efficient RAG via a Lightweight Pipeline Controller<br>2026，建国大学信息通信研究生院
 >
-> 如果所有查询都走同一条高成本流水线，简单问题也要付出同样的成本与延迟。
+> 如果所有查询都走同一条高成本流水线，简单问题也要付出同样的成本与延迟。<br>
 > 因此加入了一个轻量控制器：先估计查询难度，只在需要时才启用混合检索、重排序与 HyDE。
 
 ### Bachelor's Thesis
@@ -180,7 +180,7 @@ SOLAROPS 运营数据质量审计<br>
 >
 > 基于MapReduce的电力行业数据挖掘并行化实现<br>2020，东北电力大学
 >
-> 智能电表产生的用电数据量，单机已经无法处理。
+> 智能电表产生的用电数据量，单机已经无法处理。<br>
 > 在虚拟机上搭建三节点 Hadoop 集群，用 MapReduce K-means 对用电模式进行了聚类划分。
 
 <br>

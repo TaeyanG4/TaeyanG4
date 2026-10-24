@@ -171,7 +171,7 @@ SOLAROPS 운영 데이터 품질 감사<br>
 >
 > Query-Aware Cost-Efficient RAG via a Lightweight Pipeline Controller<br>2026 건국대학교 정보통신대학원
 >
-> 모든 질의에 같은 고비용 파이프라인을 물리면 쉬운 질문에도 비용과 지연이 그대로 붙습니다
+> 모든 질의에 같은 고비용 파이프라인을 물리면 쉬운 질문에도 비용과 지연이 그대로 붙습니다<br>
 > 질의 난이도를 먼저 재고 하이브리드 검색과 재랭킹 HyDE를 필요할 때만 켜는 경량 컨트롤러를 붙였습니다
 
 ### Bachelor's Thesis
@@ -180,7 +180,7 @@ SOLAROPS 운영 데이터 품질 감사<br>
 >
 > Parallelization of Data Mining in Power Industry Based on MapReduce<br>2020 동북전력대학교 Northeast Electric Power University
 >
-> 스마트미터가 쏟아내는 사용량 데이터는 단일 장비로 감당이 안 됩니다
+> 스마트미터가 쏟아내는 사용량 데이터는 단일 장비로 감당이 안 됩니다<br>
 > 가상머신에 3노드 Hadoop 클러스터를 올리고 MapReduce K-means로 사용 패턴을 나눴습니다
 
 <br>

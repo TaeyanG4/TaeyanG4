@@ -171,7 +171,7 @@ Publishes only validated results traces numbers to the source<br>
 >
 > 경량 파이프라인 컨트롤러를 통한 질의 인식 기반 비용 효율적 RAG<br>2026 Konkuk University Graduate School of Information and Telecommunications
 >
-> Running every query through the same expensive pipeline makes easy questions pay full price in cost and latency
+> Running every query through the same expensive pipeline makes easy questions pay full price in cost and latency<br>
 > I added a lightweight controller that estimates query difficulty first then switches on hybrid retrieval reranking and HyDE only when they are needed
 
 ### Bachelor's Thesis
@@ -180,7 +180,7 @@ Publishes only validated results traces numbers to the source<br>
 >
 > 基于MapReduce的电力行业数据挖掘并行化实现<br>2020 Northeast Electric Power University
 >
-> Smart meters produce more consumption data than a single machine can process
+> Smart meters produce more consumption data than a single machine can process<br>
 > I stood up a three-node Hadoop cluster on virtual machines and partitioned usage patterns with MapReduce K-means
 
 <br>
