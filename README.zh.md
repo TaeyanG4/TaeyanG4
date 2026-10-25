@@ -367,17 +367,12 @@ SOLAROPS 运营数据质量审计<br>
 <tr>
 <td nowrap valign="top">2026.05 ~ 2026.08</td>
 <td>
-
-Yeardream School 第6期 进阶课程
-
-韩国中小风险企业部 AI 技术人才培养
-
-- LLM 微调、RAG 与向量数据库
-
-- LangChain 与 LangGraph、AI Agent 与 MCP
-
-- 产业联动团队项目
-
+Yeardream School 第6期 进阶课程<br>韩国中小风险企业部 AI 技术人才培养
+<ul>
+<li>LLM 微调、RAG 与向量数据库</li>
+<li>LangChain 与 LangGraph、AI Agent 与 MCP</li>
+<li>产业联动团队项目</li>
+</ul>
 </td>
 </tr>
 <tr>
@@ -392,19 +387,13 @@ Yeardream School 第6期 进阶课程
 <tr>
 <td nowrap valign="top">2022.10 ~ 2023.04</td>
 <td>
-
-[Code States AI Bootcamp 第16期](https://www.codestates.com/blog/content/ai-%EB%B6%80%ED%8A%B8%EC%BA%A0%ED%94%84-%EC%8B%9C%EA%B0%84%ED%91%9C) 人工智能建模
-
-6个月学习 + 1个月企业协作
-
-- 使用 Python 和 pandas 进行数据预处理、EDA、可视化与统计分析
-
-- 机器学习建模与评估，以及基于深度学习的计算机视觉与自然语言处理
-
-- SQL 数据库，以及基于 Flask 和 Docker 的应用开发与部署
-
-- 实务项目与企业协作
-
+<a href="https://www.codestates.com/blog/content/ai-%EB%B6%80%ED%8A%B8%EC%BA%A0%ED%94%84-%EC%8B%9C%EA%B0%84%ED%91%9C">Code States AI Bootcamp 第16期</a> 人工智能建模<br>6个月学习 + 1个月企业协作
+<ul>
+<li>使用 Python 和 pandas 进行数据预处理、EDA、可视化与统计分析</li>
+<li>机器学习建模与评估，以及基于深度学习的计算机视觉与自然语言处理</li>
+<li>SQL 数据库，以及基于 Flask 和 Docker 的应用开发与部署</li>
+<li>实务项目与企业协作</li>
+</ul>
 </td>
 </tr>
 <tr>

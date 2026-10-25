@@ -135,8 +135,8 @@ T = {
 
 "<b>건국대학교 정보통신대학원</b> 융합정보기술학과 인공지능전공 석사":
 "<b>Konkuk University</b> Graduate School of Information and Telecommunications, MSc in Artificial Intelligence",
-"<b>이어드림스쿨 6기</b> 심화과정\n\n중소벤처기업부 AI 기술인력 양성":
-"<b>Yeardream School 6th cohort</b>, advanced track\n\nMinistry of SMEs and Startups AI talent programme",
+"<b>이어드림스쿨 6기</b> 심화과정<br>중소벤처기업부 AI 기술인력 양성":
+"<b>Yeardream School 6th cohort</b>, advanced track<br>Ministry of SMEs and Startups AI talent programme",
 "LLM Fine-tuning, RAG와 Vector DB":
 "LLM fine-tuning, RAG and vector databases",
 "LangChain과 LangGraph, AI Agent와 MCP":
@@ -144,8 +144,8 @@ T = {
 "산업 연계 팀 프로젝트":
 "Industry-linked team project",
 "코드스테이츠 AI Bootcamp 16기": "Code States AI Bootcamp 16th cohort",
-"인공지능모델링\n\n6개월 학습 + 1개월 기업 협업":
-"AI modelling\n\n6 months of study + 1 month industry collaboration",
+"인공지능모델링<br>6개월 학습 + 1개월 기업 협업":
+"AI modelling<br>6 months of study + 1 month industry collaboration",
 "Python·pandas 데이터 전처리 EDA 시각화와 통계":
 "Data preprocessing EDA visualization and statistics with Python and pandas",
 "머신러닝 모델링·평가와 딥러닝 기반 컴퓨터 비전·자연어 처리":
@@ -270,8 +270,8 @@ T = {
 
 "<b>건국대학교 정보통신대학원</b> 융합정보기술학과 인공지능전공 석사":
 "<b>建国大学信息通信研究生院</b> 融合信息技术学科 人工智能专业 硕士",
-"<b>이어드림스쿨 6기</b> 심화과정\n\n중소벤처기업부 AI 기술인력 양성":
-"<b>Yeardream School 第6期</b> 进阶课程\n\n韩国中小风险企业部 AI 技术人才培养",
+"<b>이어드림스쿨 6기</b> 심화과정<br>중소벤처기업부 AI 기술인력 양성":
+"<b>Yeardream School 第6期</b> 进阶课程<br>韩国中小风险企业部 AI 技术人才培养",
 "LLM Fine-tuning, RAG와 Vector DB":
 "LLM 微调、RAG 与向量数据库",
 "LangChain과 LangGraph, AI Agent와 MCP":
@@ -279,8 +279,8 @@ T = {
 "산업 연계 팀 프로젝트":
 "产业联动团队项目",
 "코드스테이츠 AI Bootcamp 16기": "Code States AI Bootcamp 第16期",
-"인공지능모델링\n\n6개월 학습 + 1개월 기업 협업":
-"人工智能建模\n\n6个月学习 + 1个月企业协作",
+"인공지능모델링<br>6개월 학습 + 1개월 기업 협업":
+"人工智能建模<br>6个月学习 + 1个月企业协作",
 "Python·pandas 데이터 전처리 EDA 시각화와 통계":
 "使用 Python 和 pandas 进行数据预处理、EDA、可视化与统计分析",
 "머신러닝 모델링·평가와 딥러닝 기반 컴퓨터 비전·자연어 처리":
@@ -405,8 +405,8 @@ T = {
 
 "<b>건국대학교 정보통신대학원</b> 융합정보기술학과 인공지능전공 석사":
 "<b>建国大学 情報通信大学院</b> 融合情報技術学科 人工知能専攻 修士",
-"<b>이어드림스쿨 6기</b> 심화과정\n\n중소벤처기업부 AI 기술인력 양성":
-"<b>Yeardream School 第6期</b> 応用コース\n\n韓国中小ベンチャー企業部 AI 技術人材育成",
+"<b>이어드림스쿨 6기</b> 심화과정<br>중소벤처기업부 AI 기술인력 양성":
+"<b>Yeardream School 第6期</b> 応用コース<br>韓国中小ベンチャー企業部 AI 技術人材育成",
 "LLM Fine-tuning, RAG와 Vector DB":
 "LLM ファインチューニング、RAG とベクトル DB",
 "LangChain과 LangGraph, AI Agent와 MCP":
@@ -414,8 +414,8 @@ T = {
 "산업 연계 팀 프로젝트":
 "産業連携チームプロジェクト",
 "코드스테이츠 AI Bootcamp 16기": "Code States AI Bootcamp 第16期",
-"인공지능모델링\n\n6개월 학습 + 1개월 기업 협업":
-"人工知能モデリング\n\n6か月の学習 + 1か月の企業協業",
+"인공지능모델링<br>6개월 학습 + 1개월 기업 협업":
+"人工知能モデリング<br>6か月の学習 + 1か月の企業協業",
 "Python·pandas 데이터 전처리 EDA 시각화와 통계":
 "Python・pandas によるデータ前処理 EDA 可視化と統計",
 "머신러닝 모델링·평가와 딥러닝 기반 컴퓨터 비전·자연어 처리":

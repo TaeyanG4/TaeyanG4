@@ -367,17 +367,12 @@ Publishes only validated results traces numbers to the source<br>
 <tr>
 <td nowrap valign="top">2026.05 ~ 2026.08</td>
 <td>
-
-Yeardream School 6th cohort advanced track
-
-Ministry of SMEs and Startups AI talent programme
-
-- LLM fine-tuning RAG and vector databases
-
-- LangChain and LangGraph AI agents and MCP
-
-- Industry-linked team project
-
+Yeardream School 6th cohort advanced track<br>Ministry of SMEs and Startups AI talent programme
+<ul>
+<li>LLM fine-tuning RAG and vector databases</li>
+<li>LangChain and LangGraph AI agents and MCP</li>
+<li>Industry-linked team project</li>
+</ul>
 </td>
 </tr>
 <tr>
@@ -392,19 +387,13 @@ Konkuk University Graduate School of Information and Telecommunications MSc in A
 <tr>
 <td nowrap valign="top">2022.10 ~ 2023.04</td>
 <td>
-
-[Code States AI Bootcamp 16th cohort](https://www.codestates.com/blog/content/ai-%EB%B6%80%ED%8A%B8%EC%BA%A0%ED%94%84-%EC%8B%9C%EA%B0%84%ED%91%9C) AI modelling
-
-6 months of study + 1 month industry collaboration
-
-- Data preprocessing EDA visualization and statistics with Python and pandas
-
-- Machine learning modelling and evaluation plus deep learning for computer vision and NLP
-
-- SQL databases and application development and deployment with Flask and Docker
-
-- Practical projects and industry collaboration
-
+<a href="https://www.codestates.com/blog/content/ai-%EB%B6%80%ED%8A%B8%EC%BA%A0%ED%94%84-%EC%8B%9C%EA%B0%84%ED%91%9C">Code States AI Bootcamp 16th cohort</a> AI modelling<br>6 months of study + 1 month industry collaboration
+<ul>
+<li>Data preprocessing EDA visualization and statistics with Python and pandas</li>
+<li>Machine learning modelling and evaluation plus deep learning for computer vision and NLP</li>
+<li>SQL databases and application development and deployment with Flask and Docker</li>
+<li>Practical projects and industry collaboration</li>
+</ul>
 </td>
 </tr>
 <tr>

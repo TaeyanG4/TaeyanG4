@@ -367,17 +367,12 @@ SOLAROPS 運用データ品質監査<br>
 <tr>
 <td nowrap valign="top">2026.05 ~ 2026.08</td>
 <td>
-
-Yeardream School 第6期 応用コース
-
-韓国中小ベンチャー企業部 AI 技術人材育成
-
-- LLM ファインチューニング、RAG とベクトル DB
-
-- LangChain と LangGraph、AI エージェントと MCP
-
-- 産業連携チームプロジェクト
-
+Yeardream School 第6期 応用コース<br>韓国中小ベンチャー企業部 AI 技術人材育成
+<ul>
+<li>LLM ファインチューニング、RAG とベクトル DB</li>
+<li>LangChain と LangGraph、AI エージェントと MCP</li>
+<li>産業連携チームプロジェクト</li>
+</ul>
 </td>
 </tr>
 <tr>
@@ -392,19 +387,13 @@ Yeardream School 第6期 応用コース
 <tr>
 <td nowrap valign="top">2022.10 ~ 2023.04</td>
 <td>
-
-[Code States AI Bootcamp 第16期](https://www.codestates.com/blog/content/ai-%EB%B6%80%ED%8A%B8%EC%BA%A0%ED%94%84-%EC%8B%9C%EA%B0%84%ED%91%9C) 人工知能モデリング
-
-6か月の学習 + 1か月の企業協業
-
-- Python・pandas によるデータ前処理 EDA 可視化と統計
-
-- 機械学習のモデリング・評価と深層学習によるコンピュータビジョン・自然言語処理
-
-- SQL データベースと Flask・Docker によるアプリケーション開発・デプロイ
-
-- 実務プロジェクトと企業協業
-
+<a href="https://www.codestates.com/blog/content/ai-%EB%B6%80%ED%8A%B8%EC%BA%A0%ED%94%84-%EC%8B%9C%EA%B0%84%ED%91%9C">Code States AI Bootcamp 第16期</a> 人工知能モデリング<br>6か月の学習 + 1か月の企業協業
+<ul>
+<li>Python・pandas によるデータ前処理 EDA 可視化と統計</li>
+<li>機械学習のモデリング・評価と深層学習によるコンピュータビジョン・自然言語処理</li>
+<li>SQL データベースと Flask・Docker によるアプリケーション開発・デプロイ</li>
+<li>実務プロジェクトと企業協業</li>
+</ul>
 </td>
 </tr>
 <tr>

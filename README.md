@@ -367,17 +367,12 @@ SOLAROPS 운영 데이터 품질 감사<br>
 <tr>
 <td nowrap valign="top">2026.05 ~ 2026.08</td>
 <td>
-
-이어드림스쿨 6기 심화과정
-
-중소벤처기업부 AI 기술인력 양성
-
-- LLM Fine-tuning RAG와 Vector DB
-
-- LangChain과 LangGraph AI Agent와 MCP
-
-- 산업 연계 팀 프로젝트
-
+이어드림스쿨 6기 심화과정<br>중소벤처기업부 AI 기술인력 양성
+<ul>
+<li>LLM Fine-tuning RAG와 Vector DB</li>
+<li>LangChain과 LangGraph AI Agent와 MCP</li>
+<li>산업 연계 팀 프로젝트</li>
+</ul>
 </td>
 </tr>
 <tr>
@@ -392,19 +387,13 @@ SOLAROPS 운영 데이터 품질 감사<br>
 <tr>
 <td nowrap valign="top">2022.10 ~ 2023.04</td>
 <td>
-
-[코드스테이츠 AI Bootcamp 16기](https://www.codestates.com/blog/content/ai-%EB%B6%80%ED%8A%B8%EC%BA%A0%ED%94%84-%EC%8B%9C%EA%B0%84%ED%91%9C) 인공지능모델링
-
-6개월 학습 + 1개월 기업 협업
-
-- Python·pandas 데이터 전처리 EDA 시각화와 통계
-
-- 머신러닝 모델링·평가와 딥러닝 기반 컴퓨터 비전·자연어 처리
-
-- SQL 데이터베이스와 Flask·Docker 기반 애플리케이션 개발·배포
-
-- 실무 프로젝트와 기업 협업
-
+<a href="https://www.codestates.com/blog/content/ai-%EB%B6%80%ED%8A%B8%EC%BA%A0%ED%94%84-%EC%8B%9C%EA%B0%84%ED%91%9C">코드스테이츠 AI Bootcamp 16기</a> 인공지능모델링<br>6개월 학습 + 1개월 기업 협업
+<ul>
+<li>Python·pandas 데이터 전처리 EDA 시각화와 통계</li>
+<li>머신러닝 모델링·평가와 딥러닝 기반 컴퓨터 비전·자연어 처리</li>
+<li>SQL 데이터베이스와 Flask·Docker 기반 애플리케이션 개발·배포</li>
+<li>실무 프로젝트와 기업 협업</li>
+</ul>
 </td>
 </tr>
 <tr>
