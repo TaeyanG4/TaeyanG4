@@ -365,7 +365,7 @@ SOLAROPS 运营数据质量审计<br>
 <th width="760">Program</th>
 </tr>
 <tr>
-<td nowrap valign="top">2026.05 ~ 2026.08</td>
+<td nowrap align="center" valign="middle">2026.05 ~ 2026.08</td>
 <td>
 Yeardream School 第6期 进阶课程<br>韩国中小风险企业部 AI 技术人才培养
 <ul>
@@ -376,7 +376,7 @@ Yeardream School 第6期 进阶课程<br>韩国中小风险企业部 AI 技术�
 </td>
 </tr>
 <tr>
-<td nowrap valign="top">2023.09 ~ 2026.02</td>
+<td nowrap align="center" valign="middle">2023.09 ~ 2026.02</td>
 <td>
 
 建国大学信息通信研究生院 融合信息技术学科 人工智能专业 硕士<br>
@@ -385,7 +385,7 @@ Yeardream School 第6期 进阶课程<br>韩国中小风险企业部 AI 技术�
 </td>
 </tr>
 <tr>
-<td nowrap valign="top">2022.10 ~ 2023.04</td>
+<td nowrap align="center" valign="middle">2022.10 ~ 2023.04</td>
 <td>
 <a href="https://www.codestates.com/blog/content/ai-%EB%B6%80%ED%8A%B8%EC%BA%A0%ED%94%84-%EC%8B%9C%EA%B0%84%ED%91%9C">Code States AI Bootcamp 第16期</a> 人工智能建模<br>6个月学习 + 1个月企业协作
 <ul>
@@ -397,7 +397,7 @@ Yeardream School 第6期 进阶课程<br>韩国中小风险企业部 AI 技术�
 </td>
 </tr>
 <tr>
-<td nowrap valign="top">2014.09 ~ 2020.06</td>
+<td nowrap align="center" valign="middle">2014.09 ~ 2020.06</td>
 <td>
 
 东北电力大学（中国）软件工程 本科<br>四年制，在学期间服兵役1年9个月

@@ -365,7 +365,7 @@ Publishes only validated results traces numbers to the source<br>
 <th width="760">Program</th>
 </tr>
 <tr>
-<td nowrap valign="top">2026.05 ~ 2026.08</td>
+<td nowrap align="center" valign="middle">2026.05 ~ 2026.08</td>
 <td>
 Yeardream School 6th cohort advanced track<br>Ministry of SMEs and Startups AI talent programme
 <ul>
@@ -376,7 +376,7 @@ Yeardream School 6th cohort advanced track<br>Ministry of SMEs and Startups AI t
 </td>
 </tr>
 <tr>
-<td nowrap valign="top">2023.09 ~ 2026.02</td>
+<td nowrap align="center" valign="middle">2023.09 ~ 2026.02</td>
 <td>
 
 Konkuk University Graduate School of Information and Telecommunications MSc in Artificial Intelligence<br>
@@ -385,7 +385,7 @@ Konkuk University Graduate School of Information and Telecommunications MSc in A
 </td>
 </tr>
 <tr>
-<td nowrap valign="top">2022.10 ~ 2023.04</td>
+<td nowrap align="center" valign="middle">2022.10 ~ 2023.04</td>
 <td>
 <a href="https://www.codestates.com/blog/content/ai-%EB%B6%80%ED%8A%B8%EC%BA%A0%ED%94%84-%EC%8B%9C%EA%B0%84%ED%91%9C">Code States AI Bootcamp 16th cohort</a> AI modelling<br>6 months of study + 1 month industry collaboration
 <ul>
@@ -397,7 +397,7 @@ Konkuk University Graduate School of Information and Telecommunications MSc in A
 </td>
 </tr>
 <tr>
-<td nowrap valign="top">2014.09 ~ 2020.06</td>
+<td nowrap align="center" valign="middle">2014.09 ~ 2020.06</td>
 <td>
 
 Northeast Electric Power University (China) BSc in Software Engineering<br>4-year programme with 1 year 9 months of military service during enrolment

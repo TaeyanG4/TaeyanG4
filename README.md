@@ -365,7 +365,7 @@ SOLAROPS 운영 데이터 품질 감사<br>
 <th width="760">Program</th>
 </tr>
 <tr>
-<td nowrap valign="top">2026.05 ~ 2026.08</td>
+<td nowrap align="center" valign="middle">2026.05 ~ 2026.08</td>
 <td>
 이어드림스쿨 6기 심화과정<br>중소벤처기업부 AI 기술인력 양성
 <ul>
@@ -376,7 +376,7 @@ SOLAROPS 운영 데이터 품질 감사<br>
 </td>
 </tr>
 <tr>
-<td nowrap valign="top">2023.09 ~ 2026.02</td>
+<td nowrap align="center" valign="middle">2023.09 ~ 2026.02</td>
 <td>
 
 건국대학교 정보통신대학원 융합정보기술학과 인공지능전공 석사<br>
@@ -385,7 +385,7 @@ SOLAROPS 운영 데이터 품질 감사<br>
 </td>
 </tr>
 <tr>
-<td nowrap valign="top">2022.10 ~ 2023.04</td>
+<td nowrap align="center" valign="middle">2022.10 ~ 2023.04</td>
 <td>
 <a href="https://www.codestates.com/blog/content/ai-%EB%B6%80%ED%8A%B8%EC%BA%A0%ED%94%84-%EC%8B%9C%EA%B0%84%ED%91%9C">코드스테이츠 AI Bootcamp 16기</a> 인공지능모델링<br>6개월 학습 + 1개월 기업 협업
 <ul>
@@ -397,7 +397,7 @@ SOLAROPS 운영 데이터 품질 감사<br>
 </td>
 </tr>
 <tr>
-<td nowrap valign="top">2014.09 ~ 2020.06</td>
+<td nowrap align="center" valign="middle">2014.09 ~ 2020.06</td>
 <td>
 
 동북전력대학교 (China) 소프트웨어공학과 학사<br>4년 과정 재학 중 군복무 1년 9개월

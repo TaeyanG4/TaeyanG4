@@ -365,7 +365,7 @@ SOLAROPS 運用データ品質監査<br>
 <th width="760">Program</th>
 </tr>
 <tr>
-<td nowrap valign="top">2026.05 ~ 2026.08</td>
+<td nowrap align="center" valign="middle">2026.05 ~ 2026.08</td>
 <td>
 Yeardream School 第6期 応用コース<br>韓国中小ベンチャー企業部 AI 技術人材育成
 <ul>
@@ -376,7 +376,7 @@ Yeardream School 第6期 応用コース<br>韓国中小ベンチャー企業部
 </td>
 </tr>
 <tr>
-<td nowrap valign="top">2023.09 ~ 2026.02</td>
+<td nowrap align="center" valign="middle">2023.09 ~ 2026.02</td>
 <td>
 
 建国大学 情報通信大学院 融合情報技術学科 人工知能専攻 修士<br>
@@ -385,7 +385,7 @@ Yeardream School 第6期 応用コース<br>韓国中小ベンチャー企業部
 </td>
 </tr>
 <tr>
-<td nowrap valign="top">2022.10 ~ 2023.04</td>
+<td nowrap align="center" valign="middle">2022.10 ~ 2023.04</td>
 <td>
 <a href="https://www.codestates.com/blog/content/ai-%EB%B6%80%ED%8A%B8%EC%BA%A0%ED%94%84-%EC%8B%9C%EA%B0%84%ED%91%9C">Code States AI Bootcamp 第16期</a> 人工知能モデリング<br>6か月の学習 + 1か月の企業協業
 <ul>
@@ -397,7 +397,7 @@ Yeardream School 第6期 応用コース<br>韓国中小ベンチャー企業部
 </td>
 </tr>
 <tr>
-<td nowrap valign="top">2014.09 ~ 2020.06</td>
+<td nowrap align="center" valign="middle">2014.09 ~ 2020.06</td>
 <td>
 
 東北電力大学（中国）ソフトウェア工学 学士<br>4年課程、在学中に兵役1年9か月
