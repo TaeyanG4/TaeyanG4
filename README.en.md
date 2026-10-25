@@ -35,7 +35,7 @@ I communicate in Korean English Chinese and Japanese<br><br>
 <br>
 
 | Project | Description | Stack |
-|---|---|---|
+|:---:|---|---|
 | afterformat<br>[afterformat.com](https://afterformat.com) | Pick the programs you use and get them all back in one go after reformatting<br>110 programs in Korean English and Japanese each marked with whether it is licensed for business use with the evidence and the date it was checked<br>winget manifests are scanned daily and land as pull requests a person has to review | `Astro` `React` `Tailwind` `Cloudflare Workers` `D1` |
 | project-owogg<br>[owogg.com](https://owogg.com) | Browser mini-game platform<br>First-party and user-uploaded games run on a single runtime<br>Domain logic sits behind ports and adapters with e2e tests and a staging environment in operation | `React 19` `Hono` `Cloudflare Workers` `D1` `B2` |
 | [dexon-smart-ops-chatbot](https://github.com/TaeyanG4/dexon-smart-ops-chatbot) | Predicts which HDDs will fail within seven days from SMART data and returns an inspection order supporting evidence and an operations runbook<br>All 252 tracked files were audited and scrubbed of personal data before release | `FastAPI` `LlamaIndex` `LiteLLM` `Langfuse` `Docker` |
@@ -59,43 +59,43 @@ I communicate in Korean English Chinese and Japanese<br><br>
 <th>Repo</th>
 </tr>
 <tr>
-<td><a href="https://www.kaggle.com/datasets/taeyangg4/kaggle-top-solutions-and-strategies">Kaggle Top Solutions and Strategies</a></td>
+<td align="center" valign="middle"><a href="https://www.kaggle.com/datasets/taeyangg4/kaggle-top-solutions-and-strategies">Kaggle Top Solutions and Strategies</a></td>
 <td>Collected public solution writeups from completed Kaggle competitions regardless of rank with the techniques used in each solution links to the original posts and evidence for the rankings<br>The summaries and technique labels reflect the model's reading of authors' claims</td>
 <td nowrap><code>70,576 rows</code><br><code>4 files</code></td>
 <td><a href="https://github.com/TaeyanG4/kaggle-top-solutions-and-strategies">repo</a></td>
 </tr>
 <tr>
-<td><a href="https://www.kaggle.com/datasets/taeyangg4/koneps-public-procurement-intelligence">KONEPS Public Procurement Intelligence</a></td>
+<td align="center" valign="middle"><a href="https://www.kaggle.com/datasets/taeyangg4/koneps-public-procurement-intelligence">KONEPS Public Procurement Intelligence</a></td>
 <td>Links tenders bid submissions awards contracts and related entities in Korean public procurement through common keys<br>Each stage has a different meaning so the stages are kept separate and their keys and sources are preserved</td>
 <td nowrap><code>8 files</code><br><code>2.77 GB</code></td>
 <td><a href="https://github.com/TaeyanG4/koneps-procurement-intelligence">repo</a></td>
 </tr>
 <tr>
-<td><a href="https://www.kaggle.com/datasets/taeyangg4/south-korea-power-grid-5-minute">South Korea Power Grid 5-Minute Data</a></td>
+<td align="center" valign="middle"><a href="https://www.kaggle.com/datasets/taeyangg4/south-korea-power-grid-5-minute">South Korea Power Grid 5-Minute Data</a></td>
 <td>Organizes the Korea Power Exchange's demand forecasts generator dispatch quantities and estimated output at 5-minute intervals<br>The full history is uploaded as Parquet and the most recent month as CSV so both can be opened directly</td>
 <td nowrap><code>1B+ rows</code><br><code>2.49 GB</code></td>
 <td><a href="https://github.com/TaeyanG4/korea-power-grid">repo</a></td>
 </tr>
 <tr>
-<td><a href="https://www.kaggle.com/datasets/taeyangg4/south-korea-customs-trade-hsk10">South Korea Customs Trade 2012-2026 HSK10</a></td>
+<td align="center" valign="middle"><a href="https://www.kaggle.com/datasets/taeyangg4/south-korea-customs-trade-hsk10">South Korea Customs Trade 2012-2026 HSK10</a></td>
 <td>Organizes Korea Customs Service import and export records by partner country × month × 10-digit HSK item with higher HS levels derived from HSK10 and included alongside them</td>
 <td nowrap><code>22.35M rows</code><br><code>1.17 GB</code></td>
 <td><a href="https://github.com/TaeyanG4/korea-customs-trade">repo</a></td>
 </tr>
 <tr>
-<td><a href="https://www.kaggle.com/datasets/taeyangg4/smithsonian-25k-museum-image-text">Smithsonian 25K Museum Image-Text Dataset</a></td>
+<td align="center" valign="middle"><a href="https://www.kaggle.com/datasets/taeyangg4/smithsonian-25k-museum-image-text">Smithsonian 25K Museum Image-Text Dataset</a></td>
 <td>Pairs Smithsonian Open Access images with descriptions after checking their rights and splits the data so the same object does not appear in both training and evaluation</td>
 <td nowrap><code>24,972 images</code><br><code>916 MB</code></td>
 <td><a href="https://github.com/TaeyanG4/smithsonian-image-text">repo</a></td>
 </tr>
 <tr>
-<td><a href="https://www.kaggle.com/datasets/taeyangg4/korea-food-service-permits">South Korea Food-Service Permits</a></td>
+<td align="center" valign="middle"><a href="https://www.kaggle.com/datasets/taeyangg4/korea-food-service-permits">South Korea Food-Service Permits</a></td>
 <td>A snapshot of the current operating permit status of general restaurants refreshment restaurants and bakeries nationwide</td>
 <td nowrap><code>3.01M rows</code><br><code>403 MB</code></td>
 <td><a href="https://github.com/TaeyanG4/korea-business-lifecycle">repo</a></td>
 </tr>
 <tr>
-<td><a href="https://www.kaggle.com/datasets/taeyangg4/nhtsa-autonomous-driving-crashes">Autonomous Driving Crash Reports (NHTSA)</a></td>
+<td align="center" valign="middle"><a href="https://www.kaggle.com/datasets/taeyangg4/nhtsa-autonomous-driving-crashes">Autonomous Driving Crash Reports (NHTSA)</a></td>
 <td>Organizes autonomous driving and ADAS crash reports received by the US NHTSA under the current reporting rules<br>Counts by reporting entity are not crash rates or safety rankings</td>
 <td nowrap><code>3,263 rows</code><br><code>123 cols</code></td>
 <td><a href="https://github.com/TaeyanG4/nhtsa-autonomous-driving-crashes">repo</a></td>

@@ -35,7 +35,7 @@
 <br>
 
 | Project | Description | Stack |
-|---|---|---|
+|:---:|---|---|
 | afterformat<br>[afterformat.com](https://afterformat.com) | 重装系统后一次性取回常用软件的站点。以韩语、英语、日语收录 110 款软件，并标注个人免费但企业需付费的软件，附上依据与核对日期。每日扫描 winget 清单，新版本以 Pull Request 形式提交，需人工确认后才会发布。 | `Astro` `React` `Tailwind` `Cloudflare Workers` `D1` |
 | project-owogg<br>[owogg.com](https://owogg.com) | 浏览器小游戏平台。自研游戏与用户上传游戏运行在同一套运行时上。以 Ports/Adapters 分离领域逻辑，并运行 e2e 测试与 staging 环境。 | `React 19` `Hono` `Cloudflare Workers` `D1` `B2` |
 | [dexon-smart-ops-chatbot](https://github.com/TaeyanG4/dexon-smart-ops-chatbot) | 基于 HDD SMART 数据预测七天内可能故障的磁盘，并给出巡检顺序、依据文档与运维 Runbook。公开前对 252 个被跟踪文件做了全量审查，清除了个人信息。 | `FastAPI` `LlamaIndex` `LiteLLM` `Langfuse` `Docker` |
@@ -59,43 +59,43 @@
 <th>Repo</th>
 </tr>
 <tr>
-<td><a href="https://www.kaggle.com/datasets/taeyangg4/kaggle-top-solutions-and-strategies">Kaggle Top Solutions and Strategies</a></td>
+<td align="center" valign="middle"><a href="https://www.kaggle.com/datasets/taeyangg4/kaggle-top-solutions-and-strategies">Kaggle Top Solutions and Strategies</a></td>
 <td>收集已结束的 Kaggle 竞赛的公开解题文章，不限排名，并为每篇解答标注所用技术、原文链接和排名依据。摘要和技术判定反映的是模型对作者主张的解读。</td>
 <td nowrap><code>70,576 rows</code><br><code>4 files</code></td>
 <td><a href="https://github.com/TaeyanG4/kaggle-top-solutions-and-strategies">repo</a></td>
 </tr>
 <tr>
-<td><a href="https://www.kaggle.com/datasets/taeyangg4/koneps-public-procurement-intelligence">KONEPS Public Procurement Intelligence</a></td>
+<td align="center" valign="middle"><a href="https://www.kaggle.com/datasets/taeyangg4/koneps-public-procurement-intelligence">KONEPS Public Procurement Intelligence</a></td>
 <td>用相同的键关联韩国公共采购的招标、投标、中标、合同及相关主体。各阶段含义不同，因此不合并为一体，原样保留键和来源。</td>
 <td nowrap><code>8 files</code><br><code>2.77 GB</code></td>
 <td><a href="https://github.com/TaeyanG4/koneps-procurement-intelligence">repo</a></td>
 </tr>
 <tr>
-<td><a href="https://www.kaggle.com/datasets/taeyangg4/south-korea-power-grid-5-minute">South Korea Power Grid 5-Minute Data</a></td>
+<td align="center" valign="middle"><a href="https://www.kaggle.com/datasets/taeyangg4/south-korea-power-grid-5-minute">South Korea Power Grid 5-Minute Data</a></td>
 <td>将韩国电力交易所的需求预测、发电机调度指令量和估算出力整理为 5 分钟间隔的数据。完整历史以 Parquet 格式上传，最近一个月以 CSV 格式上传，两者均可直接打开。</td>
 <td nowrap><code>1B+ rows</code><br><code>2.49 GB</code></td>
 <td><a href="https://github.com/TaeyanG4/korea-power-grid">repo</a></td>
 </tr>
 <tr>
-<td><a href="https://www.kaggle.com/datasets/taeyangg4/south-korea-customs-trade-hsk10">South Korea Customs Trade 2012-2026 HSK10</a></td>
+<td align="center" valign="middle"><a href="https://www.kaggle.com/datasets/taeyangg4/south-korea-customs-trade-hsk10">South Korea Customs Trade 2012-2026 HSK10</a></td>
 <td>将韩国关税厅的进出口实绩按贸易伙伴国 × 月 × 10 位 HSK 商品编码整理，并从 HSK10 派生上级 HS 层级，一并收录。</td>
 <td nowrap><code>22.35M rows</code><br><code>1.17 GB</code></td>
 <td><a href="https://github.com/TaeyanG4/korea-customs-trade">repo</a></td>
 </tr>
 <tr>
-<td><a href="https://www.kaggle.com/datasets/taeyangg4/smithsonian-25k-museum-image-text">Smithsonian 25K Museum Image-Text Dataset</a></td>
+<td align="center" valign="middle"><a href="https://www.kaggle.com/datasets/taeyangg4/smithsonian-25k-museum-image-text">Smithsonian 25K Museum Image-Text Dataset</a></td>
 <td>核对权利后，将史密森尼 Open Access 的图片与说明文字整理在一起，并划分数据，避免同一件藏品同时出现在训练集和评估集中。</td>
 <td nowrap><code>24,972 images</code><br><code>916 MB</code></td>
 <td><a href="https://github.com/TaeyanG4/smithsonian-image-text">repo</a></td>
 </tr>
 <tr>
-<td><a href="https://www.kaggle.com/datasets/taeyangg4/korea-food-service-permits">South Korea Food-Service Permits</a></td>
+<td align="center" valign="middle"><a href="https://www.kaggle.com/datasets/taeyangg4/korea-food-service-permits">South Korea Food-Service Permits</a></td>
 <td>一次性收录全国一般餐饮店、休闲餐饮店和糕点店当前营业许可状态的快照。</td>
 <td nowrap><code>3.01M rows</code><br><code>403 MB</code></td>
 <td><a href="https://github.com/TaeyanG4/korea-business-lifecycle">repo</a></td>
 </tr>
 <tr>
-<td><a href="https://www.kaggle.com/datasets/taeyangg4/nhtsa-autonomous-driving-crashes">Autonomous Driving Crash Reports (NHTSA)</a></td>
+<td align="center" valign="middle"><a href="https://www.kaggle.com/datasets/taeyangg4/nhtsa-autonomous-driving-crashes">Autonomous Driving Crash Reports (NHTSA)</a></td>
 <td>按现行报告规定整理美国 NHTSA 收到的自动驾驶与 ADAS 事故报告。按报告主体统计的数量不代表事故率或安全排名。</td>
 <td nowrap><code>3,263 rows</code><br><code>123 cols</code></td>
 <td><a href="https://github.com/TaeyanG4/nhtsa-autonomous-driving-crashes">repo</a></td>
