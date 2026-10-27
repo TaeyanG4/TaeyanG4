@@ -410,15 +410,21 @@ Yeardream School 第6期 进阶课程<br>韩国中小风险企业部 AI 技术�
 
 ---
 
-## Algorithms
+## Journey
 
 <br>
 
 <div align="center">
 
+<img src="assets/journey/kaggle-competitions-expert.png" width="760" alt="Kaggle Competitions Expert profile taeyangg4" />
+
+*Kaggle Competitions Expert<br>2026.10.28*
+
+<br>
+
 <img src="assets/BOJ memory - taeyang95.png" width="760" alt="BOJ memory taeyang95" />
 
-*Thanks BOJ<br>Good bye BOJ*
+*Thanks BOJ<br>Good bye BOJ<br>BOJ service ended 2026.04.28*
 
 </div>
 
