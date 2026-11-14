@@ -36,10 +36,11 @@
 
 | Project | Description | Stack |
 |:---:|---|---|
-| afterformat<br>[afterformat.com](https://afterformat.com) | 重装系统后一次性取回常用软件的站点。以韩语、英语、日语收录 110 款软件，并标注个人免费但企业需付费的软件，附上依据与核对日期。每日扫描 winget 清单，新版本以 Pull Request 形式提交，需人工确认后才会发布。 | `Astro` `React` `Tailwind` `Cloudflare Workers` `D1` |
-| project-owogg<br>[owogg.com](https://owogg.com) | 浏览器小游戏平台。自研游戏与用户上传游戏运行在同一套运行时上。以 Ports/Adapters 分离领域逻辑，并运行 e2e 测试与 staging 环境。 | `React 19` `Hono` `Cloudflare Workers` `D1` `B2` |
+| afterformat<br>[afterformat.com](https://afterformat.com) | 重装系统后一次性取回常用软件的站点，收录 110 款软件。以韩英日三语标注企业是否需付费，并附依据与核对日期。winget 新版本每天以 Pull Request 提交，需人工确认。 | `Astro` `React` `Tailwind` `Cloudflare Workers` `D1` |
+| project-owogg<br>[owogg.com](https://owogg.com) | 浏览器小游戏平台。自研游戏与用户上传游戏运行在同一运行时上。采用 Ports/Adapters 架构，配有 e2e 测试与 staging 环境。 | `React 19` `Hono` `Cloudflare Workers` `D1` `B2` |
+| [invoiceguard-po](https://github.com/TaeyanG4/invoiceguard-po) | 用 VLM 从英文发票中提取明细，与采购订单核对，只导出人工批准的版本。未见版式准确率 0.92（OCR 基线 0.21 · 合成数据）。 | `Qwen3-VL` `QLoRA` `TRL` `FastAPI` `Docker` |
 | [dexon-smart-ops-chatbot](https://github.com/TaeyanG4/dexon-smart-ops-chatbot) | 基于 HDD SMART 数据预测七天内可能故障的磁盘，并给出巡检顺序、依据文档与运维 Runbook。公开前对 252 个被跟踪文件做了全量审查，清除了个人信息。 | `FastAPI` `LlamaIndex` `LiteLLM` `Langfuse` `Docker` |
-| [solarops-audit](https://github.com/TaeyanG4/solarops-audit) | 运营数据质量审计流水线。校验 1,440 万行公开光伏发电数据，只发布通过校验的结果，运行失败时保留上一版结果，并把月报中的每个数字追溯到原始数据。自动化运行确认了从 Compose、Airflow 到 Kubernetes 的整套环境能在空白机器上复现。 | `Python` `Airflow` `Kubernetes` `PostgreSQL` `MinIO` |
+| [solarops-audit](https://github.com/TaeyanG4/solarops-audit) | 面向 1,440 万行公开光伏发电数据的质量审计流水线。只发布通过校验的结果，并把报告中的数字追溯到原始数据。自动确认 Compose、Airflow 与 Kubernetes 能在空白机器上复现。 | `Python` `Airflow` `Kubernetes` `PostgreSQL` `MinIO` |
 | story_maker_with_photos | 把一张照片变成童话的互动故事平台。作为研究生课程作业，用 32 页文档整理了系统设计、UX 与商业策略。 | `GPT-4o` `DALL·E 3` `Gradio` |
 | kapt_predict | 住宅小区工程造价预测模型。使用自研爬虫 [kapt_crawler](https://github.com/TaeyanG4/kapt_crawler) 采集的 K-APT 公开数据。 | `CatBoost` `pandas` |
 

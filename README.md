@@ -36,10 +36,11 @@
 
 | Project | Description | Stack |
 |:---:|---|---|
-| afterformat<br>[afterformat.com](https://afterformat.com) | 포맷 직후 다시 깔 프로그램을 골라 한 번에 받는 곳<br>프로그램 110개를 한국어·영어·일본어로 다루고 개인은 무료지만 기업은 유료인 프로그램을 근거와 확인 날짜까지 적어 구분합니다<br>winget 매니페스트를 매일 훑어 새 버전을 PR 로 올리고 사람이 확인해야 반영됩니다 | `Astro` `React` `Tailwind` `Cloudflare Workers` `D1` |
-| project-owogg<br>[owogg.com](https://owogg.com) | 브라우저 미니게임 플랫폼<br>자체 게임과 사용자 업로드 게임을 하나의 런타임에서 돌립니다<br>Ports/Adapters로 도메인을 분리했고 e2e 테스트와 staging 환경을 운영합니다 | `React 19` `Hono` `Cloudflare Workers` `D1` `B2` |
+| afterformat<br>[afterformat.com](https://afterformat.com) | 포맷 직후 다시 깔 프로그램 110개를 골라 한 번에 받는 곳<br>한·영·일로 안내하고 기업 유료 여부를 근거와 날짜로 표시합니다<br>winget 새 버전은 매일 PR로 올라와 사람이 확인합니다 | `Astro` `React` `Tailwind` `Cloudflare Workers` `D1` |
+| project-owogg<br>[owogg.com](https://owogg.com) | 브라우저 미니게임 플랫폼<br>자체 게임과 사용자 업로드 게임을 한 런타임에서 돌립니다<br>Ports/Adapters 구조에 e2e 테스트와 staging을 갖췄습니다 | `React 19` `Hono` `Cloudflare Workers` `D1` `B2` |
+| [invoiceguard-po](https://github.com/TaeyanG4/invoiceguard-po) | 영어 인보이스에서 VLM으로 품목을 뽑아 발주서와 대사하고 승인본만 내보냅니다<br>처음 보는 레이아웃 정확도 0.92 (OCR 기준선 0.21 · 합성 데이터) | `Qwen3-VL` `QLoRA` `TRL` `FastAPI` `Docker` |
 | [dexon-smart-ops-chatbot](https://github.com/TaeyanG4/dexon-smart-ops-chatbot) | HDD SMART 데이터로 7일 안에 고장날 디스크를 예측하고 점검 순서와 근거 문서 운영 Runbook을 같이 냅니다<br>공개 전 추적 파일 252개를 전수 검사해 개인정보를 걷어냈습니다 | `FastAPI` `LlamaIndex` `LiteLLM` `Langfuse` `Docker` |
-| [solarops-audit](https://github.com/TaeyanG4/solarops-audit) | 운영 데이터 품질 감사 파이프라인<br>공개 태양광 발전 자료 1,440만 행을 검증한 결과만 게시하고 실패하면 이전 결과를 지키며 월간 보고서의 숫자를 원본까지 추적합니다<br>빈 머신에서 Compose·Airflow·쿠버네티스까지 그대로 재현되는 것을 자동으로 확인합니다 | `Python` `Airflow` `Kubernetes` `PostgreSQL` `MinIO` |
+| [solarops-audit](https://github.com/TaeyanG4/solarops-audit) | 공개 태양광 발전 자료 1,440만 행의 품질 감사 파이프라인<br>통과한 결과만 게시하고 보고서 숫자를 원본까지 추적합니다<br>빈 머신에서 Compose·Airflow·쿠버네티스 재현을 자동으로 확인합니다 | `Python` `Airflow` `Kubernetes` `PostgreSQL` `MinIO` |
 | story_maker_with_photos | 사진 한 장을 동화로 바꾸는 인터랙티브 스토리 플랫폼<br>대학원 과제로 시스템 설계와 UX 비즈니스 전략까지 32p 문서로 정리했습니다 | `GPT-4o` `DALL·E 3` `Gradio` |
 | kapt_predict | 공동주택 공사비 예측 모델<br>직접 만든 크롤러 [kapt_crawler](https://github.com/TaeyanG4/kapt_crawler)로 모은 K-APT 공개 데이터를 씁니다 | `CatBoost` `pandas` |
 

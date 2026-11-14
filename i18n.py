@@ -24,8 +24,8 @@ NAV = {
 # 한국어 원문 -> 각 언어. 긴 문장부터 치환해야 부분 일치로 깨지지 않는다.
 T = {
 "en": {
-"포맷 직후 다시 깔 프로그램을 골라 한 번에 받는 곳. 프로그램 110개를 한국어·영어·일본어로 다루고, 개인은 무료지만 기업은 유료인 프로그램을 근거와 확인 날짜까지 적어 구분합니다. winget 매니페스트를 매일 훑어 새 버전을 PR 로 올리고, 사람이 확인해야 반영됩니다.":
-"Pick the programs you use and get them all back in one go after reformatting. 110 programs in Korean, English and Japanese, each marked with whether it is licensed for business use — with the evidence and the date it was checked. winget manifests are scanned daily and land as pull requests a person has to review.",
+"포맷 직후 다시 깔 프로그램 110개를 골라 한 번에 받는 곳. 한·영·일로 안내하고 기업 유료 여부를 근거와 날짜로 표시합니다. winget 새 버전은 매일 PR로 올라와 사람이 확인합니다.":
+"Pick from 110 programs to reinstall after a format and get them in one go. Available in three languages with business-use licensing marked by evidence and check date. New winget versions arrive daily as pull requests a person reviews.",
 
 "종료된 Kaggle 대회의 공개 풀이 글을 순위와 관계없이 모아, 풀이마다 어떤 기법을 썼는지 원문 링크와 순위 근거까지 붙였습니다. 요약과 기법 판정은 모델이 읽은 저자 주장입니다.":
 "Collected public solution writeups from completed Kaggle competitions regardless of rank, with the techniques used in each solution, links to the original posts, and evidence for the rankings. The summaries and technique labels reflect the model's reading of authors' claims.",
@@ -62,8 +62,10 @@ T = {
 "한국어를 비롯해 영어, 중국어, 일본어로 소통할 수 있습니다.":
 "I communicate in Korean, English, Chinese, and Japanese.",
 
-"브라우저 미니게임 플랫폼. 자체 게임과 사용자 업로드 게임을 하나의 런타임에서 돌립니다. Ports/Adapters로 도메인을 분리했고 e2e 테스트와 staging 환경을 운영합니다.":
-"Browser mini-game platform. First-party and user-uploaded games run on a single runtime. Domain logic sits behind ports and adapters, with e2e tests and a staging environment in operation.",
+"브라우저 미니게임 플랫폼. 자체 게임과 사용자 업로드 게임을 한 런타임에서 돌립니다. Ports/Adapters 구조에 e2e 테스트와 staging을 갖췄습니다.":
+"Browser mini-game platform. First-party and user-uploaded games run on one runtime. Ports and adapters architecture with e2e tests and a staging environment.",
+"영어 인보이스에서 VLM으로 품목을 뽑아 발주서와 대사하고 승인본만 내보냅니다. 처음 보는 레이아웃 정확도 0.92 (OCR 기준선 0.21 · 합성 데이터).":
+"Extracts invoice line items with a VLM and reconciles them against purchase orders. Only human-approved versions are exported. Accuracy 0.92 on unseen layouts (OCR baseline 0.21 · synthetic data).",
 "HDD SMART 데이터로 7일 안에 고장날 디스크를 예측하고, 점검 순서와 근거 문서, 운영 Runbook을 같이 냅니다. 공개 전 추적 파일 252개를 전수 검사해 개인정보를 걷어냈습니다.":
 "Predicts which HDDs will fail within seven days from SMART data, and returns an inspection order, supporting evidence, and an operations runbook. All 252 tracked files were audited and scrubbed of personal data before release.",
 "사진 한 장을 동화로 바꾸는 인터랙티브 스토리 플랫폼. 대학원 과제로 시스템 설계와 UX, 비즈니스 전략까지 32p 문서로 정리했습니다.":
@@ -97,7 +99,8 @@ T = {
 "무중단 단계 이관, 되돌릴 수 있는 배포": "Phased cutover with no downtime and a reversible deploy",
 "<b>BEACON</b> 브랜드와 랜딩 사이트": "<b>BEACON</b> Brand and landing site",
 "성능과 검색, 직접 고칠 수 있는 상태로": "Fast, findable, and editable by the people who own it",
-"운영 데이터 품질 감사 파이프라인. 공개 태양광 발전 자료 1,440만 행을 검증한 결과만 게시하고, 실패하면 이전 결과를 지키며, 월간 보고서의 숫자를 원본까지 추적합니다. 빈 머신에서 Compose·Airflow·쿠버네티스까지 그대로 재현되는 것을 자동으로 확인합니다.": "Operational data quality audit pipeline. Validates 14.4 million rows of public solar generation data, publishes only what passes, keeps the previous result when a run fails, and traces every number in the monthly report back to its source. An automated run confirms the whole stack, from Compose and Airflow to Kubernetes, reproduces on an empty machine.",
+"공개 태양광 발전 자료 1,440만 행의 품질 감사 파이프라인. 통과한 결과만 게시하고 보고서 숫자를 원본까지 추적합니다. 빈 머신에서 Compose·Airflow·쿠버네티스 재현을 자동으로 확인합니다.":
+"Quality audit pipeline for 14.4 million rows of public solar generation data. Publishes only results that pass and traces report numbers back to the source. Automatically confirms the Compose/Airflow/Kubernetes stack reproduces on an empty machine.",
 "<b>VITAL</b> 설비 예방 점검": "<b>VITAL</b> Predictive equipment maintenance",
 "오늘 먼저 볼 장비를 근거와 함께": "Which machines to check today, with the evidence",
 "<b>SIFT</b> 공공 데이터 수집기": "<b>SIFT</b> Public data collector",
@@ -161,8 +164,8 @@ T = {
 },
 
 "zh": {
-"포맷 직후 다시 깔 프로그램을 골라 한 번에 받는 곳. 프로그램 110개를 한국어·영어·일본어로 다루고, 개인은 무료지만 기업은 유료인 프로그램을 근거와 확인 날짜까지 적어 구분합니다. winget 매니페스트를 매일 훑어 새 버전을 PR 로 올리고, 사람이 확인해야 반영됩니다.":
-"重装系统后一次性取回常用软件的站点。以韩语、英语、日语收录 110 款软件，并标注个人免费但企业需付费的软件，附上依据与核对日期。每日扫描 winget 清单，新版本以 Pull Request 形式提交，需人工确认后才会发布。",
+"포맷 직후 다시 깔 프로그램 110개를 골라 한 번에 받는 곳. 한·영·일로 안내하고 기업 유료 여부를 근거와 날짜로 표시합니다. winget 새 버전은 매일 PR로 올라와 사람이 확인합니다.":
+"重装系统后一次性取回常用软件的站点，收录 110 款软件。以韩英日三语标注企业是否需付费，并附依据与核对日期。winget 新版本每天以 Pull Request 提交，需人工确认。",
 
 "종료된 Kaggle 대회의 공개 풀이 글을 순위와 관계없이 모아, 풀이마다 어떤 기법을 썼는지 원문 링크와 순위 근거까지 붙였습니다. 요약과 기법 판정은 모델이 읽은 저자 주장입니다.":
 "收集已结束的 Kaggle 竞赛的公开解题文章，不限排名，并为每篇解答标注所用技术、原文链接和排名依据。摘要和技术判定反映的是模型对作者主张的解读。",
@@ -199,8 +202,10 @@ T = {
 "한국어를 비롯해 영어, 중국어, 일본어로 소통할 수 있습니다.":
 "可以使用韩语、英语、中文和日语沟通。",
 
-"브라우저 미니게임 플랫폼. 자체 게임과 사용자 업로드 게임을 하나의 런타임에서 돌립니다. Ports/Adapters로 도메인을 분리했고 e2e 테스트와 staging 환경을 운영합니다.":
-"浏览器小游戏平台。自研游戏与用户上传游戏运行在同一套运行时上。以 Ports/Adapters 分离领域逻辑，并运行 e2e 测试与 staging 环境。",
+"브라우저 미니게임 플랫폼. 자체 게임과 사용자 업로드 게임을 한 런타임에서 돌립니다. Ports/Adapters 구조에 e2e 테스트와 staging을 갖췄습니다.":
+"浏览器小游戏平台。自研游戏与用户上传游戏运行在同一运行时上。采用 Ports/Adapters 架构，配有 e2e 测试与 staging 环境。",
+"영어 인보이스에서 VLM으로 품목을 뽑아 발주서와 대사하고 승인본만 내보냅니다. 처음 보는 레이아웃 정확도 0.92 (OCR 기준선 0.21 · 합성 데이터).":
+"用 VLM 从英文发票中提取明细，与采购订单核对，只导出人工批准的版本。未见版式准确率 0.92（OCR 基线 0.21 · 合成数据）。",
 "HDD SMART 데이터로 7일 안에 고장날 디스크를 예측하고, 점검 순서와 근거 문서, 운영 Runbook을 같이 냅니다. 공개 전 추적 파일 252개를 전수 검사해 개인정보를 걷어냈습니다.":
 "基于 HDD SMART 数据预测七天内可能故障的磁盘，并给出巡检顺序、依据文档与运维 Runbook。公开前对 252 个被跟踪文件做了全量审查，清除了个人信息。",
 "사진 한 장을 동화로 바꾸는 인터랙티브 스토리 플랫폼. 대학원 과제로 시스템 설계와 UX, 비즈니스 전략까지 32p 문서로 정리했습니다.":
@@ -234,7 +239,8 @@ T = {
 "무중단 단계 이관, 되돌릴 수 있는 배포": "不停机分阶段迁移，可回滚的发布",
 "<b>BEACON</b> 브랜드와 랜딩 사이트": "<b>BEACON</b> 品牌与落地页",
 "성능과 검색, 직접 고칠 수 있는 상태로": "兼顾性能与检索，并交付为可自行修改的状态",
-"운영 데이터 품질 감사 파이프라인. 공개 태양광 발전 자료 1,440만 행을 검증한 결과만 게시하고, 실패하면 이전 결과를 지키며, 월간 보고서의 숫자를 원본까지 추적합니다. 빈 머신에서 Compose·Airflow·쿠버네티스까지 그대로 재현되는 것을 자동으로 확인합니다.": "运营数据质量审计流水线。校验 1,440 万行公开光伏发电数据，只发布通过校验的结果，运行失败时保留上一版结果，并把月报中的每个数字追溯到原始数据。自动化运行确认了从 Compose、Airflow 到 Kubernetes 的整套环境能在空白机器上复现。",
+"공개 태양광 발전 자료 1,440만 행의 품질 감사 파이프라인. 통과한 결과만 게시하고 보고서 숫자를 원본까지 추적합니다. 빈 머신에서 Compose·Airflow·쿠버네티스 재현을 자동으로 확인합니다.":
+"面向 1,440 万行公开光伏发电数据的质量审计流水线。只发布通过校验的结果，并把报告中的数字追溯到原始数据。自动确认 Compose、Airflow 与 Kubernetes 能在空白机器上复现。",
 "<b>VITAL</b> 설비 예방 점검": "<b>VITAL</b> 设备预防性巡检",
 "오늘 먼저 볼 장비를 근거와 함께": "今天先查哪些设备，并附上依据",
 "<b>SIFT</b> 공공 데이터 수집기": "<b>SIFT</b> 公共数据采集器",
@@ -296,8 +302,8 @@ T = {
 },
 
 "ja": {
-"포맷 직후 다시 깔 프로그램을 골라 한 번에 받는 곳. 프로그램 110개를 한국어·영어·일본어로 다루고, 개인은 무료지만 기업은 유료인 프로그램을 근거와 확인 날짜까지 적어 구분합니다. winget 매니페스트를 매일 훑어 새 버전을 PR 로 올리고, 사람이 확인해야 반영됩니다.":
-"初期化のあとに入れ直すソフトをまとめて取得できる場所。110本を韓国語・英語・日本語で扱い、個人は無料でも法人は有料というソフトを、根拠と確認日を添えて区別して表示します。winget のマニフェストを毎日走査し、新しいバージョンは人が確認するプルリクエストとして上がります。",
+"포맷 직후 다시 깔 프로그램 110개를 골라 한 번에 받는 곳. 한·영·일로 안내하고 기업 유료 여부를 근거와 날짜로 표시합니다. winget 새 버전은 매일 PR로 올라와 사람이 확인합니다.":
+"初期化のあとに入れ直す110本のソフトをまとめて取得できる場所。韓国語・英語・日本語で、法人利用の有償可否を根拠と確認日つきで表示します。winget の新バージョンは毎日プルリクエストとして上がり、人が確認します。",
 
 "종료된 Kaggle 대회의 공개 풀이 글을 순위와 관계없이 모아, 풀이마다 어떤 기법을 썼는지 원문 링크와 순위 근거까지 붙였습니다. 요약과 기법 판정은 모델이 읽은 저자 주장입니다.":
 "終了した Kaggle 大会の公開解法記事を順位にかかわらず集め、各解法で使われた手法に原文リンクと順位の根拠を添えました。要約と手法の判定は、モデルが読み取った著者の主張です。",
@@ -334,8 +340,10 @@ T = {
 "한국어를 비롯해 영어, 중국어, 일본어로 소통할 수 있습니다.":
 "韓国語、英語、中国語、日本語でやり取りできます。",
 
-"브라우저 미니게임 플랫폼. 자체 게임과 사용자 업로드 게임을 하나의 런타임에서 돌립니다. Ports/Adapters로 도메인을 분리했고 e2e 테스트와 staging 환경을 운영합니다.":
-"ブラウザ向けミニゲームプラットフォーム。自社ゲームとユーザー投稿ゲームを同一のランタイムで動かします。Ports/Adapters でドメインを分離し、e2e テストと staging 環境を運用しています。",
+"브라우저 미니게임 플랫폼. 자체 게임과 사용자 업로드 게임을 한 런타임에서 돌립니다. Ports/Adapters 구조에 e2e 테스트와 staging을 갖췄습니다.":
+"ブラウザ向けミニゲームプラットフォーム。自社ゲームとユーザー投稿ゲームを同一のランタイムで動かします。Ports/Adapters 構成で、e2e テストと staging 環境を備えています。",
+"영어 인보이스에서 VLM으로 품목을 뽑아 발주서와 대사하고 승인본만 내보냅니다. 처음 보는 레이아웃 정확도 0.92 (OCR 기준선 0.21 · 합성 데이터).":
+"英文請求書から VLM で明細を抽出して発注書と照合し、人が承認した版だけを書き出します。未学習レイアウトで精度 0.92（OCR ベースライン 0.21・合成データ）。",
 "HDD SMART 데이터로 7일 안에 고장날 디스크를 예측하고, 점검 순서와 근거 문서, 운영 Runbook을 같이 냅니다. 공개 전 추적 파일 252개를 전수 검사해 개인정보를 걷어냈습니다.":
 "HDD の SMART データから7日以内に故障するディスクを予測し、点検順序・根拠文書・運用 Runbook をあわせて出します。公開前に追跡ファイル252件を全数検査し、個人情報を除去しました。",
 "사진 한 장을 동화로 바꾸는 인터랙티브 스토리 플랫폼. 대학원 과제로 시스템 설계와 UX, 비즈니스 전략까지 32p 문서로 정리했습니다.":
@@ -369,7 +377,8 @@ T = {
 "무중단 단계 이관, 되돌릴 수 있는 배포": "無停止の段階的移行と、切り戻せるデプロイ",
 "<b>BEACON</b> 브랜드와 랜딩 사이트": "<b>BEACON</b> ブランド・ランディングサイト",
 "성능과 검색, 직접 고칠 수 있는 상태로": "速度と検索性を保ち、自分で直せる状態で引き渡す",
-"운영 데이터 품질 감사 파이프라인. 공개 태양광 발전 자료 1,440만 행을 검증한 결과만 게시하고, 실패하면 이전 결과를 지키며, 월간 보고서의 숫자를 원본까지 추적합니다. 빈 머신에서 Compose·Airflow·쿠버네티스까지 그대로 재현되는 것을 자동으로 확인합니다.": "運用データの品質監査パイプライン。公開されている太陽光発電データ 1,440 万行を検証し、通過した結果だけを公開します。失敗したときは前回の結果を守り、月次レポートの数字を元データまでたどれます。Compose・Airflow から Kubernetes まで、空のマシンでそのまま再現できることを自動で確認しています。",
+"공개 태양광 발전 자료 1,440만 행의 품질 감사 파이프라인. 통과한 결과만 게시하고 보고서 숫자를 원본까지 추적합니다. 빈 머신에서 Compose·Airflow·쿠버네티스 재현을 자동으로 확인합니다.":
+"公開太陽光発電データ 1,440 万行の品質監査パイプライン。検証を通過した結果だけを公開し、レポートの数字を元データまでたどれます。Compose・Airflow・Kubernetes が空のマシンで再現できることを自動で確認します。",
 "<b>VITAL</b> 설비 예방 점검": "<b>VITAL</b> 設備の予防点検",
 "오늘 먼저 볼 장비를 근거와 함께": "今日まず点検する機器を根拠とともに",
 "<b>SIFT</b> 공공 데이터 수집기": "<b>SIFT</b> 公共データ収集ツール",

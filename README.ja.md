@@ -36,10 +36,11 @@
 
 | Project | Description | Stack |
 |:---:|---|---|
-| afterformat<br>[afterformat.com](https://afterformat.com) | 初期化のあとに入れ直すソフトをまとめて取得できる場所。110本を韓国語・英語・日本語で扱い、個人は無料でも法人は有料というソフトを、根拠と確認日を添えて区別して表示します。winget のマニフェストを毎日走査し、新しいバージョンは人が確認するプルリクエストとして上がります。 | `Astro` `React` `Tailwind` `Cloudflare Workers` `D1` |
-| project-owogg<br>[owogg.com](https://owogg.com) | ブラウザ向けミニゲームプラットフォーム。自社ゲームとユーザー投稿ゲームを同一のランタイムで動かします。Ports/Adapters でドメインを分離し、e2e テストと staging 環境を運用しています。 | `React 19` `Hono` `Cloudflare Workers` `D1` `B2` |
+| afterformat<br>[afterformat.com](https://afterformat.com) | 初期化のあとに入れ直す110本のソフトをまとめて取得できる場所。韓国語・英語・日本語で、法人利用の有償可否を根拠と確認日つきで表示します。winget の新バージョンは毎日プルリクエストとして上がり、人が確認します。 | `Astro` `React` `Tailwind` `Cloudflare Workers` `D1` |
+| project-owogg<br>[owogg.com](https://owogg.com) | ブラウザ向けミニゲームプラットフォーム。自社ゲームとユーザー投稿ゲームを同一のランタイムで動かします。Ports/Adapters 構成で、e2e テストと staging 環境を備えています。 | `React 19` `Hono` `Cloudflare Workers` `D1` `B2` |
+| [invoiceguard-po](https://github.com/TaeyanG4/invoiceguard-po) | 英文請求書から VLM で明細を抽出して発注書と照合し、人が承認した版だけを書き出します。未学習レイアウトで精度 0.92（OCR ベースライン 0.21・合成データ）。 | `Qwen3-VL` `QLoRA` `TRL` `FastAPI` `Docker` |
 | [dexon-smart-ops-chatbot](https://github.com/TaeyanG4/dexon-smart-ops-chatbot) | HDD の SMART データから7日以内に故障するディスクを予測し、点検順序・根拠文書・運用 Runbook をあわせて出します。公開前に追跡ファイル252件を全数検査し、個人情報を除去しました。 | `FastAPI` `LlamaIndex` `LiteLLM` `Langfuse` `Docker` |
-| [solarops-audit](https://github.com/TaeyanG4/solarops-audit) | 運用データの品質監査パイプライン。公開されている太陽光発電データ 1,440 万行を検証し、通過した結果だけを公開します。失敗したときは前回の結果を守り、月次レポートの数字を元データまでたどれます。Compose・Airflow から Kubernetes まで、空のマシンでそのまま再現できることを自動で確認しています。 | `Python` `Airflow` `Kubernetes` `PostgreSQL` `MinIO` |
+| [solarops-audit](https://github.com/TaeyanG4/solarops-audit) | 公開太陽光発電データ 1,440 万行の品質監査パイプライン。検証を通過した結果だけを公開し、レポートの数字を元データまでたどれます。Compose・Airflow・Kubernetes が空のマシンで再現できることを自動で確認します。 | `Python` `Airflow` `Kubernetes` `PostgreSQL` `MinIO` |
 | story_maker_with_photos | 写真1枚を童話に変えるインタラクティブなストーリープラットフォーム。大学院の課題として、システム設計・UX・ビジネス戦略まで32ページの文書にまとめました。 | `GPT-4o` `DALL·E 3` `Gradio` |
 | kapt_predict | 集合住宅の工事費予測モデル。自作クローラー [kapt_crawler](https://github.com/TaeyanG4/kapt_crawler) で収集した K-APT の公開データを使っています。 | `CatBoost` `pandas` |
 
