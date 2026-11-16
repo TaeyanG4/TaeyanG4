@@ -55,8 +55,8 @@ T = {
 "I earned a master’s degree in Artificial Intelligence at Konkuk University Graduate School of Information and Telecommunications. Before that, I studied Software Engineering in China for four years and wrote my undergraduate thesis in Chinese.",
 "석사 논문에서는 RAG(Retrieval-Augmented Generation)의 비용 문제를 다뤘고, 학사 논문에서는 Hadoop을 활용해 전력 데이터의 사용 패턴을 분석하는 연구를 진행했습니다.":
 "My master’s thesis addressed the cost of RAG (Retrieval-Augmented Generation). My undergraduate research used Hadoop to analyze electricity consumption patterns.",
-"현재는 <a href=\"https://fornaxworks.com\">Fornax</a> 라는 이름으로 웹, 모바일, AI 제품을 만들고 있습니다. 또한 2023년부터 유학 컨설팅 사업체를 운영하며 고객 상담부터 계약까지 직접 담당해왔기 때문에, 고객과의 커뮤니케이션과 비즈니스 실무에도 익숙합니다.":
-"I currently build web, mobile, and AI products under the name <a href=\"https://fornaxworks.com\">Fornax</a>. I have also run a study abroad consulting business since 2023, handling client consultations and contracts directly, so I am familiar with client communication and business operations.",
+"그동안 <a href=\"https://fornaxworks.com\">Fornax</a> 라는 이름으로 웹, 모바일, AI 제품을 만들어 왔습니다. 또한 2023년부터 유학 컨설팅 사업체를 운영하며 고객 상담부터 계약까지 직접 담당해왔기 때문에, 고객과의 커뮤니케이션과 비즈니스 실무에도 익숙합니다.":
+"Until now I have built web, mobile, and AI products under the name <a href=\"https://fornaxworks.com\">Fornax</a>. I have also run a study abroad consulting business since 2023, handling client consultations and contracts directly, so I am familiar with client communication and business operations.",
 "2023년부터 유학 컨설팅 사업체를 대표로 운영해와서 고객 응대와 계약, 행정은 이미 하던 일입니다.":
 "Running a study abroad consulting agency as its owner since 2023 means client work, contracts, and administration are already familiar ground.",
 "한국어를 비롯해 영어, 중국어, 일본어로 소통할 수 있습니다.":
@@ -76,8 +76,8 @@ T = {
 "Construction cost prediction model for apartment complexes, trained on public K-APT data collected by my own crawler, [kapt_crawler](https://github.com/TaeyanG4/kapt_crawler).",
 "(공개 예정)": "(coming soon)",
 
-"[fornaxworks 견본실](https://fornaxworks.com/gallery.html)에 올려둔 데모입니다. 실제 납품물이 아니라 어디까지 만드는지 보여주기위한 직접 만든 견본입니다.":
-"Demos from the [fornaxworks showroom](https://fornaxworks.com/gallery.html). These are not client deliverables. I built them to show how far the work goes.",
+"Fornax를 운영하며 만든 데모로, [fornaxworks 견본실](https://fornaxworks.com/gallery.html)에 올려 두었습니다. 고객 납품물이 아니라 직접 기획하고 만든 견본입니다.":
+"Demos I built while running Fornax and keep in the [fornaxworks showroom](https://fornaxworks.com/gallery.html). They are not client deliverables but samples I planned and built myself.",
 "이미지를 누르면 브라우저에서 바로 열립니다.":
 "Click an image to open it in your browser.",
 
@@ -192,8 +192,8 @@ T = {
 "我在建国大学信息通信研究生院获得了人工智能专业硕士学位。此前在中国学习了四年软件工程，本科毕业论文也用中文撰写。",
 "석사 논문에서는 RAG(Retrieval-Augmented Generation)의 비용 문제를 다뤘고, 학사 논문에서는 Hadoop을 활용해 전력 데이터의 사용 패턴을 분석하는 연구를 진행했습니다.":
 "硕士论文研究了 RAG（检索增强生成）的成本问题，本科论文则使用 Hadoop 分析电力数据中的用电模式。",
-"현재는 <a href=\"https://fornaxworks.com\">Fornax</a> 라는 이름으로 웹, 모바일, AI 제품을 만들고 있습니다. 또한 2023년부터 유학 컨설팅 사업체를 운영하며 고객 상담부터 계약까지 직접 담당해왔기 때문에, 고객과의 커뮤니케이션과 비즈니스 실무에도 익숙합니다.":
-"目前以 <a href=\"https://fornaxworks.com\">Fornax</a> 的名义开发 Web、移动端和 AI 产品。自 2023 年起经营留学咨询业务，从客户咨询到签约都亲自负责，因此也熟悉客户沟通和业务实务。",
+"그동안 <a href=\"https://fornaxworks.com\">Fornax</a> 라는 이름으로 웹, 모바일, AI 제품을 만들어 왔습니다. 또한 2023년부터 유학 컨설팅 사업체를 운영하며 고객 상담부터 계약까지 직접 담당해왔기 때문에, 고객과의 커뮤니케이션과 비즈니스 실무에도 익숙합니다.":
+"此前一直以 <a href=\"https://fornaxworks.com\">Fornax</a> 的名义开发 Web、移动端和 AI 产品。自 2023 年起经营留学咨询业务，从客户咨询到签约都亲自负责，因此也熟悉客户沟通和业务实务。",
 "2023년부터 유학 컨설팅 사업체를 대표로 운영해와서 고객 응대와 계약, 행정은 이미 하던 일입니다.":
 "自 2023 年起以负责人身份经营留学咨询公司，客户沟通、合同与行政事务是本来就在做的工作。",
 "한국어를 비롯해 영어, 중국어, 일본어로 소통할 수 있습니다.":
@@ -213,8 +213,8 @@ T = {
 "住宅小区工程造价预测模型。使用自研爬虫 [kapt_crawler](https://github.com/TaeyanG4/kapt_crawler) 采集的 K-APT 公开数据。",
 "(공개 예정)": "（即将公开）",
 
-"[fornaxworks 견본실](https://fornaxworks.com/gallery.html)에 올려둔 데모입니다. 실제 납품물이 아니라 어디까지 만드는지 보여주기위한 직접 만든 견본입니다.":
-"这些是放在 [fornaxworks 样品间](https://fornaxworks.com/gallery.html)的演示。并非实际交付物，而是为了展示能做到什么程度而自行制作的样品。",
+"Fornax를 운영하며 만든 데모로, [fornaxworks 견본실](https://fornaxworks.com/gallery.html)에 올려 두었습니다. 고객 납품물이 아니라 직접 기획하고 만든 견본입니다.":
+"这些是经营 Fornax 期间制作的演示，放在 [fornaxworks 样品间](https://fornaxworks.com/gallery.html)。并非客户交付物，而是自己策划并制作的样品。",
 "이미지를 누르면 브라우저에서 바로 열립니다.":
 "点击图片即可在浏览器中打开。",
 
@@ -327,8 +327,8 @@ T = {
 "建国大学 情報通信大学院で人工知能を専攻し、修士号を取得しました。その前は中国でソフトウェア工学を4年間学び、学士論文も中国語で執筆しました。",
 "석사 논문에서는 RAG(Retrieval-Augmented Generation)의 비용 문제를 다뤘고, 학사 논문에서는 Hadoop을 활용해 전력 데이터의 사용 패턴을 분석하는 연구를 진행했습니다.":
 "修士論文では RAG（検索拡張生成）のコスト問題を扱い、学士論文では Hadoop を使って電力データの使用パターンを分析しました。",
-"현재는 <a href=\"https://fornaxworks.com\">Fornax</a> 라는 이름으로 웹, 모바일, AI 제품을 만들고 있습니다. 또한 2023년부터 유학 컨설팅 사업체를 운영하며 고객 상담부터 계약까지 직접 담당해왔기 때문에, 고객과의 커뮤니케이션과 비즈니스 실무에도 익숙합니다.":
-"現在は <a href=\"https://fornaxworks.com\">Fornax</a> という名前で Web、モバイル、AI プロダクトを作っています。また、2023年から留学コンサルティング事業を運営し、顧客相談から契約まで直接担当してきたため、顧客とのコミュニケーションやビジネス実務にも慣れています。",
+"그동안 <a href=\"https://fornaxworks.com\">Fornax</a> 라는 이름으로 웹, 모바일, AI 제품을 만들어 왔습니다. 또한 2023년부터 유학 컨설팅 사업체를 운영하며 고객 상담부터 계약까지 직접 담당해왔기 때문에, 고객과의 커뮤니케이션과 비즈니스 실무에도 익숙합니다.":
+"これまで <a href=\"https://fornaxworks.com\">Fornax</a> という名前で Web、モバイル、AI プロダクトを作ってきました。また、2023年から留学コンサルティング事業を運営し、顧客相談から契約まで直接担当してきたため、顧客とのコミュニケーションやビジネス実務にも慣れています。",
 "2023년부터 유학 컨설팅 사업체를 대표로 운영해와서 고객 응대와 계약, 행정은 이미 하던 일입니다.":
 "2023年から留学コンサルティング事業を代表として運営しており、顧客対応や契約、事務手続きはすでに日常業務です。",
 "한국어를 비롯해 영어, 중국어, 일본어로 소통할 수 있습니다.":
@@ -348,8 +348,8 @@ T = {
 "集合住宅の工事費予測モデル。自作クローラー [kapt_crawler](https://github.com/TaeyanG4/kapt_crawler) で収集した K-APT の公開データを使っています。",
 "(공개 예정)": "（公開予定）",
 
-"[fornaxworks 견본실](https://fornaxworks.com/gallery.html)에 올려둔 데모입니다. 실제 납품물이 아니라 어디까지 만드는지 보여주기위한 직접 만든 견본입니다.":
-"[fornaxworks のショールーム](https://fornaxworks.com/gallery.html)に置いているデモです。実際の納品物ではなく、どこまで作るのかを示すために自分で作った見本です。",
+"Fornax를 운영하며 만든 데모로, [fornaxworks 견본실](https://fornaxworks.com/gallery.html)에 올려 두었습니다. 고객 납품물이 아니라 직접 기획하고 만든 견본입니다.":
+"Fornax の運営中に作ったデモで、[fornaxworks のショールーム](https://fornaxworks.com/gallery.html)に置いています。顧客への納品物ではなく、自分で企画して作った見本です。",
 "이미지를 누르면 브라우저에서 바로 열립니다.":
 "画像をクリックするとブラウザでそのまま開きます。",
 

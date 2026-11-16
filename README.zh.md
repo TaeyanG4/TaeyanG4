@@ -31,7 +31,7 @@
 <br>
 我在建国大学信息通信研究生院获得了人工智能专业硕士学位。此前在中国学习了四年软件工程，本科毕业论文也用中文撰写。<br><br>
 硕士论文研究了 RAG（检索增强生成）的成本问题，本科论文则使用 Hadoop 分析电力数据中的用电模式。<br><br>
-目前以 <a href="https://fornaxworks.com">Fornax</a> 的名义开发 Web、移动端和 AI 产品。自 2023 年起经营留学咨询业务，从客户咨询到签约都亲自负责，因此也熟悉客户沟通和业务实务。<br><br>
+此前一直以 <a href="https://fornaxworks.com">Fornax</a> 的名义开发 Web、移动端和 AI 产品。自 2023 年起经营留学咨询业务，从客户咨询到签约都亲自负责，因此也熟悉客户沟通和业务实务。<br><br>
 可以使用韩语、英语、中文和日语沟通。<br><br>
 <br>
 
@@ -118,7 +118,7 @@
 
 <br>
 
-这些是放在 [fornaxworks 样品间](https://fornaxworks.com/gallery.html)的演示。并非实际交付物，而是为了展示能做到什么程度而自行制作的样品。<br>
+这些是经营 Fornax 期间制作的演示，放在 [fornaxworks 样品间](https://fornaxworks.com/gallery.html)。并非客户交付物，而是自己策划并制作的样品。<br>
 点击图片即可在浏览器中打开。
 
 <table align="center">

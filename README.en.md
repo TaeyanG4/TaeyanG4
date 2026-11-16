@@ -31,7 +31,7 @@
 <br>
 I earned a master’s degree in Artificial Intelligence at Konkuk University Graduate School of Information and Telecommunications<br>Before that I studied Software Engineering in China for four years and wrote my undergraduate thesis in Chinese<br><br>
 My master’s thesis addressed the cost of RAG (Retrieval-Augmented Generation)<br>My undergraduate research used Hadoop to analyze electricity consumption patterns<br><br>
-I currently build web mobile and AI products under the name <a href="https://fornaxworks.com">Fornax</a><br>I have also run a study abroad consulting business since 2023 handling client consultations and contracts directly so I am familiar with client communication and business operations<br><br>
+Until now I have built web mobile and AI products under the name <a href="https://fornaxworks.com">Fornax</a><br>I have also run a study abroad consulting business since 2023 handling client consultations and contracts directly so I am familiar with client communication and business operations<br><br>
 I communicate in Korean English Chinese and Japanese<br><br>
 <br>
 
@@ -118,7 +118,7 @@ I communicate in Korean English Chinese and Japanese<br><br>
 
 <br>
 
-Demos from the [fornaxworks showroom](https://fornaxworks.com/gallery.html)<br>These are not client deliverables<br>I built them to show how far the work goes<br>
+Demos I built while running Fornax and keep in the [fornaxworks showroom](https://fornaxworks.com/gallery.html)<br>They are not client deliverables but samples I planned and built myself<br>
 Click an image to open it in your browser
 
 <table align="center">
