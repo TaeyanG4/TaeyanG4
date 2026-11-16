@@ -1,8 +1,15 @@
 <div align="center">
 
+<details>
+<summary>fornaxworks</summary>
+
 <img src="assets/banner.gif" width="100%" alt="fornaxworks 把想法锻造成可交付的产品" />
 
 ### AI 与全栈开发。从策划到部署，由一个人一路负责到底。
+
+</details>
+
+---
 
 [https://fornaxworks.com](https://fornaxworks.com)
 
@@ -440,15 +447,5 @@ Yeardream School 第6期 进阶课程<br>韩国中小风险企业部 AI 技术�
 <img src="assets/etc/1st.png" width="760" alt="Taeyang 1st place leaderboard" />
 
 <img src="assets/etc/obwc-2025-result-with-standings.png" width="760" alt="osu! Beatmapping World Championship 2025 results and team standings" />
-
-</div>
-
-<br>
-
----
-
-<div align="center">
-
-### 新项目咨询请访问 [fornaxworks.com](https://fornaxworks.com)。
 
 </div>

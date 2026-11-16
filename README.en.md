@@ -1,8 +1,15 @@
 <div align="center">
 
+<details>
+<summary>fornaxworks</summary>
+
 <img src="assets/banner.gif" width="100%" alt="fornaxworks forging ideas into shippable products" />
 
 ### AI and full-stack development<br>One person carrying a product from spec to deployment
+
+</details>
+
+---
 
 [https://fornaxworks.com](https://fornaxworks.com)
 
@@ -440,15 +447,5 @@ Northeast Electric Power University (China) BSc in Software Engineering<br>4-yea
 <img src="assets/etc/1st.png" width="760" alt="Taeyang 1st place leaderboard" />
 
 <img src="assets/etc/obwc-2025-result-with-standings.png" width="760" alt="osu! Beatmapping World Championship 2025 results and team standings" />
-
-</div>
-
-<br>
-
----
-
-<div align="center">
-
-### New project enquiries are welcome at [fornaxworks.com](https://fornaxworks.com)
 
 </div>

@@ -1,8 +1,15 @@
 <div align="center">
 
+<details>
+<summary>fornaxworks</summary>
+
 <img src="assets/banner.gif" width="100%" alt="fornaxworks 아이디어를 출하 가능한 제품으로 벼립니다" />
 
 ### AI와 풀스택 개발<br>기획부터 배포까지 한 사람이 이어서 합니다
+
+</details>
+
+---
 
 [https://fornaxworks.com](https://fornaxworks.com)
 
@@ -440,15 +447,5 @@ SOLAROPS 운영 데이터 품질 감사<br>
 <img src="assets/etc/1st.png" width="760" alt="Taeyang 1st place leaderboard" />
 
 <img src="assets/etc/obwc-2025-result-with-standings.png" width="760" alt="osu! Beatmapping World Championship 2025 results and team standings" />
-
-</div>
-
-<br>
-
----
-
-<div align="center">
-
-### 신규 프로젝트 문의는 [fornaxworks.com](https://fornaxworks.com) 에서 받고 있습니다
 
 </div>
