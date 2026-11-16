@@ -449,3 +449,15 @@ SOLAROPS 운영 데이터 품질 감사<br>
 <img src="assets/etc/obwc-2025-result-with-standings.png" width="760" alt="osu! Beatmapping World Championship 2025 results and team standings" />
 
 </div>
+
+<br>
+
+---
+
+<div align="center">
+
+### ~~신규 프로젝트 문의는 [fornaxworks.com](https://fornaxworks.com) 에서 받고 있습니다~~
+
+### 취업함에 따라 더 이상 문의를 받고 있지 않습니다
+
+</div>

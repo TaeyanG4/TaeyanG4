@@ -449,3 +449,15 @@ Northeast Electric Power University (China) BSc in Software Engineering<br>4-yea
 <img src="assets/etc/obwc-2025-result-with-standings.png" width="760" alt="osu! Beatmapping World Championship 2025 results and team standings" />
 
 </div>
+
+<br>
+
+---
+
+<div align="center">
+
+### ~~New project enquiries are welcome at [fornaxworks.com](https://fornaxworks.com)~~
+
+### I have taken a full-time position and am no longer accepting enquiries
+
+</div>

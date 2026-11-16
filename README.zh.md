@@ -449,3 +449,15 @@ Yeardream School 第6期 进阶课程<br>韩国中小风险企业部 AI 技术�
 <img src="assets/etc/obwc-2025-result-with-standings.png" width="760" alt="osu! Beatmapping World Championship 2025 results and team standings" />
 
 </div>
+
+<br>
+
+---
+
+<div align="center">
+
+### ~~新项目咨询请访问 [fornaxworks.com](https://fornaxworks.com)~~
+
+### 因已入职，不再接受咨询。
+
+</div>

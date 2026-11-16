@@ -449,3 +449,15 @@ Yeardream School 第6期 応用コース<br>韓国中小ベンチャー企業部
 <img src="assets/etc/obwc-2025-result-with-standings.png" width="760" alt="osu! Beatmapping World Championship 2025 results and team standings" />
 
 </div>
+
+<br>
+
+---
+
+<div align="center">
+
+### ~~新規プロジェクトのご相談は [fornaxworks.com](https://fornaxworks.com) で受け付けています~~
+
+### 就職に伴い、現在はご相談を受け付けておりません。
+
+</div>
