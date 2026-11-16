@@ -5,7 +5,9 @@
 
 <img src="assets/banner.gif" width="100%" alt="fornaxworks forging ideas into shippable products" />
 
-### AI and full-stack development<br>One person carrying a product from spec to deployment
+### ~~AI and full-stack development<br>One person carrying a product from spec to deployment~~
+
+### I have taken a full-time position and am no longer accepting enquiries
 
 </details>
 

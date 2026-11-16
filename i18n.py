@@ -48,8 +48,8 @@ T = {
 "미국 NHTSA가 받은 자율주행·ADAS 사고 보고서를 현행 보고 규정 기준으로 정리했습니다. 보고 주체별 건수는 사고율이나 안전 순위가 아닙니다.":
 "Organizes autonomous driving and ADAS crash reports received by the US NHTSA under the current reporting rules. Counts by reporting entity are not crash rates or safety rankings.",
 
-"### AI와 풀스택 개발. 기획부터 배포까지 한 사람이 이어서 합니다.":
-"### AI and full-stack development. One person carrying a product from spec to deployment.",
+"AI와 풀스택 개발. 기획부터 배포까지 한 사람이 이어서 합니다.":
+"AI and full-stack development. One person carrying a product from spec to deployment.",
 
 "건국대학교 정보통신대학원에서 인공지능 전공하여 석사학위를 받았습니다. 그 전에는 중국에서 4년간 소프트웨어공학을 공부했으며, 학사 졸업논문 역시 중국어로 작성했습니다.":
 "I earned a master’s degree in Artificial Intelligence at Konkuk University Graduate School of Information and Telecommunications. Before that, I studied Software Engineering in China for four years and wrote my undergraduate thesis in Chinese.",
@@ -190,8 +190,8 @@ T = {
 "미국 NHTSA가 받은 자율주행·ADAS 사고 보고서를 현행 보고 규정 기준으로 정리했습니다. 보고 주체별 건수는 사고율이나 안전 순위가 아닙니다.":
 "按现行报告规定整理美国 NHTSA 收到的自动驾驶与 ADAS 事故报告。按报告主体统计的数量不代表事故率或安全排名。",
 
-"### AI와 풀스택 개발. 기획부터 배포까지 한 사람이 이어서 합니다.":
-"### AI 与全栈开发。从策划到部署，由一个人一路负责到底。",
+"AI와 풀스택 개발. 기획부터 배포까지 한 사람이 이어서 합니다.":
+"AI 与全栈开发。从策划到部署，由一个人一路负责到底。",
 
 "건국대학교 정보통신대학원에서 인공지능 전공하여 석사학위를 받았습니다. 그 전에는 중국에서 4년간 소프트웨어공학을 공부했으며, 학사 졸업논문 역시 중국어로 작성했습니다.":
 "我在建国大学信息通信研究生院获得了人工智能专业硕士学位。此前在中国学习了四年软件工程，本科毕业论文也用中文撰写。",
@@ -330,8 +330,8 @@ T = {
 "미국 NHTSA가 받은 자율주행·ADAS 사고 보고서를 현행 보고 규정 기준으로 정리했습니다. 보고 주체별 건수는 사고율이나 안전 순위가 아닙니다.":
 "米国 NHTSA が受け取った自動運転・ADAS の事故報告を、現行の報告規定に基づいて整理しました。報告主体別の件数は、事故率や安全性の順位を示すものではありません。",
 
-"### AI와 풀스택 개발. 기획부터 배포까지 한 사람이 이어서 합니다.":
-"### AI とフルスタック開発。企画から本番リリースまで、一人が通しで担当します。",
+"AI와 풀스택 개발. 기획부터 배포까지 한 사람이 이어서 합니다.":
+"AI とフルスタック開発。企画から本番リリースまで、一人が通しで担当します。",
 
 "건국대학교 정보통신대학원에서 인공지능 전공하여 석사학위를 받았습니다. 그 전에는 중국에서 4년간 소프트웨어공학을 공부했으며, 학사 졸업논문 역시 중국어로 작성했습니다.":
 "建国大学 情報通信大学院で人工知能を専攻し、修士号を取得しました。その前は中国でソフトウェア工学を4年間学び、学士論文も中国語で執筆しました。",
